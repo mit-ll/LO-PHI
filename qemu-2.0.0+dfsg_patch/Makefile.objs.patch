@@ -1,0 +1,12 @@
+--- qemu-2.0.0+dfsg/Makefile.objs	2014-04-17 06:30:59.000000000 -0700
++++ lophi_packages/qemu-2.0.0+dfsg/Makefile.objs	2014-09-30 06:54:40.000000000 -0700
+@@ -18,6 +18,9 @@
+ block-obj-y += qemu-coroutine.o qemu-coroutine-lock.o qemu-coroutine-io.o
+ block-obj-y += qemu-coroutine-sleep.o
+ block-obj-y += coroutine-$(CONFIG_COROUTINE_BACKEND).o
++# LO-PHI
++block-obj-y += lophi-hooks-disk.o
++block-obj-y += lophi-hooks-common.o
+ 
+ block-obj-m = block/
+ 

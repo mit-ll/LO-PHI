@@ -1,0 +1,1642 @@
+(dp0
+Vmodscan
+p1
+(dp2
+VRemoved Entries
+p3
+(lp4
+V0x0000fa8001f6a5d0 spsys.sys            0xfffff8800396f000            0x71000 ??????
+p5
+asVAdded Entries
+p6
+(lp7
+V0x0000fa8001f6a5d0 spsys.sys            0xfffff8800396f000            0x71000 \u005cSystemRoot\u005csystem32\u005cdrivers\u005cspsys.sys
+p8
+assVnetscan
+p9
+(dp10
+VRemoved Entries
+p11
+(lp12
+V0x3e7078f0 TCPv4    192.168.1.168:49162            192.168.1.1:52088    CLOSED           34390256                
+p13
+aV0x3e967500 TCPv6    -:0                            38cb:ca01:80fa:ffff:38cb:ca01:80fa:ffff:0 CLOSED           1        ???????       
+p14
+aV0x3e8f3ad0 UDPv6    fe80::193b:8aa5:6658:a50:546   *:*                                   704      svchost.exe    2015-08-15 20:23:53 UTC+0000
+p15
+aV0x3fec7770 UDPv4    0.0.0.0:59877                  *:*                                   1096     svchost.exe    2015-08-15 20:25:51 UTC+0000
+p16
+asVAdded Entries
+p17
+(lp18
+V0x3e7078f0 TCPv4    192.168.1.168:49162            192.168.1.1:52088    CLOSED           0                       
+p19
+aV0x3e967500 TCPv6    -:0                            38cb:ca01:80fa:ffff:38cb:ca01:80fa:ffff:0 CLOSED           2        ???????       
+p20
+aV0x3fc8eec0 UDPv4    0.0.0.0:52411                  *:*                                   1096     svchost.exe    2015-08-15 20:30:33 UTC+0000
+p21
+assVldrmodules
+p22
+(dp23
+VRemoved Entries
+p24
+(lp25
+V     248 smss.exe             0x00000000482b0000 True   False  True  \u005cWindows\u005cSystem32\u005csmss.exe
+p26
+aV     324 csrss.exe            0x000007fefd320000 True   True   True  \u005cWindows\u005cSystem32\u005cbasesrv.dll
+p27
+aV     324 csrss.exe            0x000007fefd340000 True   True   True  \u005cWindows\u005cSystem32\u005ccsrsrv.dll
+p28
+aV     324 csrss.exe            0x000007fefd2d0000 True   True   True  \u005cWindows\u005cSystem32\u005csxssrv.dll
+p29
+aV     324 csrss.exe            0x000007fefd2e0000 True   True   True  \u005cWindows\u005cSystem32\u005cwinsrv.dll
+p30
+aV     384 csrss.exe            0x000007fefd320000 True   True   True  \u005cWindows\u005cSystem32\u005cbasesrv.dll
+p31
+aV     384 csrss.exe            0x000007fefd2d0000 True   True   True  \u005cWindows\u005cSystem32\u005csxssrv.dll
+p32
+aV     384 csrss.exe            0x000007fefd340000 True   True   True  \u005cWindows\u005cSystem32\u005ccsrsrv.dll
+p33
+aV     384 csrss.exe            0x000007fefd2e0000 True   True   True  \u005cWindows\u005cSystem32\u005cwinsrv.dll
+p34
+aV     424 winlogon.exe         0x000007fefae10000 True   True   True  \u005cWindows\u005cSystem32\u005cUXInit.dll
+p35
+aV     468 services.exe         0x000007fefd080000 True   True   True  \u005cWindows\u005cSystem32\u005cscesrv.dll
+p36
+aV     468 services.exe         0x000007fefd100000 True   True   True  \u005cWindows\u005cSystem32\u005cscext.dll
+p37
+aV     476 lsass.exe            0x000007fefd040000 True   True   True  \u005cWindows\u005cSystem32\u005csspisrv.dll
+p38
+aV     476 lsass.exe            0x000007fefc830000 True   True   True  \u005cWindows\u005cSystem32\u005cTSpkg.dll
+p39
+aV     476 lsass.exe            0x000007fefc9d0000 True   True   True  \u005cWindows\u005cSystem32\u005cnetlogon.dll
+p40
+aV     476 lsass.exe            0x000007fefc7e0000 True   True   True  \u005cWindows\u005cSystem32\u005cpku2u.dll
+p41
+aV     476 lsass.exe            0x000007fefce10000 True   True   True  \u005cWindows\u005cSystem32\u005csamsrv.dll
+p42
+aV     476 lsass.exe            0x000007fefc8a0000 True   True   True  \u005cWindows\u005cSystem32\u005cwdigest.dll
+p43
+aV     476 lsass.exe            0x000007fefcb70000 True   True   True  \u005cWindows\u005cSystem32\u005ckerberos.dll
+p44
+aV     476 lsass.exe            0x000007fefc770000 True   True   True  \u005cWindows\u005cSystem32\u005cefslsaext.dll
+p45
+aV     476 lsass.exe            0x000007fefc6d0000 True   True   True  \u005cWindows\u005cSystem32\u005cscecli.dll
+p46
+aV     476 lsass.exe            0x000007fefcc30000 True   True   True  \u005cWindows\u005cSystem32\u005cnegoexts.dll
+p47
+aV     476 lsass.exe            0x000007fefcd70000 True   True   True  \u005cWindows\u005cSystem32\u005ccngaudit.dll
+p48
+aV     484 lsm.exe              0x0000000000210000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005clsm.exe.mui
+p49
+aV     484 lsm.exe              0x00000000ffdd0000 True   False  True  \u005cWindows\u005cSystem32\u005clsm.exe
+p50
+aV     588 svchost.exe          0x000007fefc5b0000 True   True   True  \u005cWindows\u005cSystem32\u005cumpo.dll
+p51
+aV     588 svchost.exe          0x000007fef82d0000 True   True   True  \u005cWindows\u005cSystem32\u005cwbem\u005cWmiDcPrv.dll
+p52
+aV     588 svchost.exe          0x000007fefc660000 True   True   True  \u005cWindows\u005cSystem32\u005cumpnpmgr.dll
+p53
+aV     704 svchost.exe          0x0000000075080000 False  False  False \u005cWindows\u005cSystem32\u005cwbem\u005cWinMgmtR.dll
+p54
+aV     704 svchost.exe          0x000007fefa5e0000 True   True   True  \u005cWindows\u005cSystem32\u005cnrpsrv.dll
+p55
+aV     808 svchost.exe          0x00000000003e0000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005csysmain.dll.mui
+p56
+aV     808 svchost.exe          0x000007fefaeb0000 True   True   True  \u005cWindows\u005cSystem32\u005cmstask.dll
+p57
+aV     808 svchost.exe          0x000007fef79a0000 True   True   True  \u005cWindows\u005cSystem32\u005cPortableDeviceConnectApi.dll
+p58
+aV     808 svchost.exe          0x000007fef77a0000 True   True   True  \u005cWindows\u005cSystem32\u005cApphlpdm.dll
+p59
+aV     808 svchost.exe          0x000007fef87a0000 True   True   True  \u005cWindows\u005cSystem32\u005cpcasvc.dll
+p60
+aV     860 svchost.exe          0x000007fef7d30000 True   True   True  \u005cWindows\u005cSystem32\u005ctcpipcfg.dll
+p61
+aV     860 svchost.exe          0x000007fef7d80000 True   True   True  \u005cWindows\u005cSystem32\u005cmprapi.dll
+p62
+aV     860 svchost.exe          0x000007fef7f00000 True   True   True  \u005cWindows\u005cSystem32\u005chnetcfg.dll
+p63
+aV     860 svchost.exe          0x000007fefada0000 True   True   True  \u005cWindows\u005cSystem32\u005ces.dll
+p64
+aV     860 svchost.exe          0x000007fefb5e0000 True   True   True  \u005cWindows\u005cSystem32\u005cndiscapCfg.dll
+p65
+aV     860 svchost.exe          0x000007fefb310000 True   True   True  \u005cWindows\u005cSystem32\u005crascfg.dll
+p66
+aV     860 svchost.exe          0x000007fefa280000 True   True   True  \u005cWindows\u005cSystem32\u005cactxprxy.dll
+p67
+aV     860 svchost.exe          0x000007fefb530000 True   True   True  \u005cWindows\u005cSystem32\u005cnetcfgx.dll
+p68
+aV     860 svchost.exe          0x000007fef81a0000 True   True   True  \u005cWindows\u005cSystem32\u005cwbem\u005cwbemprox.dll
+p69
+aV     924 audiodg.exe          0x0000000000130000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005caudiodg.exe.mui
+p70
+aV     924 audiodg.exe          0x000007fef92c0000 True   True   True  \u005cWindows\u005cSystem32\u005cAUDIOKSE.dll
+p71
+aV     680 explorer.exe         0x0000000003c50000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cwdmaud.drv.mui
+p72
+aV     680 explorer.exe         0x0000000003e50000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cFXSRESM.dll.mui
+p73
+aV     680 explorer.exe         0x0000000003ce0000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cbthprops.cpl.mui
+p74
+aV    1096 svchost.exe          0x000007fef8b20000 True   True   True  \u005cWindows\u005cSystem32\u005cnlasvc.dll
+p75
+aV    1096 svchost.exe          0x000007fef8ae0000 True   True   True  \u005cWindows\u005cSystem32\u005cncsi.dll
+p76
+aV    1256 svchost.exe          0x000007fef7730000 True   True   True  \u005cWindows\u005cSystem32\u005cradardt.dll
+p77
+aV    1256 svchost.exe          0x000007fef8e60000 True   True   True  \u005cWindows\u005cSystem32\u005cwfapigp.dll
+p78
+aV    1360 reader_sl.exe        0x0000000073d20000 True   True   True  \u005cWindows\u005cSystem32\u005cwow64cpu.dll
+p79
+aV    1360 reader_sl.exe        0x0000000000400000 True   False  True  \u005cProgram Files (x86)\u005cAdobe\u005cReader 9.0\u005cReader\u005creader_sl.exe
+p80
+aV    1360 reader_sl.exe        0x0000000076d30000 False  False  False \u005cWindows\u005cSysWOW64\u005csechost.dll
+p81
+aV    1360 reader_sl.exe        0x0000000077360000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p82
+aV    1360 reader_sl.exe        0x0000000073bc0000 False  False  False \u005cWindows\u005cwinsxs\u005cx86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4927_none_d08a205e442db5b5\u005cmsvcp80.dll
+p83
+aV    1360 reader_sl.exe        0x0000000076680000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsctf.dll
+p84
+aV    1360 reader_sl.exe        0x0000000076c40000 False  False  False \u005cWindows\u005cSysWOW64\u005crpcrt4.dll
+p85
+aV    1360 reader_sl.exe        0x0000000075440000 False  False  False \u005cWindows\u005cSysWOW64\u005cusp10.dll
+p86
+aV    1360 reader_sl.exe        0x00000000750a0000 False  False  False \u005cWindows\u005cSysWOW64\u005ccryptbase.dll
+p87
+aV    1360 reader_sl.exe        0x0000000075510000 False  False  False \u005cWindows\u005cSysWOW64\u005cKernelBase.dll
+p88
+aV    1360 reader_sl.exe        0x00000000770e0000 False  False  False \u005cWindows\u005cSysWOW64\u005cimm32.dll
+p89
+aV    1360 reader_sl.exe        0x0000000077510000 False  False  False \u005cWindows\u005cSysWOW64\u005clpk.dll
+p90
+aV    1360 reader_sl.exe        0x0000000073b20000 False  False  False \u005cWindows\u005cwinsxs\u005cx86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4927_none_d08a205e442db5b5\u005cmsvcr80.dll
+p91
+aV    1360 reader_sl.exe        0x0000000077540000 False  False  False \u005cWindows\u005cSysWOW64\u005cntdll.dll
+p92
+aV    1360 reader_sl.exe        0x0000000076750000 False  False  False \u005cWindows\u005cSysWOW64\u005cuser32.dll
+p93
+aV    1360 reader_sl.exe        0x0000000075580000 False  False  False \u005cWindows\u005cSysWOW64\u005cshlwapi.dll
+p94
+aV    1360 reader_sl.exe        0x0000000076b90000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsvcrt.dll
+p95
+aV    1360 reader_sl.exe        0x00000000755e0000 False  False  False \u005cWindows\u005cSysWOW64\u005cshell32.dll
+p96
+aV    1360 reader_sl.exe        0x0000000073600000 False  False  False \u005cWindows\u005cSysWOW64\u005cdwmapi.dll
+p97
+aV    1360 reader_sl.exe        0x00000000753b0000 False  False  False \u005cWindows\u005cSysWOW64\u005cgdi32.dll
+p98
+aV    1360 reader_sl.exe        0x0000000073c50000 True   True   True  \u005cWindows\u005cSystem32\u005cwow64win.dll
+p99
+aV    1360 reader_sl.exe        0x0000000075280000 False  False  False \u005cWindows\u005cSysWOW64\u005cadvapi32.dll
+p100
+aV    1360 reader_sl.exe        0x0000000073aa0000 False  False  False \u005cWindows\u005cSysWOW64\u005cuxtheme.dll
+p101
+aV    1360 reader_sl.exe        0x00000000750b0000 False  False  False \u005cWindows\u005cSysWOW64\u005csspicli.dll
+p102
+aV    1360 reader_sl.exe        0x0000000073cb0000 True   True   True  \u005cWindows\u005cSystem32\u005cwow64.dll
+p103
+aV    1360 reader_sl.exe        0x0000000075110000 False  False  False \u005cWindows\u005cSysWOW64\u005ckernel32.dll
+p104
+aV    1368 AdobeARM.exe         0x0000000074cd0000 False  False  False \u005cWindows\u005cSysWOW64\u005cqmgrprxy.dll
+p105
+aV    1368 AdobeARM.exe         0x0000000073cf0000 False  False  False \u005cWindows\u005cSysWOW64\u005coledlg.dll
+p106
+aV    1556 svchost.exe          0x000007fef89d0000 True   True   True  \u005cWindows\u005cSystem32\u005chttpapi.dll
+p107
+aV    1932 svchost.exe          0x000007fef7900000 True   True   True  \u005cWindows\u005cSystem32\u005cFwRemoteSvr.dll
+p108
+aV    1472 SearchFilterHo       0x0000000077140000 True   True   True  \u005cWindows\u005cSystem32\u005cuser32.dll
+p109
+aV    1472 SearchFilterHo       0x0000000077360000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p110
+aV    1472 SearchFilterHo       0x000007fef6f40000 True   True   True  \u005cWindows\u005cSystem32\u005ctquery.dll
+p111
+aV    1472 SearchFilterHo       0x000007feff030000 True   True   True  \u005cWindows\u005cSystem32\u005cshlwapi.dll
+p112
+aV    1472 SearchFilterHo       0x000007feff590000 True   True   True  \u005cWindows\u005cSystem32\u005coleaut32.dll
+p113
+aV    1472 SearchFilterHo       0x000007fefd1b0000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptbase.dll
+p114
+aV    1472 SearchFilterHo       0x000007fef63c0000 True   True   True  \u005cWindows\u005cMicrosoft.NET\u005cFramework64\u005cv4.0.30319\u005cmscoreei.dll
+p115
+aV    1472 SearchFilterHo       0x000007fefd2a0000 True   True   True  \u005cWindows\u005cSystem32\u005cRpcRtRemote.dll
+p116
+aV    1472 SearchFilterHo       0x000007fef6840000 True   True   True  \u005cWindows\u005cSystem32\u005cmssprxy.dll
+p117
+aV    1472 SearchFilterHo       0x000007fef6460000 True   True   True  \u005cWindows\u005cSystem32\u005cmscoree.dll
+p118
+aV    1472 SearchFilterHo       0x000007fefd690000 True   True   True  \u005cWindows\u005cSystem32\u005cole32.dll
+p119
+aV    1472 SearchFilterHo       0x000007fefeeb0000 True   True   True  \u005cWindows\u005cSystem32\u005cadvapi32.dll
+p120
+aV    1472 SearchFilterHo       0x00000000ffcc0000 True   False  True  \u005cWindows\u005cSystem32\u005cSearchFilterHost.exe
+p121
+aV    1472 SearchFilterHo       0x000007fefdce0000 True   True   True  \u005cWindows\u005cSystem32\u005clpk.dll
+p122
+aV    1472 SearchFilterHo       0x000007fefdd60000 True   True   True  \u005cWindows\u005cSystem32\u005cimm32.dll
+p123
+aV    1472 SearchFilterHo       0x000007feff370000 True   True   True  \u005cWindows\u005cSystem32\u005csechost.dll
+p124
+aV    1472 SearchFilterHo       0x000007fefef90000 True   True   True  \u005cWindows\u005cSystem32\u005cclbcatq.dll
+p125
+aV    1472 SearchFilterHo       0x000007feff1a0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsctf.dll
+p126
+aV    1472 SearchFilterHo       0x000007fefcb50000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptsp.dll
+p127
+aV    1472 SearchFilterHo       0x000007feff390000 True   True   True  \u005cWindows\u005cSystem32\u005crpcrt4.dll
+p128
+aV    1472 SearchFilterHo       0x0000000077240000 True   True   True  \u005cWindows\u005cSystem32\u005ckernel32.dll
+p129
+aV    1472 SearchFilterHo       0x000007fefc850000 True   True   True  \u005cWindows\u005cSystem32\u005crsaenh.dll
+p130
+aV    1472 SearchFilterHo       0x000007fefd470000 True   True   True  \u005cWindows\u005cSystem32\u005cKernelBase.dll
+p131
+aV    1472 SearchFilterHo       0x000007feff0b0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsvcrt.dll
+p132
+aV    1472 SearchFilterHo       0x000007fef64d0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsshooks.dll
+p133
+aV    1472 SearchFilterHo       0x000007feff4c0000 True   True   True  \u005cWindows\u005cSystem32\u005cusp10.dll
+p134
+aV    1472 SearchFilterHo       0x000007fefdcf0000 True   True   True  \u005cWindows\u005cSystem32\u005cgdi32.dll
+p135
+aV    2052 SearchProtocol       0x0000000077140000 True   True   True  \u005cWindows\u005cSystem32\u005cuser32.dll
+p136
+aV    2052 SearchProtocol       0x0000000077360000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p137
+aV    2052 SearchProtocol       0x000007fef6f40000 True   True   True  \u005cWindows\u005cSystem32\u005ctquery.dll
+p138
+aV    2052 SearchProtocol       0x000007fefc850000 True   True   True  \u005cWindows\u005cSystem32\u005crsaenh.dll
+p139
+aV    2052 SearchProtocol       0x000007fefbd70000 True   True   True  \u005cWindows\u005cwinsxs\u005camd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_fa645303170382f6\u005ccomctl32.dll
+p140
+aV    2052 SearchProtocol       0x000007feff590000 True   True   True  \u005cWindows\u005cSystem32\u005coleaut32.dll
+p141
+aV    2052 SearchProtocol       0x000007feff150000 True   True   True  \u005cWindows\u005cSystem32\u005cWldap32.dll
+p142
+aV    2052 SearchProtocol       0x0000000077240000 True   True   True  \u005cWindows\u005cSystem32\u005ckernel32.dll
+p143
+aV    2052 SearchProtocol       0x000007fef6840000 True   True   True  \u005cWindows\u005cSystem32\u005cmssprxy.dll
+p144
+aV    2052 SearchProtocol       0x000007fefd690000 True   True   True  \u005cWindows\u005cSystem32\u005cole32.dll
+p145
+aV    2052 SearchProtocol       0x000007fefeeb0000 True   True   True  \u005cWindows\u005cSystem32\u005cadvapi32.dll
+p146
+aV    2052 SearchProtocol       0x000007feff4c0000 True   True   True  \u005cWindows\u005cSystem32\u005cusp10.dll
+p147
+aV    2052 SearchProtocol       0x000007fef62d0000 True   True   True  \u005cWindows\u005cSystem32\u005cmapi32.dll
+p148
+aV    2052 SearchProtocol       0x000007fefdce0000 True   True   True  \u005cWindows\u005cSystem32\u005clpk.dll
+p149
+aV    2052 SearchProtocol       0x000007fefcd40000 True   True   True  \u005cWindows\u005cSystem32\u005cauthz.dll
+p150
+aV    2052 SearchProtocol       0x000007fefcb50000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptsp.dll
+p151
+aV    2052 SearchProtocol       0x000007fef5b00000 True   True   True  \u005cWindows\u005cSystem32\u005cmssph.dll
+p152
+aV    2052 SearchProtocol       0x000007fefd370000 True   True   True  \u005cWindows\u005cSystem32\u005cdevobj.dll
+p153
+aV    2052 SearchProtocol       0x000007fefef90000 True   True   True  \u005cWindows\u005cSystem32\u005cclbcatq.dll
+p154
+aV    2052 SearchProtocol       0x000007feff1a0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsctf.dll
+p155
+aV    2052 SearchProtocol       0x000007fefb1e0000 True   True   True  \u005cWindows\u005cSystem32\u005cntmarta.dll
+p156
+aV    2052 SearchProtocol       0x000007fefbbf0000 True   True   True  \u005cWindows\u005cSystem32\u005cpropsys.dll
+p157
+aV    2052 SearchProtocol       0x000007feff030000 True   True   True  \u005cWindows\u005cSystem32\u005cshlwapi.dll
+p158
+aV    2052 SearchProtocol       0x000007fefdd60000 True   True   True  \u005cWindows\u005cSystem32\u005cimm32.dll
+p159
+aV    2052 SearchProtocol       0x000007fefd1b0000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptbase.dll
+p160
+aV    2052 SearchProtocol       0x000007fefd430000 True   True   True  \u005cWindows\u005cSystem32\u005ccfgmgr32.dll
+p161
+aV    2052 SearchProtocol       0x000007feff390000 True   True   True  \u005cWindows\u005cSystem32\u005crpcrt4.dll
+p162
+aV    2052 SearchProtocol       0x000007fefdb00000 True   True   True  \u005cWindows\u005cSystem32\u005csetupapi.dll
+p163
+aV    2052 SearchProtocol       0x000007fefd470000 True   True   True  \u005cWindows\u005cSystem32\u005cKernelBase.dll
+p164
+aV    2052 SearchProtocol       0x000007fef6a80000 True   True   True  \u005cWindows\u005cSystem32\u005cmsidle.dll
+p165
+aV    2052 SearchProtocol       0x000007fefd2a0000 True   True   True  \u005cWindows\u005cSystem32\u005cRpcRtRemote.dll
+p166
+aV    2052 SearchProtocol       0x000007feff0b0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsvcrt.dll
+p167
+aV    2052 SearchProtocol       0x000007fefdec0000 True   True   True  \u005cWindows\u005cSystem32\u005cshell32.dll
+p168
+aV    2052 SearchProtocol       0x000007fef64d0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsshooks.dll
+p169
+aV    2052 SearchProtocol       0x000007fefdcf0000 True   True   True  \u005cWindows\u005cSystem32\u005cgdi32.dll
+p170
+aV    2052 SearchProtocol       0x00000000fff00000 True   False  True  \u005cWindows\u005cSystem32\u005cSearchProtocolHost.exe
+p171
+aV    2052 SearchProtocol       0x000007feff370000 True   True   True  \u005cWindows\u005cSystem32\u005csechost.dll
+p172
+aV    2296 cmd.exe              0x0000000000210000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005ccmd.exe.mui
+p173
+aV    2296 cmd.exe              0x000000004a3d0000 True   False  True  \u005cWindows\u005cSystem32\u005ccmd.exe
+p174
+aV    2296 cmd.exe              0x000007feff1a0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsctf.dll
+p175
+aV    2296 cmd.exe              0x0000000077240000 True   True   True  \u005cWindows\u005cSystem32\u005ckernel32.dll
+p176
+aV    2296 cmd.exe              0x000007feff0b0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsvcrt.dll
+p177
+aV    2296 cmd.exe              0x0000000077360000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p178
+aV    2296 cmd.exe              0x000007fefd470000 True   True   True  \u005cWindows\u005cSystem32\u005cKernelBase.dll
+p179
+aV    2296 cmd.exe              0x000007fef9870000 True   True   True  \u005cWindows\u005cSystem32\u005cwinbrand.dll
+p180
+aV    2296 cmd.exe              0x000007fefd150000 True   True   True  \u005cWindows\u005cSystem32\u005capphelp.dll
+p181
+aV    2296 cmd.exe              0x000007feff4c0000 True   True   True  \u005cWindows\u005cSystem32\u005cusp10.dll
+p182
+aV    2296 cmd.exe              0x000007fefdce0000 True   True   True  \u005cWindows\u005cSystem32\u005clpk.dll
+p183
+aV    2296 cmd.exe              0x000007fefdcf0000 True   True   True  \u005cWindows\u005cSystem32\u005cgdi32.dll
+p184
+aV    2296 cmd.exe              0x000007fefdd60000 True   True   True  \u005cWindows\u005cSystem32\u005cimm32.dll
+p185
+aV    2296 cmd.exe              0x0000000077140000 True   True   True  \u005cWindows\u005cSystem32\u005cuser32.dll
+p186
+aV    2304 conhost.exe          0x00000000000b0000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cconhost.exe.mui
+p187
+aV    2304 conhost.exe          0x0000000077140000 True   True   True  \u005cWindows\u005cSystem32\u005cuser32.dll
+p188
+aV    2304 conhost.exe          0x000007feff030000 True   True   True  \u005cWindows\u005cSystem32\u005cshlwapi.dll
+p189
+aV    2304 conhost.exe          0x0000000077360000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p190
+aV    2304 conhost.exe          0x000007fefbd70000 True   True   True  \u005cWindows\u005cwinsxs\u005camd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_fa645303170382f6\u005ccomctl32.dll
+p191
+aV    2304 conhost.exe          0x000007feff590000 True   True   True  \u005cWindows\u005cSystem32\u005coleaut32.dll
+p192
+aV    2304 conhost.exe          0x000007fefd1b0000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptbase.dll
+p193
+aV    2304 conhost.exe          0x0000000077240000 True   True   True  \u005cWindows\u005cSystem32\u005ckernel32.dll
+p194
+aV    2304 conhost.exe          0x000007fefd690000 True   True   True  \u005cWindows\u005cSystem32\u005cole32.dll
+p195
+aV    2304 conhost.exe          0x000007fefeeb0000 True   True   True  \u005cWindows\u005cSystem32\u005cadvapi32.dll
+p196
+aV    2304 conhost.exe          0x00000000ff0c0000 True   False  True  \u005cWindows\u005cSystem32\u005cconhost.exe
+p197
+aV    2304 conhost.exe          0x000007fefdce0000 True   True   True  \u005cWindows\u005cSystem32\u005clpk.dll
+p198
+aV    2304 conhost.exe          0x000007fefdd60000 True   True   True  \u005cWindows\u005cSystem32\u005cimm32.dll
+p199
+aV    2304 conhost.exe          0x000007feff370000 True   True   True  \u005cWindows\u005cSystem32\u005csechost.dll
+p200
+aV    2304 conhost.exe          0x000007fefbb90000 True   True   True  \u005cWindows\u005cSystem32\u005cuxtheme.dll
+p201
+aV    2304 conhost.exe          0x000007feff1a0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsctf.dll
+p202
+aV    2304 conhost.exe          0x000007fefdcf0000 True   True   True  \u005cWindows\u005cSystem32\u005cgdi32.dll
+p203
+aV    2304 conhost.exe          0x000007fefb760000 True   True   True  \u005cWindows\u005cSystem32\u005cdwmapi.dll
+p204
+aV    2304 conhost.exe          0x000007fefd470000 True   True   True  \u005cWindows\u005cSystem32\u005cKernelBase.dll
+p205
+aV    2304 conhost.exe          0x000007feff0b0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsvcrt.dll
+p206
+aV    2304 conhost.exe          0x000007feff4c0000 True   True   True  \u005cWindows\u005cSystem32\u005cusp10.dll
+p207
+aV    2304 conhost.exe          0x000007feff390000 True   True   True  \u005cWindows\u005cSystem32\u005crpcrt4.dll
+p208
+aV    2780 svchost.exe          0x00000000ffbe0000 False  False  False \u005cWindows\u005cSystem32\u005csvchost.exe
+p209
+asVAdded Entries
+p210
+(lp211
+V     476 lsass.exe            0x000007fef3c20000 True   True   True  \u005cWindows\u005cSystem32\u005cdssenh.dll
+p212
+aV     476 lsass.exe            0x000007fefc5e0000 True   True   True  \u005cWindows\u005cSystem32\u005cgpapi.dll
+p213
+aV     704 svchost.exe          0x000007fef81b0000 True   True   True  \u005cWindows\u005cSystem32\u005cntdsapi.dll
+p214
+aV     704 svchost.exe          0x000007fef41d0000 True   True   True  \u005cWindows\u005cSystem32\u005cwuapi.dll
+p215
+aV     704 svchost.exe          0x000007fef3f50000 True   True   True  \u005cWindows\u005cSystem32\u005ccabinet.dll
+p216
+aV     704 svchost.exe          0x000007fefb420000 True   True   True  \u005cWindows\u005cSystem32\u005cwbem\u005cwbemsvc.dll
+p217
+aV     704 svchost.exe          0x000007fefd650000 True   True   True  \u005cWindows\u005cSystem32\u005cwintrust.dll
+p218
+aV     704 svchost.exe          0x000007fefb460000 True   True   True  \u005cWindows\u005cSystem32\u005cwkscli.dll
+p219
+aV     704 svchost.exe          0x000007fefb480000 True   True   True  \u005cWindows\u005cSystem32\u005cnetutils.dll
+p220
+aV     704 svchost.exe          0x000007fefd4e0000 True   True   True  \u005cWindows\u005cSystem32\u005ccrypt32.dll
+p221
+aV     704 svchost.exe          0x000007fef81e0000 True   True   True  \u005cWindows\u005cSystem32\u005cwbem\u005cfastprox.dll
+p222
+aV     704 svchost.exe          0x000007fef81a0000 True   True   True  \u005cWindows\u005cSystem32\u005cwbem\u005cwbemprox.dll
+p223
+aV     704 svchost.exe          0x000007fef7bd0000 True   True   True  \u005cWindows\u005cSystem32\u005cwscsvc.dll
+p224
+aV     704 svchost.exe          0x000007fefc600000 True   True   True  \u005cWindows\u005cSystem32\u005cuserenv.dll
+p225
+aV     704 svchost.exe          0x000007fefd360000 True   True   True  \u005cWindows\u005cSystem32\u005cmsasn1.dll
+p226
+aV     704 svchost.exe          0x000007fef4280000 True   True   True  \u005cWindows\u005cSystem32\u005cdbghelp.dll
+p227
+aV     704 svchost.exe          0x000007fef84b0000 True   True   True  \u005cWindows\u005cSystem32\u005cwbemcomn.dll
+p228
+aV     704 svchost.exe          0x000007fefd2c0000 True   True   True  \u005cWindows\u005cSystem32\u005cprofapi.dll
+p229
+aV     860 svchost.exe          0x0000000077530000 True   True   True  \u005cWindows\u005cSystem32\u005cpsapi.dll
+p230
+aV     860 svchost.exe          0x000007fef9d50000 True   True   True  \u005cWindows\u005cSystem32\u005cwer.dll
+p231
+aV     860 svchost.exe          0x000007fefcca0000 True   True   True  \u005cWindows\u005cSystem32\u005cwmsgapi.dll
+p232
+aV     860 svchost.exe          0x000007fef34e0000 True   True   True  \u005cWindows\u005cSystem32\u005caelupsvc.dll
+p233
+aV     860 svchost.exe          0x000007fef3f50000 True   True   True  \u005cWindows\u005cSystem32\u005ccabinet.dll
+p234
+aV     860 svchost.exe          0x00000000016e0000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cwuaueng.dll.mui
+p235
+aV     860 svchost.exe          0x000007fef7bc0000 True   True   True  \u005cWindows\u005cSystem32\u005cmspatcha.dll
+p236
+aV     860 svchost.exe          0x000007fef6a90000 True   True   True  \u005cWindows\u005cSystem32\u005cesent.dll
+p237
+aV     860 svchost.exe          0x000007fef7500000 True   True   True  \u005cWindows\u005cSystem32\u005cwinspool.drv
+p238
+aV     860 svchost.exe          0x000007fef3f70000 True   True   True  \u005cWindows\u005cSystem32\u005cwuaueng.dll
+p239
+aV     860 svchost.exe          0x000007fef63a0000 True   True   True  \u005cWindows\u005cSystem32\u005cwbem\u005cNCProv.dll
+p240
+aV     680 explorer.exe         0x0000000003b80000 False  False  False \u005cWindows\u005cSystem32\u005cmsxml6r.dll
+p241
+aV     680 explorer.exe         0x000007fef3dd0000 True   True   True  \u005cWindows\u005cSystem32\u005chcproviders.dll
+p242
+aV     680 explorer.exe         0x000007fef3e00000 True   True   True  \u005cWindows\u005cSystem32\u005cwscinterop.dll
+p243
+aV     680 explorer.exe         0x000007fef39f0000 True   True   True  \u005cWindows\u005cSystem32\u005cwscui.cpl
+p244
+aV     680 explorer.exe         0x000007fef3da0000 True   True   True  \u005cWindows\u005cSystem32\u005cwscapi.dll
+p245
+aV     680 explorer.exe         0x0000000003bc0000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cActionCenter.dll.mui
+p246
+aV     680 explorer.exe         0x000007fef87e0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsxml6.dll
+p247
+aV     680 explorer.exe         0x000007fef38b0000 True   True   True  \u005cWindows\u005cSystem32\u005cwerconcpl.dll
+p248
+aV     680 explorer.exe         0x000007fef3c60000 True   True   True  \u005cProgram Files\u005cInternet Explorer\u005cieproxy.dll
+p249
+aV     680 explorer.exe         0x000007fef3ce0000 True   True   True  \u005cWindows\u005cSystem32\u005cframedynos.dll
+p250
+aV     680 explorer.exe         0x000007fef3de0000 True   True   True  \u005cWindows\u005cSystem32\u005cwercplsupport.dll
+p251
+aV    1096 svchost.exe          0x0000000077530000 True   True   True  \u005cWindows\u005cSystem32\u005cpsapi.dll
+p252
+aV    1096 svchost.exe          0x000007fef6a90000 True   True   True  \u005cWindows\u005cSystem32\u005cesent.dll
+p253
+aV    1200 spoolsv.exe          0x0000000000140000 False  False  False \u005cWindows\u005cSystem32\u005cmsxml6r.dll
+p254
+aV    1200 spoolsv.exe          0x000007fef4630000 True   True   True  \u005cWindows\u005cSystem32\u005cspool\u005cprtprocs\u005cx64\u005cwinprint.dll
+p255
+aV    1200 spoolsv.exe          0x000007fef6360000 True   True   True  \u005cWindows\u005cSystem32\u005cspoolss.dll
+p256
+aV    1200 spoolsv.exe          0x000007fef4570000 True   True   True  \u005cWindows\u005cSystem32\u005cwin32spl.dll
+p257
+aV    1200 spoolsv.exe          0x000007fef6380000 True   True   True  \u005cWindows\u005cSystem32\u005cumb.dll
+p258
+aV    1200 spoolsv.exe          0x000007fefb480000 True   True   True  \u005cWindows\u005cSystem32\u005cnetutils.dll
+p259
+aV    1200 spoolsv.exe          0x000007fef8db0000 True   True   True  \u005cWindows\u005cSystem32\u005cWSDApi.dll
+p260
+aV    1200 spoolsv.exe          0x000007fefd360000 True   True   True  \u005cWindows\u005cSystem32\u005cmsasn1.dll
+p261
+aV    1200 spoolsv.exe          0x000007fefd650000 True   True   True  \u005cWindows\u005cSystem32\u005cwintrust.dll
+p262
+aV    1200 spoolsv.exe          0x000007fefd2c0000 True   True   True  \u005cWindows\u005cSystem32\u005cprofapi.dll
+p263
+aV    1200 spoolsv.exe          0x000007fef87e0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsxml6.dll
+p264
+aV    1200 spoolsv.exe          0x000007fefcaf0000 True   True   True  \u005cWindows\u005cSystem32\u005cmswsock.dll
+p265
+aV    1200 spoolsv.exe          0x000007fef7500000 True   True   True  \u005cWindows\u005cSystem32\u005cwinspool.drv
+p266
+aV    1200 spoolsv.exe          0x000007fefc440000 True   True   True  \u005cWindows\u005cSystem32\u005cFirewallAPI.dll
+p267
+aV    1200 spoolsv.exe          0x000007fefaa50000 True   True   True  \u005cWindows\u005cSystem32\u005ccscapi.dll
+p268
+aV    1200 spoolsv.exe          0x000007fefc620000 True   True   True  \u005cWindows\u005cSystem32\u005cdevrtl.dll
+p269
+aV    1200 spoolsv.exe          0x000007fefcb50000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptsp.dll
+p270
+aV    1200 spoolsv.exe          0x000007fef9880000 True   True   True  \u005cWindows\u005cSystem32\u005cPrintIsolationProxy.dll
+p271
+aV    1200 spoolsv.exe          0x000007fef4690000 True   True   True  \u005cWindows\u005cSystem32\u005cWlS0WndH.dll
+p272
+aV    1200 spoolsv.exe          0x000007fefa4a0000 True   True   True  \u005cWindows\u005cSystem32\u005cFWPUCLNT.DLL
+p273
+aV    1200 spoolsv.exe          0x000007fefd4e0000 True   True   True  \u005cWindows\u005cSystem32\u005ccrypt32.dll
+p274
+aV    1200 spoolsv.exe          0x000007fef62f0000 True   True   True  \u005cWindows\u005cSystem32\u005cusbmon.dll
+p275
+aV    1200 spoolsv.exe          0x000007fefc640000 True   True   True  \u005cWindows\u005cSystem32\u005cSPInf.dll
+p276
+aV    1200 spoolsv.exe          0x000007fefc500000 True   True   True  \u005cWindows\u005cSystem32\u005cWSHTCPIP.DLL
+p277
+aV    1200 spoolsv.exe          0x000007fef6310000 True   True   True  \u005cWindows\u005cSystem32\u005ctcpmon.dll
+p278
+aV    1200 spoolsv.exe          0x000007fef4540000 True   True   True  \u005cWindows\u005cSystem32\u005cinetpp.dll
+p279
+aV    1200 spoolsv.exe          0x000007fef6350000 True   True   True  \u005cWindows\u005cSystem32\u005cFXSMON.dll
+p280
+aV    1200 spoolsv.exe          0x000007fefc850000 True   True   True  \u005cWindows\u005cSystem32\u005crsaenh.dll
+p281
+aV    1200 spoolsv.exe          0x000007fefad60000 True   True   True  \u005cWindows\u005cSystem32\u005cwinnsi.dll
+p282
+aV    1200 spoolsv.exe          0x000007fefef90000 True   True   True  \u005cWindows\u005cSystem32\u005cclbcatq.dll
+p283
+aV    1200 spoolsv.exe          0x000007fefd050000 True   True   True  \u005cWindows\u005cSystem32\u005csrvcli.dll
+p284
+aV    1200 spoolsv.exe          0x000007fefc5e0000 True   True   True  \u005cWindows\u005cSystem32\u005cgpapi.dll
+p285
+aV    1200 spoolsv.exe          0x000007fefae30000 True   True   True  \u005cWindows\u005cSystem32\u005cdsrole.dll
+p286
+aV    1200 spoolsv.exe          0x000007fefd260000 True   True   True  \u005cWindows\u005cSystem32\u005cwinsta.dll
+p287
+aV    1200 spoolsv.exe          0x000007fefc600000 True   True   True  \u005cWindows\u005cSystem32\u005cuserenv.dll
+p288
+aV    1200 spoolsv.exe          0x000007fefad70000 True   True   True  \u005cWindows\u005cSystem32\u005cIPHLPAPI.DLL
+p289
+aV    1200 spoolsv.exe          0x000007fef4650000 True   True   True  \u005cWindows\u005cSystem32\u005cWSDMon.dll
+p290
+aV    1200 spoolsv.exe          0x000007fefc430000 True   True   True  \u005cWindows\u005cSystem32\u005cversion.dll
+p291
+aV    1200 spoolsv.exe          0x000007fef4640000 True   True   True  \u005cWindows\u005cSystem32\u005cfdPnp.dll
+p292
+aV    1200 spoolsv.exe          0x000007fef8c50000 True   True   True  \u005cWindows\u005cSystem32\u005cfundisc.dll
+p293
+aV    1200 spoolsv.exe          0x000007fefae50000 True   True   True  \u005cWindows\u005cSystem32\u005catl.dll
+p294
+aV    1200 spoolsv.exe          0x000007fef8c90000 True   True   True  \u005cWindows\u005cSystem32\u005cwebservices.dll
+p295
+aV    1200 spoolsv.exe          0x000007fef46a0000 True   True   True  \u005cWindows\u005cSystem32\u005cwsnmp32.dll
+p296
+aV    1200 spoolsv.exe          0x000007fefb4b0000 True   True   True  \u005cWindows\u005cSystem32\u005crasadhlp.dll
+p297
+aV    1200 spoolsv.exe          0x000007fef46c0000 True   True   True  \u005cWindows\u005cSystem32\u005clocalspl.dll
+p298
+aV    1200 spoolsv.exe          0x000007fefcae0000 True   True   True  \u005cWindows\u005cSystem32\u005cwship6.dll
+p299
+aV    1200 spoolsv.exe          0x000007feff030000 True   True   True  \u005cWindows\u005cSystem32\u005cshlwapi.dll
+p300
+aV    1200 spoolsv.exe          0x000007fef6300000 True   True   True  \u005cWindows\u005cSystem32\u005csnmpapi.dll
+p301
+aV    1200 spoolsv.exe          0x0000000002110000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cKernelBase.dll.mui
+p302
+aV    1236 taskhost.exe         0x0000000000130000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cwdmaud.drv.mui
+p303
+aV    1236 taskhost.exe         0x0000000000140000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cMMDevAPI.dll.mui
+p304
+aV    1236 taskhost.exe         0x000007fef9530000 True   True   True  \u005cWindows\u005cSystem32\u005cAudioSes.dll
+p305
+aV    1236 taskhost.exe         0x0000000073620000 True   True   True  \u005cWindows\u005cSystem32\u005cksuser.dll
+p306
+aV    1236 taskhost.exe         0x000007fef9650000 True   True   True  \u005cWindows\u005cSystem32\u005cwdmaud.drv
+p307
+aV    1236 taskhost.exe         0x000007fef94a0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsacm32.dll
+p308
+aV    1236 taskhost.exe         0x000007fef94c0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsacm32.drv
+p309
+aV    1236 taskhost.exe         0x000007fefd370000 True   True   True  \u005cWindows\u005cSystem32\u005cdevobj.dll
+p310
+aV    1236 taskhost.exe         0x000007fefb230000 True   True   True  \u005cWindows\u005cSystem32\u005cavrt.dll
+p311
+aV    1236 taskhost.exe         0x000007fefd430000 True   True   True  \u005cWindows\u005cSystem32\u005ccfgmgr32.dll
+p312
+aV    1236 taskhost.exe         0x000007fef9490000 True   True   True  \u005cWindows\u005cSystem32\u005cmidimap.dll
+p313
+aV    1236 taskhost.exe         0x000007fefb780000 True   True   True  \u005cWindows\u005cSystem32\u005cMMDevAPI.dll
+p314
+aV    1236 taskhost.exe         0x000007fefdb00000 True   True   True  \u005cWindows\u005cSystem32\u005csetupapi.dll
+p315
+aV    1236 taskhost.exe         0x000007fefbbf0000 True   True   True  \u005cWindows\u005cSystem32\u005cpropsys.dll
+p316
+aV     840 SearchIndexer.       0x0000000074410000 True   True   True  \u005cWindows\u005cSystem32\u005cNlsLexicons0010.dll
+p317
+aV     840 SearchIndexer.       0x000007fef3500000 True   True   True  \u005cWindows\u005cSystem32\u005cELSCore.dll
+p318
+aV     840 SearchIndexer.       0x000007fef2c80000 True   True   True  \u005cWindows\u005cSystem32\u005cNlsData0010.dll
+p319
+aV     840 SearchIndexer.       0x000007fef30f0000 True   True   True  \u005cWindows\u005cSystem32\u005celslad.dll
+p320
+aV    2744 sppsvc.exe           0x0000000077140000 True   True   True  \u005cWindows\u005cSystem32\u005cuser32.dll
+p321
+aV    2744 sppsvc.exe           0x0000000077360000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p322
+aV    2744 sppsvc.exe           0x000007feff1a0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsctf.dll
+p323
+aV    2744 sppsvc.exe           0x0000000077240000 True   True   True  \u005cWindows\u005cSystem32\u005ckernel32.dll
+p324
+aV    2744 sppsvc.exe           0x00000000ff920000 True   False  True  \u005cWindows\u005cSystem32\u005csppsvc.exe
+p325
+aV    2744 sppsvc.exe           0x000007fefdd60000 True   True   True  \u005cWindows\u005cSystem32\u005cimm32.dll
+p326
+aV    2744 sppsvc.exe           0x000007fefeeb0000 True   True   True  \u005cWindows\u005cSystem32\u005cadvapi32.dll
+p327
+aV    2744 sppsvc.exe           0x000007fefd470000 True   True   True  \u005cWindows\u005cSystem32\u005cKernelBase.dll
+p328
+aV    2744 sppsvc.exe           0x000007fefd1b0000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptbase.dll
+p329
+aV    2744 sppsvc.exe           0x000007feff390000 True   True   True  \u005cWindows\u005cSystem32\u005crpcrt4.dll
+p330
+aV    2744 sppsvc.exe           0x000007fefd2a0000 True   True   True  \u005cWindows\u005cSystem32\u005cRpcRtRemote.dll
+p331
+aV    2744 sppsvc.exe           0x000007feff0b0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsvcrt.dll
+p332
+aV    2744 sppsvc.exe           0x000007feff4c0000 True   True   True  \u005cWindows\u005cSystem32\u005cusp10.dll
+p333
+aV    2744 sppsvc.exe           0x000007fefdce0000 True   True   True  \u005cWindows\u005cSystem32\u005clpk.dll
+p334
+aV    2744 sppsvc.exe           0x000007fefdcf0000 True   True   True  \u005cWindows\u005cSystem32\u005cgdi32.dll
+p335
+aV    2744 sppsvc.exe           0x000007feff370000 True   True   True  \u005cWindows\u005cSystem32\u005csechost.dll
+p336
+aV    2744 sppsvc.exe           0x000007fefd690000 True   True   True  \u005cWindows\u005cSystem32\u005cole32.dll
+p337
+aV    2780 svchost.exe          0x0000000077360000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p338
+aV    2780 svchost.exe          0x0000000073580000 True   True   True  \u005cWindows\u005cSystem32\u005csfc.dll
+p339
+aV    2780 svchost.exe          0x000007fefed30000 True   True   True  \u005cWindows\u005cSystem32\u005curlmon.dll
+p340
+aV    2780 svchost.exe          0x000007fefc430000 True   True   True  \u005cWindows\u005cSystem32\u005cversion.dll
+p341
+aV    2780 svchost.exe          0x000007fefd360000 True   True   True  \u005cWindows\u005cSystem32\u005cmsasn1.dll
+p342
+aV    2780 svchost.exe          0x000007feff1a0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsctf.dll
+p343
+aV    2780 svchost.exe          0x000007feff590000 True   True   True  \u005cWindows\u005cSystem32\u005coleaut32.dll
+p344
+aV    2780 svchost.exe          0x000007feff150000 True   True   True  \u005cWindows\u005cSystem32\u005cWldap32.dll
+p345
+aV    2780 svchost.exe          0x00000000ffbe0000 True   False  True  \u005cWindows\u005cSystem32\u005csvchost.exe
+p346
+aV    2780 svchost.exe          0x0000000077140000 True   True   True  \u005cWindows\u005cSystem32\u005cuser32.dll
+p347
+aV    2780 svchost.exe          0x000007fefdec0000 True   True   True  \u005cWindows\u005cSystem32\u005cshell32.dll
+p348
+aV    2780 svchost.exe          0x000007fef4440000 True   True   True  \u005cProgram Files\u005cWindows Defender\u005cMpSvc.dll
+p349
+aV    2780 svchost.exe          0x000007fefd650000 True   True   True  \u005cWindows\u005cSystem32\u005cwintrust.dll
+p350
+aV    2780 svchost.exe          0x000007fefd690000 True   True   True  \u005cWindows\u005cSystem32\u005cole32.dll
+p351
+aV    2780 svchost.exe          0x000007fefd8a0000 True   True   True  \u005cWindows\u005cSystem32\u005ciertutil.dll
+p352
+aV    2780 svchost.exe          0x000007feff4c0000 True   True   True  \u005cWindows\u005cSystem32\u005cusp10.dll
+p353
+aV    2780 svchost.exe          0x000007fefd4e0000 True   True   True  \u005cWindows\u005cSystem32\u005ccrypt32.dll
+p354
+aV    2780 svchost.exe          0x000007fefdd60000 True   True   True  \u005cWindows\u005cSystem32\u005cimm32.dll
+p355
+aV    2780 svchost.exe          0x000007fef8770000 True   True   True  \u005cWindows\u005cSystem32\u005csfc_os.dll
+p356
+aV    2780 svchost.exe          0x000007fefef90000 True   True   True  \u005cWindows\u005cSystem32\u005cclbcatq.dll
+p357
+aV    2780 svchost.exe          0x000007fef3da0000 True   True   True  \u005cWindows\u005cSystem32\u005cwscapi.dll
+p358
+aV    2780 svchost.exe          0x000007fef43b0000 True   True   True  \u005cProgram Files\u005cWindows Defender\u005cMpClient.dll
+p359
+aV    2780 svchost.exe          0x000007fefb5c0000 True   True   True  \u005cWindows\u005cSystem32\u005cwtsapi32.dll
+p360
+aV    2780 svchost.exe          0x000007fefb1e0000 True   True   True  \u005cWindows\u005cSystem32\u005cntmarta.dll
+p361
+aV    2780 svchost.exe          0x000007fefc600000 True   True   True  \u005cWindows\u005cSystem32\u005cuserenv.dll
+p362
+aV    2780 svchost.exe          0x000007fefeeb0000 True   True   True  \u005cWindows\u005cSystem32\u005cadvapi32.dll
+p363
+aV    2780 svchost.exe          0x000007feff030000 True   True   True  \u005cWindows\u005cSystem32\u005cshlwapi.dll
+p364
+aV    2780 svchost.exe          0x0000000077240000 True   True   True  \u005cWindows\u005cSystem32\u005ckernel32.dll
+p365
+aV    2780 svchost.exe          0x000007feff370000 True   True   True  \u005cWindows\u005cSystem32\u005csechost.dll
+p366
+aV    2780 svchost.exe          0x000007fefd470000 True   True   True  \u005cWindows\u005cSystem32\u005cKernelBase.dll
+p367
+aV    2780 svchost.exe          0x000007feff0b0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsvcrt.dll
+p368
+aV    2780 svchost.exe          0x000007fefd2c0000 True   True   True  \u005cWindows\u005cSystem32\u005cprofapi.dll
+p369
+aV    2780 svchost.exe          0x000007fefdce0000 True   True   True  \u005cWindows\u005cSystem32\u005clpk.dll
+p370
+aV    2780 svchost.exe          0x000007feff390000 True   True   True  \u005cWindows\u005cSystem32\u005crpcrt4.dll
+p371
+aV    2780 svchost.exe          0x000007fefdcf0000 True   True   True  \u005cWindows\u005cSystem32\u005cgdi32.dll
+p372
+aV    2780 svchost.exe          0x000007fefc5e0000 True   True   True  \u005cWindows\u005cSystem32\u005cgpapi.dll
+p373
+aV    2976 slui.exe             0x000007fefae20000 True   True   True  \u005cWindows\u005cSystem32\u005cslc.dll
+p374
+aV    2976 slui.exe             0x00000000000f0000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cslui.exe.mui
+p375
+aV    2976 slui.exe             0x000007fefed30000 True   True   True  \u005cWindows\u005cSystem32\u005curlmon.dll
+p376
+aV    2976 slui.exe             0x0000000000230000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005csppcommdlg.dll.mui
+p377
+aV    2976 slui.exe             0x0000000077360000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p378
+aV    2976 slui.exe             0x000007fefbd70000 True   True   True  \u005cWindows\u005cwinsxs\u005camd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_fa645303170382f6\u005ccomctl32.dll
+p379
+aV    2976 slui.exe             0x000007fefdd60000 True   True   True  \u005cWindows\u005cSystem32\u005cimm32.dll
+p380
+aV    2976 slui.exe             0x000007fef3590000 True   True   True  \u005cWindows\u005cSystem32\u005csppcomapi.dll
+p381
+aV    2976 slui.exe             0x000007fefd1b0000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptbase.dll
+p382
+aV    2976 slui.exe             0x000007fef35d0000 True   True   True  \u005cWindows\u005cSystem32\u005csppcommdlg.dll
+p383
+aV    2976 slui.exe             0x000007feff1a0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsctf.dll
+p384
+aV    2976 slui.exe             0x0000000000220000 False  False  False \u005cWindows\u005cSystem32\u005cstdole2.tlb
+p385
+aV    2976 slui.exe             0x000007fefb820000 True   True   True  \u005cWindows\u005cSystem32\u005cduser.dll
+p386
+aV    2976 slui.exe             0x000007fef6630000 True   True   True  \u005cWindows\u005cSystem32\u005crasman.dll
+p387
+aV    2976 slui.exe             0x000007fefecd0000 True   True   True  \u005cWindows\u005cSystem32\u005cws2_32.dll
+p388
+aV    2976 slui.exe             0x000007fef3670000 True   True   True  \u005cWindows\u005cSystem32\u005cslwga.dll
+p389
+aV    2976 slui.exe             0x000007fef3640000 True   True   True  \u005cWindows\u005cSystem32\u005csppc.dll
+p390
+aV    2976 slui.exe             0x000007fefd690000 True   True   True  \u005cWindows\u005cSystem32\u005cole32.dll
+p391
+aV    2976 slui.exe             0x000007fefd8a0000 True   True   True  \u005cWindows\u005cSystem32\u005ciertutil.dll
+p392
+aV    2976 slui.exe             0x000007fefeeb0000 True   True   True  \u005cWindows\u005cSystem32\u005cadvapi32.dll
+p393
+aV    2976 slui.exe             0x0000000002cc0000 False  False  False \u005cWindows\u005cSystem32\u005cimageres.dll
+p394
+aV    2976 slui.exe             0x000007fefd4e0000 True   True   True  \u005cWindows\u005cSystem32\u005ccrypt32.dll
+p395
+aV    2976 slui.exe             0x000007fefef90000 True   True   True  \u005cWindows\u005cSystem32\u005cclbcatq.dll
+p396
+aV    2976 slui.exe             0x000007fefed20000 True   True   True  \u005cWindows\u005cSystem32\u005cnsi.dll
+p397
+aV    2976 slui.exe             0x000007feff590000 True   True   True  \u005cWindows\u005cSystem32\u005coleaut32.dll
+p398
+aV    2976 slui.exe             0x000007fefb5c0000 True   True   True  \u005cWindows\u005cSystem32\u005cwtsapi32.dll
+p399
+aV    2976 slui.exe             0x0000000077140000 True   True   True  \u005cWindows\u005cSystem32\u005cuser32.dll
+p400
+aV    2976 slui.exe             0x000007fefcb50000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptsp.dll
+p401
+aV    2976 slui.exe             0x000007fefdb00000 True   True   True  \u005cWindows\u005cSystem32\u005csetupapi.dll
+p402
+aV    2976 slui.exe             0x000007fefbf70000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptui.dll
+p403
+aV    2976 slui.exe             0x000007fefd370000 True   True   True  \u005cWindows\u005cSystem32\u005cdevobj.dll
+p404
+aV    2976 slui.exe             0x000007fefbb90000 True   True   True  \u005cWindows\u005cSystem32\u005cuxtheme.dll
+p405
+aV    2976 slui.exe             0x000007fef31a0000 True   True   True  \u005cWindows\u005cSystem32\u005csppcext.dll
+p406
+aV    2976 slui.exe             0x000007feff370000 True   True   True  \u005cWindows\u005cSystem32\u005csechost.dll
+p407
+aV    2976 slui.exe             0x000007fef3550000 True   True   True  \u005cWindows\u005cSystem32\u005cWinSCard.dll
+p408
+aV    2976 slui.exe             0x0000000001bd0000 False  False  False \u005cWindows\u005cwinsxs\u005camd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.7600.16385_en-us_106f9be843a9b4e3\u005ccomctl32.dll.mui
+p409
+aV    2976 slui.exe             0x00000000ffbf0000 True   False  True  \u005cWindows\u005cSystem32\u005cslui.exe
+p410
+aV    2976 slui.exe             0x000007feff030000 True   True   True  \u005cWindows\u005cSystem32\u005cshlwapi.dll
+p411
+aV    2976 slui.exe             0x000007fef8a00000 True   True   True  \u005cWindows\u005cSystem32\u005cwebio.dll
+p412
+aV    2976 slui.exe             0x000007fef8a70000 True   True   True  \u005cWindows\u005cSystem32\u005cwinhttp.dll
+p413
+aV    2976 slui.exe             0x000007fefb760000 True   True   True  \u005cWindows\u005cSystem32\u005cdwmapi.dll
+p414
+aV    2976 slui.exe             0x000007fef6650000 True   True   True  \u005cWindows\u005cSystem32\u005crasapi32.dll
+p415
+aV    2976 slui.exe             0x000007fef9a20000 True   True   True  \u005cWindows\u005cSystem32\u005cmsi.dll
+p416
+aV    2976 slui.exe             0x000007fefd430000 True   True   True  \u005cWindows\u005cSystem32\u005ccfgmgr32.dll
+p417
+aV    2976 slui.exe             0x0000000077240000 True   True   True  \u005cWindows\u005cSystem32\u005ckernel32.dll
+p418
+aV    2976 slui.exe             0x000007fefc850000 True   True   True  \u005cWindows\u005cSystem32\u005crsaenh.dll
+p419
+aV    2976 slui.exe             0x000007fefd470000 True   True   True  \u005cWindows\u005cSystem32\u005cKernelBase.dll
+p420
+aV    2976 slui.exe             0x000007fef9870000 True   True   True  \u005cWindows\u005cSystem32\u005cwinbrand.dll
+p421
+aV    2976 slui.exe             0x0000000000280000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cduser.dll.mui
+p422
+aV    2976 slui.exe             0x000007fefd2a0000 True   True   True  \u005cWindows\u005cSystem32\u005cRpcRtRemote.dll
+p423
+aV    2976 slui.exe             0x000007feff0b0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsvcrt.dll
+p424
+aV    2976 slui.exe             0x000007fefdec0000 True   True   True  \u005cWindows\u005cSystem32\u005cshell32.dll
+p425
+aV    2976 slui.exe             0x000007fefdce0000 True   True   True  \u005cWindows\u005cSystem32\u005clpk.dll
+p426
+aV    2976 slui.exe             0x000007fefd1c0000 True   True   True  \u005cWindows\u005cSystem32\u005csxs.dll
+p427
+aV    2976 slui.exe             0x000007feff390000 True   True   True  \u005cWindows\u005cSystem32\u005crpcrt4.dll
+p428
+aV    2976 slui.exe             0x000007feff4c0000 True   True   True  \u005cWindows\u005cSystem32\u005cusp10.dll
+p429
+aV    2976 slui.exe             0x000007fefdcf0000 True   True   True  \u005cWindows\u005cSystem32\u005cgdi32.dll
+p430
+aV    2976 slui.exe             0x000007fefd360000 True   True   True  \u005cWindows\u005cSystem32\u005cmsasn1.dll
+p431
+aV    2976 slui.exe             0x000007fef3510000 True   True   True  \u005cWindows\u005cSystem32\u005ctapi32.dll
+p432
+aV     444 WmiPrvSE.exe         0x0000000077360000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p433
+aV     444 WmiPrvSE.exe         0x0000000077140000 True   True   True  \u005cWindows\u005cSystem32\u005cuser32.dll
+p434
+aV     444 WmiPrvSE.exe         0x000007feff1a0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsctf.dll
+p435
+aV     444 WmiPrvSE.exe         0x000007fef2be0000 True   True   True  \u005cWindows\u005cSystem32\u005cwbem\u005cwmiprov.dll
+p436
+aV     444 WmiPrvSE.exe         0x00000000ffd90000 True   False  True  \u005cWindows\u005cSystem32\u005cwbem\u005cWmiPrvSE.exe
+p437
+aV     444 WmiPrvSE.exe         0x000007feff150000 True   True   True  \u005cWindows\u005cSystem32\u005cWldap32.dll
+p438
+aV     444 WmiPrvSE.exe         0x000007fefd1b0000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptbase.dll
+p439
+aV     444 WmiPrvSE.exe         0x000007fefd2a0000 True   True   True  \u005cWindows\u005cSystem32\u005cRpcRtRemote.dll
+p440
+aV     444 WmiPrvSE.exe         0x000007fefb420000 True   True   True  \u005cWindows\u005cSystem32\u005cwbem\u005cwbemsvc.dll
+p441
+aV     444 WmiPrvSE.exe         0x000007fefcb50000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptsp.dll
+p442
+aV     444 WmiPrvSE.exe         0x000007fefd690000 True   True   True  \u005cWindows\u005cSystem32\u005cole32.dll
+p443
+aV     444 WmiPrvSE.exe         0x000007fefeeb0000 True   True   True  \u005cWindows\u005cSystem32\u005cadvapi32.dll
+p444
+aV     444 WmiPrvSE.exe         0x000007feff4c0000 True   True   True  \u005cWindows\u005cSystem32\u005cusp10.dll
+p445
+aV     444 WmiPrvSE.exe         0x000007fefdce0000 True   True   True  \u005cWindows\u005cSystem32\u005clpk.dll
+p446
+aV     444 WmiPrvSE.exe         0x000007fef81e0000 True   True   True  \u005cWindows\u005cSystem32\u005cwbem\u005cfastprox.dll
+p447
+aV     444 WmiPrvSE.exe         0x000007feff590000 True   True   True  \u005cWindows\u005cSystem32\u005coleaut32.dll
+p448
+aV     444 WmiPrvSE.exe         0x000007fef84b0000 True   True   True  \u005cWindows\u005cSystem32\u005cwbemcomn.dll
+p449
+aV     444 WmiPrvSE.exe         0x000007fefed20000 True   True   True  \u005cWindows\u005cSystem32\u005cnsi.dll
+p450
+aV     444 WmiPrvSE.exe         0x000007fefb330000 True   True   True  \u005cWindows\u005cSystem32\u005cncobjapi.dll
+p451
+aV     444 WmiPrvSE.exe         0x000007fefb350000 True   True   True  \u005cWindows\u005cSystem32\u005cwbem\u005cwmiutils.dll
+p452
+aV     444 WmiPrvSE.exe         0x000007fefdd60000 True   True   True  \u005cWindows\u005cSystem32\u005cimm32.dll
+p453
+aV     444 WmiPrvSE.exe         0x000007feff370000 True   True   True  \u005cWindows\u005cSystem32\u005csechost.dll
+p454
+aV     444 WmiPrvSE.exe         0x000007fefef90000 True   True   True  \u005cWindows\u005cSystem32\u005cclbcatq.dll
+p455
+aV     444 WmiPrvSE.exe         0x000007fef81a0000 True   True   True  \u005cWindows\u005cSystem32\u005cwbem\u005cwbemprox.dll
+p456
+aV     444 WmiPrvSE.exe         0x000007fefb1e0000 True   True   True  \u005cWindows\u005cSystem32\u005cntmarta.dll
+p457
+aV     444 WmiPrvSE.exe         0x000007fef81b0000 True   True   True  \u005cWindows\u005cSystem32\u005cntdsapi.dll
+p458
+aV     444 WmiPrvSE.exe         0x000007fefd470000 True   True   True  \u005cWindows\u005cSystem32\u005cKernelBase.dll
+p459
+aV     444 WmiPrvSE.exe         0x000007feff390000 True   True   True  \u005cWindows\u005cSystem32\u005crpcrt4.dll
+p460
+aV     444 WmiPrvSE.exe         0x0000000077240000 True   True   True  \u005cWindows\u005cSystem32\u005ckernel32.dll
+p461
+aV     444 WmiPrvSE.exe         0x000007fefc850000 True   True   True  \u005cWindows\u005cSystem32\u005crsaenh.dll
+p462
+aV     444 WmiPrvSE.exe         0x000007feff0b0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsvcrt.dll
+p463
+aV     444 WmiPrvSE.exe         0x000007fefecd0000 True   True   True  \u005cWindows\u005cSystem32\u005cws2_32.dll
+p464
+aV     444 WmiPrvSE.exe         0x000007fefdcf0000 True   True   True  \u005cWindows\u005cSystem32\u005cgdi32.dll
+p465
+assVenvars
+p466
+(dp467
+VRemoved Entries
+p468
+(lp469
+V    1360 reader_sl.exe        0x00000000002e1320 ALLUSERSPROFILE                C:\u005cProgramData
+p470
+aV    1360 reader_sl.exe        0x00000000002e1320 APPDATA                        C:\u005cUsers\u005clophi\u005cAppData\u005cRoaming
+p471
+aV    1360 reader_sl.exe        0x00000000002e1320 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p472
+aV    1360 reader_sl.exe        0x00000000002e1320 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p473
+aV    1360 reader_sl.exe        0x00000000002e1320 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p474
+aV    1360 reader_sl.exe        0x00000000002e1320 COMPUTERNAME                   LOPHI-PC
+p475
+aV    1360 reader_sl.exe        0x00000000002e1320 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p476
+aV    1360 reader_sl.exe        0x00000000002e1320 FP_NO_HOST_CHECK               NO
+p477
+aV    1360 reader_sl.exe        0x00000000002e1320 HOMEDRIVE                      C:
+p478
+aV    1360 reader_sl.exe        0x00000000002e1320 HOMEPATH                       \u005cUsers\u005clophi
+p479
+aV    1360 reader_sl.exe        0x00000000002e1320 LOCALAPPDATA                   C:\u005cUsers\u005clophi\u005cAppData\u005cLocal
+p480
+aV    1360 reader_sl.exe        0x00000000002e1320 LOGONSERVER                    \u005c\u005cLOPHI-PC
+p481
+aV    1360 reader_sl.exe        0x00000000002e1320 NUMBER_OF_PROCESSORS           1
+p482
+aV    1360 reader_sl.exe        0x00000000002e1320 OS                             Windows_NT
+p483
+aV    1360 reader_sl.exe        0x00000000002e1320 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p484
+aV    1360 reader_sl.exe        0x00000000002e1320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p485
+aV    1360 reader_sl.exe        0x00000000002e1320 PROCESSOR_ARCHITECTURE         AMD64
+p486
+aV    1360 reader_sl.exe        0x00000000002e1320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 6 Stepping 3, GenuineIntel
+p487
+aV    1360 reader_sl.exe        0x00000000002e1320 PROCESSOR_LEVEL                6
+p488
+aV    1360 reader_sl.exe        0x00000000002e1320 PROCESSOR_REVISION             0603
+p489
+aV    1360 reader_sl.exe        0x00000000002e1320 ProgramData                    C:\u005cProgramData
+p490
+aV    1360 reader_sl.exe        0x00000000002e1320 ProgramFiles                   C:\u005cProgram Files
+p491
+aV    1360 reader_sl.exe        0x00000000002e1320 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p492
+aV    1360 reader_sl.exe        0x00000000002e1320 ProgramW6432                   C:\u005cProgram Files
+p493
+aV    1360 reader_sl.exe        0x00000000002e1320 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p494
+aV    1360 reader_sl.exe        0x00000000002e1320 PUBLIC                         C:\u005cUsers\u005cPublic
+p495
+aV    1360 reader_sl.exe        0x00000000002e1320 SESSIONNAME                    Console
+p496
+aV    1360 reader_sl.exe        0x00000000002e1320 SystemDrive                    C:
+p497
+aV    1360 reader_sl.exe        0x00000000002e1320 SystemRoot                     C:\u005cWindows
+p498
+aV    1360 reader_sl.exe        0x00000000002e1320 TEMP                           C:\u005cUsers\u005clophi\u005cAppData\u005cLocal\u005cTemp
+p499
+aV    1360 reader_sl.exe        0x00000000002e1320 TMP                            C:\u005cUsers\u005clophi\u005cAppData\u005cLocal\u005cTemp
+p500
+aV    1360 reader_sl.exe        0x00000000002e1320 USERDOMAIN                     lophi-PC
+p501
+aV    1360 reader_sl.exe        0x00000000002e1320 USERNAME                       lophi
+p502
+aV    1360 reader_sl.exe        0x00000000002e1320 USERPROFILE                    C:\u005cUsers\u005clophi
+p503
+aV    1360 reader_sl.exe        0x00000000002e1320 windir                         C:\u005cWindows
+p504
+aV    1472 SearchFilterHo       0x0000000000311320 ALLUSERSPROFILE                C:\u005cProgramData
+p505
+aV    1472 SearchFilterHo       0x0000000000311320 APPDATA                        C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cRoaming
+p506
+aV    1472 SearchFilterHo       0x0000000000311320 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p507
+aV    1472 SearchFilterHo       0x0000000000311320 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p508
+aV    1472 SearchFilterHo       0x0000000000311320 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p509
+aV    1472 SearchFilterHo       0x0000000000311320 COMPUTERNAME                   LOPHI-PC
+p510
+aV    1472 SearchFilterHo       0x0000000000311320 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p511
+aV    1472 SearchFilterHo       0x0000000000311320 FP_NO_HOST_CHECK               NO
+p512
+aV    1472 SearchFilterHo       0x0000000000311320 LOCALAPPDATA                   C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cLocal
+p513
+aV    1472 SearchFilterHo       0x0000000000311320 NUMBER_OF_PROCESSORS           1
+p514
+aV    1472 SearchFilterHo       0x0000000000311320 OS                             Windows_NT
+p515
+aV    1472 SearchFilterHo       0x0000000000311320 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27;C:\u005cWindows\u005csystem32
+p516
+aV    1472 SearchFilterHo       0x0000000000311320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p517
+aV    1472 SearchFilterHo       0x0000000000311320 PROCESSOR_ARCHITECTURE         AMD64
+p518
+aV    1472 SearchFilterHo       0x0000000000311320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 6 Stepping 3, GenuineIntel
+p519
+aV    1472 SearchFilterHo       0x0000000000311320 PROCESSOR_LEVEL                6
+p520
+aV    1472 SearchFilterHo       0x0000000000311320 PROCESSOR_REVISION             0603
+p521
+aV    1472 SearchFilterHo       0x0000000000311320 ProgramData                    C:\u005cProgramData
+p522
+aV    1472 SearchFilterHo       0x0000000000311320 ProgramFiles                   C:\u005cProgram Files
+p523
+aV    1472 SearchFilterHo       0x0000000000311320 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p524
+aV    1472 SearchFilterHo       0x0000000000311320 ProgramW6432                   C:\u005cProgram Files
+p525
+aV    1472 SearchFilterHo       0x0000000000311320 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p526
+aV    1472 SearchFilterHo       0x0000000000311320 PUBLIC                         C:\u005cUsers\u005cPublic
+p527
+aV    1472 SearchFilterHo       0x0000000000311320 SystemDrive                    C:
+p528
+aV    1472 SearchFilterHo       0x0000000000311320 SystemRoot                     C:\u005cWindows
+p529
+aV    1472 SearchFilterHo       0x0000000000311320 TEMP                           C:\u005cProgramData\u005cMicrosoft\u005cSearch\u005cData\u005cTemp\u005cusgthrsvc
+p530
+aV    1472 SearchFilterHo       0x0000000000311320 TMP                            C:\u005cProgramData\u005cMicrosoft\u005cSearch\u005cData\u005cTemp\u005cusgthrsvc
+p531
+aV    1472 SearchFilterHo       0x0000000000311320 USERDOMAIN                     WORKGROUP
+p532
+aV    1472 SearchFilterHo       0x0000000000311320 USERNAME                       LOPHI-PC$
+p533
+aV    1472 SearchFilterHo       0x0000000000311320 USERPROFILE                    C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile
+p534
+aV    1472 SearchFilterHo       0x0000000000311320 windir                         C:\u005cWindows
+p535
+aV    2052 SearchProtocol       0x00000000001c1320 ALLUSERSPROFILE                C:\u005cProgramData
+p536
+aV    2052 SearchProtocol       0x00000000001c1320 APPDATA                        C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cRoaming
+p537
+aV    2052 SearchProtocol       0x00000000001c1320 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p538
+aV    2052 SearchProtocol       0x00000000001c1320 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p539
+aV    2052 SearchProtocol       0x00000000001c1320 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p540
+aV    2052 SearchProtocol       0x00000000001c1320 COMPUTERNAME                   LOPHI-PC
+p541
+aV    2052 SearchProtocol       0x00000000001c1320 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p542
+aV    2052 SearchProtocol       0x00000000001c1320 FP_NO_HOST_CHECK               NO
+p543
+aV    2052 SearchProtocol       0x00000000001c1320 LOCALAPPDATA                   C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cLocal
+p544
+aV    2052 SearchProtocol       0x00000000001c1320 NUMBER_OF_PROCESSORS           1
+p545
+aV    2052 SearchProtocol       0x00000000001c1320 OS                             Windows_NT
+p546
+aV    2052 SearchProtocol       0x00000000001c1320 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27;C:\u005cWindows\u005csystem32
+p547
+aV    2052 SearchProtocol       0x00000000001c1320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p548
+aV    2052 SearchProtocol       0x00000000001c1320 PROCESSOR_ARCHITECTURE         AMD64
+p549
+aV    2052 SearchProtocol       0x00000000001c1320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 6 Stepping 3, GenuineIntel
+p550
+aV    2052 SearchProtocol       0x00000000001c1320 PROCESSOR_LEVEL                6
+p551
+aV    2052 SearchProtocol       0x00000000001c1320 PROCESSOR_REVISION             0603
+p552
+aV    2052 SearchProtocol       0x00000000001c1320 ProgramData                    C:\u005cProgramData
+p553
+aV    2052 SearchProtocol       0x00000000001c1320 ProgramFiles                   C:\u005cProgram Files
+p554
+aV    2052 SearchProtocol       0x00000000001c1320 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p555
+aV    2052 SearchProtocol       0x00000000001c1320 ProgramW6432                   C:\u005cProgram Files
+p556
+aV    2052 SearchProtocol       0x00000000001c1320 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p557
+aV    2052 SearchProtocol       0x00000000001c1320 PUBLIC                         C:\u005cUsers\u005cPublic
+p558
+aV    2052 SearchProtocol       0x00000000001c1320 SystemDrive                    C:
+p559
+aV    2052 SearchProtocol       0x00000000001c1320 SystemRoot                     C:\u005cWindows
+p560
+aV    2052 SearchProtocol       0x00000000001c1320 TEMP                           C:\u005cProgramData\u005cMicrosoft\u005cSearch\u005cData\u005cTemp\u005cusgthrsvc
+p561
+aV    2052 SearchProtocol       0x00000000001c1320 TMP                            C:\u005cProgramData\u005cMicrosoft\u005cSearch\u005cData\u005cTemp\u005cusgthrsvc
+p562
+aV    2052 SearchProtocol       0x00000000001c1320 USERDOMAIN                     WORKGROUP
+p563
+aV    2052 SearchProtocol       0x00000000001c1320 USERNAME                       LOPHI-PC$
+p564
+aV    2052 SearchProtocol       0x00000000001c1320 USERPROFILE                    C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile
+p565
+aV    2052 SearchProtocol       0x00000000001c1320 windir                         C:\u005cWindows
+p566
+aV    2296 cmd.exe              0x000000000028c2c0 ALLUSERSPROFILE                C:\u005cProgramData
+p567
+aV    2296 cmd.exe              0x000000000028c2c0 APPDATA                        C:\u005cUsers\u005clophi\u005cAppData\u005cRoaming
+p568
+aV    2296 cmd.exe              0x000000000028c2c0 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p569
+aV    2296 cmd.exe              0x000000000028c2c0 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p570
+aV    2296 cmd.exe              0x000000000028c2c0 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p571
+aV    2296 cmd.exe              0x000000000028c2c0 COMPUTERNAME                   LOPHI-PC
+p572
+aV    2296 cmd.exe              0x000000000028c2c0 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p573
+aV    2296 cmd.exe              0x000000000028c2c0 FP_NO_HOST_CHECK               NO
+p574
+aV    2296 cmd.exe              0x000000000028c2c0 HOMEDRIVE                      C:
+p575
+aV    2296 cmd.exe              0x000000000028c2c0 HOMEPATH                       \u005cUsers\u005clophi
+p576
+aV    2296 cmd.exe              0x000000000028c2c0 LOCALAPPDATA                   C:\u005cUsers\u005clophi\u005cAppData\u005cLocal
+p577
+aV    2296 cmd.exe              0x000000000028c2c0 LOGONSERVER                    \u005c\u005cLOPHI-PC
+p578
+aV    2296 cmd.exe              0x000000000028c2c0 NUMBER_OF_PROCESSORS           1
+p579
+aV    2296 cmd.exe              0x000000000028c2c0 OS                             Windows_NT
+p580
+aV    2296 cmd.exe              0x000000000028c2c0 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p581
+aV    2296 cmd.exe              0x000000000028c2c0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p582
+aV    2296 cmd.exe              0x000000000028c2c0 PROCESSOR_ARCHITECTURE         AMD64
+p583
+aV    2296 cmd.exe              0x000000000028c2c0 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 6 Stepping 3, GenuineIntel
+p584
+aV    2296 cmd.exe              0x000000000028c2c0 PROCESSOR_LEVEL                6
+p585
+aV    2296 cmd.exe              0x000000000028c2c0 PROCESSOR_REVISION             0603
+p586
+aV    2296 cmd.exe              0x000000000028c2c0 ProgramData                    C:\u005cProgramData
+p587
+aV    2296 cmd.exe              0x000000000028c2c0 ProgramFiles                   C:\u005cProgram Files
+p588
+aV    2296 cmd.exe              0x000000000028c2c0 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p589
+aV    2296 cmd.exe              0x000000000028c2c0 ProgramW6432                   C:\u005cProgram Files
+p590
+aV    2296 cmd.exe              0x000000000028c2c0 PROMPT                         $P$G
+p591
+aV    2296 cmd.exe              0x000000000028c2c0 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p592
+aV    2296 cmd.exe              0x000000000028c2c0 PUBLIC                         C:\u005cUsers\u005cPublic
+p593
+aV    2296 cmd.exe              0x000000000028c2c0 SESSIONNAME                    Console
+p594
+aV    2296 cmd.exe              0x000000000028c2c0 SystemDrive                    C:
+p595
+aV    2296 cmd.exe              0x000000000028c2c0 SystemRoot                     C:\u005cWindows
+p596
+aV    2296 cmd.exe              0x000000000028c2c0 TEMP                           C:\u005cUsers\u005clophi\u005cAppData\u005cLocal\u005cTemp
+p597
+aV    2296 cmd.exe              0x000000000028c2c0 TMP                            C:\u005cUsers\u005clophi\u005cAppData\u005cLocal\u005cTemp
+p598
+aV    2296 cmd.exe              0x000000000028c2c0 USERDOMAIN                     lophi-PC
+p599
+aV    2296 cmd.exe              0x000000000028c2c0 USERNAME                       lophi
+p600
+aV    2296 cmd.exe              0x000000000028c2c0 USERPROFILE                    C:\u005cUsers\u005clophi
+p601
+aV    2296 cmd.exe              0x000000000028c2c0 windir                         C:\u005cWindows
+p602
+aV    2304 conhost.exe          0x000000000025d7a0 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p603
+aV    2304 conhost.exe          0x000000000025d7a0 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p604
+aV    2304 conhost.exe          0x000000000025d7a0 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p605
+aV    2304 conhost.exe          0x000000000025d7a0 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p606
+aV    2304 conhost.exe          0x000000000025d7a0 FP_NO_HOST_CHECK               NO
+p607
+aV    2304 conhost.exe          0x000000000025d7a0 NUMBER_OF_PROCESSORS           1
+p608
+aV    2304 conhost.exe          0x000000000025d7a0 OS                             Windows_NT
+p609
+aV    2304 conhost.exe          0x000000000025d7a0 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p610
+aV    2304 conhost.exe          0x000000000025d7a0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p611
+aV    2304 conhost.exe          0x000000000025d7a0 PROCESSOR_ARCHITECTURE         AMD64
+p612
+aV    2304 conhost.exe          0x000000000025d7a0 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 6 Stepping 3, GenuineIntel
+p613
+aV    2304 conhost.exe          0x000000000025d7a0 PROCESSOR_LEVEL                6
+p614
+aV    2304 conhost.exe          0x000000000025d7a0 PROCESSOR_REVISION             0603
+p615
+aV    2304 conhost.exe          0x000000000025d7a0 ProgramFiles                   C:\u005cProgram Files
+p616
+aV    2304 conhost.exe          0x000000000025d7a0 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p617
+aV    2304 conhost.exe          0x000000000025d7a0 ProgramW6432                   C:\u005cProgram Files
+p618
+aV    2304 conhost.exe          0x000000000025d7a0 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p619
+aV    2304 conhost.exe          0x000000000025d7a0 SystemDrive                    C:
+p620
+aV    2304 conhost.exe          0x000000000025d7a0 SystemRoot                     C:\u005cWindows
+p621
+aV    2304 conhost.exe          0x000000000025d7a0 TEMP                           C:\u005cWindows\u005cTEMP
+p622
+aV    2304 conhost.exe          0x000000000025d7a0 TMP                            C:\u005cWindows\u005cTEMP
+p623
+aV    2304 conhost.exe          0x000000000025d7a0 USERNAME                       SYSTEM
+p624
+aV    2304 conhost.exe          0x000000000025d7a0 windir                         C:\u005cWindows
+p625
+asVAdded Entries
+p626
+(lp627
+V    2744 sppsvc.exe           0x0000000000391320 ALLUSERSPROFILE                C:\u005cProgramData
+p628
+aV    2744 sppsvc.exe           0x0000000000391320 APPDATA                        C:\u005cWindows\u005cServiceProfiles\u005cNetworkService\u005cAppData\u005cRoaming
+p629
+aV    2744 sppsvc.exe           0x0000000000391320 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p630
+aV    2744 sppsvc.exe           0x0000000000391320 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p631
+aV    2744 sppsvc.exe           0x0000000000391320 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p632
+aV    2744 sppsvc.exe           0x0000000000391320 COMPUTERNAME                   LOPHI-PC
+p633
+aV    2744 sppsvc.exe           0x0000000000391320 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p634
+aV    2744 sppsvc.exe           0x0000000000391320 FP_NO_HOST_CHECK               NO
+p635
+aV    2744 sppsvc.exe           0x0000000000391320 LOCALAPPDATA                   C:\u005cWindows\u005cServiceProfiles\u005cNetworkService\u005cAppData\u005cLocal
+p636
+aV    2744 sppsvc.exe           0x0000000000391320 NUMBER_OF_PROCESSORS           1
+p637
+aV    2744 sppsvc.exe           0x0000000000391320 OS                             Windows_NT
+p638
+aV    2744 sppsvc.exe           0x0000000000391320 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p639
+aV    2744 sppsvc.exe           0x0000000000391320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p640
+aV    2744 sppsvc.exe           0x0000000000391320 PROCESSOR_ARCHITECTURE         AMD64
+p641
+aV    2744 sppsvc.exe           0x0000000000391320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 6 Stepping 3, GenuineIntel
+p642
+aV    2744 sppsvc.exe           0x0000000000391320 PROCESSOR_LEVEL                6
+p643
+aV    2744 sppsvc.exe           0x0000000000391320 PROCESSOR_REVISION             0603
+p644
+aV    2744 sppsvc.exe           0x0000000000391320 ProgramData                    C:\u005cProgramData
+p645
+aV    2744 sppsvc.exe           0x0000000000391320 ProgramFiles                   C:\u005cProgram Files
+p646
+aV    2744 sppsvc.exe           0x0000000000391320 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p647
+aV    2744 sppsvc.exe           0x0000000000391320 ProgramW6432                   C:\u005cProgram Files
+p648
+aV    2744 sppsvc.exe           0x0000000000391320 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p649
+aV    2744 sppsvc.exe           0x0000000000391320 PUBLIC                         C:\u005cUsers\u005cPublic
+p650
+aV    2744 sppsvc.exe           0x0000000000391320 SystemDrive                    C:
+p651
+aV    2744 sppsvc.exe           0x0000000000391320 SystemRoot                     C:\u005cWindows
+p652
+aV    2744 sppsvc.exe           0x0000000000391320 TEMP                           C:\u005cWindows\u005cSERVIC~2\u005cNETWOR~1\u005cAppData\u005cLocal\u005cTemp
+p653
+aV    2744 sppsvc.exe           0x0000000000391320 TMP                            C:\u005cWindows\u005cSERVIC~2\u005cNETWOR~1\u005cAppData\u005cLocal\u005cTemp
+p654
+aV    2744 sppsvc.exe           0x0000000000391320 USERDOMAIN                     WORKGROUP
+p655
+aV    2744 sppsvc.exe           0x0000000000391320 USERNAME                       LOPHI-PC$
+p656
+aV    2744 sppsvc.exe           0x0000000000391320 USERPROFILE                    C:\u005cWindows\u005cServiceProfiles\u005cNetworkService
+p657
+aV    2744 sppsvc.exe           0x0000000000391320 windir                         C:\u005cWindows
+p658
+aV    2780 svchost.exe          0x000000000040c800 ALLUSERSPROFILE                C:\u005cProgramData
+p659
+aV    2780 svchost.exe          0x000000000040c800 APPDATA                        C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cRoaming
+p660
+aV    2780 svchost.exe          0x000000000040c800 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p661
+aV    2780 svchost.exe          0x000000000040c800 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p662
+aV    2780 svchost.exe          0x000000000040c800 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p663
+aV    2780 svchost.exe          0x000000000040c800 COMPUTERNAME                   LOPHI-PC
+p664
+aV    2780 svchost.exe          0x000000000040c800 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p665
+aV    2780 svchost.exe          0x000000000040c800 FP_NO_HOST_CHECK               NO
+p666
+aV    2780 svchost.exe          0x000000000040c800 LOCALAPPDATA                   C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cLocal
+p667
+aV    2780 svchost.exe          0x000000000040c800 MpConfig_ProductAppDataPath    C:\u005cProgramData\u005cMicrosoft\u005cWindows Defender
+p668
+aV    2780 svchost.exe          0x000000000040c800 MpConfig_ProductCodeName       AntiSpyware
+p669
+aV    2780 svchost.exe          0x000000000040c800 MpConfig_ProductPath           c:\u005cprogram files\u005cwindows defender
+p670
+aV    2780 svchost.exe          0x000000000040c800 MpConfig_Produ...erAppDataPath C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cLocal\u005cMicrosoft\u005cWindows Defender
+p671
+aV    2780 svchost.exe          0x000000000040c800 MpConfig_ReportingGUID         3BC4CDAE-B3E9-4959-9462-7D222FD2A7D8
+p672
+aV    2780 svchost.exe          0x000000000040c800 NUMBER_OF_PROCESSORS           1
+p673
+aV    2780 svchost.exe          0x000000000040c800 OS                             Windows_NT
+p674
+aV    2780 svchost.exe          0x000000000040c800 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p675
+aV    2780 svchost.exe          0x000000000040c800 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p676
+aV    2780 svchost.exe          0x000000000040c800 PROCESSOR_ARCHITECTURE         AMD64
+p677
+aV    2780 svchost.exe          0x000000000040c800 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 6 Stepping 3, GenuineIntel
+p678
+aV    2780 svchost.exe          0x000000000040c800 PROCESSOR_LEVEL                6
+p679
+aV    2780 svchost.exe          0x000000000040c800 PROCESSOR_REVISION             0603
+p680
+aV    2780 svchost.exe          0x000000000040c800 ProgramData                    C:\u005cProgramData
+p681
+aV    2780 svchost.exe          0x000000000040c800 ProgramFiles                   C:\u005cProgram Files
+p682
+aV    2780 svchost.exe          0x000000000040c800 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p683
+aV    2780 svchost.exe          0x000000000040c800 ProgramW6432                   C:\u005cProgram Files
+p684
+aV    2780 svchost.exe          0x000000000040c800 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p685
+aV    2780 svchost.exe          0x000000000040c800 PUBLIC                         C:\u005cUsers\u005cPublic
+p686
+aV    2780 svchost.exe          0x000000000040c800 SystemDrive                    C:
+p687
+aV    2780 svchost.exe          0x000000000040c800 SystemRoot                     C:\u005cWindows
+p688
+aV    2780 svchost.exe          0x000000000040c800 TEMP                           C:\u005cWindows\u005cTEMP
+p689
+aV    2780 svchost.exe          0x000000000040c800 TMP                            C:\u005cWindows\u005cTEMP
+p690
+aV    2780 svchost.exe          0x000000000040c800 USERDOMAIN                     WORKGROUP
+p691
+aV    2780 svchost.exe          0x000000000040c800 USERNAME                       LOPHI-PC$
+p692
+aV    2780 svchost.exe          0x000000000040c800 USERPROFILE                    C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile
+p693
+aV    2780 svchost.exe          0x000000000040c800 windir                         C:\u005cWindows
+p694
+aV    2976 slui.exe             0x0000000000291320 ALLUSERSPROFILE                C:\u005cProgramData
+p695
+aV    2976 slui.exe             0x0000000000291320 APPDATA                        C:\u005cUsers\u005clophi\u005cAppData\u005cRoaming
+p696
+aV    2976 slui.exe             0x0000000000291320 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p697
+aV    2976 slui.exe             0x0000000000291320 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p698
+aV    2976 slui.exe             0x0000000000291320 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p699
+aV    2976 slui.exe             0x0000000000291320 COMPUTERNAME                   LOPHI-PC
+p700
+aV    2976 slui.exe             0x0000000000291320 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p701
+aV    2976 slui.exe             0x0000000000291320 FP_NO_HOST_CHECK               NO
+p702
+aV    2976 slui.exe             0x0000000000291320 HOMEDRIVE                      C:
+p703
+aV    2976 slui.exe             0x0000000000291320 HOMEPATH                       \u005cUsers\u005clophi
+p704
+aV    2976 slui.exe             0x0000000000291320 LOCALAPPDATA                   C:\u005cUsers\u005clophi\u005cAppData\u005cLocal
+p705
+aV    2976 slui.exe             0x0000000000291320 LOGONSERVER                    \u005c\u005cLOPHI-PC
+p706
+aV    2976 slui.exe             0x0000000000291320 NUMBER_OF_PROCESSORS           1
+p707
+aV    2976 slui.exe             0x0000000000291320 OS                             Windows_NT
+p708
+aV    2976 slui.exe             0x0000000000291320 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p709
+aV    2976 slui.exe             0x0000000000291320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p710
+aV    2976 slui.exe             0x0000000000291320 PROCESSOR_ARCHITECTURE         AMD64
+p711
+aV    2976 slui.exe             0x0000000000291320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 6 Stepping 3, GenuineIntel
+p712
+aV    2976 slui.exe             0x0000000000291320 PROCESSOR_LEVEL                6
+p713
+aV    2976 slui.exe             0x0000000000291320 PROCESSOR_REVISION             0603
+p714
+aV    2976 slui.exe             0x0000000000291320 ProgramData                    C:\u005cProgramData
+p715
+aV    2976 slui.exe             0x0000000000291320 ProgramFiles                   C:\u005cProgram Files
+p716
+aV    2976 slui.exe             0x0000000000291320 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p717
+aV    2976 slui.exe             0x0000000000291320 ProgramW6432                   C:\u005cProgram Files
+p718
+aV    2976 slui.exe             0x0000000000291320 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p719
+aV    2976 slui.exe             0x0000000000291320 PUBLIC                         C:\u005cUsers\u005cPublic
+p720
+aV    2976 slui.exe             0x0000000000291320 SystemDrive                    C:
+p721
+aV    2976 slui.exe             0x0000000000291320 SystemRoot                     C:\u005cWindows
+p722
+aV    2976 slui.exe             0x0000000000291320 TEMP                           C:\u005cUsers\u005clophi\u005cAppData\u005cLocal\u005cTemp
+p723
+aV    2976 slui.exe             0x0000000000291320 TMP                            C:\u005cUsers\u005clophi\u005cAppData\u005cLocal\u005cTemp
+p724
+aV    2976 slui.exe             0x0000000000291320 USERDOMAIN                     lophi-PC
+p725
+aV    2976 slui.exe             0x0000000000291320 USERNAME                       lophi
+p726
+aV    2976 slui.exe             0x0000000000291320 USERPROFILE                    C:\u005cUsers\u005clophi
+p727
+aV    2976 slui.exe             0x0000000000291320 windir                         C:\u005cWindows
+p728
+aV     444 WmiPrvSE.exe         0x0000000000351320 ALLUSERSPROFILE                C:\u005cProgramData
+p729
+aV     444 WmiPrvSE.exe         0x0000000000351320 APPDATA                        C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cRoaming
+p730
+aV     444 WmiPrvSE.exe         0x0000000000351320 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p731
+aV     444 WmiPrvSE.exe         0x0000000000351320 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p732
+aV     444 WmiPrvSE.exe         0x0000000000351320 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p733
+aV     444 WmiPrvSE.exe         0x0000000000351320 COMPUTERNAME                   LOPHI-PC
+p734
+aV     444 WmiPrvSE.exe         0x0000000000351320 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p735
+aV     444 WmiPrvSE.exe         0x0000000000351320 FP_NO_HOST_CHECK               NO
+p736
+aV     444 WmiPrvSE.exe         0x0000000000351320 LOCALAPPDATA                   C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cLocal
+p737
+aV     444 WmiPrvSE.exe         0x0000000000351320 NUMBER_OF_PROCESSORS           1
+p738
+aV     444 WmiPrvSE.exe         0x0000000000351320 OS                             Windows_NT
+p739
+aV     444 WmiPrvSE.exe         0x0000000000351320 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p740
+aV     444 WmiPrvSE.exe         0x0000000000351320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p741
+aV     444 WmiPrvSE.exe         0x0000000000351320 PROCESSOR_ARCHITECTURE         AMD64
+p742
+aV     444 WmiPrvSE.exe         0x0000000000351320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 6 Stepping 3, GenuineIntel
+p743
+aV     444 WmiPrvSE.exe         0x0000000000351320 PROCESSOR_LEVEL                6
+p744
+aV     444 WmiPrvSE.exe         0x0000000000351320 PROCESSOR_REVISION             0603
+p745
+aV     444 WmiPrvSE.exe         0x0000000000351320 ProgramData                    C:\u005cProgramData
+p746
+aV     444 WmiPrvSE.exe         0x0000000000351320 ProgramFiles                   C:\u005cProgram Files
+p747
+aV     444 WmiPrvSE.exe         0x0000000000351320 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p748
+aV     444 WmiPrvSE.exe         0x0000000000351320 ProgramW6432                   C:\u005cProgram Files
+p749
+aV     444 WmiPrvSE.exe         0x0000000000351320 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p750
+aV     444 WmiPrvSE.exe         0x0000000000351320 PUBLIC                         C:\u005cUsers\u005cPublic
+p751
+aV     444 WmiPrvSE.exe         0x0000000000351320 SystemDrive                    C:
+p752
+aV     444 WmiPrvSE.exe         0x0000000000351320 SystemRoot                     C:\u005cWindows
+p753
+aV     444 WmiPrvSE.exe         0x0000000000351320 TEMP                           C:\u005cWindows\u005cTEMP
+p754
+aV     444 WmiPrvSE.exe         0x0000000000351320 TMP                            C:\u005cWindows\u005cTEMP
+p755
+aV     444 WmiPrvSE.exe         0x0000000000351320 USERDOMAIN                     WORKGROUP
+p756
+aV     444 WmiPrvSE.exe         0x0000000000351320 USERNAME                       LOPHI-PC$
+p757
+aV     444 WmiPrvSE.exe         0x0000000000351320 USERPROFILE                    C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile
+p758
+aV     444 WmiPrvSE.exe         0x0000000000351320 windir                         C:\u005cWindows
+p759
+assVpsxview
+p760
+(dp761
+VRemoved Entries
+p762
+(lp763
+V0x000000003e895980 reader_sl.exe          1360 True   True   True     True   True  True    True    
+p764
+aV0x000000003e9c1b30 cmd.exe                2296 True   True   True     True   True  True    True    
+p765
+aV0x000000003eb75b30 svchost.exe            1096 True   True   True     True   True  True    False   
+p766
+aV0x000000003ff63b30 wininit.exe             372 True   True   True     True   True  True    False   
+p767
+aV0x000000003e7419e0 SearchProtocol         2052 True   True   True     True   True  True    False   
+p768
+aV0x000000003e726b30 SearchFilterHo         1472 True   True   True     True   True  True    True    
+p769
+aV0x000000003ed68b30 conhost.exe            2304 True   True   True     True   True  True    True    
+p770
+aV0x000000003e602730 svchost.exe            1932 True   True   True     True   True  True    False   
+p771
+aV0x000000003e60bb30 SearchIndexer.          840 True   True   True     True   True  True    False   
+p772
+aV0x000000003eaf0060 svchost.exe            1020 True   True   True     True   True  True    False   
+p773
+aV0x000000003ed6db30 svchost.exe             652 True   True   True     True   True  True    False   
+p774
+aV0x000000003e939060 svchost.exe            1556 True   True   True     True   True  True    False   
+p775
+aV0x000000003edc4560 svchost.exe             808 True   True   True     True   True  True    False   
+p776
+aV0x000000003ede4060 svchost.exe             588 True   True   True     True   True  True    False   
+p777
+aV0x000000003e9b7060 svchost.exe             860 True   True   True     True   True  True    False   
+p778
+aV0x000000003ea268d0 svchost.exe             704 True   True   True     True   True  True    False   
+p779
+aV0x000000003eb95b30 spoolsv.exe            1200 True   True   True     True   True  True    False   
+p780
+aV0x000000003e8dd730 taskeng.exe            1440 True   True   True     True   True  True    False   
+p781
+aV0x000000003e6515d0 GoogleUpdate.e         1064 True   True   True     True   True  True    False   
+p782
+aV0x000000003e843560 svchost.exe            1256 True   True   True     True   True  True    False   
+p783
+aV0x000000003eab2b30 audiodg.exe             924 True   True   True     True   True  True    False   
+p784
+aV0x000000003ecbb280 csrss.exe               324 True   True   True     True   False True    False   
+p785
+aV0x000000003fed26a0 svchost.exe            2780 True   True   True     False  False True    False   
+p786
+aV0x000000003fe3b060 sppsvc.exe             2744 True   True   True     False  False True    False   
+p787
+asVAdded Entries
+p788
+(lp789
+V0x000000003eb75b30 svchost.exe            1096 True   True   True     True   True  True    True    
+p790
+aV0x000000003ff63b30 wininit.exe             372 True   True   True     True   True  True    True    
+p791
+aV0x000000003fed26a0 svchost.exe            2780 True   True   True     True   True  True    False   
+p792
+aV0x000000003e602730 svchost.exe            1932 True   True   True     True   True  True    True    
+p793
+aV0x000000003e60bb30 SearchIndexer.          840 True   True   True     True   True  True    True    
+p794
+aV0x000000003eaf0060 svchost.exe            1020 True   True   True     True   True  True    True    
+p795
+aV0x000000003ed6db30 svchost.exe             652 True   True   True     True   True  True    True    
+p796
+aV0x000000003e939060 svchost.exe            1556 True   True   True     True   True  True    True    
+p797
+aV0x000000003fc17b30 slui.exe               2976 True   True   True     True   True  True    True    
+p798
+aV0x000000003edc4560 svchost.exe             808 True   True   True     True   True  True    True    
+p799
+aV0x000000003ede4060 svchost.exe             588 True   True   True     True   True  True    True    
+p800
+aV0x000000003e9b7060 svchost.exe             860 True   True   True     True   True  True    True    
+p801
+aV0x000000003ea268d0 svchost.exe             704 True   True   True     True   True  True    True    
+p802
+aV0x000000003eb95b30 spoolsv.exe            1200 True   True   True     True   True  True    True    
+p803
+aV0x000000003fe3b060 sppsvc.exe             2744 True   True   True     True   True  True    True    
+p804
+aV0x000000003e8dd730 taskeng.exe            1440 True   True   True     True   True  True    True    
+p805
+aV0x000000003e6515d0 GoogleUpdate.e         1064 True   True   True     True   True  True    True    
+p806
+aV0x000000003e843560 svchost.exe            1256 True   True   True     True   True  True    True    
+p807
+aV0x000000003fc02060 WmiPrvSE.exe            444 True   True   True     True   True  True    True    
+p808
+aV0x000000003eab2b30 audiodg.exe             924 True   True   True     True   True  True    True    
+p809
+aV0x000000003ecbb280 csrss.exe               324 True   True   True     True   False True    True    
+p810
+assVpsscan
+p811
+(dp812
+VRemoved Entries
+p813
+(lp814
+V0x0000fa8001f68b30 conhost.exe        2304    384 0x000000003ad05000 2015-08-15 20:24:55 UTC+0000                                 
+p815
+aV0x0000fa8002295980 reader_sl.exe      1360   1292 0x000000000dfc3000 2015-08-15 20:23:44 UTC+0000                                 
+p816
+aV0x0000fa80023c1b30 cmd.exe            2296    680 0x000000003bc5f000 2015-08-15 20:24:55 UTC+0000                                 
+p817
+aV0x0000fa8002526b30 SearchFilterHo     1472    840 0x00000000095f1000 2015-08-15 20:23:50 UTC+0000                                 
+p818
+aV0x0000fa80025419e0 SearchProtocol     2052    840 0x000000000a0fa000 2015-08-15 20:23:50 UTC+0000                                 
+p819
+asVAdded Entries
+p820
+(lp821
+V0x0000fa8000e02060 WmiPrvSE.exe        444    588 0x0000000034730000 2015-08-15 20:27:45 UTC+0000                                 
+p822
+aV0x0000fa8000e17b30 slui.exe           2976    588 0x0000000035399000 2015-08-15 20:26:32 UTC+0000                                 
+p823
+assVdriverirp
+p824
+(dp825
+sVssdt
+p826
+(dp827
+VRemoved Entries
+p828
+(lp829
+sVAdded Entries
+p830
+(lp831
+ss.

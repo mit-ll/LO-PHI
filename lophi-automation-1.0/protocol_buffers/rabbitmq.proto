@@ -1,0 +1,9 @@
+// See README.txt for information and build instructions.
+
+package rabbitmq;
+
+message RabbitMQ {
+    required string cmd = 1;
+    repeated string args = 2;
+}
+

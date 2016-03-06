@@ -1,0 +1,223 @@
+#!/usr/bin/python
+"""
+    This will read data over RabbitMQ and display alert data in a GUI
+
+    (c) 2015 Massachusetts Institute of Technology
+"""
+# Native
+import sys
+import os
+import multiprocessing
+import optparse
+import logging
+import copy
+import re
+logging.basicConfig()
+logger = logging.getLogger(__name__)
+
+# 3rd Party
+import wx
+
+
+# LO-PHI
+import lophi.globals as G
+
+# LO-PHI Automation
+from lophi_automation.ext_interface.rabbitmq import LOPHI_RabbitMQ_Consumer
+import lophi_automation.protobuf.helper as protobuf
+# GUI
+from lophi_automation.dataconsumers.gui import AlertGUI
+from lophi_automation.dataconsumers.gui import NewFrameEvent
+
+
+def get_differences(old_data,new_data):
+    disappeared = []
+    appeared = []
+    for old in old_data:
+        if old not in new_data:
+            disappeared.append(old)
+    for new in new_data:
+        if new not in old_data:
+            appeared.append(new)
+            
+    return disappeared, appeared
+
+def main(options):
+    """ Main function, parses args """
+
+
+
+    input_queue = multiprocessing.Queue()
+    try:
+        amqp_server = LOPHI_RabbitMQ_Consumer(options.amqp_host,
+                                              input_queue,
+                                              G.RabbitMQ.SENSOR+".alert_sensor",
+                                              exchange_type=G.RabbitMQ.TYPE_FANOUT,
+                                            routing_key='',
+                                              exchange=G.RabbitMQ.EXCHANGE_FANOUT)
+        amqp_server.start()
+    except:
+        logger.error("Could not open RabbitMQ queue.  (Is it already being used elsewhere?)")
+        return
+
+
+    ## Start GUI Thread
+    LOPHI_GUI = AlertGUI()
+    LOPHI_GUI.start()
+    
+    
+    queues = {}
+    last_data = {}
+    
+    
+    while True:
+        # Read Sensor input
+        sensor_input = input_queue.get()
+        try:
+            sensor_unpacked = protobuf.unpack_sensor_output(sensor_input)
+        except:
+            logger.warn("Got invalid protocol buffer data.")
+            continue
+
+        # Extract header info
+        header = sensor_unpacked['HEADER']
+        data = sensor_unpacked['DATA']
+        module = sensor_unpacked['MODULE']
+        machine_name = sensor_unpacked['MACHINE']
+        
+        # Send the data to the appropriate queue
+        if machine_name not in queues:
+            if G.VERBOSE:
+                print "* Creating new frame for %s" % machine_name
+            queues[machine_name] = multiprocessing.Queue()
+            # New frame
+            wx.PostEvent(LOPHI_GUI, NewFrameEvent(queues[machine_name], machine_name))
+
+
+        output_data = sensor_unpacked
+        
+        
+        output_data['DATA'] = []
+        output_data['COLOR'] = ['#FFFFFF','#000000']
+        
+        # See if its a list that we monitor for changes            
+        if module in ['pslist','ssdt']:
+            
+            output_data['HEADER'] = ["Name","Alert"]
+            
+            if module == 'ssdt':
+                output_data['COLOR'][1] = '#FF0000'
+                
+            # Have we seen previous data to compare too?
+            if module in last_data and last_data[module] != data:
+                           
+                print "* %s modified."%module
+                
+                # Get lists of changed entries
+                disappeared, appeared = get_differences(last_data[module],data)
+                
+                # Index by name
+                name_idx = header.index('Name')
+                for d in disappeared:
+                    
+                    changed = False
+                    for a in appeared:
+                        
+                        # Compare if the names are equal
+                        if d[name_idx] == a[name_idx]:
+                            
+                            # Print all modified enteries indexed by name
+                            changed = True
+                            logger.debug("[%s Modified]"%(d[name_idx]))
+                            
+                            
+                            for x in range(len(d)):
+                                if x == name_idx:
+                                    continue
+                                if d[x] != a[x]:
+                                    logger.debug("  %s: %s -> %s"%(header[x],d[x],a[x]))
+                                    
+                                    output_data['COLOR'][0] = '#FFFFFF'
+                                    output_data['DATA'] = [[d[name_idx],
+                                                            "%s: %s -> %s"%(header[x],d[x],a[x])
+                                                            ]]
+                                    
+                                    queues[machine_name].put(copy.deepcopy(output_data))
+                                 
+                            # Delete from our list   
+                            del appeared[appeared.index(a)]
+                            break
+                    
+                    # No match in the most recent data, must have been deleted
+                    if not changed:
+                        logger.debug("[%s Disappeared]"%(d[name_idx]))
+                        output_data['COLOR'][0] = '#A997FF'
+                        output_data['DATA'] = [[d[name_idx],"Disappeared"]]
+                        queues[machine_name].put(copy.deepcopy(output_data))
+                
+                # If we still have items in this list they must be new
+                for a in appeared:
+                    logger.debug("[%s Appeared]"%a[name_idx])
+                    output_data['COLOR'][0] = '#FFF697'
+                    output_data['DATA'] = [[a[name_idx],"Appeared"]]
+                    queues[machine_name].put(copy.deepcopy(output_data))
+                    
+                    
+                    
+        if module == "disk_engine":
+            output_data['HEADER'] = []
+            output_data['HEADER'].append(header[4])
+            output_data['HEADER'].append(header[0])
+            output_data['HEADER'].append(header[3])
+            output_data['HEADER'].append(header[2])
+            output_data['HEADER'].append(header[7])
+            
+            
+            for d in data:
+                watch_dir = re.compile("Incoming")
+                match1 = watch_dir.match(d[0])
+                match2 = watch_dir.match(d[2])
+                match3 = watch_dir.match(d[3])
+                
+                if match1 is not None or match2 is not None or match3 is not None:
+                    
+                    tmp = []
+                    
+                    tmp.append(d[4])
+                    tmp.append(d[0])
+                    tmp.append(d[3])
+                    tmp.append(d[2])
+                    tmp.append(d[7])
+                    output_data['DATA'] = [tmp]
+                    queues[machine_name].put(copy.deepcopy(output_data))
+            
+        # keep track of our previous data for all modules
+        last_data[module] = data
+
+
+if __name__ == "__main__":
+    opts = optparse.OptionParser()
+
+    opts.add_option("-a", "--amqp_host", action="store", type="string",
+                    dest="amqp_host", default=G.RabbitMQ.AMQP_HOST,
+                    help="AMQP server to connect to. (default: localhost)")
+
+
+    opts.add_option("-k", "--amqp_key", action="store", type="string",
+                    dest="amqp_key", default='#',
+                    help="AMQP key to display, i.e. the name of the machine or some wildcards.  [# is zero or more words, * is exactly 1 word.  Ref: http://www.rabbitmq.com/tutorials/tutorial-five-python.html]  (default: #)")
+    
+    opts.add_option("-d", "--debug", action="store_true",
+        dest="debug", default=False,
+        help="Enable DEBUG")
+
+    
+    (options, positionals) = opts.parse_args(None)
+    
+        # Get our log level
+    if options.debug:
+        logger.setLevel(logging.DEBUG)
+    else:
+        logging.basicConfig()
+    
+    main(options)

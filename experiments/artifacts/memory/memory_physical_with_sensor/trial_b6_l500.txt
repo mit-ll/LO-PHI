@@ -1,0 +1,4012 @@
+RAMspeed (Win32) v1.1.1 by Rhett M. Hollander and Paul V. Bolotoff, 2002-09
+
+8Gb per pass mode
+
+500-benchmark FLOATmem BatchRun mode
+
+Benchmark #1:
+FL-POINT  Copy:      4859.93 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5118.07 MB/s
+
+Benchmark #2:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5382.16 MB/s
+---
+FL-POINT  AVERAGE:   5109.81 MB/s
+
+Benchmark #3:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5375.43 MB/s
+FL-POINT  Triad:     5373.19 MB/s
+---
+FL-POINT  AVERAGE:   5114.04 MB/s
+
+Benchmark #4:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5402.47 MB/s
+---
+FL-POINT  AVERAGE:   5115.48 MB/s
+
+Benchmark #5:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5374.31 MB/s
+---
+FL-POINT  AVERAGE:   5105.06 MB/s
+
+Benchmark #6:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5111.61 MB/s
+
+Benchmark #7:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5373.19 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5113.51 MB/s
+
+Benchmark #8:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5348.65 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5113.43 MB/s
+
+Benchmark #9:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5349.76 MB/s
+FL-POINT  Triad:     5409.28 MB/s
+---
+FL-POINT  AVERAGE:   5114.96 MB/s
+
+Benchmark #10:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5359.78 MB/s
+FL-POINT  Triad:     5409.28 MB/s
+---
+FL-POINT  AVERAGE:   5118.12 MB/s
+
+Benchmark #11:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5116.15 MB/s
+
+Benchmark #12:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5369.83 MB/s
+---
+FL-POINT  AVERAGE:   5107.68 MB/s
+
+Benchmark #13:
+FL-POINT  Copy:      4864.06 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5120.51 MB/s
+
+Benchmark #14:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4873.72 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5372.07 MB/s
+---
+FL-POINT  AVERAGE:   5113.38 MB/s
+
+Benchmark #15:
+FL-POINT  Copy:      4855.81 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5378.79 MB/s
+FL-POINT  Triad:     5382.16 MB/s
+---
+FL-POINT  AVERAGE:   5117.80 MB/s
+
+Benchmark #16:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5383.29 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5115.22 MB/s
+
+Benchmark #17:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5384.41 MB/s
+---
+FL-POINT  AVERAGE:   5113.49 MB/s
+
+Benchmark #18:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5111.86 MB/s
+
+Benchmark #19:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5386.66 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5118.90 MB/s
+
+Benchmark #20:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5393.43 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5118.02 MB/s
+
+Benchmark #21:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5350.87 MB/s
+FL-POINT  Triad:     5375.43 MB/s
+---
+FL-POINT  AVERAGE:   5101.62 MB/s
+
+Benchmark #22:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5378.79 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5115.41 MB/s
+
+Benchmark #23:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5113.35 MB/s
+
+Benchmark #24:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5121.16 MB/s
+
+Benchmark #25:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5116.42 MB/s
+
+Benchmark #26:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5393.43 MB/s
+FL-POINT  Triad:     5401.34 MB/s
+---
+FL-POINT  AVERAGE:   5125.24 MB/s
+
+Benchmark #27:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5373.19 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5115.84 MB/s
+
+Benchmark #28:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5112.59 MB/s
+
+Benchmark #29:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5114.77 MB/s
+
+Benchmark #30:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5377.67 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5116.96 MB/s
+
+Benchmark #31:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4835.31 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5405.87 MB/s
+---
+FL-POINT  AVERAGE:   5109.32 MB/s
+
+Benchmark #32:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5340.89 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5112.32 MB/s
+
+Benchmark #33:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4870.96 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5405.87 MB/s
+---
+FL-POINT  AVERAGE:   5120.71 MB/s
+
+Benchmark #34:
+FL-POINT  Copy:      4825.81 MB/s
+FL-POINT  Scale:     4877.87 MB/s
+FL-POINT  Add:       5378.79 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5119.54 MB/s
+
+Benchmark #35:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4873.72 MB/s
+FL-POINT  Add:       5347.54 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5115.29 MB/s
+
+Benchmark #36:
+FL-POINT  Copy:      4854.44 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5124.07 MB/s
+
+Benchmark #37:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5379.92 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5120.32 MB/s
+
+Benchmark #38:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4872.34 MB/s
+FL-POINT  Add:       5347.54 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5111.31 MB/s
+
+Benchmark #39:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5111.10 MB/s
+
+Benchmark #40:
+FL-POINT  Copy:      4865.44 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5378.79 MB/s
+---
+FL-POINT  AVERAGE:   5116.45 MB/s
+
+Benchmark #41:
+FL-POINT  Copy:      4861.31 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5118.29 MB/s
+
+Benchmark #42:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4836.67 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5107.02 MB/s
+
+Benchmark #43:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5376.55 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5111.24 MB/s
+
+Benchmark #44:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5375.43 MB/s
+FL-POINT  Triad:     5370.95 MB/s
+---
+FL-POINT  AVERAGE:   5107.32 MB/s
+
+Benchmark #45:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5377.67 MB/s
+FL-POINT  Triad:     5401.34 MB/s
+---
+FL-POINT  AVERAGE:   5118.22 MB/s
+
+Benchmark #46:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5114.29 MB/s
+
+Benchmark #47:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4870.96 MB/s
+FL-POINT  Add:       5365.36 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5120.30 MB/s
+
+Benchmark #48:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5117.65 MB/s
+
+Benchmark #49:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5111.27 MB/s
+
+Benchmark #50:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5356.43 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5111.87 MB/s
+
+Benchmark #51:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5116.00 MB/s
+
+Benchmark #52:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5107.05 MB/s
+
+Benchmark #53:
+FL-POINT  Copy:      4853.07 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5365.36 MB/s
+FL-POINT  Triad:     5372.07 MB/s
+---
+FL-POINT  AVERAGE:   5110.55 MB/s
+
+Benchmark #54:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5115.14 MB/s
+
+Benchmark #55:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4866.82 MB/s
+FL-POINT  Add:       5365.36 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5117.17 MB/s
+
+Benchmark #56:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5337.57 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5107.51 MB/s
+
+Benchmark #57:
+FL-POINT  Copy:      4854.44 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5346.43 MB/s
+FL-POINT  Triad:     5376.55 MB/s
+---
+FL-POINT  AVERAGE:   5105.23 MB/s
+
+Benchmark #58:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5326.54 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5105.21 MB/s
+
+Benchmark #59:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5347.54 MB/s
+FL-POINT  Triad:     5376.55 MB/s
+---
+FL-POINT  AVERAGE:   5106.88 MB/s
+
+Benchmark #60:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5115.05 MB/s
+
+Benchmark #61:
+FL-POINT  Copy:      4827.16 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5109.40 MB/s
+
+Benchmark #62:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4866.82 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5117.04 MB/s
+
+Benchmark #63:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5115.22 MB/s
+
+Benchmark #64:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5112.07 MB/s
+
+Benchmark #65:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5106.14 MB/s
+
+Benchmark #66:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5113.16 MB/s
+
+Benchmark #67:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4833.95 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5103.77 MB/s
+
+Benchmark #68:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5373.19 MB/s
+FL-POINT  Triad:     5386.66 MB/s
+---
+FL-POINT  AVERAGE:   5113.42 MB/s
+
+Benchmark #69:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5349.76 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5110.27 MB/s
+
+Benchmark #70:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5345.32 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5106.98 MB/s
+
+Benchmark #71:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5113.13 MB/s
+
+Benchmark #72:
+FL-POINT  Copy:      4827.16 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5109.82 MB/s
+
+Benchmark #73:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5374.31 MB/s
+---
+FL-POINT  AVERAGE:   5111.33 MB/s
+
+Benchmark #74:
+FL-POINT  Copy:      4827.16 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5113.89 MB/s
+
+Benchmark #75:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5115.89 MB/s
+
+Benchmark #76:
+FL-POINT  Copy:      4827.16 MB/s
+FL-POINT  Scale:     4840.76 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5402.47 MB/s
+---
+FL-POINT  AVERAGE:   5107.27 MB/s
+
+Benchmark #77:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5404.74 MB/s
+---
+FL-POINT  AVERAGE:   5119.11 MB/s
+
+Benchmark #78:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5391.17 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5116.40 MB/s
+
+Benchmark #79:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5376.55 MB/s
+FL-POINT  Triad:     5377.67 MB/s
+---
+FL-POINT  AVERAGE:   5113.76 MB/s
+
+Benchmark #80:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5114.97 MB/s
+
+Benchmark #81:
+FL-POINT  Copy:      4827.16 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5368.71 MB/s
+---
+FL-POINT  AVERAGE:   5102.74 MB/s
+
+Benchmark #82:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5390.04 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5123.20 MB/s
+
+Benchmark #83:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5419.52 MB/s
+---
+FL-POINT  AVERAGE:   5118.37 MB/s
+
+Benchmark #84:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5113.46 MB/s
+
+Benchmark #85:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5116.69 MB/s
+
+Benchmark #86:
+FL-POINT  Copy:      4828.52 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5336.47 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5102.37 MB/s
+
+Benchmark #87:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5354.21 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5108.29 MB/s
+
+Benchmark #88:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5356.43 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5109.27 MB/s
+
+Benchmark #89:
+FL-POINT  Copy:      4853.07 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5407.01 MB/s
+---
+FL-POINT  AVERAGE:   5123.56 MB/s
+
+Benchmark #90:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5365.36 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5113.66 MB/s
+
+Benchmark #91:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5404.74 MB/s
+---
+FL-POINT  AVERAGE:   5116.44 MB/s
+
+Benchmark #92:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4839.40 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5401.34 MB/s
+---
+FL-POINT  AVERAGE:   5113.05 MB/s
+
+Benchmark #93:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5117.05 MB/s
+
+Benchmark #94:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5109.02 MB/s
+
+Benchmark #95:
+FL-POINT  Copy:      4823.10 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5337.57 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5104.45 MB/s
+
+Benchmark #96:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5104.53 MB/s
+
+Benchmark #97:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5383.29 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5117.17 MB/s
+
+Benchmark #98:
+FL-POINT  Copy:      4827.16 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5376.55 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5113.46 MB/s
+
+Benchmark #99:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5336.47 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5108.51 MB/s
+
+Benchmark #100:
+FL-POINT  Copy:      4862.69 MB/s
+FL-POINT  Scale:     4870.96 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5384.41 MB/s
+---
+FL-POINT  AVERAGE:   5120.57 MB/s
+
+Benchmark #101:
+FL-POINT  Copy:      4824.45 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5376.55 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5113.43 MB/s
+
+Benchmark #102:
+FL-POINT  Copy:      4825.81 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5111.47 MB/s
+
+Benchmark #103:
+FL-POINT  Copy:      4854.44 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5115.05 MB/s
+
+Benchmark #104:
+FL-POINT  Copy:      4853.07 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5343.11 MB/s
+FL-POINT  Triad:     5373.19 MB/s
+---
+FL-POINT  AVERAGE:   5105.61 MB/s
+
+Benchmark #105:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5115.13 MB/s
+
+Benchmark #106:
+FL-POINT  Copy:      4825.81 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5343.11 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5102.69 MB/s
+
+Benchmark #107:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5378.79 MB/s
+---
+FL-POINT  AVERAGE:   5107.49 MB/s
+
+Benchmark #108:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5354.21 MB/s
+FL-POINT  Triad:     5384.41 MB/s
+---
+FL-POINT  AVERAGE:   5103.68 MB/s
+
+Benchmark #109:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5378.79 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5122.03 MB/s
+
+Benchmark #110:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5396.82 MB/s
+---
+FL-POINT  AVERAGE:   5115.92 MB/s
+
+Benchmark #111:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5111.90 MB/s
+
+Benchmark #112:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5114.30 MB/s
+
+Benchmark #113:
+FL-POINT  Copy:      4864.06 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5383.29 MB/s
+FL-POINT  Triad:     5364.24 MB/s
+---
+FL-POINT  AVERAGE:   5114.45 MB/s
+
+Benchmark #114:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5112.11 MB/s
+
+Benchmark #115:
+FL-POINT  Copy:      4853.07 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5372.07 MB/s
+---
+FL-POINT  AVERAGE:   5108.92 MB/s
+
+Benchmark #116:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4866.82 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5119.17 MB/s
+
+Benchmark #117:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4875.10 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5372.07 MB/s
+---
+FL-POINT  AVERAGE:   5114.44 MB/s
+
+Benchmark #118:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5396.82 MB/s
+---
+FL-POINT  AVERAGE:   5116.58 MB/s
+
+Benchmark #119:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5111.61 MB/s
+
+Benchmark #120:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5340.89 MB/s
+FL-POINT  Triad:     5360.89 MB/s
+---
+FL-POINT  AVERAGE:   5100.96 MB/s
+
+Benchmark #121:
+FL-POINT  Copy:      4823.10 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5376.55 MB/s
+FL-POINT  Triad:     5373.19 MB/s
+---
+FL-POINT  AVERAGE:   5107.85 MB/s
+
+Benchmark #122:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5339.79 MB/s
+FL-POINT  Triad:     5366.47 MB/s
+---
+FL-POINT  AVERAGE:   5103.44 MB/s
+
+Benchmark #123:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5359.78 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5111.65 MB/s
+
+Benchmark #124:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5349.76 MB/s
+FL-POINT  Triad:     5377.67 MB/s
+---
+FL-POINT  AVERAGE:   5104.29 MB/s
+
+Benchmark #125:
+FL-POINT  Copy:      4866.82 MB/s
+FL-POINT  Scale:     4836.67 MB/s
+FL-POINT  Add:       5346.43 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5110.84 MB/s
+
+Benchmark #126:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5377.67 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5116.96 MB/s
+
+Benchmark #127:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4866.82 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5117.71 MB/s
+
+Benchmark #128:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5109.14 MB/s
+
+Benchmark #129:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5347.54 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5105.72 MB/s
+
+Benchmark #130:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5342.00 MB/s
+FL-POINT  Triad:     5377.67 MB/s
+---
+FL-POINT  AVERAGE:   5103.37 MB/s
+
+Benchmark #131:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5375.43 MB/s
+FL-POINT  Triad:     5404.74 MB/s
+---
+FL-POINT  AVERAGE:   5117.14 MB/s
+
+Benchmark #132:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5384.41 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5119.51 MB/s
+
+Benchmark #133:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5409.28 MB/s
+---
+FL-POINT  AVERAGE:   5118.34 MB/s
+
+Benchmark #134:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4872.34 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5116.28 MB/s
+
+Benchmark #135:
+FL-POINT  Copy:      4827.16 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5348.65 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5103.48 MB/s
+
+Benchmark #136:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4825.81 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5386.66 MB/s
+---
+FL-POINT  AVERAGE:   5104.93 MB/s
+
+Benchmark #137:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4870.96 MB/s
+FL-POINT  Add:       5349.76 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5117.64 MB/s
+
+Benchmark #138:
+FL-POINT  Copy:      4820.39 MB/s
+FL-POINT  Scale:     4872.34 MB/s
+FL-POINT  Add:       5373.19 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5117.38 MB/s
+
+Benchmark #139:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5113.43 MB/s
+
+Benchmark #140:
+FL-POINT  Copy:      4854.44 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5113.86 MB/s
+
+Benchmark #141:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5386.66 MB/s
+---
+FL-POINT  AVERAGE:   5109.85 MB/s
+
+Benchmark #142:
+FL-POINT  Copy:      4855.81 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5110.47 MB/s
+
+Benchmark #143:
+FL-POINT  Copy:      4825.81 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5384.41 MB/s
+---
+FL-POINT  AVERAGE:   5108.78 MB/s
+
+Benchmark #144:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5117.63 MB/s
+
+Benchmark #145:
+FL-POINT  Copy:      4824.45 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5378.79 MB/s
+---
+FL-POINT  AVERAGE:   5103.27 MB/s
+
+Benchmark #146:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5378.79 MB/s
+---
+FL-POINT  AVERAGE:   5112.62 MB/s
+
+Benchmark #147:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4839.40 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5382.16 MB/s
+---
+FL-POINT  AVERAGE:   5108.35 MB/s
+
+Benchmark #148:
+FL-POINT  Copy:      4857.19 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5354.21 MB/s
+FL-POINT  Triad:     5409.28 MB/s
+---
+FL-POINT  AVERAGE:   5117.41 MB/s
+
+Benchmark #149:
+FL-POINT  Copy:      4828.52 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5382.16 MB/s
+---
+FL-POINT  AVERAGE:   5110.20 MB/s
+
+Benchmark #150:
+FL-POINT  Copy:      4828.52 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5378.79 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5112.07 MB/s
+
+Benchmark #151:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5373.19 MB/s
+---
+FL-POINT  AVERAGE:   5105.77 MB/s
+
+Benchmark #152:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5369.83 MB/s
+---
+FL-POINT  AVERAGE:   5110.26 MB/s
+
+Benchmark #153:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4839.40 MB/s
+FL-POINT  Add:       5377.67 MB/s
+FL-POINT  Triad:     5422.94 MB/s
+---
+FL-POINT  AVERAGE:   5118.15 MB/s
+
+Benchmark #154:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5347.54 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5107.41 MB/s
+
+Benchmark #155:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5113.42 MB/s
+
+Benchmark #156:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5114.75 MB/s
+
+Benchmark #157:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4835.31 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5108.14 MB/s
+
+Benchmark #158:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5382.16 MB/s
+---
+FL-POINT  AVERAGE:   5109.12 MB/s
+
+Benchmark #159:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5110.60 MB/s
+
+Benchmark #160:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5122.21 MB/s
+
+Benchmark #161:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5110.81 MB/s
+
+Benchmark #162:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5113.35 MB/s
+
+Benchmark #163:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4872.34 MB/s
+FL-POINT  Add:       5391.17 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5124.95 MB/s
+
+Benchmark #164:
+FL-POINT  Copy:      4859.93 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5118.56 MB/s
+
+Benchmark #165:
+FL-POINT  Copy:      4858.56 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5349.76 MB/s
+FL-POINT  Triad:     5404.74 MB/s
+---
+FL-POINT  AVERAGE:   5118.94 MB/s
+
+Benchmark #166:
+FL-POINT  Copy:      4819.04 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5108.77 MB/s
+
+Benchmark #167:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5111.83 MB/s
+
+Benchmark #168:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5112.85 MB/s
+
+Benchmark #169:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5356.43 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5112.51 MB/s
+
+Benchmark #170:
+FL-POINT  Copy:      4855.81 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5116.67 MB/s
+
+Benchmark #171:
+FL-POINT  Copy:      4854.44 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5410.41 MB/s
+---
+FL-POINT  AVERAGE:   5123.65 MB/s
+
+Benchmark #172:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5359.78 MB/s
+FL-POINT  Triad:     5377.67 MB/s
+---
+FL-POINT  AVERAGE:   5112.96 MB/s
+
+Benchmark #173:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5396.82 MB/s
+---
+FL-POINT  AVERAGE:   5115.26 MB/s
+
+Benchmark #174:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5384.41 MB/s
+FL-POINT  Triad:     5407.01 MB/s
+---
+FL-POINT  AVERAGE:   5120.30 MB/s
+
+Benchmark #175:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5114.99 MB/s
+
+Benchmark #176:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5349.76 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5106.36 MB/s
+
+Benchmark #177:
+FL-POINT  Copy:      4848.96 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5378.79 MB/s
+---
+FL-POINT  AVERAGE:   5114.66 MB/s
+
+Benchmark #178:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5108.69 MB/s
+
+Benchmark #179:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5375.43 MB/s
+---
+FL-POINT  AVERAGE:   5108.60 MB/s
+
+Benchmark #180:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4872.34 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5404.74 MB/s
+---
+FL-POINT  AVERAGE:   5119.84 MB/s
+
+Benchmark #181:
+FL-POINT  Copy:      4858.56 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5118.50 MB/s
+
+Benchmark #182:
+FL-POINT  Copy:      4848.96 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5378.79 MB/s
+---
+FL-POINT  AVERAGE:   5114.72 MB/s
+
+Benchmark #183:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5114.02 MB/s
+
+Benchmark #184:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5374.31 MB/s
+---
+FL-POINT  AVERAGE:   5104.52 MB/s
+
+Benchmark #185:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5375.43 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5115.64 MB/s
+
+Benchmark #186:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5402.47 MB/s
+---
+FL-POINT  AVERAGE:   5108.94 MB/s
+
+Benchmark #187:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5118.26 MB/s
+
+Benchmark #188:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5111.08 MB/s
+
+Benchmark #189:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5342.00 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5111.95 MB/s
+
+Benchmark #190:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5121.54 MB/s
+
+Benchmark #191:
+FL-POINT  Copy:      4848.96 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5373.19 MB/s
+---
+FL-POINT  AVERAGE:   5110.08 MB/s
+
+Benchmark #192:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5332.05 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5105.32 MB/s
+
+Benchmark #193:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5378.79 MB/s
+---
+FL-POINT  AVERAGE:   5111.80 MB/s
+
+Benchmark #194:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5105.83 MB/s
+
+Benchmark #195:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5113.05 MB/s
+
+Benchmark #196:
+FL-POINT  Copy:      4817.69 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5407.01 MB/s
+---
+FL-POINT  AVERAGE:   5113.45 MB/s
+
+Benchmark #197:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5113.68 MB/s
+
+Benchmark #198:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5386.66 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5118.52 MB/s
+
+Benchmark #199:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5345.32 MB/s
+FL-POINT  Triad:     5384.41 MB/s
+---
+FL-POINT  AVERAGE:   5108.28 MB/s
+
+Benchmark #200:
+FL-POINT  Copy:      4820.39 MB/s
+FL-POINT  Scale:     4840.76 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5106.11 MB/s
+
+Benchmark #201:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5359.78 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5111.84 MB/s
+
+Benchmark #202:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5367.59 MB/s
+---
+FL-POINT  AVERAGE:   5108.77 MB/s
+
+Benchmark #203:
+FL-POINT  Copy:      4857.19 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5356.43 MB/s
+FL-POINT  Triad:     5382.16 MB/s
+---
+FL-POINT  AVERAGE:   5112.90 MB/s
+
+Benchmark #204:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5386.66 MB/s
+---
+FL-POINT  AVERAGE:   5107.59 MB/s
+
+Benchmark #205:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5354.21 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5105.57 MB/s
+
+Benchmark #206:
+FL-POINT  Copy:      4848.96 MB/s
+FL-POINT  Scale:     4838.04 MB/s
+FL-POINT  Add:       5365.36 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5113.14 MB/s
+
+Benchmark #207:
+FL-POINT  Copy:      4828.52 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5381.04 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5112.77 MB/s
+
+Benchmark #208:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4839.40 MB/s
+FL-POINT  Add:       5387.79 MB/s
+FL-POINT  Triad:     5374.31 MB/s
+---
+FL-POINT  AVERAGE:   5111.93 MB/s
+
+Benchmark #209:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5375.43 MB/s
+---
+FL-POINT  AVERAGE:   5110.52 MB/s
+
+Benchmark #210:
+FL-POINT  Copy:      4825.81 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5348.65 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5108.37 MB/s
+
+Benchmark #211:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5405.87 MB/s
+---
+FL-POINT  AVERAGE:   5114.31 MB/s
+
+Benchmark #212:
+FL-POINT  Copy:      4828.52 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5350.87 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5105.16 MB/s
+
+Benchmark #213:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5114.41 MB/s
+
+Benchmark #214:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5382.16 MB/s
+---
+FL-POINT  AVERAGE:   5112.50 MB/s
+
+Benchmark #215:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5348.65 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5112.16 MB/s
+
+Benchmark #216:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5350.87 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5106.65 MB/s
+
+Benchmark #217:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5373.19 MB/s
+---
+FL-POINT  AVERAGE:   5104.75 MB/s
+
+Benchmark #218:
+FL-POINT  Copy:      4858.56 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5378.79 MB/s
+---
+FL-POINT  AVERAGE:   5114.44 MB/s
+
+Benchmark #219:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5113.15 MB/s
+
+Benchmark #220:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5373.19 MB/s
+FL-POINT  Triad:     5410.41 MB/s
+---
+FL-POINT  AVERAGE:   5124.50 MB/s
+
+Benchmark #221:
+FL-POINT  Copy:      4853.07 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5114.59 MB/s
+
+Benchmark #222:
+FL-POINT  Copy:      4820.39 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5373.19 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5107.46 MB/s
+
+Benchmark #223:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5386.66 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5116.88 MB/s
+
+Benchmark #224:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5107.49 MB/s
+
+Benchmark #225:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5382.16 MB/s
+FL-POINT  Triad:     5396.82 MB/s
+---
+FL-POINT  AVERAGE:   5119.23 MB/s
+
+Benchmark #226:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5388.92 MB/s
+FL-POINT  Triad:     5384.41 MB/s
+---
+FL-POINT  AVERAGE:   5117.84 MB/s
+
+Benchmark #227:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5108.95 MB/s
+
+Benchmark #228:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5354.21 MB/s
+FL-POINT  Triad:     5374.31 MB/s
+---
+FL-POINT  AVERAGE:   5110.38 MB/s
+
+Benchmark #229:
+FL-POINT  Copy:      4855.81 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5384.41 MB/s
+---
+FL-POINT  AVERAGE:   5115.26 MB/s
+
+Benchmark #230:
+FL-POINT  Copy:      4853.07 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5114.57 MB/s
+
+Benchmark #231:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5116.11 MB/s
+
+Benchmark #232:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4875.10 MB/s
+FL-POINT  Add:       5354.21 MB/s
+FL-POINT  Triad:     5407.01 MB/s
+---
+FL-POINT  AVERAGE:   5119.61 MB/s
+
+Benchmark #233:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5114.58 MB/s
+
+Benchmark #234:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5106.92 MB/s
+
+Benchmark #235:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5115.89 MB/s
+
+Benchmark #236:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5356.43 MB/s
+---
+FL-POINT  AVERAGE:   5102.60 MB/s
+
+Benchmark #237:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5410.41 MB/s
+---
+FL-POINT  AVERAGE:   5116.77 MB/s
+
+Benchmark #238:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5110.14 MB/s
+
+Benchmark #239:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5114.41 MB/s
+
+Benchmark #240:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5110.20 MB/s
+
+Benchmark #241:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5385.54 MB/s
+FL-POINT  Triad:     5405.87 MB/s
+---
+FL-POINT  AVERAGE:   5118.93 MB/s
+
+Benchmark #242:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4866.82 MB/s
+FL-POINT  Add:       5359.78 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5116.67 MB/s
+
+Benchmark #243:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5366.47 MB/s
+---
+FL-POINT  AVERAGE:   5105.97 MB/s
+
+Benchmark #244:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5106.75 MB/s
+
+Benchmark #245:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5376.55 MB/s
+---
+FL-POINT  AVERAGE:   5109.17 MB/s
+
+Benchmark #246:
+FL-POINT  Copy:      4853.07 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5378.79 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5115.22 MB/s
+
+Benchmark #247:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5115.14 MB/s
+
+Benchmark #248:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5114.69 MB/s
+
+Benchmark #249:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5346.43 MB/s
+FL-POINT  Triad:     5402.47 MB/s
+---
+FL-POINT  AVERAGE:   5110.70 MB/s
+
+Benchmark #250:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5349.76 MB/s
+FL-POINT  Triad:     5378.79 MB/s
+---
+FL-POINT  AVERAGE:   5105.60 MB/s
+
+Benchmark #251:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4842.13 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5109.89 MB/s
+
+Benchmark #252:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5112.39 MB/s
+
+Benchmark #253:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5344.21 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5106.94 MB/s
+
+Benchmark #254:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5115.23 MB/s
+
+Benchmark #255:
+FL-POINT  Copy:      4817.69 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5101.38 MB/s
+
+Benchmark #256:
+FL-POINT  Copy:      4858.56 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5338.68 MB/s
+FL-POINT  Triad:     5412.69 MB/s
+---
+FL-POINT  AVERAGE:   5113.70 MB/s
+
+Benchmark #257:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5349.76 MB/s
+FL-POINT  Triad:     5407.01 MB/s
+---
+FL-POINT  AVERAGE:   5113.33 MB/s
+
+Benchmark #258:
+FL-POINT  Copy:      4854.44 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5408.14 MB/s
+---
+FL-POINT  AVERAGE:   5122.87 MB/s
+
+Benchmark #259:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5111.03 MB/s
+
+Benchmark #260:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5381.04 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5117.12 MB/s
+
+Benchmark #261:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5373.19 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5115.33 MB/s
+
+Benchmark #262:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5401.34 MB/s
+---
+FL-POINT  AVERAGE:   5116.72 MB/s
+
+Benchmark #263:
+FL-POINT  Copy:      4855.81 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5401.34 MB/s
+---
+FL-POINT  AVERAGE:   5121.67 MB/s
+
+Benchmark #264:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4870.96 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5384.41 MB/s
+---
+FL-POINT  AVERAGE:   5117.49 MB/s
+
+Benchmark #265:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5111.18 MB/s
+
+Benchmark #266:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5365.36 MB/s
+FL-POINT  Triad:     5396.82 MB/s
+---
+FL-POINT  AVERAGE:   5112.98 MB/s
+
+Benchmark #267:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5350.87 MB/s
+FL-POINT  Triad:     5408.14 MB/s
+---
+FL-POINT  AVERAGE:   5117.00 MB/s
+
+Benchmark #268:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5365.36 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5117.52 MB/s
+
+Benchmark #269:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5113.18 MB/s
+
+Benchmark #270:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5375.43 MB/s
+---
+FL-POINT  AVERAGE:   5103.94 MB/s
+
+Benchmark #271:
+FL-POINT  Copy:      4853.07 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5356.43 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5112.59 MB/s
+
+Benchmark #272:
+FL-POINT  Copy:      4825.81 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5346.43 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5100.22 MB/s
+
+Benchmark #273:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5354.21 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5112.33 MB/s
+
+Benchmark #274:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5112.72 MB/s
+
+Benchmark #275:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5110.62 MB/s
+
+Benchmark #276:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5344.21 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5104.53 MB/s
+
+Benchmark #277:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5348.65 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5113.24 MB/s
+
+Benchmark #278:
+FL-POINT  Copy:      4828.52 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5111.76 MB/s
+
+Benchmark #279:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5354.21 MB/s
+FL-POINT  Triad:     5370.95 MB/s
+---
+FL-POINT  AVERAGE:   5106.12 MB/s
+
+Benchmark #280:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5354.21 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5104.95 MB/s
+
+Benchmark #281:
+FL-POINT  Copy:      4824.45 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5384.41 MB/s
+---
+FL-POINT  AVERAGE:   5111.23 MB/s
+
+Benchmark #282:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5409.28 MB/s
+---
+FL-POINT  AVERAGE:   5117.01 MB/s
+
+Benchmark #283:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4842.13 MB/s
+FL-POINT  Add:       5348.65 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5107.03 MB/s
+
+Benchmark #284:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5354.21 MB/s
+FL-POINT  Triad:     5405.87 MB/s
+---
+FL-POINT  AVERAGE:   5115.54 MB/s
+
+Benchmark #285:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5377.67 MB/s
+FL-POINT  Triad:     5402.47 MB/s
+---
+FL-POINT  AVERAGE:   5120.56 MB/s
+
+Benchmark #286:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5349.76 MB/s
+FL-POINT  Triad:     5376.55 MB/s
+---
+FL-POINT  AVERAGE:   5102.99 MB/s
+
+Benchmark #287:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5107.09 MB/s
+
+Benchmark #288:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5376.55 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5117.23 MB/s
+
+Benchmark #289:
+FL-POINT  Copy:      4828.52 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5108.99 MB/s
+
+Benchmark #290:
+FL-POINT  Copy:      4857.19 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5376.55 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5122.75 MB/s
+
+Benchmark #291:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5114.91 MB/s
+
+Benchmark #292:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5381.04 MB/s
+FL-POINT  Triad:     5386.66 MB/s
+---
+FL-POINT  AVERAGE:   5115.39 MB/s
+
+Benchmark #293:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4842.13 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5396.82 MB/s
+---
+FL-POINT  AVERAGE:   5109.47 MB/s
+
+Benchmark #294:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5108.15 MB/s
+
+Benchmark #295:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5382.16 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5118.45 MB/s
+
+Benchmark #296:
+FL-POINT  Copy:      4825.81 MB/s
+FL-POINT  Scale:     4870.96 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5116.41 MB/s
+
+Benchmark #297:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5375.43 MB/s
+---
+FL-POINT  AVERAGE:   5108.00 MB/s
+
+Benchmark #298:
+FL-POINT  Copy:      4827.16 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5386.66 MB/s
+---
+FL-POINT  AVERAGE:   5110.64 MB/s
+
+Benchmark #299:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5387.79 MB/s
+FL-POINT  Triad:     5382.16 MB/s
+---
+FL-POINT  AVERAGE:   5117.67 MB/s
+
+Benchmark #300:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5108.78 MB/s
+
+Benchmark #301:
+FL-POINT  Copy:      4813.64 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5404.74 MB/s
+---
+FL-POINT  AVERAGE:   5107.71 MB/s
+
+Benchmark #302:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5365.36 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5111.85 MB/s
+
+Benchmark #303:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4870.96 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5112.35 MB/s
+
+Benchmark #304:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5114.11 MB/s
+
+Benchmark #305:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5394.56 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5119.74 MB/s
+
+Benchmark #306:
+FL-POINT  Copy:      4824.45 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5402.47 MB/s
+---
+FL-POINT  AVERAGE:   5109.54 MB/s
+
+Benchmark #307:
+FL-POINT  Copy:      4853.07 MB/s
+FL-POINT  Scale:     4875.10 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5409.28 MB/s
+---
+FL-POINT  AVERAGE:   5126.54 MB/s
+
+Benchmark #308:
+FL-POINT  Copy:      4821.74 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5416.10 MB/s
+---
+FL-POINT  AVERAGE:   5113.35 MB/s
+
+Benchmark #309:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5110.72 MB/s
+
+Benchmark #310:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5107.96 MB/s
+
+Benchmark #311:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4873.72 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5408.14 MB/s
+---
+FL-POINT  AVERAGE:   5118.99 MB/s
+
+Benchmark #312:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5112.36 MB/s
+
+Benchmark #313:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5350.87 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5107.92 MB/s
+
+Benchmark #314:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5377.67 MB/s
+---
+FL-POINT  AVERAGE:   5112.46 MB/s
+
+Benchmark #315:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5111.04 MB/s
+
+Benchmark #316:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5112.42 MB/s
+
+Benchmark #317:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5378.79 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5115.05 MB/s
+
+Benchmark #318:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5359.78 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5114.92 MB/s
+
+Benchmark #319:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4842.13 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5402.47 MB/s
+---
+FL-POINT  AVERAGE:   5110.51 MB/s
+
+Benchmark #320:
+FL-POINT  Copy:      4848.96 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5384.41 MB/s
+---
+FL-POINT  AVERAGE:   5109.07 MB/s
+
+Benchmark #321:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5113.26 MB/s
+
+Benchmark #322:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5384.41 MB/s
+FL-POINT  Triad:     5401.34 MB/s
+---
+FL-POINT  AVERAGE:   5124.01 MB/s
+
+Benchmark #323:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5377.67 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5115.98 MB/s
+
+Benchmark #324:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5114.85 MB/s
+
+Benchmark #325:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4866.82 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5378.79 MB/s
+---
+FL-POINT  AVERAGE:   5108.23 MB/s
+
+Benchmark #326:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5369.83 MB/s
+---
+FL-POINT  AVERAGE:   5107.81 MB/s
+
+Benchmark #327:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4840.76 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5377.67 MB/s
+---
+FL-POINT  AVERAGE:   5106.05 MB/s
+
+Benchmark #328:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5373.19 MB/s
+FL-POINT  Triad:     5368.71 MB/s
+---
+FL-POINT  AVERAGE:   5111.34 MB/s
+
+Benchmark #329:
+FL-POINT  Copy:      4827.16 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5404.74 MB/s
+---
+FL-POINT  AVERAGE:   5117.22 MB/s
+
+Benchmark #330:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5108.17 MB/s
+
+Benchmark #331:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5350.87 MB/s
+FL-POINT  Triad:     5401.34 MB/s
+---
+FL-POINT  AVERAGE:   5108.44 MB/s
+
+Benchmark #332:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5359.78 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5109.11 MB/s
+
+Benchmark #333:
+FL-POINT  Copy:      4855.81 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5401.34 MB/s
+---
+FL-POINT  AVERAGE:   5120.31 MB/s
+
+Benchmark #334:
+FL-POINT  Copy:      4854.44 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5116.83 MB/s
+
+Benchmark #335:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5376.55 MB/s
+---
+FL-POINT  AVERAGE:   5110.24 MB/s
+
+Benchmark #336:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5116.66 MB/s
+
+Benchmark #337:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5386.66 MB/s
+---
+FL-POINT  AVERAGE:   5114.85 MB/s
+
+Benchmark #338:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5113.47 MB/s
+
+Benchmark #339:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5359.78 MB/s
+FL-POINT  Triad:     5367.59 MB/s
+---
+FL-POINT  AVERAGE:   5105.99 MB/s
+
+Benchmark #340:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5117.91 MB/s
+
+Benchmark #341:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5373.19 MB/s
+---
+FL-POINT  AVERAGE:   5110.19 MB/s
+
+Benchmark #342:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4838.04 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5374.31 MB/s
+---
+FL-POINT  AVERAGE:   5105.49 MB/s
+
+Benchmark #343:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5381.04 MB/s
+FL-POINT  Triad:     5369.83 MB/s
+---
+FL-POINT  AVERAGE:   5108.79 MB/s
+
+Benchmark #344:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5386.66 MB/s
+---
+FL-POINT  AVERAGE:   5112.58 MB/s
+
+Benchmark #345:
+FL-POINT  Copy:      4868.20 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5375.43 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5121.06 MB/s
+
+Benchmark #346:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5377.67 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5120.80 MB/s
+
+Benchmark #347:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5111.59 MB/s
+
+Benchmark #348:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5365.36 MB/s
+---
+FL-POINT  AVERAGE:   5107.29 MB/s
+
+Benchmark #349:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5112.41 MB/s
+
+Benchmark #350:
+FL-POINT  Copy:      4854.44 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5111.44 MB/s
+
+Benchmark #351:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5116.17 MB/s
+
+Benchmark #352:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4876.49 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5119.12 MB/s
+
+Benchmark #353:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5359.78 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5113.11 MB/s
+
+Benchmark #354:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4866.82 MB/s
+FL-POINT  Add:       5347.54 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5109.78 MB/s
+
+Benchmark #355:
+FL-POINT  Copy:      4855.81 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5119.58 MB/s
+
+Benchmark #356:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5378.79 MB/s
+FL-POINT  Triad:     5412.69 MB/s
+---
+FL-POINT  AVERAGE:   5122.01 MB/s
+
+Benchmark #357:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5115.63 MB/s
+
+Benchmark #358:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5356.43 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5105.10 MB/s
+
+Benchmark #359:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5354.21 MB/s
+FL-POINT  Triad:     5378.79 MB/s
+---
+FL-POINT  AVERAGE:   5105.00 MB/s
+
+Benchmark #360:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5110.74 MB/s
+
+Benchmark #361:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5384.41 MB/s
+FL-POINT  Triad:     5370.95 MB/s
+---
+FL-POINT  AVERAGE:   5108.21 MB/s
+
+Benchmark #362:
+FL-POINT  Copy:      4827.16 MB/s
+FL-POINT  Scale:     4840.76 MB/s
+FL-POINT  Add:       5396.82 MB/s
+FL-POINT  Triad:     5405.87 MB/s
+---
+FL-POINT  AVERAGE:   5117.65 MB/s
+
+Benchmark #363:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5370.95 MB/s
+---
+FL-POINT  AVERAGE:   5106.10 MB/s
+
+Benchmark #364:
+FL-POINT  Copy:      4819.04 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5407.01 MB/s
+---
+FL-POINT  AVERAGE:   5112.45 MB/s
+
+Benchmark #365:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5379.92 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5115.96 MB/s
+
+Benchmark #366:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5113.17 MB/s
+
+Benchmark #367:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5110.78 MB/s
+
+Benchmark #368:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5357.55 MB/s
+---
+FL-POINT  AVERAGE:   5105.12 MB/s
+
+Benchmark #369:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5372.07 MB/s
+---
+FL-POINT  AVERAGE:   5102.23 MB/s
+
+Benchmark #370:
+FL-POINT  Copy:      4854.44 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5117.57 MB/s
+
+Benchmark #371:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5118.04 MB/s
+
+Benchmark #372:
+FL-POINT  Copy:      4828.52 MB/s
+FL-POINT  Scale:     4840.76 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5105.06 MB/s
+
+Benchmark #373:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5382.16 MB/s
+---
+FL-POINT  AVERAGE:   5108.02 MB/s
+
+Benchmark #374:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4833.95 MB/s
+FL-POINT  Add:       5375.43 MB/s
+FL-POINT  Triad:     5402.47 MB/s
+---
+FL-POINT  AVERAGE:   5110.77 MB/s
+
+Benchmark #375:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5117.73 MB/s
+
+Benchmark #376:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5115.92 MB/s
+
+Benchmark #377:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5376.55 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5113.80 MB/s
+
+Benchmark #378:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5379.92 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5116.63 MB/s
+
+Benchmark #379:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5113.48 MB/s
+
+Benchmark #380:
+FL-POINT  Copy:      4824.45 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5342.00 MB/s
+FL-POINT  Triad:     5396.82 MB/s
+---
+FL-POINT  AVERAGE:   5102.72 MB/s
+
+Benchmark #381:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5106.53 MB/s
+
+Benchmark #382:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5376.55 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5118.55 MB/s
+
+Benchmark #383:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5113.44 MB/s
+
+Benchmark #384:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5110.50 MB/s
+
+Benchmark #385:
+FL-POINT  Copy:      4825.81 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5107.30 MB/s
+
+Benchmark #386:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4840.76 MB/s
+FL-POINT  Add:       5379.92 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5108.30 MB/s
+
+Benchmark #387:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4866.82 MB/s
+FL-POINT  Add:       5345.32 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5108.03 MB/s
+
+Benchmark #388:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5116.16 MB/s
+
+Benchmark #389:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5109.99 MB/s
+
+Benchmark #390:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5112.32 MB/s
+
+Benchmark #391:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5116.23 MB/s
+
+Benchmark #392:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5414.96 MB/s
+---
+FL-POINT  AVERAGE:   5116.39 MB/s
+
+Benchmark #393:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5386.66 MB/s
+---
+FL-POINT  AVERAGE:   5113.30 MB/s
+
+Benchmark #394:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4875.10 MB/s
+FL-POINT  Add:       5346.43 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5113.65 MB/s
+
+Benchmark #395:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5115.13 MB/s
+
+Benchmark #396:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5393.43 MB/s
+---
+FL-POINT  AVERAGE:   5109.99 MB/s
+
+Benchmark #397:
+FL-POINT  Copy:      4858.56 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5116.24 MB/s
+
+Benchmark #398:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5113.66 MB/s
+
+Benchmark #399:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5359.78 MB/s
+FL-POINT  Triad:     5365.36 MB/s
+---
+FL-POINT  AVERAGE:   5104.06 MB/s
+
+Benchmark #400:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5356.43 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5113.60 MB/s
+
+Benchmark #401:
+FL-POINT  Copy:      4848.96 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5117.95 MB/s
+
+Benchmark #402:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5365.36 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5111.52 MB/s
+
+Benchmark #403:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5376.55 MB/s
+---
+FL-POINT  AVERAGE:   5114.11 MB/s
+
+Benchmark #404:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4842.13 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5376.55 MB/s
+---
+FL-POINT  AVERAGE:   5105.27 MB/s
+
+Benchmark #405:
+FL-POINT  Copy:      4848.96 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5119.71 MB/s
+
+Benchmark #406:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5113.99 MB/s
+
+Benchmark #407:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5366.47 MB/s
+FL-POINT  Triad:     5367.59 MB/s
+---
+FL-POINT  AVERAGE:   5106.30 MB/s
+
+Benchmark #408:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5111.48 MB/s
+
+Benchmark #409:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5407.01 MB/s
+---
+FL-POINT  AVERAGE:   5113.63 MB/s
+
+Benchmark #410:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5354.21 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5111.79 MB/s
+
+Benchmark #411:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5405.87 MB/s
+---
+FL-POINT  AVERAGE:   5112.01 MB/s
+
+Benchmark #412:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5396.82 MB/s
+---
+FL-POINT  AVERAGE:   5114.03 MB/s
+
+Benchmark #413:
+FL-POINT  Copy:      4854.44 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5347.54 MB/s
+FL-POINT  Triad:     5405.87 MB/s
+---
+FL-POINT  AVERAGE:   5114.55 MB/s
+
+Benchmark #414:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5378.79 MB/s
+---
+FL-POINT  AVERAGE:   5110.63 MB/s
+
+Benchmark #415:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5370.95 MB/s
+---
+FL-POINT  AVERAGE:   5111.11 MB/s
+
+Benchmark #416:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5356.43 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5111.56 MB/s
+
+Benchmark #417:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4870.96 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5401.34 MB/s
+---
+FL-POINT  AVERAGE:   5116.94 MB/s
+
+Benchmark #418:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5384.41 MB/s
+---
+FL-POINT  AVERAGE:   5111.02 MB/s
+
+Benchmark #419:
+FL-POINT  Copy:      4848.96 MB/s
+FL-POINT  Scale:     4875.10 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5379.92 MB/s
+---
+FL-POINT  AVERAGE:   5115.66 MB/s
+
+Benchmark #420:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5108.98 MB/s
+
+Benchmark #421:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5350.87 MB/s
+FL-POINT  Triad:     5402.47 MB/s
+---
+FL-POINT  AVERAGE:   5112.84 MB/s
+
+Benchmark #422:
+FL-POINT  Copy:      4827.16 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5107.81 MB/s
+
+Benchmark #423:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5340.89 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5106.88 MB/s
+
+Benchmark #424:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4840.76 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5391.17 MB/s
+---
+FL-POINT  AVERAGE:   5107.87 MB/s
+
+Benchmark #425:
+FL-POINT  Copy:      4858.56 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5372.07 MB/s
+---
+FL-POINT  AVERAGE:   5113.68 MB/s
+
+Benchmark #426:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5374.31 MB/s
+---
+FL-POINT  AVERAGE:   5108.77 MB/s
+
+Benchmark #427:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5111.28 MB/s
+
+Benchmark #428:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5408.14 MB/s
+---
+FL-POINT  AVERAGE:   5119.76 MB/s
+
+Benchmark #429:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5345.32 MB/s
+FL-POINT  Triad:     5404.74 MB/s
+---
+FL-POINT  AVERAGE:   5109.60 MB/s
+
+Benchmark #430:
+FL-POINT  Copy:      4862.69 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5118.24 MB/s
+
+Benchmark #431:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5113.45 MB/s
+
+Benchmark #432:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4864.06 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5407.01 MB/s
+---
+FL-POINT  AVERAGE:   5123.71 MB/s
+
+Benchmark #433:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4879.26 MB/s
+FL-POINT  Add:       5338.68 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5111.30 MB/s
+
+Benchmark #434:
+FL-POINT  Copy:      4824.45 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5343.11 MB/s
+FL-POINT  Triad:     5365.36 MB/s
+---
+FL-POINT  AVERAGE:   5095.47 MB/s
+
+Benchmark #435:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5339.79 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5105.72 MB/s
+
+Benchmark #436:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5112.48 MB/s
+
+Benchmark #437:
+FL-POINT  Copy:      4831.23 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5108.00 MB/s
+
+Benchmark #438:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5355.32 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5109.82 MB/s
+
+Benchmark #439:
+FL-POINT  Copy:      4851.70 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5374.31 MB/s
+---
+FL-POINT  AVERAGE:   5111.02 MB/s
+
+Benchmark #440:
+FL-POINT  Copy:      4823.10 MB/s
+FL-POINT  Scale:     4866.82 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5376.55 MB/s
+---
+FL-POINT  AVERAGE:   5106.28 MB/s
+
+Benchmark #441:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5360.89 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5107.56 MB/s
+
+Benchmark #442:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5408.14 MB/s
+---
+FL-POINT  AVERAGE:   5117.58 MB/s
+
+Benchmark #443:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5382.16 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5118.28 MB/s
+
+Benchmark #444:
+FL-POINT  Copy:      4855.81 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5347.54 MB/s
+FL-POINT  Triad:     5405.87 MB/s
+---
+FL-POINT  AVERAGE:   5117.29 MB/s
+
+Benchmark #445:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5379.92 MB/s
+FL-POINT  Triad:     5394.56 MB/s
+---
+FL-POINT  AVERAGE:   5118.80 MB/s
+
+Benchmark #446:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5113.06 MB/s
+
+Benchmark #447:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5346.43 MB/s
+FL-POINT  Triad:     5364.24 MB/s
+---
+FL-POINT  AVERAGE:   5105.59 MB/s
+
+Benchmark #448:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5350.87 MB/s
+FL-POINT  Triad:     5385.54 MB/s
+---
+FL-POINT  AVERAGE:   5107.91 MB/s
+
+Benchmark #449:
+FL-POINT  Copy:      4853.07 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5350.87 MB/s
+FL-POINT  Triad:     5375.43 MB/s
+---
+FL-POINT  AVERAGE:   5106.06 MB/s
+
+Benchmark #450:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5365.36 MB/s
+FL-POINT  Triad:     5407.01 MB/s
+---
+FL-POINT  AVERAGE:   5117.92 MB/s
+
+Benchmark #451:
+FL-POINT  Copy:      4832.59 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5368.71 MB/s
+---
+FL-POINT  AVERAGE:   5102.96 MB/s
+
+Benchmark #452:
+FL-POINT  Copy:      4817.69 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5370.95 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5113.04 MB/s
+
+Benchmark #453:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5414.96 MB/s
+---
+FL-POINT  AVERAGE:   5123.32 MB/s
+
+Benchmark #454:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5347.54 MB/s
+FL-POINT  Triad:     5401.34 MB/s
+---
+FL-POINT  AVERAGE:   5108.97 MB/s
+
+Benchmark #455:
+FL-POINT  Copy:      4825.81 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5350.87 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5103.26 MB/s
+
+Benchmark #456:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4854.44 MB/s
+FL-POINT  Add:       5356.43 MB/s
+FL-POINT  Triad:     5399.08 MB/s
+---
+FL-POINT  AVERAGE:   5112.68 MB/s
+
+Benchmark #457:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5393.43 MB/s
+FL-POINT  Triad:     5363.12 MB/s
+---
+FL-POINT  AVERAGE:   5109.52 MB/s
+
+Benchmark #458:
+FL-POINT  Copy:      4855.81 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5349.76 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5113.26 MB/s
+
+Benchmark #459:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5379.92 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5123.11 MB/s
+
+Benchmark #460:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4851.70 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5116.77 MB/s
+
+Benchmark #461:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5343.11 MB/s
+FL-POINT  Triad:     5372.07 MB/s
+---
+FL-POINT  AVERAGE:   5102.95 MB/s
+
+Benchmark #462:
+FL-POINT  Copy:      4847.59 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5347.54 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5112.95 MB/s
+
+Benchmark #463:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5357.55 MB/s
+FL-POINT  Triad:     5396.82 MB/s
+---
+FL-POINT  AVERAGE:   5109.66 MB/s
+
+Benchmark #464:
+FL-POINT  Copy:      4827.16 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5107.10 MB/s
+
+Benchmark #465:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5359.78 MB/s
+FL-POINT  Triad:     5373.19 MB/s
+---
+FL-POINT  AVERAGE:   5109.78 MB/s
+
+Benchmark #466:
+FL-POINT  Copy:      4821.74 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5372.07 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5108.67 MB/s
+
+Benchmark #467:
+FL-POINT  Copy:      4850.33 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5373.19 MB/s
+---
+FL-POINT  AVERAGE:   5109.93 MB/s
+
+Benchmark #468:
+FL-POINT  Copy:      4848.96 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5378.79 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5120.50 MB/s
+
+Benchmark #469:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5383.29 MB/s
+---
+FL-POINT  AVERAGE:   5115.17 MB/s
+
+Benchmark #470:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4868.20 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5411.55 MB/s
+---
+FL-POINT  AVERAGE:   5122.55 MB/s
+
+Benchmark #471:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5350.87 MB/s
+FL-POINT  Triad:     5386.66 MB/s
+---
+FL-POINT  AVERAGE:   5109.21 MB/s
+
+Benchmark #472:
+FL-POINT  Copy:      4854.44 MB/s
+FL-POINT  Scale:     4869.58 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5388.92 MB/s
+---
+FL-POINT  AVERAGE:   5120.13 MB/s
+
+Benchmark #473:
+FL-POINT  Copy:      4835.31 MB/s
+FL-POINT  Scale:     4866.82 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5407.01 MB/s
+---
+FL-POINT  AVERAGE:   5117.79 MB/s
+
+Benchmark #474:
+FL-POINT  Copy:      4828.52 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5378.79 MB/s
+FL-POINT  Triad:     5401.34 MB/s
+---
+FL-POINT  AVERAGE:   5113.04 MB/s
+
+Benchmark #475:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4844.86 MB/s
+FL-POINT  Add:       5376.55 MB/s
+FL-POINT  Triad:     5364.24 MB/s
+---
+FL-POINT  AVERAGE:   5105.92 MB/s
+
+Benchmark #476:
+FL-POINT  Copy:      4827.16 MB/s
+FL-POINT  Scale:     4862.69 MB/s
+FL-POINT  Add:       5363.12 MB/s
+FL-POINT  Triad:     5374.31 MB/s
+---
+FL-POINT  AVERAGE:   5106.82 MB/s
+
+Benchmark #477:
+FL-POINT  Copy:      4855.81 MB/s
+FL-POINT  Scale:     4865.44 MB/s
+FL-POINT  Add:       5367.59 MB/s
+FL-POINT  Triad:     5378.79 MB/s
+---
+FL-POINT  AVERAGE:   5116.91 MB/s
+
+Benchmark #478:
+FL-POINT  Copy:      4824.45 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5354.21 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5105.57 MB/s
+
+Benchmark #479:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5364.24 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5114.82 MB/s
+
+Benchmark #480:
+FL-POINT  Copy:      4824.45 MB/s
+FL-POINT  Scale:     4847.59 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5396.82 MB/s
+---
+FL-POINT  AVERAGE:   5105.49 MB/s
+
+Benchmark #481:
+FL-POINT  Copy:      4853.07 MB/s
+FL-POINT  Scale:     4858.56 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5112.85 MB/s
+
+Benchmark #482:
+FL-POINT  Copy:      4829.88 MB/s
+FL-POINT  Scale:     4879.26 MB/s
+FL-POINT  Add:       5362.01 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5116.71 MB/s
+
+Benchmark #483:
+FL-POINT  Copy:      4825.81 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5342.00 MB/s
+FL-POINT  Triad:     5387.79 MB/s
+---
+FL-POINT  AVERAGE:   5101.48 MB/s
+
+Benchmark #484:
+FL-POINT  Copy:      4846.23 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5368.71 MB/s
+FL-POINT  Triad:     5382.16 MB/s
+---
+FL-POINT  AVERAGE:   5113.57 MB/s
+
+Benchmark #485:
+FL-POINT  Copy:      4836.67 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5365.36 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5109.04 MB/s
+
+Benchmark #486:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4848.96 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5108.84 MB/s
+
+Benchmark #487:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4850.33 MB/s
+FL-POINT  Add:       5351.98 MB/s
+FL-POINT  Triad:     5392.30 MB/s
+---
+FL-POINT  AVERAGE:   5108.84 MB/s
+
+Benchmark #488:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4843.49 MB/s
+FL-POINT  Add:       5349.76 MB/s
+FL-POINT  Triad:     5397.95 MB/s
+---
+FL-POINT  AVERAGE:   5108.67 MB/s
+
+Benchmark #489:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4855.81 MB/s
+FL-POINT  Add:       5365.36 MB/s
+FL-POINT  Triad:     5405.87 MB/s
+---
+FL-POINT  AVERAGE:   5116.95 MB/s
+
+Benchmark #490:
+FL-POINT  Copy:      4833.95 MB/s
+FL-POINT  Scale:     4853.07 MB/s
+FL-POINT  Add:       5350.87 MB/s
+FL-POINT  Triad:     5390.04 MB/s
+---
+FL-POINT  AVERAGE:   5106.99 MB/s
+
+Benchmark #491:
+FL-POINT  Copy:      4821.74 MB/s
+FL-POINT  Scale:     4872.34 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5111.85 MB/s
+
+Benchmark #492:
+FL-POINT  Copy:      4809.59 MB/s
+FL-POINT  Scale:     4875.10 MB/s
+FL-POINT  Add:       5373.19 MB/s
+FL-POINT  Triad:     5395.69 MB/s
+---
+FL-POINT  AVERAGE:   5113.39 MB/s
+
+Benchmark #493:
+FL-POINT  Copy:      4842.13 MB/s
+FL-POINT  Scale:     4870.96 MB/s
+FL-POINT  Add:       5374.31 MB/s
+FL-POINT  Triad:     5381.04 MB/s
+---
+FL-POINT  AVERAGE:   5117.11 MB/s
+
+Benchmark #494:
+FL-POINT  Copy:      4839.40 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5381.04 MB/s
+FL-POINT  Triad:     5403.61 MB/s
+---
+FL-POINT  AVERAGE:   5121.00 MB/s
+
+Benchmark #495:
+FL-POINT  Copy:      4840.76 MB/s
+FL-POINT  Scale:     4861.31 MB/s
+FL-POINT  Add:       5369.83 MB/s
+FL-POINT  Triad:     5375.43 MB/s
+---
+FL-POINT  AVERAGE:   5111.83 MB/s
+
+Benchmark #496:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4872.34 MB/s
+FL-POINT  Add:       5350.87 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5115.36 MB/s
+
+Benchmark #497:
+FL-POINT  Copy:      4828.52 MB/s
+FL-POINT  Scale:     4859.93 MB/s
+FL-POINT  Add:       5391.17 MB/s
+FL-POINT  Triad:     5401.34 MB/s
+---
+FL-POINT  AVERAGE:   5120.24 MB/s
+
+Benchmark #498:
+FL-POINT  Copy:      4844.86 MB/s
+FL-POINT  Scale:     4857.19 MB/s
+FL-POINT  Add:       5353.10 MB/s
+FL-POINT  Triad:     5400.21 MB/s
+---
+FL-POINT  AVERAGE:   5113.84 MB/s
+
+Benchmark #499:
+FL-POINT  Copy:      4843.49 MB/s
+FL-POINT  Scale:     4846.23 MB/s
+FL-POINT  Add:       5373.19 MB/s
+FL-POINT  Triad:     5396.82 MB/s
+---
+FL-POINT  AVERAGE:   5114.93 MB/s
+
+Benchmark #500:
+FL-POINT  Copy:      4838.04 MB/s
+FL-POINT  Scale:     4866.82 MB/s
+FL-POINT  Add:       5358.66 MB/s
+FL-POINT  Triad:     5384.41 MB/s
+---
+FL-POINT  AVERAGE:   5111.98 MB/s
+
+FL-POINT BatchRun  Copy:      4840.41 MB/s
+FL-POINT BatchRun  Scale:     4856.47 MB/s
+FL-POINT BatchRun  Add:       5363.52 MB/s
+FL-POINT BatchRun  Triad:     5389.77 MB/s
+---
+FL-POINT BatchRun  AVERAGE:   5112.54 MB/s

@@ -1,0 +1,82 @@
+#!/usr/bin/python
+"""
+    This is the master lophi controller.  It connects to and commands all of the
+    controllers in the LO-PHI network.  It is interfaced to through RabbitMQ.
+
+    (c) 2015 Massachusetts Institute of Technology
+"""
+# Native
+import os
+import sys
+import logging
+logger = logging.getLogger(__name__)
+
+# LO-PHI
+from lophi_automation.master import LoPhiMaster
+import lophi.globals as G
+
+            
+def main(args=None):            
+    import optparse
+    opts = optparse.OptionParser()
+    
+    # Config file
+    default_conf = os.path.join(G.DIR_ROOT, G.DIR_CONFIG, G.CONFIG_MASTER)
+    opts.add_option("-C", "--config", action="store", type="string",
+        dest="config_file", default=default_conf,
+        help="Selects the config file to load. (Default: %s)" % default_conf)
+
+    # RabbitMQ (for LARIAT, LAMBDA)
+    opts.add_option("-S", "--services_host", action="store", type="string",
+                   dest="services_host", default='localhost',
+        help="Host for global services (MongoDB/RabbitMQ)")
+    
+    # Analysis Directory
+    analysis_dir = os.path.join(G.DIR_ROOT,G.DIR_ANALYSIS_SCRIPTS)
+    opts.add_option("-A", "--analysis_dir", action="store", type="string",
+                   dest="analysis_directory", default=analysis_dir,
+        help="Directory containing analysis scripts to send to controllers.")
+    
+    # Debug?
+    opts.add_option("-d", "--debug", action="store_true", 
+        dest="debug", default=False,
+        help="Turn on debugging output. (Default: False)")
+    
+    
+    (options, positionals) = opts.parse_args(args)
+    
+    # Are we debugging?
+    if options.debug:
+        print "** Log level set to DEBUG."
+        logging.basicConfig(level=logging.DEBUG)
+    else:
+        logging.basicConfig()
+        
+        
+    # Does the cnofig actually exist?
+    if not os.path.exists(options.config_file):
+        logger.error("Configuration file does not exist. (%s)"%options.config_file)
+        opts.print_help()
+        return
+    
+    # Does the analysis_directory actually exist?
+    if not os.path.exists(options.analysis_directory):
+        logger.error("Analysis scripts directory does not exist. (%s)"%options.analysis_directory)
+        opts.print_help()
+        return
+    
+        
+    # Initialize our master    
+    lophi_master = LoPhiMaster(options, positionals)
+    
+    # Did everything initialize?
+    if len(lophi_master.config_list) == 0:
+        logger.error("No controller configurations provided!")
+        opts.print_help()
+    
+    # Start our master
+    lophi_master.start()
+    
+if __name__ == "__main__":
+    main()
+    

@@ -1,0 +1,16 @@
+echo "Adding LO-PHI images directory to SAMBA config..."
+echo "[images]
+    comment = LOPHI Samba Server Share
+    path = /lophi/samba/images
+    browseable = yes
+    guest ok = yes
+    read only = no
+    create mask = 0755" >> /etc/samba/smb.conf 
+
+echo "Restarting SAMBA service..."
+service smbd restart
+
+echo "Disabling dnsmasq..."
+sed -i -e 's/^dns=/#dns=/' /etc/NetworkManager/NetworkManager.conf
+service dnsmasq stop
+service network-manager restart

@@ -1,0 +1,156 @@
+--- qemu-2.0.0+dfsg/block.c	2014-04-17 07:26:43.000000000 -0700
++++ lophi_packages/qemu-2.0.0+dfsg/block.c	2014-09-30 12:43:00.933048004 -0700
+@@ -50,6 +50,11 @@
+ #include <windows.h>
+ #endif
+ 
++/* LO-PHI Stuff */
++#include <syslog.h>
++#include "lophi-hooks-common.h"
++#include "lophi-hooks-disk.h"
++
+ struct BdrvDirtyBitmap {
+     HBitmap *bitmap;
+     QLIST_ENTRY(BdrvDirtyBitmap) list;
+@@ -971,6 +976,14 @@
+ static int bdrv_file_open(BlockDriverState *bs, const char *filename,
+                           QDict **options, int flags, Error **errp)
+ {
++#if LOPHI_DISK_INTROSPECTION
++	openlog ("LOPHI_DISK_INTROSPECTION", LOG_CONS | LOG_PID | LOG_NDELAY, LOG_LOCAL1);
++
++	syslog (LOG_NOTICE, "[FOPEN] Filename: %s", filename);
++
++	closelog ();
++#endif
++
+     BlockDriver *drv;
+     const char *drvname;
+     bool parse_filename = false;
+@@ -1299,6 +1312,14 @@
+     bs->options = options;
+     options = qdict_clone_shallow(options);
+ 
++#if LOPHI_DISK_INTROSPECTION
++	openlog ("LOPHI_DISK_INTROSPECTION", LOG_CONS | LOG_PID | LOG_NDELAY, LOG_LOCAL1);
++	syslog (LOG_NOTICE, "[OPEN] Filename: %s", filename);
++	closelog ();
++
++    lophi_drv_open(bs,filename);
++#endif
++
+     if (flags & BDRV_O_PROTOCOL) {
+         assert(!drv);
+         ret = bdrv_file_open(bs, filename, &options, flags & ~BDRV_O_PROTOCOL,
+@@ -2680,6 +2701,12 @@
+ static int bdrv_rw_co(BlockDriverState *bs, int64_t sector_num, uint8_t *buf,
+                       int nb_sectors, bool is_write, BdrvRequestFlags flags)
+ {
++#if LOPHI_DISK_INTROSPECTION
++#if LOPHI_VERBOSE
++    lophi_log("bdrv_rw_co");
++#endif
++#endif
++
+     QEMUIOVector qiov;
+     struct iovec iov = {
+         .iov_base = (void *)buf,
+@@ -2695,6 +2722,13 @@
+ int bdrv_read(BlockDriverState *bs, int64_t sector_num,
+               uint8_t *buf, int nb_sectors)
+ {
++#if LOPHI_DISK_INTROSPECTION
++#if LOPHI_VERBOSE
++    lophi_log("bdrv_read");
++#endif
++	lophi_disk_access(buf, sector_num, nb_sectors, OP_READ, bs);
++#endif
++
+     return bdrv_rw_co(bs, sector_num, buf, nb_sectors, false, 0);
+ }
+ 
+@@ -2721,6 +2755,13 @@
+ int bdrv_write(BlockDriverState *bs, int64_t sector_num,
+                const uint8_t *buf, int nb_sectors)
+ {
++#if LOPHI_DISK_INTROSPECTION
++#if LOPHI_VERBOSE
++    lophi_log("bdrv_write");
++#endif
++	lophi_disk_access(buf, sector_num, nb_sectors, OP_WRITE, bs);
++#endif
++
+     return bdrv_rw_co(bs, sector_num, (uint8_t *)buf, nb_sectors, true, 0);
+ }
+ 
+@@ -4210,6 +4251,13 @@
+                                  QEMUIOVector *qiov, int nb_sectors,
+                                  BlockDriverCompletionFunc *cb, void *opaque)
+ {
++#if LOPHI_DISK_INTROSPECTION
++#if LOPHI_VERBOSE
++    lophi_log("bdrv_aio_readv");
++#endif
++	lophi_disk_access_iov(qiov, sector_num, nb_sectors, OP_READ, bs);
++#endif
++
+     trace_bdrv_aio_readv(bs, sector_num, nb_sectors, opaque);
+ 
+     return bdrv_co_aio_rw_vector(bs, sector_num, qiov, nb_sectors, 0,
+@@ -4220,6 +4268,13 @@
+                                   QEMUIOVector *qiov, int nb_sectors,
+                                   BlockDriverCompletionFunc *cb, void *opaque)
+ {
++#if LOPHI_DISK_INTROSPECTION
++#if LOPHI_VERBOSE
++    lophi_log("bdrv_aio_writev");
++#endif
++		lophi_disk_access_iov(qiov, sector_num, nb_sectors, OP_WRITE, bs);
++#endif
++
+     trace_bdrv_aio_writev(bs, sector_num, nb_sectors, opaque);
+ 
+     return bdrv_co_aio_rw_vector(bs, sector_num, qiov, nb_sectors, 0,
+@@ -4483,6 +4538,17 @@
+         acb->ret = bs->drv->bdrv_read(bs, sector_num, acb->bounce, nb_sectors);
+     }
+ 
++#if LOPHI_DISK_INTROSPECTION
++#if LOPHI_VERBOSE
++    lophi_log("bdrv_aio_rw_vector");
++#endif
++	if (is_write) {
++		lophi_disk_access_iov(acb->qiov, sector_num, nb_sectors, OP_WRITE, bs);
++	} else {
++		lophi_disk_access_iov(acb->qiov, sector_num, nb_sectors, OP_READ, bs);
++	}
++#endif
++
+     qemu_bh_schedule(acb->bh);
+ 
+     return &acb->common;
+@@ -4644,6 +4710,11 @@
+ 
+ void bdrv_init(void)
+ {
++#if LOPHI_DISK_INTROSPECTION
++	lophi_log("[INIT] BDRV Init");
++	lophi_initialize();
++#endif
++
+     module_call_init(MODULE_INIT_BLOCK);
+ }
+ 
+@@ -4711,6 +4782,12 @@
+     }
+     qemu_coroutine_yield();
+ 
++#if LOPHI_DISK_INTROSPECTION
++#if LOPHI_VERBOSE
++    lophi_log("bdrv_co_io_em");
++#endif
++#endif
++
+     return co.ret;
+ }
+ 

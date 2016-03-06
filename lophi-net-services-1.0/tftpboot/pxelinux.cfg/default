@@ -1,0 +1,9 @@
+UI menu.c32
+MENU TITLE Boot
+DEFAULT clonezilla-live-phys
+PROMPT 0
+
+LABEL clonezilla-live-phys
+        kernel clonezilla-live/vmlinuz
+        append initrd=clonezilla-live/initrd.img boot=live config noswap nolocales edd=on nomodeset keyboard-layouts=none locales=en_US.UTF-8 vga=788 nosplash noprompt fetch=tftp://lophi-pxe/clonezilla-live/filesystem.squashfs
+

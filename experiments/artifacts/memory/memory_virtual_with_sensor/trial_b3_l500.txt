@@ -1,0 +1,4012 @@
+RAMspeed (Win32) v1.1.1 by Rhett M. Hollander and Paul V. Bolotoff, 2002-09
+
+8Gb per pass mode
+
+500-benchmark INTmem BatchRun mode
+
+Benchmark #1:
+INTEGER   Copy:      7823.26 MB/s
+INTEGER   Scale:     7770.18 MB/s
+INTEGER   Add:       8241.06 MB/s
+INTEGER   Triad:     7630.98 MB/s
+---
+INTEGER   AVERAGE:   7866.37 MB/s
+
+Benchmark #2:
+INTEGER   Copy:      6863.71 MB/s
+INTEGER   Scale:     7621.95 MB/s
+INTEGER   Add:       7517.45 MB/s
+INTEGER   Triad:     7417.91 MB/s
+---
+INTEGER   AVERAGE:   7355.25 MB/s
+
+Benchmark #3:
+INTEGER   Copy:      5950.77 MB/s
+INTEGER   Scale:     7655.91 MB/s
+INTEGER   Add:       6455.36 MB/s
+INTEGER   Triad:     7443.62 MB/s
+---
+INTEGER   AVERAGE:   6876.42 MB/s
+
+Benchmark #4:
+INTEGER   Copy:      7313.69 MB/s
+INTEGER   Scale:     7107.93 MB/s
+INTEGER   Add:       7106.95 MB/s
+INTEGER   Triad:     6182.77 MB/s
+---
+INTEGER   AVERAGE:   6927.84 MB/s
+
+Benchmark #5:
+INTEGER   Copy:      6534.75 MB/s
+INTEGER   Scale:     7140.43 MB/s
+INTEGER   Add:       7067.97 MB/s
+INTEGER   Triad:     7212.37 MB/s
+---
+INTEGER   AVERAGE:   6988.88 MB/s
+
+Benchmark #6:
+INTEGER   Copy:      7568.22 MB/s
+INTEGER   Scale:     6600.03 MB/s
+INTEGER   Add:       7073.79 MB/s
+INTEGER   Triad:     6605.95 MB/s
+---
+INTEGER   AVERAGE:   6962.00 MB/s
+
+Benchmark #7:
+INTEGER   Copy:      7628.72 MB/s
+INTEGER   Scale:     6325.43 MB/s
+INTEGER   Add:       7300.23 MB/s
+INTEGER   Triad:     6499.32 MB/s
+---
+INTEGER   AVERAGE:   6938.42 MB/s
+
+Benchmark #8:
+INTEGER   Copy:      6482.97 MB/s
+INTEGER   Scale:     7541.65 MB/s
+INTEGER   Add:       6949.79 MB/s
+INTEGER   Triad:     7073.79 MB/s
+---
+INTEGER   AVERAGE:   7012.05 MB/s
+
+Benchmark #9:
+INTEGER   Copy:      7131.54 MB/s
+INTEGER   Scale:     7128.58 MB/s
+INTEGER   Add:       7635.50 MB/s
+INTEGER   Triad:     6698.68 MB/s
+---
+INTEGER   AVERAGE:   7148.57 MB/s
+
+Benchmark #10:
+INTEGER   Copy:      7581.58 MB/s
+INTEGER   Scale:     7518.54 MB/s
+INTEGER   Add:       6987.47 MB/s
+INTEGER   Triad:     7563.78 MB/s
+---
+INTEGER   AVERAGE:   7412.85 MB/s
+
+Benchmark #11:
+INTEGER   Copy:      7535.03 MB/s
+INTEGER   Scale:     7544.96 MB/s
+INTEGER   Add:       7152.32 MB/s
+INTEGER   Triad:     7044.78 MB/s
+---
+INTEGER   AVERAGE:   7319.27 MB/s
+
+Benchmark #12:
+INTEGER   Copy:      6295.30 MB/s
+INTEGER   Scale:     6682.17 MB/s
+INTEGER   Add:       6751.32 MB/s
+INTEGER   Triad:     6145.91 MB/s
+---
+INTEGER   AVERAGE:   6468.68 MB/s
+
+Benchmark #13:
+INTEGER   Copy:      6422.38 MB/s
+INTEGER   Scale:     7104.99 MB/s
+INTEGER   Add:       6351.94 MB/s
+INTEGER   Triad:     6489.50 MB/s
+---
+INTEGER   AVERAGE:   6592.20 MB/s
+
+Benchmark #14:
+INTEGER   Copy:      7288.87 MB/s
+INTEGER   Scale:     7182.22 MB/s
+INTEGER   Add:       7029.41 MB/s
+INTEGER   Triad:     7281.66 MB/s
+---
+INTEGER   AVERAGE:   7195.54 MB/s
+
+Benchmark #15:
+INTEGER   Copy:      6612.73 MB/s
+INTEGER   Scale:     7009.33 MB/s
+INTEGER   Add:       6634.86 MB/s
+INTEGER   Triad:     6628.04 MB/s
+---
+INTEGER   AVERAGE:   6721.24 MB/s
+
+Benchmark #16:
+INTEGER   Copy:      5845.48 MB/s
+INTEGER   Scale:     6436.82 MB/s
+INTEGER   Add:       6670.93 MB/s
+INTEGER   Triad:     6686.51 MB/s
+---
+INTEGER   AVERAGE:   6409.93 MB/s
+
+Benchmark #17:
+INTEGER   Copy:      6461.03 MB/s
+INTEGER   Scale:     6779.74 MB/s
+INTEGER   Add:       7463.02 MB/s
+INTEGER   Triad:     7766.67 MB/s
+---
+INTEGER   AVERAGE:   7117.61 MB/s
+
+Benchmark #18:
+INTEGER   Copy:      8255.58 MB/s
+INTEGER   Scale:     6755.75 MB/s
+INTEGER   Add:       6959.17 MB/s
+INTEGER   Triad:     7064.09 MB/s
+---
+INTEGER   AVERAGE:   7258.65 MB/s
+
+Benchmark #19:
+INTEGER   Copy:      7472.76 MB/s
+INTEGER   Scale:     7264.22 MB/s
+INTEGER   Add:       8106.26 MB/s
+INTEGER   Triad:     8101.16 MB/s
+---
+INTEGER   AVERAGE:   7736.10 MB/s
+
+Benchmark #20:
+INTEGER   Copy:      7927.95 MB/s
+INTEGER   Scale:     8061.88 MB/s
+INTEGER   Add:       7951.19 MB/s
+INTEGER   Triad:     7040.93 MB/s
+---
+INTEGER   AVERAGE:   7745.49 MB/s
+
+Benchmark #21:
+INTEGER   Copy:      7492.31 MB/s
+INTEGER   Scale:     6648.56 MB/s
+INTEGER   Add:       7298.16 MB/s
+INTEGER   Triad:     7142.41 MB/s
+---
+INTEGER   AVERAGE:   7145.36 MB/s
+
+Benchmark #22:
+INTEGER   Copy:      7224.50 MB/s
+INTEGER   Scale:     6567.23 MB/s
+INTEGER   Add:       6842.75 MB/s
+INTEGER   Triad:     7004.57 MB/s
+---
+INTEGER   AVERAGE:   6909.76 MB/s
+
+Benchmark #23:
+INTEGER   Copy:      7898.79 MB/s
+INTEGER   Scale:     7588.28 MB/s
+INTEGER   Add:       7402.99 MB/s
+INTEGER   Triad:     6619.52 MB/s
+---
+INTEGER   AVERAGE:   7377.40 MB/s
+
+Benchmark #24:
+INTEGER   Copy:      7197.26 MB/s
+INTEGER   Scale:     6456.17 MB/s
+INTEGER   Add:       6839.12 MB/s
+INTEGER   Triad:     7146.37 MB/s
+---
+INTEGER   AVERAGE:   6909.73 MB/s
+
+Benchmark #25:
+INTEGER   Copy:      6135.67 MB/s
+INTEGER   Scale:     7401.93 MB/s
+INTEGER   Add:       7275.50 MB/s
+INTEGER   Triad:     7152.32 MB/s
+---
+INTEGER   AVERAGE:   6991.35 MB/s
+
+Benchmark #26:
+INTEGER   Copy:      7645.69 MB/s
+INTEGER   Scale:     6905.09 MB/s
+INTEGER   Add:       6785.10 MB/s
+INTEGER   Triad:     6785.10 MB/s
+---
+INTEGER   AVERAGE:   7030.25 MB/s
+
+Benchmark #27:
+INTEGER   Copy:      7801.94 MB/s
+INTEGER   Scale:     7038.05 MB/s
+INTEGER   Add:       6686.51 MB/s
+INTEGER   Triad:     7168.23 MB/s
+---
+INTEGER   AVERAGE:   7173.68 MB/s
+
+Benchmark #28:
+INTEGER   Copy:      7738.68 MB/s
+INTEGER   Scale:     7285.78 MB/s
+INTEGER   Add:       6265.45 MB/s
+INTEGER   Triad:     7832.77 MB/s
+---
+INTEGER   AVERAGE:   7280.67 MB/s
+
+Benchmark #29:
+INTEGER   Copy:      7690.18 MB/s
+INTEGER   Scale:     8279.46 MB/s
+INTEGER   Add:       7929.17 MB/s
+INTEGER   Triad:     7402.99 MB/s
+---
+INTEGER   AVERAGE:   7825.45 MB/s
+
+Benchmark #30:
+INTEGER   Copy:      7227.54 MB/s
+INTEGER   Scale:     7655.91 MB/s
+INTEGER   Add:       8022.98 MB/s
+INTEGER   Triad:     6884.80 MB/s
+---
+INTEGER   AVERAGE:   7447.81 MB/s
+
+Benchmark #31:
+INTEGER   Copy:      7348.10 MB/s
+INTEGER   Scale:     7489.04 MB/s
+INTEGER   Add:       7198.27 MB/s
+INTEGER   Triad:     6905.09 MB/s
+---
+INTEGER   AVERAGE:   7235.13 MB/s
+
+Benchmark #32:
+INTEGER   Copy:      6958.23 MB/s
+INTEGER   Scale:     6731.92 MB/s
+INTEGER   Add:       6839.12 MB/s
+INTEGER   Triad:     6983.69 MB/s
+---
+INTEGER   AVERAGE:   6878.24 MB/s
+
+Benchmark #33:
+INTEGER   Copy:      7379.67 MB/s
+INTEGER   Scale:     7273.44 MB/s
+INTEGER   Add:       7025.57 MB/s
+INTEGER   Triad:     6815.61 MB/s
+---
+INTEGER   AVERAGE:   7123.57 MB/s
+
+Benchmark #34:
+INTEGER   Copy:      6995.06 MB/s
+INTEGER   Scale:     7093.26 MB/s
+INTEGER   Add:       7031.32 MB/s
+INTEGER   Triad:     6677.84 MB/s
+---
+INTEGER   AVERAGE:   6949.37 MB/s
+
+Benchmark #35:
+INTEGER   Copy:      7714.36 MB/s
+INTEGER   Scale:     6961.05 MB/s
+INTEGER   Add:       6792.25 MB/s
+INTEGER   Triad:     6092.15 MB/s
+---
+INTEGER   AVERAGE:   6889.95 MB/s
+
+Benchmark #36:
+INTEGER   Copy:      8173.11 MB/s
+INTEGER   Scale:     7215.40 MB/s
+INTEGER   Add:       7156.29 MB/s
+INTEGER   Triad:     7995.60 MB/s
+---
+INTEGER   AVERAGE:   7635.10 MB/s
+
+Benchmark #37:
+INTEGER   Copy:      8525.99 MB/s
+INTEGER   Scale:     6980.85 MB/s
+INTEGER   Add:       7142.41 MB/s
+INTEGER   Triad:     7517.45 MB/s
+---
+INTEGER   AVERAGE:   7541.67 MB/s
+
+Benchmark #38:
+INTEGER   Copy:      8547.20 MB/s
+INTEGER   Scale:     8080.84 MB/s
+INTEGER   Add:       7491.22 MB/s
+INTEGER   Triad:     6959.17 MB/s
+---
+INTEGER   AVERAGE:   7769.61 MB/s
+
+Benchmark #39:
+INTEGER   Copy:      6235.89 MB/s
+INTEGER   Scale:     8384.51 MB/s
+INTEGER   Add:       7269.34 MB/s
+INTEGER   Triad:     7017.92 MB/s
+---
+INTEGER   AVERAGE:   7226.91 MB/s
+
+Benchmark #40:
+INTEGER   Copy:      5954.89 MB/s
+INTEGER   Scale:     6554.70 MB/s
+INTEGER   Add:       6742.49 MB/s
+INTEGER   Triad:     6921.78 MB/s
+---
+INTEGER   AVERAGE:   6543.47 MB/s
+
+Benchmark #41:
+INTEGER   Copy:      6938.56 MB/s
+INTEGER   Scale:     6801.22 MB/s
+INTEGER   Add:       7058.29 MB/s
+INTEGER   Triad:     7557.13 MB/s
+---
+INTEGER   AVERAGE:   7088.80 MB/s
+
+Benchmark #42:
+INTEGER   Copy:      7848.27 MB/s
+INTEGER   Scale:     7898.79 MB/s
+INTEGER   Add:       7110.87 MB/s
+INTEGER   Triad:     7232.61 MB/s
+---
+INTEGER   AVERAGE:   7522.64 MB/s
+
+Benchmark #43:
+INTEGER   Copy:      6313.81 MB/s
+INTEGER   Scale:     6554.70 MB/s
+INTEGER   Add:       6383.40 MB/s
+INTEGER   Triad:     5840.84 MB/s
+---
+INTEGER   AVERAGE:   6273.19 MB/s
+
+Benchmark #44:
+INTEGER   Copy:      5839.52 MB/s
+INTEGER   Scale:     5745.78 MB/s
+INTEGER   Add:       7021.74 MB/s
+INTEGER   Triad:     7160.27 MB/s
+---
+INTEGER   AVERAGE:   6441.83 MB/s
+
+Benchmark #45:
+INTEGER   Copy:      6638.28 MB/s
+INTEGER   Scale:     6461.03 MB/s
+INTEGER   Add:       7255.01 MB/s
+INTEGER   Triad:     7031.32 MB/s
+---
+INTEGER   AVERAGE:   6846.41 MB/s
+
+Benchmark #46:
+INTEGER   Copy:      7161.26 MB/s
+INTEGER   Scale:     7307.47 MB/s
+INTEGER   Add:       7174.22 MB/s
+INTEGER   Triad:     7023.66 MB/s
+---
+INTEGER   AVERAGE:   7166.65 MB/s
+
+Benchmark #47:
+INTEGER   Copy:      7763.16 MB/s
+INTEGER   Scale:     6658.86 MB/s
+INTEGER   Add:       7269.34 MB/s
+INTEGER   Triad:     7364.91 MB/s
+---
+INTEGER   AVERAGE:   7264.07 MB/s
+
+Benchmark #48:
+INTEGER   Copy:      7697.07 MB/s
+INTEGER   Scale:     7191.24 MB/s
+INTEGER   Add:       7499.94 MB/s
+INTEGER   Triad:     6641.70 MB/s
+---
+INTEGER   AVERAGE:   7257.49 MB/s
+
+Benchmark #49:
+INTEGER   Copy:      5664.32 MB/s
+INTEGER   Scale:     6429.59 MB/s
+INTEGER   Add:       6402.44 MB/s
+INTEGER   Triad:     7142.41 MB/s
+---
+INTEGER   AVERAGE:   6409.69 MB/s
+
+Benchmark #50:
+INTEGER   Copy:      6986.53 MB/s
+INTEGER   Scale:     6830.96 MB/s
+INTEGER   Add:       7497.76 MB/s
+INTEGER   Triad:     6905.09 MB/s
+---
+INTEGER   AVERAGE:   7055.09 MB/s
+
+Benchmark #51:
+INTEGER   Copy:      7476.01 MB/s
+INTEGER   Scale:     7203.30 MB/s
+INTEGER   Add:       9226.57 MB/s
+INTEGER   Triad:     8688.40 MB/s
+---
+INTEGER   AVERAGE:   8148.57 MB/s
+
+Benchmark #52:
+INTEGER   Copy:      7176.22 MB/s
+INTEGER   Scale:     6863.71 MB/s
+INTEGER   Add:       7291.96 MB/s
+INTEGER   Triad:     8005.53 MB/s
+---
+INTEGER   AVERAGE:   7334.36 MB/s
+
+Benchmark #53:
+INTEGER   Copy:      7424.32 MB/s
+INTEGER   Scale:     7794.86 MB/s
+INTEGER   Add:       7240.74 MB/s
+INTEGER   Triad:     7729.40 MB/s
+---
+INTEGER   AVERAGE:   7547.33 MB/s
+
+Benchmark #54:
+INTEGER   Copy:      7735.20 MB/s
+INTEGER   Scale:     7273.44 MB/s
+INTEGER   Add:       7951.19 MB/s
+INTEGER   Triad:     7515.25 MB/s
+---
+INTEGER   AVERAGE:   7618.77 MB/s
+
+Benchmark #55:
+INTEGER   Copy:      8572.79 MB/s
+INTEGER   Scale:     8620.10 MB/s
+INTEGER   Add:       8347.85 MB/s
+INTEGER   Triad:     8015.49 MB/s
+---
+INTEGER   AVERAGE:   8389.06 MB/s
+
+Benchmark #56:
+INTEGER   Copy:      8216.10 MB/s
+INTEGER   Scale:     8607.15 MB/s
+INTEGER   Add:       8345.14 MB/s
+INTEGER   Triad:     8530.22 MB/s
+---
+INTEGER   AVERAGE:   8424.65 MB/s
+
+Benchmark #57:
+INTEGER   Copy:      7386.01 MB/s
+INTEGER   Scale:     7608.45 MB/s
+INTEGER   Add:       7188.23 MB/s
+INTEGER   Triad:     7644.56 MB/s
+---
+INTEGER   AVERAGE:   7456.81 MB/s
+
+Benchmark #58:
+INTEGER   Copy:      8115.20 MB/s
+INTEGER   Scale:     8267.50 MB/s
+INTEGER   Add:       8204.33 MB/s
+INTEGER   Triad:     7655.91 MB/s
+---
+INTEGER   AVERAGE:   8060.74 MB/s
+
+Benchmark #59:
+INTEGER   Copy:      6941.36 MB/s
+INTEGER   Scale:     7466.26 MB/s
+INTEGER   Add:       7405.12 MB/s
+INTEGER   Triad:     6431.20 MB/s
+---
+INTEGER   AVERAGE:   7060.98 MB/s
+
+Benchmark #60:
+INTEGER   Copy:      6517.40 MB/s
+INTEGER   Scale:     6587.37 MB/s
+INTEGER   Add:       7354.40 MB/s
+INTEGER   Triad:     7081.56 MB/s
+---
+INTEGER   AVERAGE:   6885.18 MB/s
+
+Benchmark #61:
+INTEGER   Copy:      7176.22 MB/s
+INTEGER   Scale:     8084.64 MB/s
+INTEGER   Add:       7476.01 MB/s
+INTEGER   Triad:     7931.61 MB/s
+---
+INTEGER   AVERAGE:   7667.12 MB/s
+
+Benchmark #62:
+INTEGER   Copy:      7495.58 MB/s
+INTEGER   Scale:     7069.91 MB/s
+INTEGER   Add:       7196.26 MB/s
+INTEGER   Triad:     8015.49 MB/s
+---
+INTEGER   AVERAGE:   7444.31 MB/s
+
+Benchmark #63:
+INTEGER   Copy:      8279.46 MB/s
+INTEGER   Scale:     8405.02 MB/s
+INTEGER   Add:       8178.29 MB/s
+INTEGER   Triad:     8429.77 MB/s
+---
+INTEGER   AVERAGE:   8323.14 MB/s
+
+Benchmark #64:
+INTEGER   Copy:      7411.51 MB/s
+INTEGER   Scale:     7301.26 MB/s
+INTEGER   Add:       7895.16 MB/s
+INTEGER   Triad:     8278.13 MB/s
+---
+INTEGER   AVERAGE:   7721.51 MB/s
+
+Benchmark #65:
+INTEGER   Copy:      7329.30 MB/s
+INTEGER   Scale:     7245.83 MB/s
+INTEGER   Add:       8013.00 MB/s
+INTEGER   Triad:     9637.17 MB/s
+---
+INTEGER   AVERAGE:   8056.33 MB/s
+
+Benchmark #66:
+INTEGER   Copy:      10256.64 MB/s
+INTEGER   Scale:     8628.76 MB/s
+INTEGER   Add:       8462.99 MB/s
+INTEGER   Triad:     7804.30 MB/s
+---
+INTEGER   AVERAGE:   8788.17 MB/s
+
+Benchmark #67:
+INTEGER   Copy:      7975.80 MB/s
+INTEGER   Scale:     7058.29 MB/s
+INTEGER   Add:       7773.70 MB/s
+INTEGER   Triad:     8328.96 MB/s
+---
+INTEGER   AVERAGE:   7784.19 MB/s
+
+Benchmark #68:
+INTEGER   Copy:      8088.45 MB/s
+INTEGER   Scale:     8751.84 MB/s
+INTEGER   Add:       8612.90 MB/s
+INTEGER   Triad:     8058.10 MB/s
+---
+INTEGER   AVERAGE:   8377.82 MB/s
+
+Benchmark #69:
+INTEGER   Copy:      9706.14 MB/s
+INTEGER   Scale:     6803.91 MB/s
+INTEGER   Add:       7797.22 MB/s
+INTEGER   Triad:     6763.73 MB/s
+---
+INTEGER   AVERAGE:   7767.75 MB/s
+
+Benchmark #70:
+INTEGER   Copy:      6880.20 MB/s
+INTEGER   Scale:     8153.71 MB/s
+INTEGER   Add:       9333.50 MB/s
+INTEGER   Triad:     7079.62 MB/s
+---
+INTEGER   AVERAGE:   7861.76 MB/s
+
+Benchmark #71:
+INTEGER   Copy:      6885.72 MB/s
+INTEGER   Scale:     7267.29 MB/s
+INTEGER   Add:       7430.74 MB/s
+INTEGER   Triad:     8396.81 MB/s
+---
+INTEGER   AVERAGE:   7495.14 MB/s
+
+Benchmark #72:
+INTEGER   Copy:      8259.55 MB/s
+INTEGER   Scale:     6635.72 MB/s
+INTEGER   Add:       8471.34 MB/s
+INTEGER   Triad:     8575.64 MB/s
+---
+INTEGER   AVERAGE:   7985.56 MB/s
+
+Benchmark #73:
+INTEGER   Copy:      8513.31 MB/s
+INTEGER   Scale:     8251.62 MB/s
+INTEGER   Add:       8383.15 MB/s
+INTEGER   Triad:     8246.34 MB/s
+---
+INTEGER   AVERAGE:   8348.61 MB/s
+
+Benchmark #74:
+INTEGER   Copy:      10268.90 MB/s
+INTEGER   Scale:     9065.89 MB/s
+INTEGER   Add:       8601.40 MB/s
+INTEGER   Triad:     8589.93 MB/s
+---
+INTEGER   AVERAGE:   9131.53 MB/s
+
+Benchmark #75:
+INTEGER   Copy:      9099.51 MB/s
+INTEGER   Scale:     8915.34 MB/s
+INTEGER   Add:       7856.65 MB/s
+INTEGER   Triad:     7335.55 MB/s
+---
+INTEGER   AVERAGE:   8301.76 MB/s
+
+Benchmark #76:
+INTEGER   Copy:      7437.17 MB/s
+INTEGER   Scale:     9570.96 MB/s
+INTEGER   Add:       9938.22 MB/s
+INTEGER   Triad:     8762.26 MB/s
+---
+INTEGER   AVERAGE:   8927.15 MB/s
+
+Benchmark #77:
+INTEGER   Copy:      8208.25 MB/s
+INTEGER   Scale:     8142.12 MB/s
+INTEGER   Add:       8259.55 MB/s
+INTEGER   Triad:     7904.85 MB/s
+---
+INTEGER   AVERAGE:   8128.69 MB/s
+
+Benchmark #78:
+INTEGER   Copy:      7348.10 MB/s
+INTEGER   Scale:     8096.07 MB/s
+INTEGER   Add:       7289.90 MB/s
+INTEGER   Triad:     7797.22 MB/s
+---
+INTEGER   AVERAGE:   7632.82 MB/s
+
+Benchmark #79:
+INTEGER   Copy:      8035.49 MB/s
+INTEGER   Scale:     6070.63 MB/s
+INTEGER   Add:       6770.84 MB/s
+INTEGER   Triad:     7794.86 MB/s
+---
+INTEGER   AVERAGE:   7167.95 MB/s
+
+Benchmark #80:
+INTEGER   Copy:      7841.11 MB/s
+INTEGER   Scale:     7994.36 MB/s
+INTEGER   Add:       8068.19 MB/s
+INTEGER   Triad:     7851.86 MB/s
+---
+INTEGER   AVERAGE:   7938.88 MB/s
+
+Benchmark #81:
+INTEGER   Copy:      8589.93 MB/s
+INTEGER   Scale:     8388.61 MB/s
+INTEGER   Add:       8530.22 MB/s
+INTEGER   Triad:     8558.55 MB/s
+---
+INTEGER   AVERAGE:   8516.83 MB/s
+
+Benchmark #82:
+INTEGER   Copy:      8005.53 MB/s
+INTEGER   Scale:     8672.32 MB/s
+INTEGER   Add:       8822.25 MB/s
+INTEGER   Triad:     8750.36 MB/s
+---
+INTEGER   AVERAGE:   8562.62 MB/s
+
+Benchmark #83:
+INTEGER   Copy:      8985.29 MB/s
+INTEGER   Scale:     8177.00 MB/s
+INTEGER   Add:       9004.12 MB/s
+INTEGER   Triad:     7921.86 MB/s
+---
+INTEGER   AVERAGE:   8522.07 MB/s
+
+Benchmark #84:
+INTEGER   Copy:      8577.07 MB/s
+INTEGER   Scale:     8092.26 MB/s
+INTEGER   Add:       7943.84 MB/s
+INTEGER   Triad:     7601.71 MB/s
+---
+INTEGER   AVERAGE:   8053.72 MB/s
+
+Benchmark #85:
+INTEGER   Copy:      7721.29 MB/s
+INTEGER   Scale:     8031.73 MB/s
+INTEGER   Add:       8160.17 MB/s
+INTEGER   Triad:     8235.80 MB/s
+---
+INTEGER   AVERAGE:   8037.25 MB/s
+
+Benchmark #86:
+INTEGER   Copy:      7230.58 MB/s
+INTEGER   Scale:     6337.10 MB/s
+INTEGER   Add:       7694.78 MB/s
+INTEGER   Triad:     7736.36 MB/s
+---
+INTEGER   AVERAGE:   7249.70 MB/s
+
+Benchmark #87:
+INTEGER   Copy:      8307.48 MB/s
+INTEGER   Scale:     8255.58 MB/s
+INTEGER   Add:       8337.04 MB/s
+INTEGER   Triad:     7699.37 MB/s
+---
+INTEGER   AVERAGE:   8149.87 MB/s
+
+Benchmark #88:
+INTEGER   Copy:      8153.71 MB/s
+INTEGER   Scale:     6753.09 MB/s
+INTEGER   Add:       8235.80 MB/s
+INTEGER   Triad:     7912.13 MB/s
+---
+INTEGER   AVERAGE:   7763.68 MB/s
+
+Benchmark #89:
+INTEGER   Copy:      8204.33 MB/s
+INTEGER   Scale:     8488.08 MB/s
+INTEGER   Add:       8468.55 MB/s
+INTEGER   Triad:     8060.62 MB/s
+---
+INTEGER   AVERAGE:   8305.40 MB/s
+
+Benchmark #90:
+INTEGER   Copy:      8096.07 MB/s
+INTEGER   Scale:     8438.05 MB/s
+INTEGER   Add:       8717.80 MB/s
+INTEGER   Triad:     8547.20 MB/s
+---
+INTEGER   AVERAGE:   8449.78 MB/s
+
+Benchmark #91:
+INTEGER   Copy:      8538.70 MB/s
+INTEGER   Scale:     8760.77 MB/s
+INTEGER   Add:       8178.29 MB/s
+INTEGER   Triad:     9551.45 MB/s
+---
+INTEGER   AVERAGE:   8757.30 MB/s
+
+Benchmark #92:
+INTEGER   Copy:      9070.68 MB/s
+INTEGER   Scale:     7841.11 MB/s
+INTEGER   Add:       9000.98 MB/s
+INTEGER   Triad:     8513.31 MB/s
+---
+INTEGER   AVERAGE:   8606.52 MB/s
+
+Benchmark #93:
+INTEGER   Copy:      8521.76 MB/s
+INTEGER   Scale:     8020.48 MB/s
+INTEGER   Add:       7844.69 MB/s
+INTEGER   Triad:     7713.20 MB/s
+---
+INTEGER   AVERAGE:   8025.03 MB/s
+
+Benchmark #94:
+INTEGER   Copy:      7505.40 MB/s
+INTEGER   Scale:     8119.03 MB/s
+INTEGER   Add:       8380.42 MB/s
+INTEGER   Triad:     7771.35 MB/s
+---
+INTEGER   AVERAGE:   7944.05 MB/s
+
+Benchmark #95:
+INTEGER   Copy:      8331.65 MB/s
+INTEGER   Scale:     7466.26 MB/s
+INTEGER   Add:       8225.28 MB/s
+INTEGER   Triad:     8283.45 MB/s
+---
+INTEGER   AVERAGE:   8076.66 MB/s
+
+Benchmark #96:
+INTEGER   Copy:      8335.70 MB/s
+INTEGER   Scale:     7784.26 MB/s
+INTEGER   Add:       8243.70 MB/s
+INTEGER   Triad:     7936.50 MB/s
+---
+INTEGER   AVERAGE:   8075.04 MB/s
+
+Benchmark #97:
+INTEGER   Copy:      7998.08 MB/s
+INTEGER   Scale:     8043.01 MB/s
+INTEGER   Add:       7008.38 MB/s
+INTEGER   Triad:     7204.31 MB/s
+---
+INTEGER   AVERAGE:   7563.44 MB/s
+
+Benchmark #98:
+INTEGER   Copy:      8327.61 MB/s
+INTEGER   Scale:     7931.61 MB/s
+INTEGER   Add:       7801.94 MB/s
+INTEGER   Triad:     6753.09 MB/s
+---
+INTEGER   AVERAGE:   7703.56 MB/s
+
+Benchmark #99:
+INTEGER   Copy:      7770.18 MB/s
+INTEGER   Scale:     6830.96 MB/s
+INTEGER   Add:       7594.99 MB/s
+INTEGER   Triad:     7771.35 MB/s
+---
+INTEGER   AVERAGE:   7491.87 MB/s
+
+Benchmark #100:
+INTEGER   Copy:      8400.91 MB/s
+INTEGER   Scale:     7877.06 MB/s
+INTEGER   Add:       8513.31 MB/s
+INTEGER   Triad:     8048.03 MB/s
+---
+INTEGER   AVERAGE:   8209.83 MB/s
+
+Benchmark #101:
+INTEGER   Copy:      8896.88 MB/s
+INTEGER   Scale:     8823.76 MB/s
+INTEGER   Add:       8653.39 MB/s
+INTEGER   Triad:     8741.45 MB/s
+---
+INTEGER   AVERAGE:   8778.87 MB/s
+
+Benchmark #102:
+INTEGER   Copy:      8351.91 MB/s
+INTEGER   Scale:     8239.75 MB/s
+INTEGER   Add:       8027.98 MB/s
+INTEGER   Triad:     7128.58 MB/s
+---
+INTEGER   AVERAGE:   7937.05 MB/s
+
+Benchmark #103:
+INTEGER   Copy:      6544.71 MB/s
+INTEGER   Scale:     6592.43 MB/s
+INTEGER   Add:       6942.30 MB/s
+INTEGER   Triad:     6918.07 MB/s
+---
+INTEGER   AVERAGE:   6749.38 MB/s
+
+Benchmark #104:
+INTEGER   Copy:      7690.18 MB/s
+INTEGER   Scale:     7140.43 MB/s
+INTEGER   Add:       8013.00 MB/s
+INTEGER   Triad:     8209.56 MB/s
+---
+INTEGER   AVERAGE:   7763.29 MB/s
+
+Benchmark #105:
+INTEGER   Copy:      8947.85 MB/s
+INTEGER   Scale:     8307.48 MB/s
+INTEGER   Add:       7897.58 MB/s
+INTEGER   Triad:     7890.33 MB/s
+---
+INTEGER   AVERAGE:   8260.81 MB/s
+
+Benchmark #106:
+INTEGER   Copy:      6935.76 MB/s
+INTEGER   Scale:     6729.29 MB/s
+INTEGER   Add:       8157.58 MB/s
+INTEGER   Triad:     8334.35 MB/s
+---
+INTEGER   AVERAGE:   7539.24 MB/s
+
+Benchmark #107:
+INTEGER   Copy:      8204.33 MB/s
+INTEGER   Scale:     7909.70 MB/s
+INTEGER   Add:       7990.64 MB/s
+INTEGER   Triad:     8264.85 MB/s
+---
+INTEGER   AVERAGE:   8092.38 MB/s
+
+Benchmark #108:
+INTEGER   Copy:      8446.35 MB/s
+INTEGER   Scale:     8620.10 MB/s
+INTEGER   Add:       8810.19 MB/s
+INTEGER   Triad:     8676.70 MB/s
+---
+INTEGER   AVERAGE:   8638.34 MB/s
+
+Benchmark #109:
+INTEGER   Copy:      8796.66 MB/s
+INTEGER   Scale:     8828.30 MB/s
+INTEGER   Add:       9048.39 MB/s
+INTEGER   Triad:     8994.70 MB/s
+---
+INTEGER   AVERAGE:   8917.01 MB/s
+
+Benchmark #110:
+INTEGER   Copy:      8504.89 MB/s
+INTEGER   Scale:     8855.60 MB/s
+INTEGER   Add:       8438.05 MB/s
+INTEGER   Triad:     7574.90 MB/s
+---
+INTEGER   AVERAGE:   8343.36 MB/s
+
+Benchmark #111:
+INTEGER   Copy:      7376.50 MB/s
+INTEGER   Scale:     7236.68 MB/s
+INTEGER   Add:       6968.58 MB/s
+INTEGER   Triad:     6978.01 MB/s
+---
+INTEGER   AVERAGE:   7139.94 MB/s
+
+Benchmark #112:
+INTEGER   Copy:      6839.12 MB/s
+INTEGER   Scale:     6891.24 MB/s
+INTEGER   Add:       6726.65 MB/s
+INTEGER   Triad:     7302.30 MB/s
+---
+INTEGER   AVERAGE:   6939.83 MB/s
+
+Benchmark #113:
+INTEGER   Copy:      7521.83 MB/s
+INTEGER   Scale:     7430.74 MB/s
+INTEGER   Add:       8147.27 MB/s
+INTEGER   Triad:     7951.19 MB/s
+---
+INTEGER   AVERAGE:   7762.76 MB/s
+
+Benchmark #114:
+INTEGER   Copy:      7855.45 MB/s
+INTEGER   Scale:     7805.48 MB/s
+INTEGER   Add:       8307.48 MB/s
+INTEGER   Triad:     8020.48 MB/s
+---
+INTEGER   AVERAGE:   7997.22 MB/s
+
+Benchmark #115:
+INTEGER   Copy:      8084.64 MB/s
+INTEGER   Scale:     8351.91 MB/s
+INTEGER   Add:       9394.75 MB/s
+INTEGER   Triad:     9949.73 MB/s
+---
+INTEGER   AVERAGE:   8945.26 MB/s
+
+Benchmark #116:
+INTEGER   Copy:      8405.02 MB/s
+INTEGER   Scale:     7348.10 MB/s
+INTEGER   Add:       8191.29 MB/s
+INTEGER   Triad:     7983.21 MB/s
+---
+INTEGER   AVERAGE:   7981.91 MB/s
+
+Benchmark #117:
+INTEGER   Copy:      8594.23 MB/s
+INTEGER   Scale:     7443.62 MB/s
+INTEGER   Add:       6760.18 MB/s
+INTEGER   Triad:     8462.99 MB/s
+---
+INTEGER   AVERAGE:   7815.25 MB/s
+
+Benchmark #118:
+INTEGER   Copy:      8564.24 MB/s
+INTEGER   Scale:     8547.20 MB/s
+INTEGER   Add:       8904.56 MB/s
+INTEGER   Triad:     8747.39 MB/s
+---
+INTEGER   AVERAGE:   8690.85 MB/s
+
+Benchmark #119:
+INTEGER   Copy:      8814.71 MB/s
+INTEGER   Scale:     8208.25 MB/s
+INTEGER   Add:       7552.70 MB/s
+INTEGER   Triad:     7445.77 MB/s
+---
+INTEGER   AVERAGE:   8005.36 MB/s
+
+Benchmark #120:
+INTEGER   Copy:      7093.26 MB/s
+INTEGER   Scale:     6408.01 MB/s
+INTEGER   Add:       7077.67 MB/s
+INTEGER   Triad:     7350.20 MB/s
+---
+INTEGER   AVERAGE:   6982.28 MB/s
+
+Benchmark #121:
+INTEGER   Copy:      6456.17 MB/s
+INTEGER   Scale:     6605.10 MB/s
+INTEGER   Add:       7154.30 MB/s
+INTEGER   Triad:     6983.69 MB/s
+---
+INTEGER   AVERAGE:   6799.82 MB/s
+
+Benchmark #122:
+INTEGER   Copy:      7332.42 MB/s
+INTEGER   Scale:     7738.68 MB/s
+INTEGER   Add:       8050.55 MB/s
+INTEGER   Triad:     7674.15 MB/s
+---
+INTEGER   AVERAGE:   7698.95 MB/s
+
+Benchmark #123:
+INTEGER   Copy:      7038.05 MB/s
+INTEGER   Scale:     6630.59 MB/s
+INTEGER   Add:       8157.58 MB/s
+INTEGER   Triad:     9865.93 MB/s
+---
+INTEGER   AVERAGE:   7923.04 MB/s
+
+Benchmark #124:
+INTEGER   Copy:      10023.26 MB/s
+INTEGER   Scale:     7395.55 MB/s
+INTEGER   Add:       7402.99 MB/s
+INTEGER   Triad:     7863.84 MB/s
+---
+INTEGER   AVERAGE:   8171.41 MB/s
+
+Benchmark #125:
+INTEGER   Copy:      8405.02 MB/s
+INTEGER   Scale:     8500.68 MB/s
+INTEGER   Add:       7892.74 MB/s
+INTEGER   Triad:     7701.67 MB/s
+---
+INTEGER   AVERAGE:   8125.03 MB/s
+
+Benchmark #126:
+INTEGER   Copy:      7382.84 MB/s
+INTEGER   Scale:     7360.70 MB/s
+INTEGER   Add:       8355.97 MB/s
+INTEGER   Triad:     8085.91 MB/s
+---
+INTEGER   AVERAGE:   7796.35 MB/s
+
+Benchmark #127:
+INTEGER   Copy:      8681.09 MB/s
+INTEGER   Scale:     7351.25 MB/s
+INTEGER   Add:       8405.02 MB/s
+INTEGER   Triad:     8241.06 MB/s
+---
+INTEGER   AVERAGE:   8169.61 MB/s
+
+Benchmark #128:
+INTEGER   Copy:      7329.30 MB/s
+INTEGER   Scale:     7326.17 MB/s
+INTEGER   Add:       7142.41 MB/s
+INTEGER   Triad:     6959.17 MB/s
+---
+INTEGER   AVERAGE:   7189.26 MB/s
+
+Benchmark #129:
+INTEGER   Copy:      6263.17 MB/s
+INTEGER   Scale:     6186.49 MB/s
+INTEGER   Add:       6888.48 MB/s
+INTEGER   Triad:     6955.41 MB/s
+---
+INTEGER   AVERAGE:   6573.39 MB/s
+
+Benchmark #130:
+INTEGER   Copy:      6978.01 MB/s
+INTEGER   Scale:     7285.78 MB/s
+INTEGER   Add:       7924.29 MB/s
+INTEGER   Triad:     7837.53 MB/s
+---
+INTEGER   AVERAGE:   7506.40 MB/s
+
+Benchmark #131:
+INTEGER   Copy:      7421.11 MB/s
+INTEGER   Scale:     8208.25 MB/s
+INTEGER   Add:       7785.44 MB/s
+INTEGER   Triad:     7892.74 MB/s
+---
+INTEGER   AVERAGE:   7826.89 MB/s
+
+Benchmark #132:
+INTEGER   Copy:      7379.67 MB/s
+INTEGER   Scale:     7798.40 MB/s
+INTEGER   Add:       8196.50 MB/s
+INTEGER   Triad:     7287.84 MB/s
+---
+INTEGER   AVERAGE:   7665.60 MB/s
+
+Benchmark #133:
+INTEGER   Copy:      8471.34 MB/s
+INTEGER   Scale:     7307.47 MB/s
+INTEGER   Add:       8318.21 MB/s
+INTEGER   Triad:     8294.11 MB/s
+---
+INTEGER   AVERAGE:   8097.78 MB/s
+
+Benchmark #134:
+INTEGER   Copy:      8001.80 MB/s
+INTEGER   Scale:     8299.45 MB/s
+INTEGER   Add:       8116.47 MB/s
+INTEGER   Triad:     8235.80 MB/s
+---
+INTEGER   AVERAGE:   8163.38 MB/s
+
+Benchmark #135:
+INTEGER   Copy:      8173.11 MB/s
+INTEGER   Scale:     7693.63 MB/s
+INTEGER   Add:       7936.50 MB/s
+INTEGER   Triad:     8421.50 MB/s
+---
+INTEGER   AVERAGE:   8056.18 MB/s
+
+Benchmark #136:
+INTEGER   Copy:      8513.31 MB/s
+INTEGER   Scale:     7608.45 MB/s
+INTEGER   Add:       8131.84 MB/s
+INTEGER   Triad:     7797.22 MB/s
+---
+INTEGER   AVERAGE:   8012.70 MB/s
+
+Benchmark #137:
+INTEGER   Copy:      7301.26 MB/s
+INTEGER   Scale:     7307.47 MB/s
+INTEGER   Add:       7530.63 MB/s
+INTEGER   Triad:     6781.53 MB/s
+---
+INTEGER   AVERAGE:   7230.22 MB/s
+
+Benchmark #138:
+INTEGER   Copy:      6806.60 MB/s
+INTEGER   Scale:     6344.12 MB/s
+INTEGER   Add:       7250.93 MB/s
+INTEGER   Triad:     6905.09 MB/s
+---
+INTEGER   AVERAGE:   6826.69 MB/s
+
+Benchmark #139:
+INTEGER   Copy:      6975.18 MB/s
+INTEGER   Scale:     6888.48 MB/s
+INTEGER   Add:       7443.62 MB/s
+INTEGER   Triad:     6731.92 MB/s
+---
+INTEGER   AVERAGE:   7009.80 MB/s
+
+Benchmark #140:
+INTEGER   Copy:      6975.18 MB/s
+INTEGER   Scale:     7495.58 MB/s
+INTEGER   Add:       7302.30 MB/s
+INTEGER   Triad:     6341.00 MB/s
+---
+INTEGER   AVERAGE:   7028.51 MB/s
+
+Benchmark #141:
+INTEGER   Copy:      6226.85 MB/s
+INTEGER   Scale:     7370.17 MB/s
+INTEGER   Add:       6684.77 MB/s
+INTEGER   Triad:     7484.69 MB/s
+---
+INTEGER   AVERAGE:   6941.62 MB/s
+
+Benchmark #142:
+INTEGER   Copy:      7341.82 MB/s
+INTEGER   Scale:     7598.35 MB/s
+INTEGER   Add:       7458.70 MB/s
+INTEGER   Triad:     6817.41 MB/s
+---
+INTEGER   AVERAGE:   7304.07 MB/s
+
+Benchmark #143:
+INTEGER   Copy:      7149.34 MB/s
+INTEGER   Scale:     7273.44 MB/s
+INTEGER   Add:       7878.26 MB/s
+INTEGER   Triad:     7559.34 MB/s
+---
+INTEGER   AVERAGE:   7465.10 MB/s
+
+Benchmark #144:
+INTEGER   Copy:      7248.89 MB/s
+INTEGER   Scale:     8024.23 MB/s
+INTEGER   Add:       7797.22 MB/s
+INTEGER   Triad:     8068.19 MB/s
+---
+INTEGER   AVERAGE:   7784.63 MB/s
+
+Benchmark #145:
+INTEGER   Copy:      7329.30 MB/s
+INTEGER   Scale:     7669.58 MB/s
+INTEGER   Add:       7281.66 MB/s
+INTEGER   Triad:     7014.10 MB/s
+---
+INTEGER   AVERAGE:   7323.66 MB/s
+
+Benchmark #146:
+INTEGER   Copy:      6640.85 MB/s
+INTEGER   Scale:     6695.19 MB/s
+INTEGER   Add:       6962.93 MB/s
+INTEGER   Triad:     7000.76 MB/s
+---
+INTEGER   AVERAGE:   6824.93 MB/s
+
+Benchmark #147:
+INTEGER   Copy:      7625.33 MB/s
+INTEGER   Scale:     7851.86 MB/s
+INTEGER   Add:       6932.96 MB/s
+INTEGER   Triad:     6728.41 MB/s
+---
+INTEGER   AVERAGE:   7284.64 MB/s
+
+Benchmark #148:
+INTEGER   Copy:      6040.74 MB/s
+INTEGER   Scale:     6222.34 MB/s
+INTEGER   Add:       6400.85 MB/s
+INTEGER   Triad:     6665.75 MB/s
+---
+INTEGER   AVERAGE:   6332.42 MB/s
+
+Benchmark #149:
+INTEGER   Copy:      6529.79 MB/s
+INTEGER   Scale:     7310.58 MB/s
+INTEGER   Add:       6749.56 MB/s
+INTEGER   Triad:     7071.85 MB/s
+---
+INTEGER   AVERAGE:   6915.44 MB/s
+
+Benchmark #150:
+INTEGER   Copy:      6630.59 MB/s
+INTEGER   Scale:     6966.69 MB/s
+INTEGER   Add:       7574.90 MB/s
+INTEGER   Triad:     6824.63 MB/s
+---
+INTEGER   AVERAGE:   6999.20 MB/s
+
+Benchmark #151:
+INTEGER   Copy:      7295.06 MB/s
+INTEGER   Scale:     6761.07 MB/s
+INTEGER   Add:       7073.79 MB/s
+INTEGER   Triad:     7717.82 MB/s
+---
+INTEGER   AVERAGE:   7211.93 MB/s
+
+Benchmark #152:
+INTEGER   Copy:      7389.19 MB/s
+INTEGER   Scale:     7564.89 MB/s
+INTEGER   Add:       7674.15 MB/s
+INTEGER   Triad:     7612.94 MB/s
+---
+INTEGER   AVERAGE:   7560.29 MB/s
+
+Benchmark #153:
+INTEGER   Copy:      7329.30 MB/s
+INTEGER   Scale:     7535.03 MB/s
+INTEGER   Add:       7823.26 MB/s
+INTEGER   Triad:     7669.58 MB/s
+---
+INTEGER   AVERAGE:   7589.29 MB/s
+
+Benchmark #154:
+INTEGER   Copy:      8291.44 MB/s
+INTEGER   Scale:     7994.36 MB/s
+INTEGER   Add:       7724.76 MB/s
+INTEGER   Triad:     7727.08 MB/s
+---
+INTEGER   AVERAGE:   7934.41 MB/s
+
+Benchmark #155:
+INTEGER   Copy:      7209.35 MB/s
+INTEGER   Scale:     7332.42 MB/s
+INTEGER   Add:       7358.60 MB/s
+INTEGER   Triad:     7341.82 MB/s
+---
+INTEGER   AVERAGE:   7310.55 MB/s
+
+Benchmark #156:
+INTEGER   Copy:      7489.04 MB/s
+INTEGER   Scale:     7411.51 MB/s
+INTEGER   Add:       7430.74 MB/s
+INTEGER   Triad:     6895.85 MB/s
+---
+INTEGER   AVERAGE:   7306.79 MB/s
+
+Benchmark #157:
+INTEGER   Copy:      7476.01 MB/s
+INTEGER   Scale:     6323.10 MB/s
+INTEGER   Add:       7194.25 MB/s
+INTEGER   Triad:     6684.77 MB/s
+---
+INTEGER   AVERAGE:   6919.53 MB/s
+
+Benchmark #158:
+INTEGER   Copy:      6384.20 MB/s
+INTEGER   Scale:     6763.73 MB/s
+INTEGER   Add:       7603.96 MB/s
+INTEGER   Triad:     7469.51 MB/s
+---
+INTEGER   AVERAGE:   7055.35 MB/s
+
+Benchmark #159:
+INTEGER   Copy:      7288.87 MB/s
+INTEGER   Scale:     7185.22 MB/s
+INTEGER   Add:       6886.64 MB/s
+INTEGER   Triad:     7035.16 MB/s
+---
+INTEGER   AVERAGE:   7098.97 MB/s
+
+Benchmark #160:
+INTEGER   Copy:      5809.90 MB/s
+INTEGER   Scale:     7421.11 MB/s
+INTEGER   Add:       6319.23 MB/s
+INTEGER   Triad:     5416.10 MB/s
+---
+INTEGER   AVERAGE:   6241.58 MB/s
+
+Benchmark #161:
+INTEGER   Copy:      7679.87 MB/s
+INTEGER   Scale:     971.00 MB/s
+INTEGER   Add:       6905.09 MB/s
+INTEGER   Triad:     7166.24 MB/s
+---
+INTEGER   AVERAGE:   5680.55 MB/s
+
+Benchmark #162:
+INTEGER   Copy:      7155.30 MB/s
+INTEGER   Scale:     7812.58 MB/s
+INTEGER   Add:       7694.78 MB/s
+INTEGER   Triad:     7064.09 MB/s
+---
+INTEGER   AVERAGE:   7431.69 MB/s
+
+Benchmark #163:
+INTEGER   Copy:      6584.85 MB/s
+INTEGER   Scale:     7877.06 MB/s
+INTEGER   Add:       8564.24 MB/s
+INTEGER   Triad:     8759.28 MB/s
+---
+INTEGER   AVERAGE:   7946.36 MB/s
+
+Benchmark #164:
+INTEGER   Copy:      9667.91 MB/s
+INTEGER   Scale:     8832.84 MB/s
+INTEGER   Add:       8119.03 MB/s
+INTEGER   Triad:     8985.29 MB/s
+---
+INTEGER   AVERAGE:   8901.27 MB/s
+
+Benchmark #165:
+INTEGER   Copy:      7801.94 MB/s
+INTEGER   Scale:     7251.95 MB/s
+INTEGER   Add:       7478.18 MB/s
+INTEGER   Triad:     7037.08 MB/s
+---
+INTEGER   AVERAGE:   7392.29 MB/s
+
+Benchmark #166:
+INTEGER   Copy:      6247.23 MB/s
+INTEGER   Scale:     6648.56 MB/s
+INTEGER   Add:       6868.28 MB/s
+INTEGER   Triad:     6979.90 MB/s
+---
+INTEGER   AVERAGE:   6685.99 MB/s
+
+Benchmark #167:
+INTEGER   Copy:      6972.35 MB/s
+INTEGER   Scale:     6653.71 MB/s
+INTEGER   Add:       6432.80 MB/s
+INTEGER   Triad:     6746.02 MB/s
+---
+INTEGER   AVERAGE:   6701.22 MB/s
+
+Benchmark #168:
+INTEGER   Copy:      7307.47 MB/s
+INTEGER   Scale:     6828.25 MB/s
+INTEGER   Add:       7298.16 MB/s
+INTEGER   Triad:     7465.18 MB/s
+---
+INTEGER   AVERAGE:   7224.77 MB/s
+
+Benchmark #169:
+INTEGER   Copy:      7119.71 MB/s
+INTEGER   Scale:     6703.03 MB/s
+INTEGER   Add:       7426.46 MB/s
+INTEGER   Triad:     7156.29 MB/s
+---
+INTEGER   AVERAGE:   7101.37 MB/s
+
+Benchmark #170:
+INTEGER   Copy:      6742.49 MB/s
+INTEGER   Scale:     7906.06 MB/s
+INTEGER   Add:       7443.62 MB/s
+INTEGER   Triad:     8199.11 MB/s
+---
+INTEGER   AVERAGE:   7572.82 MB/s
+
+Benchmark #171:
+INTEGER   Copy:      8602.84 MB/s
+INTEGER   Scale:     8115.20 MB/s
+INTEGER   Add:       7577.13 MB/s
+INTEGER   Triad:     7234.64 MB/s
+---
+INTEGER   AVERAGE:   7882.45 MB/s
+
+Benchmark #172:
+INTEGER   Copy:      6542.22 MB/s
+INTEGER   Scale:     6025.91 MB/s
+INTEGER   Add:       6359.77 MB/s
+INTEGER   Triad:     6916.21 MB/s
+---
+INTEGER   AVERAGE:   6461.03 MB/s
+
+Benchmark #173:
+INTEGER   Copy:      6030.14 MB/s
+INTEGER   Scale:     6021.69 MB/s
+INTEGER   Add:       6087.83 MB/s
+INTEGER   Triad:     6684.77 MB/s
+---
+INTEGER   AVERAGE:   6206.11 MB/s
+
+Benchmark #174:
+INTEGER   Copy:      6292.99 MB/s
+INTEGER   Scale:     6705.65 MB/s
+INTEGER   Add:       7136.47 MB/s
+INTEGER   Triad:     7441.47 MB/s
+---
+INTEGER   AVERAGE:   6894.15 MB/s
+
+Benchmark #175:
+INTEGER   Copy:      6798.52 MB/s
+INTEGER   Scale:     6456.17 MB/s
+INTEGER   Add:       7042.85 MB/s
+INTEGER   Triad:     6828.25 MB/s
+---
+INTEGER   AVERAGE:   6781.45 MB/s
+
+Benchmark #176:
+INTEGER   Copy:      6572.25 MB/s
+INTEGER   Scale:     6852.76 MB/s
+INTEGER   Add:       6947.91 MB/s
+INTEGER   Triad:     6813.80 MB/s
+---
+INTEGER   AVERAGE:   6796.68 MB/s
+
+Benchmark #177:
+INTEGER   Copy:      6283.79 MB/s
+INTEGER   Scale:     6899.55 MB/s
+INTEGER   Add:       6423.18 MB/s
+INTEGER   Triad:     6738.97 MB/s
+---
+INTEGER   AVERAGE:   6586.37 MB/s
+
+Benchmark #178:
+INTEGER   Copy:      6656.28 MB/s
+INTEGER   Scale:     5749.62 MB/s
+INTEGER   Add:       7002.66 MB/s
+INTEGER   Triad:     6864.63 MB/s
+---
+INTEGER   AVERAGE:   6568.30 MB/s
+
+Benchmark #179:
+INTEGER   Copy:      7679.87 MB/s
+INTEGER   Scale:     7469.51 MB/s
+INTEGER   Add:       7445.77 MB/s
+INTEGER   Triad:     7473.84 MB/s
+---
+INTEGER   AVERAGE:   7517.25 MB/s
+
+Benchmark #180:
+INTEGER   Copy:      7548.27 MB/s
+INTEGER   Scale:     7669.58 MB/s
+INTEGER   Add:       8113.92 MB/s
+INTEGER   Triad:     7988.16 MB/s
+---
+INTEGER   AVERAGE:   7829.98 MB/s
+
+Benchmark #181:
+INTEGER   Copy:      7338.69 MB/s
+INTEGER   Scale:     7564.89 MB/s
+INTEGER   Add:       7407.24 MB/s
+INTEGER   Triad:     7196.26 MB/s
+---
+INTEGER   AVERAGE:   7376.77 MB/s
+
+Benchmark #182:
+INTEGER   Copy:      7679.87 MB/s
+INTEGER   Scale:     7548.27 MB/s
+INTEGER   Add:       6783.31 MB/s
+INTEGER   Triad:     6959.17 MB/s
+---
+INTEGER   AVERAGE:   7242.66 MB/s
+
+Benchmark #183:
+INTEGER   Copy:      7122.67 MB/s
+INTEGER   Scale:     7584.93 MB/s
+INTEGER   Add:       7083.51 MB/s
+INTEGER   Triad:     6761.95 MB/s
+---
+INTEGER   AVERAGE:   7138.26 MB/s
+
+Benchmark #184:
+INTEGER   Copy:      6638.28 MB/s
+INTEGER   Scale:     7084.48 MB/s
+INTEGER   Add:       6448.90 MB/s
+INTEGER   Triad:     6938.56 MB/s
+---
+INTEGER   AVERAGE:   6777.56 MB/s
+
+Benchmark #185:
+INTEGER   Copy:      5772.81 MB/s
+INTEGER   Scale:     5979.77 MB/s
+INTEGER   Add:       5801.40 MB/s
+INTEGER   Triad:     6987.47 MB/s
+---
+INTEGER   AVERAGE:   6135.36 MB/s
+
+Benchmark #186:
+INTEGER   Copy:      8620.10 MB/s
+INTEGER   Scale:     7245.83 MB/s
+INTEGER   Add:       7248.89 MB/s
+INTEGER   Triad:     6769.06 MB/s
+---
+INTEGER   AVERAGE:   7470.97 MB/s
+
+Benchmark #187:
+INTEGER   Copy:      7826.82 MB/s
+INTEGER   Scale:     6559.71 MB/s
+INTEGER   Add:       7261.15 MB/s
+INTEGER   Triad:     7407.24 MB/s
+---
+INTEGER   AVERAGE:   7263.73 MB/s
+
+Benchmark #188:
+INTEGER   Copy:      8307.48 MB/s
+INTEGER   Scale:     6785.10 MB/s
+INTEGER   Add:       6589.06 MB/s
+INTEGER   Triad:     6572.25 MB/s
+---
+INTEGER   AVERAGE:   7063.47 MB/s
+
+Benchmark #189:
+INTEGER   Copy:      6235.89 MB/s
+INTEGER   Scale:     6441.65 MB/s
+INTEGER   Add:       6400.85 MB/s
+INTEGER   Triad:     6465.08 MB/s
+---
+INTEGER   AVERAGE:   6385.86 MB/s
+
+Benchmark #190:
+INTEGER   Copy:      6475.64 MB/s
+INTEGER   Scale:     6622.93 MB/s
+INTEGER   Add:       6129.83 MB/s
+INTEGER   Triad:     6445.67 MB/s
+---
+INTEGER   AVERAGE:   6418.52 MB/s
+
+Benchmark #191:
+INTEGER   Copy:      6249.50 MB/s
+INTEGER   Scale:     6532.27 MB/s
+INTEGER   Add:       6870.12 MB/s
+INTEGER   Triad:     7486.87 MB/s
+---
+INTEGER   AVERAGE:   6784.69 MB/s
+
+Benchmark #192:
+INTEGER   Copy:      6432.00 MB/s
+INTEGER   Scale:     6651.13 MB/s
+INTEGER   Add:       7064.09 MB/s
+INTEGER   Triad:     7206.32 MB/s
+---
+INTEGER   AVERAGE:   6838.39 MB/s
+
+Benchmark #193:
+INTEGER   Copy:      6938.56 MB/s
+INTEGER   Scale:     6658.86 MB/s
+INTEGER   Add:       7422.18 MB/s
+INTEGER   Triad:     6205.11 MB/s
+---
+INTEGER   AVERAGE:   6806.18 MB/s
+
+Benchmark #194:
+INTEGER   Copy:      6852.76 MB/s
+INTEGER   Scale:     6534.75 MB/s
+INTEGER   Add:       6538.90 MB/s
+INTEGER   Triad:     6857.32 MB/s
+---
+INTEGER   AVERAGE:   6695.93 MB/s
+
+Benchmark #195:
+INTEGER   Copy:      6507.53 MB/s
+INTEGER   Scale:     6839.12 MB/s
+INTEGER   Add:       6760.18 MB/s
+INTEGER   Triad:     6801.22 MB/s
+---
+INTEGER   AVERAGE:   6727.01 MB/s
+
+Benchmark #196:
+INTEGER   Copy:      7638.89 MB/s
+INTEGER   Scale:     7096.19 MB/s
+INTEGER   Add:       7148.35 MB/s
+INTEGER   Triad:     7150.33 MB/s
+---
+INTEGER   AVERAGE:   7258.44 MB/s
+
+Benchmark #197:
+INTEGER   Copy:      7961.01 MB/s
+INTEGER   Scale:     6790.46 MB/s
+INTEGER   Add:       6461.84 MB/s
+INTEGER   Triad:     6760.18 MB/s
+---
+INTEGER   AVERAGE:   6993.37 MB/s
+
+Benchmark #198:
+INTEGER   Copy:      6713.51 MB/s
+INTEGER   Scale:     6628.04 MB/s
+INTEGER   Add:       8020.48 MB/s
+INTEGER   Triad:     7504.31 MB/s
+---
+INTEGER   AVERAGE:   7216.58 MB/s
+
+Benchmark #199:
+INTEGER   Copy:      7081.56 MB/s
+INTEGER   Scale:     7061.19 MB/s
+INTEGER   Add:       7128.58 MB/s
+INTEGER   Triad:     7386.01 MB/s
+---
+INTEGER   AVERAGE:   7164.34 MB/s
+
+Benchmark #200:
+INTEGER   Copy:      7669.58 MB/s
+INTEGER   Scale:     7295.06 MB/s
+INTEGER   Add:       7773.70 MB/s
+INTEGER   Triad:     7071.85 MB/s
+---
+INTEGER   AVERAGE:   7452.55 MB/s
+
+Benchmark #201:
+INTEGER   Copy:      7405.12 MB/s
+INTEGER   Scale:     7239.73 MB/s
+INTEGER   Add:       7066.03 MB/s
+INTEGER   Triad:     7226.53 MB/s
+---
+INTEGER   AVERAGE:   7234.35 MB/s
+
+Benchmark #202:
+INTEGER   Copy:      7717.82 MB/s
+INTEGER   Scale:     6798.52 MB/s
+INTEGER   Add:       6966.69 MB/s
+INTEGER   Triad:     6751.32 MB/s
+---
+INTEGER   AVERAGE:   7058.59 MB/s
+
+Benchmark #203:
+INTEGER   Copy:      6671.79 MB/s
+INTEGER   Scale:     7067.00 MB/s
+INTEGER   Add:       8201.72 MB/s
+INTEGER   Triad:     7364.91 MB/s
+---
+INTEGER   AVERAGE:   7326.35 MB/s
+
+Benchmark #204:
+INTEGER   Copy:      6907.87 MB/s
+INTEGER   Scale:     6779.74 MB/s
+INTEGER   Add:       7269.34 MB/s
+INTEGER   Triad:     6925.50 MB/s
+---
+INTEGER   AVERAGE:   6970.61 MB/s
+
+Benchmark #205:
+INTEGER   Copy:      7015.05 MB/s
+INTEGER   Scale:     7270.36 MB/s
+INTEGER   Add:       7818.51 MB/s
+INTEGER   Triad:     7343.92 MB/s
+---
+INTEGER   AVERAGE:   7361.96 MB/s
+
+Benchmark #206:
+INTEGER   Copy:      7859.04 MB/s
+INTEGER   Scale:     7386.01 MB/s
+INTEGER   Add:       7071.85 MB/s
+INTEGER   Triad:     7346.01 MB/s
+---
+INTEGER   AVERAGE:   7415.73 MB/s
+
+Benchmark #207:
+INTEGER   Copy:      7826.82 MB/s
+INTEGER   Scale:     7043.82 MB/s
+INTEGER   Add:       7924.29 MB/s
+INTEGER   Triad:     7360.70 MB/s
+---
+INTEGER   AVERAGE:   7538.91 MB/s
+
+Benchmark #208:
+INTEGER   Copy:      7927.95 MB/s
+INTEGER   Scale:     8099.89 MB/s
+INTEGER   Add:       7621.95 MB/s
+INTEGER   Triad:     7653.64 MB/s
+---
+INTEGER   AVERAGE:   7825.86 MB/s
+
+Benchmark #209:
+INTEGER   Copy:      7710.89 MB/s
+INTEGER   Scale:     7149.34 MB/s
+INTEGER   Add:       7484.69 MB/s
+INTEGER   Triad:     7275.50 MB/s
+---
+INTEGER   AVERAGE:   7405.11 MB/s
+
+Benchmark #210:
+INTEGER   Copy:      6891.24 MB/s
+INTEGER   Scale:     7185.22 MB/s
+INTEGER   Add:       6737.20 MB/s
+INTEGER   Triad:     7138.45 MB/s
+---
+INTEGER   AVERAGE:   6988.03 MB/s
+
+Benchmark #211:
+INTEGER   Copy:      7738.68 MB/s
+INTEGER   Scale:     8547.20 MB/s
+INTEGER   Add:       8015.49 MB/s
+INTEGER   Triad:     7936.50 MB/s
+---
+INTEGER   AVERAGE:   8059.47 MB/s
+
+Benchmark #212:
+INTEGER   Copy:      7669.58 MB/s
+INTEGER   Scale:     7096.19 MB/s
+INTEGER   Add:       7956.10 MB/s
+INTEGER   Triad:     7687.89 MB/s
+---
+INTEGER   AVERAGE:   7602.44 MB/s
+
+Benchmark #213:
+INTEGER   Copy:      8184.79 MB/s
+INTEGER   Scale:     7816.14 MB/s
+INTEGER   Add:       7907.27 MB/s
+INTEGER   Triad:     7823.26 MB/s
+---
+INTEGER   AVERAGE:   7932.86 MB/s
+
+Benchmark #214:
+INTEGER   Copy:      7673.01 MB/s
+INTEGER   Scale:     7862.64 MB/s
+INTEGER   Add:       7701.67 MB/s
+INTEGER   Triad:     7745.66 MB/s
+---
+INTEGER   AVERAGE:   7745.75 MB/s
+
+Benchmark #215:
+INTEGER   Copy:      7489.04 MB/s
+INTEGER   Scale:     7485.78 MB/s
+INTEGER   Add:       7683.30 MB/s
+INTEGER   Triad:     7176.22 MB/s
+---
+INTEGER   AVERAGE:   7458.59 MB/s
+
+Benchmark #216:
+INTEGER   Copy:      7323.05 MB/s
+INTEGER   Scale:     6798.52 MB/s
+INTEGER   Add:       7164.25 MB/s
+INTEGER   Triad:     7067.97 MB/s
+---
+INTEGER   AVERAGE:   7088.45 MB/s
+
+Benchmark #217:
+INTEGER   Copy:      6944.17 MB/s
+INTEGER   Scale:     6795.83 MB/s
+INTEGER   Add:       7651.37 MB/s
+INTEGER   Triad:     7907.27 MB/s
+---
+INTEGER   AVERAGE:   7324.66 MB/s
+
+Benchmark #218:
+INTEGER   Copy:      7090.33 MB/s
+INTEGER   Scale:     6288.39 MB/s
+INTEGER   Add:       7162.26 MB/s
+INTEGER   Triad:     7283.72 MB/s
+---
+INTEGER   AVERAGE:   6956.17 MB/s
+
+Benchmark #219:
+INTEGER   Copy:      6888.48 MB/s
+INTEGER   Scale:     7200.28 MB/s
+INTEGER   Add:       7539.44 MB/s
+INTEGER   Triad:     7615.19 MB/s
+---
+INTEGER   AVERAGE:   7310.85 MB/s
+
+Benchmark #220:
+INTEGER   Copy:      7662.74 MB/s
+INTEGER   Scale:     6739.85 MB/s
+INTEGER   Add:       7856.65 MB/s
+INTEGER   Triad:     6936.69 MB/s
+---
+INTEGER   AVERAGE:   7298.98 MB/s
+
+Benchmark #221:
+INTEGER   Copy:      7338.69 MB/s
+INTEGER   Scale:     8058.10 MB/s
+INTEGER   Add:       8111.36 MB/s
+INTEGER   Triad:     7214.39 MB/s
+---
+INTEGER   AVERAGE:   7680.64 MB/s
+
+Benchmark #222:
+INTEGER   Copy:      7264.22 MB/s
+INTEGER   Scale:     7752.65 MB/s
+INTEGER   Add:       7495.58 MB/s
+INTEGER   Triad:     7486.87 MB/s
+---
+INTEGER   AVERAGE:   7499.83 MB/s
+
+Benchmark #223:
+INTEGER   Copy:      7823.26 MB/s
+INTEGER   Scale:     7902.42 MB/s
+INTEGER   Add:       7764.33 MB/s
+INTEGER   Triad:     7162.26 MB/s
+---
+INTEGER   AVERAGE:   7663.07 MB/s
+
+Benchmark #224:
+INTEGER   Copy:      7564.89 MB/s
+INTEGER   Scale:     6975.18 MB/s
+INTEGER   Add:       7671.87 MB/s
+INTEGER   Triad:     6976.12 MB/s
+---
+INTEGER   AVERAGE:   7297.02 MB/s
+
+Benchmark #225:
+INTEGER   Copy:      7078.64 MB/s
+INTEGER   Scale:     6874.70 MB/s
+INTEGER   Add:       6515.75 MB/s
+INTEGER   Triad:     7259.10 MB/s
+---
+INTEGER   AVERAGE:   6932.05 MB/s
+
+Benchmark #226:
+INTEGER   Copy:      6247.23 MB/s
+INTEGER   Scale:     6334.76 MB/s
+INTEGER   Add:       6991.27 MB/s
+INTEGER   Triad:     7296.09 MB/s
+---
+INTEGER   AVERAGE:   6717.34 MB/s
+
+Benchmark #227:
+INTEGER   Copy:      6916.21 MB/s
+INTEGER   Scale:     7551.59 MB/s
+INTEGER   Add:       6976.12 MB/s
+INTEGER   Triad:     7244.81 MB/s
+---
+INTEGER   AVERAGE:   7172.19 MB/s
+
+Benchmark #228:
+INTEGER   Copy:      7759.65 MB/s
+INTEGER   Scale:     7869.84 MB/s
+INTEGER   Add:       7722.45 MB/s
+INTEGER   Triad:     6203.61 MB/s
+---
+INTEGER   AVERAGE:   7388.89 MB/s
+
+Benchmark #229:
+INTEGER   Copy:      6316.13 MB/s
+INTEGER   Scale:     6393.70 MB/s
+INTEGER   Add:       7626.46 MB/s
+INTEGER   Triad:     8892.27 MB/s
+---
+INTEGER   AVERAGE:   7307.14 MB/s
+
+Benchmark #230:
+INTEGER   Copy:      6628.04 MB/s
+INTEGER   Scale:     6731.92 MB/s
+INTEGER   Add:       7561.56 MB/s
+INTEGER   Triad:     7255.01 MB/s
+---
+INTEGER   AVERAGE:   7044.13 MB/s
+
+Benchmark #231:
+INTEGER   Copy:      6539.73 MB/s
+INTEGER   Scale:     6451.32 MB/s
+INTEGER   Add:       6879.29 MB/s
+INTEGER   Triad:     6461.84 MB/s
+---
+INTEGER   AVERAGE:   6583.04 MB/s
+
+Benchmark #232:
+INTEGER   Copy:      7535.03 MB/s
+INTEGER   Scale:     6944.17 MB/s
+INTEGER   Add:       7554.91 MB/s
+INTEGER   Triad:     7095.21 MB/s
+---
+INTEGER   AVERAGE:   7282.33 MB/s
+
+Benchmark #233:
+INTEGER   Copy:      6801.22 MB/s
+INTEGER   Scale:     6737.20 MB/s
+INTEGER   Add:       7186.23 MB/s
+INTEGER   Triad:     6864.63 MB/s
+---
+INTEGER   AVERAGE:   6897.32 MB/s
+
+Benchmark #234:
+INTEGER   Copy:      6874.70 MB/s
+INTEGER   Scale:     6989.37 MB/s
+INTEGER   Add:       7356.50 MB/s
+INTEGER   Triad:     6651.99 MB/s
+---
+INTEGER   AVERAGE:   6968.14 MB/s
+
+Benchmark #235:
+INTEGER   Copy:      7258.08 MB/s
+INTEGER   Scale:     7862.64 MB/s
+INTEGER   Add:       6465.08 MB/s
+INTEGER   Triad:     6795.83 MB/s
+---
+INTEGER   AVERAGE:   7095.41 MB/s
+
+Benchmark #236:
+INTEGER   Copy:      7081.56 MB/s
+INTEGER   Scale:     6446.48 MB/s
+INTEGER   Add:       6572.25 MB/s
+INTEGER   Triad:     7037.08 MB/s
+---
+INTEGER   AVERAGE:   6784.34 MB/s
+
+Benchmark #237:
+INTEGER   Copy:      7081.56 MB/s
+INTEGER   Scale:     8092.26 MB/s
+INTEGER   Add:       7624.20 MB/s
+INTEGER   Triad:     7104.99 MB/s
+---
+INTEGER   AVERAGE:   7475.75 MB/s
+
+Benchmark #238:
+INTEGER   Copy:      7069.91 MB/s
+INTEGER   Scale:     7200.28 MB/s
+INTEGER   Add:       7314.73 MB/s
+INTEGER   Triad:     7919.42 MB/s
+---
+INTEGER   AVERAGE:   7376.09 MB/s
+
+Benchmark #239:
+INTEGER   Copy:      7319.93 MB/s
+INTEGER   Scale:     7759.65 MB/s
+INTEGER   Add:       7710.89 MB/s
+INTEGER   Triad:     8385.88 MB/s
+---
+INTEGER   AVERAGE:   7794.09 MB/s
+
+Benchmark #240:
+INTEGER   Copy:      8742.94 MB/s
+INTEGER   Scale:     6919.00 MB/s
+INTEGER   Add:       7690.18 MB/s
+INTEGER   Triad:     7281.66 MB/s
+---
+INTEGER   AVERAGE:   7658.44 MB/s
+
+Benchmark #241:
+INTEGER   Copy:      7224.50 MB/s
+INTEGER   Scale:     6871.95 MB/s
+INTEGER   Add:       6695.19 MB/s
+INTEGER   Triad:     6951.66 MB/s
+---
+INTEGER   AVERAGE:   6935.83 MB/s
+
+Benchmark #242:
+INTEGER   Copy:      7122.67 MB/s
+INTEGER   Scale:     6235.89 MB/s
+INTEGER   Add:       7106.95 MB/s
+INTEGER   Triad:     7497.76 MB/s
+---
+INTEGER   AVERAGE:   6990.82 MB/s
+
+Benchmark #243:
+INTEGER   Copy:      6899.55 MB/s
+INTEGER   Scale:     5813.83 MB/s
+INTEGER   Add:       6500.96 MB/s
+INTEGER   Triad:     6648.56 MB/s
+---
+INTEGER   AVERAGE:   6465.72 MB/s
+
+Benchmark #244:
+INTEGER   Copy:      6710.89 MB/s
+INTEGER   Scale:     6478.08 MB/s
+INTEGER   Add:       7356.50 MB/s
+INTEGER   Triad:     7963.47 MB/s
+---
+INTEGER   AVERAGE:   7127.23 MB/s
+
+Benchmark #245:
+INTEGER   Copy:      8376.34 MB/s
+INTEGER   Scale:     8372.26 MB/s
+INTEGER   Add:       8178.29 MB/s
+INTEGER   Triad:     8507.69 MB/s
+---
+INTEGER   AVERAGE:   8358.65 MB/s
+
+Benchmark #246:
+INTEGER   Copy:      8521.76 MB/s
+INTEGER   Scale:     8611.46 MB/s
+INTEGER   Add:       5629.05 MB/s
+INTEGER   Triad:     8369.54 MB/s
+---
+INTEGER   AVERAGE:   7782.95 MB/s
+
+Benchmark #247:
+INTEGER   Copy:      9439.49 MB/s
+INTEGER   Scale:     8360.03 MB/s
+INTEGER   Add:       8394.07 MB/s
+INTEGER   Triad:     8358.68 MB/s
+---
+INTEGER   AVERAGE:   8638.07 MB/s
+
+Benchmark #248:
+INTEGER   Copy:      7386.01 MB/s
+INTEGER   Scale:     6182.03 MB/s
+INTEGER   Add:       6600.87 MB/s
+INTEGER   Triad:     7407.24 MB/s
+---
+INTEGER   AVERAGE:   6894.04 MB/s
+
+Benchmark #249:
+INTEGER   Copy:      7270.36 MB/s
+INTEGER   Scale:     7026.53 MB/s
+INTEGER   Add:       8499.28 MB/s
+INTEGER   Triad:     8399.54 MB/s
+---
+INTEGER   AVERAGE:   7798.93 MB/s
+
+Benchmark #250:
+INTEGER   Copy:      8425.63 MB/s
+INTEGER   Scale:     8734.05 MB/s
+INTEGER   Add:       8633.10 MB/s
+INTEGER   Triad:     8892.27 MB/s
+---
+INTEGER   AVERAGE:   8671.26 MB/s
+
+Benchmark #251:
+INTEGER   Copy:      8769.71 MB/s
+INTEGER   Scale:     8633.10 MB/s
+INTEGER   Add:       9125.28 MB/s
+INTEGER   Triad:     8209.56 MB/s
+---
+INTEGER   AVERAGE:   8684.41 MB/s
+
+Benchmark #252:
+INTEGER   Copy:      7869.84 MB/s
+INTEGER   Scale:     8559.97 MB/s
+INTEGER   Add:       7381.78 MB/s
+INTEGER   Triad:     7192.24 MB/s
+---
+INTEGER   AVERAGE:   7750.96 MB/s
+
+Benchmark #253:
+INTEGER   Copy:      7176.22 MB/s
+INTEGER   Scale:     6961.05 MB/s
+INTEGER   Add:       7778.39 MB/s
+INTEGER   Triad:     8735.53 MB/s
+---
+INTEGER   AVERAGE:   7662.80 MB/s
+
+Benchmark #254:
+INTEGER   Copy:      9113.99 MB/s
+INTEGER   Scale:     8933.89 MB/s
+INTEGER   Add:       8209.56 MB/s
+INTEGER   Triad:     8326.27 MB/s
+---
+INTEGER   AVERAGE:   8645.93 MB/s
+
+Benchmark #255:
+INTEGER   Copy:      8013.00 MB/s
+INTEGER   Scale:     8115.20 MB/s
+INTEGER   Add:       8630.21 MB/s
+INTEGER   Triad:     7801.94 MB/s
+---
+INTEGER   AVERAGE:   8140.09 MB/s
+
+Benchmark #256:
+INTEGER   Copy:      8989.99 MB/s
+INTEGER   Scale:     8446.35 MB/s
+INTEGER   Add:       7842.30 MB/s
+INTEGER   Triad:     7630.98 MB/s
+---
+INTEGER   AVERAGE:   8227.40 MB/s
+
+Benchmark #257:
+INTEGER   Copy:      7773.70 MB/s
+INTEGER   Scale:     8924.61 MB/s
+INTEGER   Add:       8810.19 MB/s
+INTEGER   Triad:     8020.48 MB/s
+---
+INTEGER   AVERAGE:   8382.24 MB/s
+
+Benchmark #258:
+INTEGER   Copy:      7721.29 MB/s
+INTEGER   Scale:     8716.32 MB/s
+INTEGER   Add:       8607.15 MB/s
+INTEGER   Triad:     8729.61 MB/s
+---
+INTEGER   AVERAGE:   8443.59 MB/s
+
+Benchmark #259:
+INTEGER   Copy:      8734.05 MB/s
+INTEGER   Scale:     8633.10 MB/s
+INTEGER   Add:       8858.65 MB/s
+INTEGER   Triad:     8656.30 MB/s
+---
+INTEGER   AVERAGE:   8720.52 MB/s
+
+Benchmark #260:
+INTEGER   Copy:      8971.21 MB/s
+INTEGER   Scale:     9008.85 MB/s
+INTEGER   Add:       9303.18 MB/s
+INTEGER   Triad:     8926.15 MB/s
+---
+INTEGER   AVERAGE:   9052.35 MB/s
+
+Benchmark #261:
+INTEGER   Copy:      8388.61 MB/s
+INTEGER   Scale:     8271.48 MB/s
+INTEGER   Add:       8347.85 MB/s
+INTEGER   Triad:     8482.49 MB/s
+---
+INTEGER   AVERAGE:   8372.61 MB/s
+
+Benchmark #262:
+INTEGER   Copy:      8509.10 MB/s
+INTEGER   Scale:     8392.71 MB/s
+INTEGER   Add:       9004.12 MB/s
+INTEGER   Triad:     8975.90 MB/s
+---
+INTEGER   AVERAGE:   8720.46 MB/s
+
+Benchmark #263:
+INTEGER   Copy:      8602.84 MB/s
+INTEGER   Scale:     7700.52 MB/s
+INTEGER   Add:       7248.89 MB/s
+INTEGER   Triad:     8460.21 MB/s
+---
+INTEGER   AVERAGE:   8003.12 MB/s
+
+Benchmark #264:
+INTEGER   Copy:      8559.97 MB/s
+INTEGER   Scale:     8479.70 MB/s
+INTEGER   Add:       9051.56 MB/s
+INTEGER   Triad:     7998.08 MB/s
+---
+INTEGER   AVERAGE:   8522.33 MB/s
+
+Benchmark #265:
+INTEGER   Copy:      8738.49 MB/s
+INTEGER   Scale:     8689.87 MB/s
+INTEGER   Add:       8286.11 MB/s
+INTEGER   Triad:     9077.07 MB/s
+---
+INTEGER   AVERAGE:   8697.88 MB/s
+
+Benchmark #266:
+INTEGER   Copy:      8989.99 MB/s
+INTEGER   Scale:     8542.95 MB/s
+INTEGER   Add:       8113.92 MB/s
+INTEGER   Triad:     9023.04 MB/s
+---
+INTEGER   AVERAGE:   8667.47 MB/s
+
+Benchmark #267:
+INTEGER   Copy:      8659.21 MB/s
+INTEGER   Scale:     8020.48 MB/s
+INTEGER   Add:       9233.18 MB/s
+INTEGER   Triad:     8567.09 MB/s
+---
+INTEGER   AVERAGE:   8619.99 MB/s
+
+Benchmark #268:
+INTEGER   Copy:      8947.85 MB/s
+INTEGER   Scale:     8878.49 MB/s
+INTEGER   Add:       8801.16 MB/s
+INTEGER   Triad:     8533.05 MB/s
+---
+INTEGER   AVERAGE:   8790.14 MB/s
+
+Benchmark #269:
+INTEGER   Copy:      8694.27 MB/s
+INTEGER   Scale:     8620.10 MB/s
+INTEGER   Add:       8267.50 MB/s
+INTEGER   Triad:     8753.33 MB/s
+---
+INTEGER   AVERAGE:   8583.80 MB/s
+
+Benchmark #270:
+INTEGER   Copy:      8267.50 MB/s
+INTEGER   Scale:     7770.18 MB/s
+INTEGER   Add:       7741.00 MB/s
+INTEGER   Triad:     8068.19 MB/s
+---
+INTEGER   AVERAGE:   7961.72 MB/s
+
+Benchmark #271:
+INTEGER   Copy:      8355.97 MB/s
+INTEGER   Scale:     7443.62 MB/s
+INTEGER   Add:       8947.85 MB/s
+INTEGER   Triad:     8630.21 MB/s
+---
+INTEGER   AVERAGE:   8344.41 MB/s
+
+Benchmark #272:
+INTEGER   Copy:      8343.79 MB/s
+INTEGER   Scale:     9037.28 MB/s
+INTEGER   Add:       8618.66 MB/s
+INTEGER   Triad:     8513.31 MB/s
+---
+INTEGER   AVERAGE:   8628.26 MB/s
+
+Benchmark #273:
+INTEGER   Copy:      8725.17 MB/s
+INTEGER   Scale:     8659.21 MB/s
+INTEGER   Add:       8950.96 MB/s
+INTEGER   Triad:     8843.45 MB/s
+---
+INTEGER   AVERAGE:   8794.70 MB/s
+
+Benchmark #274:
+INTEGER   Copy:      7869.84 MB/s
+INTEGER   Scale:     7830.39 MB/s
+INTEGER   Add:       7489.04 MB/s
+INTEGER   Triad:     8567.09 MB/s
+---
+INTEGER   AVERAGE:   7939.09 MB/s
+
+Benchmark #275:
+INTEGER   Copy:      9341.96 MB/s
+INTEGER   Scale:     8153.71 MB/s
+INTEGER   Add:       7413.64 MB/s
+INTEGER   Triad:     7390.25 MB/s
+---
+INTEGER   AVERAGE:   8074.89 MB/s
+
+Benchmark #276:
+INTEGER   Copy:      7450.07 MB/s
+INTEGER   Scale:     6651.13 MB/s
+INTEGER   Add:       7678.73 MB/s
+INTEGER   Triad:     7995.60 MB/s
+---
+INTEGER   AVERAGE:   7443.88 MB/s
+
+Benchmark #277:
+INTEGER   Copy:      7515.25 MB/s
+INTEGER   Scale:     7645.69 MB/s
+INTEGER   Add:       7402.99 MB/s
+INTEGER   Triad:     7590.52 MB/s
+---
+INTEGER   AVERAGE:   7538.61 MB/s
+
+Benchmark #278:
+INTEGER   Copy:      7558.24 MB/s
+INTEGER   Scale:     7666.16 MB/s
+INTEGER   Add:       7738.68 MB/s
+INTEGER   Triad:     7635.50 MB/s
+---
+INTEGER   AVERAGE:   7649.64 MB/s
+
+Benchmark #279:
+INTEGER   Copy:      7784.26 MB/s
+INTEGER   Scale:     7611.82 MB/s
+INTEGER   Add:       7563.78 MB/s
+INTEGER   Triad:     7550.48 MB/s
+---
+INTEGER   AVERAGE:   7627.59 MB/s
+
+Benchmark #280:
+INTEGER   Copy:      7588.28 MB/s
+INTEGER   Scale:     7662.74 MB/s
+INTEGER   Add:       7956.10 MB/s
+INTEGER   Triad:     7510.87 MB/s
+---
+INTEGER   AVERAGE:   7679.50 MB/s
+
+Benchmark #281:
+INTEGER   Copy:      7574.90 MB/s
+INTEGER   Scale:     7538.34 MB/s
+INTEGER   Add:       7420.04 MB/s
+INTEGER   Triad:     8241.06 MB/s
+---
+INTEGER   AVERAGE:   7693.58 MB/s
+
+Benchmark #282:
+INTEGER   Copy:      8685.47 MB/s
+INTEGER   Scale:     8425.63 MB/s
+INTEGER   Add:       8759.28 MB/s
+INTEGER   Triad:     8765.24 MB/s
+---
+INTEGER   AVERAGE:   8658.91 MB/s
+
+Benchmark #283:
+INTEGER   Copy:      8585.64 MB/s
+INTEGER   Scale:     7961.01 MB/s
+INTEGER   Add:       8604.28 MB/s
+INTEGER   Triad:     8427.01 MB/s
+---
+INTEGER   AVERAGE:   8394.49 MB/s
+
+Benchmark #284:
+INTEGER   Copy:      8716.32 MB/s
+INTEGER   Scale:     8538.70 MB/s
+INTEGER   Add:       7710.89 MB/s
+INTEGER   Triad:     8589.93 MB/s
+---
+INTEGER   AVERAGE:   8388.96 MB/s
+
+Benchmark #285:
+INTEGER   Copy:      8542.95 MB/s
+INTEGER   Scale:     8747.39 MB/s
+INTEGER   Add:       8804.17 MB/s
+INTEGER   Triad:     7830.39 MB/s
+---
+INTEGER   AVERAGE:   8481.22 MB/s
+
+Benchmark #286:
+INTEGER   Copy:      8247.66 MB/s
+INTEGER   Scale:     7568.22 MB/s
+INTEGER   Add:       7548.27 MB/s
+INTEGER   Triad:     8443.58 MB/s
+---
+INTEGER   AVERAGE:   7951.93 MB/s
+
+Benchmark #287:
+INTEGER   Copy:      8738.49 MB/s
+INTEGER   Scale:     8624.43 MB/s
+INTEGER   Add:       9187.10 MB/s
+INTEGER   Triad:     8873.90 MB/s
+---
+INTEGER   AVERAGE:   8855.98 MB/s
+
+Benchmark #288:
+INTEGER   Copy:      8774.19 MB/s
+INTEGER   Scale:     8633.10 MB/s
+INTEGER   Add:       8516.13 MB/s
+INTEGER   Triad:     8810.19 MB/s
+---
+INTEGER   AVERAGE:   8683.40 MB/s
+
+Benchmark #289:
+INTEGER   Copy:      8796.66 MB/s
+INTEGER   Scale:     8801.16 MB/s
+INTEGER   Add:       8858.65 MB/s
+INTEGER   Triad:     8789.16 MB/s
+---
+INTEGER   AVERAGE:   8811.41 MB/s
+
+Benchmark #290:
+INTEGER   Copy:      8694.27 MB/s
+INTEGER   Scale:     8792.15 MB/s
+INTEGER   Add:       9102.72 MB/s
+INTEGER   Triad:     8935.44 MB/s
+---
+INTEGER   AVERAGE:   8881.14 MB/s
+
+Benchmark #291:
+INTEGER   Copy:      8760.77 MB/s
+INTEGER   Scale:     8235.80 MB/s
+INTEGER   Add:       8747.39 MB/s
+INTEGER   Triad:     8929.25 MB/s
+---
+INTEGER   AVERAGE:   8668.30 MB/s
+
+Benchmark #292:
+INTEGER   Copy:      8513.31 MB/s
+INTEGER   Scale:     8778.68 MB/s
+INTEGER   Add:       7699.37 MB/s
+INTEGER   Triad:     8774.19 MB/s
+---
+INTEGER   AVERAGE:   8441.39 MB/s
+
+Benchmark #293:
+INTEGER   Copy:      8594.23 MB/s
+INTEGER   Scale:     7728.24 MB/s
+INTEGER   Add:       6022.39 MB/s
+INTEGER   Triad:     7649.10 MB/s
+---
+INTEGER   AVERAGE:   7498.49 MB/s
+
+Benchmark #294:
+INTEGER   Copy:      7655.91 MB/s
+INTEGER   Scale:     7078.64 MB/s
+INTEGER   Add:       7458.70 MB/s
+INTEGER   Triad:     7710.89 MB/s
+---
+INTEGER   AVERAGE:   7476.04 MB/s
+
+Benchmark #295:
+INTEGER   Copy:      7574.90 MB/s
+INTEGER   Scale:     7459.78 MB/s
+INTEGER   Add:       7014.10 MB/s
+INTEGER   Triad:     7528.43 MB/s
+---
+INTEGER   AVERAGE:   7394.30 MB/s
+
+Benchmark #296:
+INTEGER   Copy:      7264.22 MB/s
+INTEGER   Scale:     8331.65 MB/s
+INTEGER   Add:       7422.18 MB/s
+INTEGER   Triad:     7912.13 MB/s
+---
+INTEGER   AVERAGE:   7732.54 MB/s
+
+Benchmark #297:
+INTEGER   Copy:      8672.32 MB/s
+INTEGER   Scale:     8396.81 MB/s
+INTEGER   Add:       8840.41 MB/s
+INTEGER   Triad:     8975.90 MB/s
+---
+INTEGER   AVERAGE:   8721.36 MB/s
+
+Benchmark #298:
+INTEGER   Copy:      8883.08 MB/s
+INTEGER   Scale:     8564.24 MB/s
+INTEGER   Add:       8513.31 MB/s
+INTEGER   Triad:     8320.89 MB/s
+---
+INTEGER   AVERAGE:   8570.38 MB/s
+
+Benchmark #299:
+INTEGER   Copy:      7972.10 MB/s
+INTEGER   Scale:     8805.67 MB/s
+INTEGER   Add:       8196.50 MB/s
+INTEGER   Triad:     8679.62 MB/s
+---
+INTEGER   AVERAGE:   8413.47 MB/s
+
+Benchmark #300:
+INTEGER   Copy:      8115.20 MB/s
+INTEGER   Scale:     7798.40 MB/s
+INTEGER   Add:       7352.30 MB/s
+INTEGER   Triad:     7184.22 MB/s
+---
+INTEGER   AVERAGE:   7612.53 MB/s
+
+Benchmark #301:
+INTEGER   Copy:      7498.85 MB/s
+INTEGER   Scale:     6049.25 MB/s
+INTEGER   Add:       7415.77 MB/s
+INTEGER   Triad:     8759.28 MB/s
+---
+INTEGER   AVERAGE:   7430.79 MB/s
+
+Benchmark #302:
+INTEGER   Copy:      8438.05 MB/s
+INTEGER   Scale:     7949.96 MB/s
+INTEGER   Add:       8270.16 MB/s
+INTEGER   Triad:     8272.81 MB/s
+---
+INTEGER   AVERAGE:   8232.74 MB/s
+
+Benchmark #303:
+INTEGER   Copy:      7798.40 MB/s
+INTEGER   Scale:     6517.40 MB/s
+INTEGER   Add:       8855.60 MB/s
+INTEGER   Triad:     8575.64 MB/s
+---
+INTEGER   AVERAGE:   7936.76 MB/s
+
+Benchmark #304:
+INTEGER   Copy:      7833.96 MB/s
+INTEGER   Scale:     7221.47 MB/s
+INTEGER   Add:       6721.39 MB/s
+INTEGER   Triad:     7402.99 MB/s
+---
+INTEGER   AVERAGE:   7294.95 MB/s
+
+Benchmark #305:
+INTEGER   Copy:      6386.57 MB/s
+INTEGER   Scale:     7433.95 MB/s
+INTEGER   Add:       8119.03 MB/s
+INTEGER   Triad:     8783.16 MB/s
+---
+INTEGER   AVERAGE:   7680.68 MB/s
+
+Benchmark #306:
+INTEGER   Copy:      8323.58 MB/s
+INTEGER   Scale:     8694.27 MB/s
+INTEGER   Add:       9118.83 MB/s
+INTEGER   Triad:     8849.52 MB/s
+---
+INTEGER   AVERAGE:   8746.55 MB/s
+
+Benchmark #307:
+INTEGER   Copy:      8957.18 MB/s
+INTEGER   Scale:     8787.66 MB/s
+INTEGER   Add:       8564.24 MB/s
+INTEGER   Triad:     7722.45 MB/s
+---
+INTEGER   AVERAGE:   8507.88 MB/s
+
+Benchmark #308:
+INTEGER   Copy:      8703.07 MB/s
+INTEGER   Scale:     8534.46 MB/s
+INTEGER   Add:       7360.70 MB/s
+INTEGER   Triad:     7337.64 MB/s
+---
+INTEGER   AVERAGE:   7983.97 MB/s
+
+Benchmark #309:
+INTEGER   Copy:      7248.89 MB/s
+INTEGER   Scale:     6427.19 MB/s
+INTEGER   Add:       8366.82 MB/s
+INTEGER   Triad:     7214.39 MB/s
+---
+INTEGER   AVERAGE:   7314.32 MB/s
+
+Benchmark #310:
+INTEGER   Copy:      7837.53 MB/s
+INTEGER   Scale:     7215.40 MB/s
+INTEGER   Add:       7524.03 MB/s
+INTEGER   Triad:     8230.53 MB/s
+---
+INTEGER   AVERAGE:   7701.87 MB/s
+
+Benchmark #311:
+INTEGER   Copy:      8581.35 MB/s
+INTEGER   Scale:     8681.09 MB/s
+INTEGER   Add:       8880.02 MB/s
+INTEGER   Triad:     8762.26 MB/s
+---
+INTEGER   AVERAGE:   8726.18 MB/s
+
+Benchmark #312:
+INTEGER   Copy:      8698.67 MB/s
+INTEGER   Scale:     8392.71 MB/s
+INTEGER   Add:       7943.84 MB/s
+INTEGER   Triad:     8142.12 MB/s
+---
+INTEGER   AVERAGE:   8294.33 MB/s
+
+Benchmark #313:
+INTEGER   Copy:      8633.10 MB/s
+INTEGER   Scale:     8054.32 MB/s
+INTEGER   Add:       7640.02 MB/s
+INTEGER   Triad:     7921.86 MB/s
+---
+INTEGER   AVERAGE:   8062.33 MB/s
+
+Benchmark #314:
+INTEGER   Copy:      8628.76 MB/s
+INTEGER   Scale:     8681.09 MB/s
+INTEGER   Add:       8969.65 MB/s
+INTEGER   Triad:     8861.69 MB/s
+---
+INTEGER   AVERAGE:   8785.30 MB/s
+
+Benchmark #315:
+INTEGER   Copy:      8559.97 MB/s
+INTEGER   Scale:     7270.36 MB/s
+INTEGER   Add:       7519.64 MB/s
+INTEGER   Triad:     6437.62 MB/s
+---
+INTEGER   AVERAGE:   7446.90 MB/s
+
+Benchmark #316:
+INTEGER   Copy:      7618.57 MB/s
+INTEGER   Scale:     7809.03 MB/s
+INTEGER   Add:       8347.85 MB/s
+INTEGER   Triad:     8524.58 MB/s
+---
+INTEGER   AVERAGE:   8075.01 MB/s
+
+Benchmark #317:
+INTEGER   Copy:      7401.93 MB/s
+INTEGER   Scale:     7521.83 MB/s
+INTEGER   Add:       7469.51 MB/s
+INTEGER   Triad:     8326.27 MB/s
+---
+INTEGER   AVERAGE:   7679.88 MB/s
+
+Benchmark #318:
+INTEGER   Copy:      6785.10 MB/s
+INTEGER   Scale:     8013.00 MB/s
+INTEGER   Add:       7773.70 MB/s
+INTEGER   Triad:     8096.07 MB/s
+---
+INTEGER   AVERAGE:   7666.97 MB/s
+
+Benchmark #319:
+INTEGER   Copy:      7794.86 MB/s
+INTEGER   Scale:     7492.31 MB/s
+INTEGER   Add:       8383.15 MB/s
+INTEGER   Triad:     7783.09 MB/s
+---
+INTEGER   AVERAGE:   7863.35 MB/s
+
+Benchmark #320:
+INTEGER   Copy:      7332.42 MB/s
+INTEGER   Scale:     7601.71 MB/s
+INTEGER   Add:       7543.85 MB/s
+INTEGER   Triad:     7027.49 MB/s
+---
+INTEGER   AVERAGE:   7376.37 MB/s
+
+Benchmark #321:
+INTEGER   Copy:      8517.54 MB/s
+INTEGER   Scale:     8720.75 MB/s
+INTEGER   Add:       8670.86 MB/s
+INTEGER   Triad:     8248.98 MB/s
+---
+INTEGER   AVERAGE:   8539.53 MB/s
+
+Benchmark #322:
+INTEGER   Copy:      8814.71 MB/s
+INTEGER   Scale:     8887.67 MB/s
+INTEGER   Add:       7526.23 MB/s
+INTEGER   Triad:     7271.39 MB/s
+---
+INTEGER   AVERAGE:   8125.00 MB/s
+
+Benchmark #323:
+INTEGER   Copy:      8685.47 MB/s
+INTEGER   Scale:     8694.27 MB/s
+INTEGER   Add:       7701.67 MB/s
+INTEGER   Triad:     6079.22 MB/s
+---
+INTEGER   AVERAGE:   7790.16 MB/s
+
+Benchmark #324:
+INTEGER   Copy:      7649.10 MB/s
+INTEGER   Scale:     7544.96 MB/s
+INTEGER   Add:       7895.16 MB/s
+INTEGER   Triad:     7450.07 MB/s
+---
+INTEGER   AVERAGE:   7634.82 MB/s
+
+Benchmark #325:
+INTEGER   Copy:      8568.51 MB/s
+INTEGER   Scale:     8069.45 MB/s
+INTEGER   Add:       8957.18 MB/s
+INTEGER   Triad:     8729.61 MB/s
+---
+INTEGER   AVERAGE:   8581.19 MB/s
+
+Benchmark #326:
+INTEGER   Copy:      9018.30 MB/s
+INTEGER   Scale:     8581.35 MB/s
+INTEGER   Add:       8460.21 MB/s
+INTEGER   Triad:     8358.68 MB/s
+---
+INTEGER   AVERAGE:   8604.64 MB/s
+
+Benchmark #327:
+INTEGER   Copy:      8530.22 MB/s
+INTEGER   Scale:     8200.41 MB/s
+INTEGER   Add:       8134.41 MB/s
+INTEGER   Triad:     8380.42 MB/s
+---
+INTEGER   AVERAGE:   8311.37 MB/s
+
+Benchmark #328:
+INTEGER   Copy:      8534.46 MB/s
+INTEGER   Scale:     8538.70 MB/s
+INTEGER   Add:       8410.51 MB/s
+INTEGER   Triad:     8653.39 MB/s
+---
+INTEGER   AVERAGE:   8534.27 MB/s
+
+Benchmark #329:
+INTEGER   Copy:      8681.09 MB/s
+INTEGER   Scale:     8869.32 MB/s
+INTEGER   Add:       8801.16 MB/s
+INTEGER   Triad:     8703.07 MB/s
+---
+INTEGER   AVERAGE:   8763.66 MB/s
+
+Benchmark #330:
+INTEGER   Copy:      8707.49 MB/s
+INTEGER   Scale:     8667.95 MB/s
+INTEGER   Add:       6972.35 MB/s
+INTEGER   Triad:     8416.00 MB/s
+---
+INTEGER   AVERAGE:   8190.95 MB/s
+
+Benchmark #331:
+INTEGER   Copy:      8947.85 MB/s
+INTEGER   Scale:     8483.89 MB/s
+INTEGER   Add:       7394.49 MB/s
+INTEGER   Triad:     8837.38 MB/s
+---
+INTEGER   AVERAGE:   8415.90 MB/s
+
+Benchmark #332:
+INTEGER   Copy:      7728.24 MB/s
+INTEGER   Scale:     7335.55 MB/s
+INTEGER   Add:       7543.85 MB/s
+INTEGER   Triad:     8703.07 MB/s
+---
+INTEGER   AVERAGE:   7827.68 MB/s
+
+Benchmark #333:
+INTEGER   Copy:      7714.36 MB/s
+INTEGER   Scale:     8698.67 MB/s
+INTEGER   Add:       8275.47 MB/s
+INTEGER   Triad:     8144.69 MB/s
+---
+INTEGER   AVERAGE:   8208.30 MB/s
+
+Benchmark #334:
+INTEGER   Copy:      8530.22 MB/s
+INTEGER   Scale:     6495.22 MB/s
+INTEGER   Add:       7031.32 MB/s
+INTEGER   Triad:     7873.45 MB/s
+---
+INTEGER   AVERAGE:   7482.56 MB/s
+
+Benchmark #335:
+INTEGER   Copy:      8425.63 MB/s
+INTEGER   Scale:     8589.93 MB/s
+INTEGER   Add:       8538.70 MB/s
+INTEGER   Triad:     8518.94 MB/s
+---
+INTEGER   AVERAGE:   8518.30 MB/s
+
+Benchmark #336:
+INTEGER   Copy:      7508.68 MB/s
+INTEGER   Scale:     7067.00 MB/s
+INTEGER   Add:       8482.49 MB/s
+INTEGER   Triad:     8502.08 MB/s
+---
+INTEGER   AVERAGE:   7890.06 MB/s
+
+Benchmark #337:
+INTEGER   Copy:      8787.66 MB/s
+INTEGER   Scale:     8607.15 MB/s
+INTEGER   Add:       8864.74 MB/s
+INTEGER   Triad:     8527.40 MB/s
+---
+INTEGER   AVERAGE:   8696.74 MB/s
+
+Benchmark #338:
+INTEGER   Copy:      8801.16 MB/s
+INTEGER   Scale:     8783.16 MB/s
+INTEGER   Add:       8665.03 MB/s
+INTEGER   Triad:     8662.12 MB/s
+---
+INTEGER   AVERAGE:   8727.87 MB/s
+
+Benchmark #339:
+INTEGER   Copy:      8720.75 MB/s
+INTEGER   Scale:     8707.49 MB/s
+INTEGER   Add:       8886.14 MB/s
+INTEGER   Triad:     8720.75 MB/s
+---
+INTEGER   AVERAGE:   8758.78 MB/s
+
+Benchmark #340:
+INTEGER   Copy:      8933.89 MB/s
+INTEGER   Scale:     8628.76 MB/s
+INTEGER   Add:       8729.61 MB/s
+INTEGER   Triad:     8396.81 MB/s
+---
+INTEGER   AVERAGE:   8672.27 MB/s
+
+Benchmark #341:
+INTEGER   Copy:      9085.07 MB/s
+INTEGER   Scale:     7752.65 MB/s
+INTEGER   Add:       8816.22 MB/s
+INTEGER   Triad:     8667.95 MB/s
+---
+INTEGER   AVERAGE:   8580.47 MB/s
+
+Benchmark #342:
+INTEGER   Copy:      7456.54 MB/s
+INTEGER   Scale:     7326.17 MB/s
+INTEGER   Add:       7637.76 MB/s
+INTEGER   Triad:     9051.56 MB/s
+---
+INTEGER   AVERAGE:   7868.01 MB/s
+
+Benchmark #343:
+INTEGER   Copy:      8196.50 MB/s
+INTEGER   Scale:     9496.89 MB/s
+INTEGER   Add:       9109.16 MB/s
+INTEGER   Triad:     8691.33 MB/s
+---
+INTEGER   AVERAGE:   8873.47 MB/s
+
+Benchmark #344:
+INTEGER   Copy:      7931.61 MB/s
+INTEGER   Scale:     8323.58 MB/s
+INTEGER   Add:       8644.68 MB/s
+INTEGER   Triad:     7244.81 MB/s
+---
+INTEGER   AVERAGE:   8036.17 MB/s
+
+Benchmark #345:
+INTEGER   Copy:      7446.84 MB/s
+INTEGER   Scale:     7453.31 MB/s
+INTEGER   Add:       7550.48 MB/s
+INTEGER   Triad:     7674.15 MB/s
+---
+INTEGER   AVERAGE:   7531.20 MB/s
+
+Benchmark #346:
+INTEGER   Copy:      8200.41 MB/s
+INTEGER   Scale:     8796.66 MB/s
+INTEGER   Add:       7653.64 MB/s
+INTEGER   Triad:     7499.94 MB/s
+---
+INTEGER   AVERAGE:   8037.66 MB/s
+
+Benchmark #347:
+INTEGER   Copy:      7714.36 MB/s
+INTEGER   Scale:     8756.30 MB/s
+INTEGER   Add:       7897.58 MB/s
+INTEGER   Triad:     8795.15 MB/s
+---
+INTEGER   AVERAGE:   8290.85 MB/s
+
+Benchmark #348:
+INTEGER   Copy:      7731.71 MB/s
+INTEGER   Scale:     7087.40 MB/s
+INTEGER   Add:       8432.53 MB/s
+INTEGER   Triad:     8753.33 MB/s
+---
+INTEGER   AVERAGE:   8001.24 MB/s
+
+Benchmark #349:
+INTEGER   Copy:      8756.30 MB/s
+INTEGER   Scale:     8500.68 MB/s
+INTEGER   Add:       8864.74 MB/s
+INTEGER   Triad:     7550.48 MB/s
+---
+INTEGER   AVERAGE:   8418.05 MB/s
+
+Benchmark #350:
+INTEGER   Copy:      8837.38 MB/s
+INTEGER   Scale:     8738.49 MB/s
+INTEGER   Add:       8058.10 MB/s
+INTEGER   Triad:     7103.03 MB/s
+---
+INTEGER   AVERAGE:   8184.25 MB/s
+
+Benchmark #351:
+INTEGER   Copy:      8756.30 MB/s
+INTEGER   Scale:     7906.06 MB/s
+INTEGER   Add:       8402.28 MB/s
+INTEGER   Triad:     8813.20 MB/s
+---
+INTEGER   AVERAGE:   8469.46 MB/s
+
+Benchmark #352:
+INTEGER   Copy:      8906.10 MB/s
+INTEGER   Scale:     8729.61 MB/s
+INTEGER   Add:       8904.56 MB/s
+INTEGER   Triad:     8214.79 MB/s
+---
+INTEGER   AVERAGE:   8688.77 MB/s
+
+Benchmark #353:
+INTEGER   Copy:      9013.57 MB/s
+INTEGER   Scale:     8975.90 MB/s
+INTEGER   Add:       8988.42 MB/s
+INTEGER   Triad:     9533.78 MB/s
+---
+INTEGER   AVERAGE:   9127.92 MB/s
+
+Benchmark #354:
+INTEGER   Copy:      8628.76 MB/s
+INTEGER   Scale:     7642.29 MB/s
+INTEGER   Add:       7402.99 MB/s
+INTEGER   Triad:     8070.72 MB/s
+---
+INTEGER   AVERAGE:   7936.19 MB/s
+
+Benchmark #355:
+INTEGER   Copy:      8742.94 MB/s
+INTEGER   Scale:     8641.79 MB/s
+INTEGER   Add:       8926.15 MB/s
+INTEGER   Triad:     7513.06 MB/s
+---
+INTEGER   AVERAGE:   8455.98 MB/s
+
+Benchmark #356:
+INTEGER   Copy:      7812.58 MB/s
+INTEGER   Scale:     7693.63 MB/s
+INTEGER   Add:       8251.62 MB/s
+INTEGER   Triad:     7362.80 MB/s
+---
+INTEGER   AVERAGE:   7780.16 MB/s
+
+Benchmark #357:
+INTEGER   Copy:      8220.03 MB/s
+INTEGER   Scale:     8327.61 MB/s
+INTEGER   Add:       9411.91 MB/s
+INTEGER   Triad:     8612.90 MB/s
+---
+INTEGER   AVERAGE:   8643.11 MB/s
+
+Benchmark #358:
+INTEGER   Copy:      8846.48 MB/s
+INTEGER   Scale:     8409.14 MB/s
+INTEGER   Add:       9446.41 MB/s
+INTEGER   Triad:     9096.30 MB/s
+---
+INTEGER   AVERAGE:   8949.58 MB/s
+
+Benchmark #359:
+INTEGER   Copy:      9211.73 MB/s
+INTEGER   Scale:     7787.79 MB/s
+INTEGER   Add:       7541.65 MB/s
+INTEGER   Triad:     8320.89 MB/s
+---
+INTEGER   AVERAGE:   8215.51 MB/s
+
+Benchmark #360:
+INTEGER   Copy:      9143.09 MB/s
+INTEGER   Scale:     8860.17 MB/s
+INTEGER   Add:       8374.98 MB/s
+INTEGER   Triad:     7825.63 MB/s
+---
+INTEGER   AVERAGE:   8550.97 MB/s
+
+Benchmark #361:
+INTEGER   Copy:      7319.93 MB/s
+INTEGER   Scale:     7344.96 MB/s
+INTEGER   Add:       8991.56 MB/s
+INTEGER   Triad:     8604.28 MB/s
+---
+INTEGER   AVERAGE:   8065.18 MB/s
+
+Benchmark #362:
+INTEGER   Copy:      8311.50 MB/s
+INTEGER   Scale:     8467.16 MB/s
+INTEGER   Add:       8443.58 MB/s
+INTEGER   Triad:     8424.26 MB/s
+---
+INTEGER   AVERAGE:   8411.62 MB/s
+
+Benchmark #363:
+INTEGER   Copy:      8615.78 MB/s
+INTEGER   Scale:     8517.54 MB/s
+INTEGER   Add:       8753.33 MB/s
+INTEGER   Triad:     8804.17 MB/s
+---
+INTEGER   AVERAGE:   8672.70 MB/s
+
+Benchmark #364:
+INTEGER   Copy:      8694.27 MB/s
+INTEGER   Scale:     8694.27 MB/s
+INTEGER   Add:       9203.50 MB/s
+INTEGER   Triad:     8795.15 MB/s
+---
+INTEGER   AVERAGE:   8846.80 MB/s
+
+Benchmark #365:
+INTEGER   Copy:      8738.49 MB/s
+INTEGER   Scale:     8161.46 MB/s
+INTEGER   Add:       7897.58 MB/s
+INTEGER   Triad:     8377.70 MB/s
+---
+INTEGER   AVERAGE:   8293.81 MB/s
+
+Benchmark #366:
+INTEGER   Copy:      8615.78 MB/s
+INTEGER   Scale:     8598.53 MB/s
+INTEGER   Add:       9122.05 MB/s
+INTEGER   Triad:     8831.32 MB/s
+---
+INTEGER   AVERAGE:   8791.92 MB/s
+
+Benchmark #367:
+INTEGER   Copy:      8999.41 MB/s
+INTEGER   Scale:     8475.52 MB/s
+INTEGER   Add:       8816.22 MB/s
+INTEGER   Triad:     8584.21 MB/s
+---
+INTEGER   AVERAGE:   8718.84 MB/s
+
+Benchmark #368:
+INTEGER   Copy:      8429.77 MB/s
+INTEGER   Scale:     6938.56 MB/s
+INTEGER   Add:       7130.55 MB/s
+INTEGER   Triad:     7383.90 MB/s
+---
+INTEGER   AVERAGE:   7470.69 MB/s
+
+Benchmark #369:
+INTEGER   Copy:      7335.55 MB/s
+INTEGER   Scale:     6927.37 MB/s
+INTEGER   Add:       8910.72 MB/s
+INTEGER   Triad:     7722.45 MB/s
+---
+INTEGER   AVERAGE:   7724.02 MB/s
+
+Benchmark #370:
+INTEGER   Copy:      7823.26 MB/s
+INTEGER   Scale:     8961.85 MB/s
+INTEGER   Add:       8567.09 MB/s
+INTEGER   Triad:     8446.35 MB/s
+---
+INTEGER   AVERAGE:   8449.64 MB/s
+
+Benchmark #371:
+INTEGER   Copy:      8659.21 MB/s
+INTEGER   Scale:     8530.22 MB/s
+INTEGER   Add:       8825.28 MB/s
+INTEGER   Triad:     8345.14 MB/s
+---
+INTEGER   AVERAGE:   8589.96 MB/s
+
+Benchmark #372:
+INTEGER   Copy:      8738.49 MB/s
+INTEGER   Scale:     8559.97 MB/s
+INTEGER   Add:       8572.79 MB/s
+INTEGER   Triad:     8113.92 MB/s
+---
+INTEGER   AVERAGE:   8496.29 MB/s
+
+Benchmark #373:
+INTEGER   Copy:      8725.17 MB/s
+INTEGER   Scale:     8525.99 MB/s
+INTEGER   Add:       7535.03 MB/s
+INTEGER   Triad:     7099.12 MB/s
+---
+INTEGER   AVERAGE:   7971.33 MB/s
+
+Benchmark #374:
+INTEGER   Copy:      7015.05 MB/s
+INTEGER   Scale:     7291.96 MB/s
+INTEGER   Add:       7628.72 MB/s
+INTEGER   Triad:     7606.20 MB/s
+---
+INTEGER   AVERAGE:   7385.48 MB/s
+
+Benchmark #375:
+INTEGER   Copy:      6388.94 MB/s
+INTEGER   Scale:     8694.27 MB/s
+INTEGER   Add:       7396.61 MB/s
+INTEGER   Triad:     7240.74 MB/s
+---
+INTEGER   AVERAGE:   7430.14 MB/s
+
+Benchmark #376:
+INTEGER   Copy:      6995.06 MB/s
+INTEGER   Scale:     7953.64 MB/s
+INTEGER   Add:       8283.45 MB/s
+INTEGER   Triad:     7508.68 MB/s
+---
+INTEGER   AVERAGE:   7685.21 MB/s
+
+Benchmark #377:
+INTEGER   Copy:      7611.82 MB/s
+INTEGER   Scale:     8001.80 MB/s
+INTEGER   Add:       8604.28 MB/s
+INTEGER   Triad:     8527.40 MB/s
+---
+INTEGER   AVERAGE:   8186.32 MB/s
+
+Benchmark #378:
+INTEGER   Copy:      7469.51 MB/s
+INTEGER   Scale:     8355.97 MB/s
+INTEGER   Add:       8706.01 MB/s
+INTEGER   Triad:     8601.40 MB/s
+---
+INTEGER   AVERAGE:   8283.22 MB/s
+
+Benchmark #379:
+INTEGER   Copy:      8488.08 MB/s
+INTEGER   Scale:     8594.23 MB/s
+INTEGER   Add:       8178.29 MB/s
+INTEGER   Triad:     8337.04 MB/s
+---
+INTEGER   AVERAGE:   8399.41 MB/s
+
+Benchmark #380:
+INTEGER   Copy:      8107.54 MB/s
+INTEGER   Scale:     7376.50 MB/s
+INTEGER   Add:       8837.38 MB/s
+INTEGER   Triad:     8488.08 MB/s
+---
+INTEGER   AVERAGE:   8202.37 MB/s
+
+Benchmark #381:
+INTEGER   Copy:      8429.77 MB/s
+INTEGER   Scale:     7571.56 MB/s
+INTEGER   Add:       9080.27 MB/s
+INTEGER   Triad:     8798.16 MB/s
+---
+INTEGER   AVERAGE:   8469.94 MB/s
+
+Benchmark #382:
+INTEGER   Copy:      8577.07 MB/s
+INTEGER   Scale:     7072.82 MB/s
+INTEGER   Add:       7646.83 MB/s
+INTEGER   Triad:     8199.11 MB/s
+---
+INTEGER   AVERAGE:   7873.96 MB/s
+
+Benchmark #383:
+INTEGER   Copy:      7170.23 MB/s
+INTEGER   Scale:     7964.71 MB/s
+INTEGER   Add:       8025.48 MB/s
+INTEGER   Triad:     8624.43 MB/s
+---
+INTEGER   AVERAGE:   7946.21 MB/s
+
+Benchmark #384:
+INTEGER   Copy:      8331.65 MB/s
+INTEGER   Scale:     7859.04 MB/s
+INTEGER   Add:       7263.19 MB/s
+INTEGER   Triad:     7729.40 MB/s
+---
+INTEGER   AVERAGE:   7795.82 MB/s
+
+Benchmark #385:
+INTEGER   Copy:      7541.65 MB/s
+INTEGER   Scale:     8400.91 MB/s
+INTEGER   Add:       8644.68 MB/s
+INTEGER   Triad:     8413.26 MB/s
+---
+INTEGER   AVERAGE:   8250.13 MB/s
+
+Benchmark #386:
+INTEGER   Copy:      9065.89 MB/s
+INTEGER   Scale:     8013.00 MB/s
+INTEGER   Add:       9067.49 MB/s
+INTEGER   Triad:     8476.91 MB/s
+---
+INTEGER   AVERAGE:   8655.82 MB/s
+
+Benchmark #387:
+INTEGER   Copy:      8734.05 MB/s
+INTEGER   Scale:     9004.12 MB/s
+INTEGER   Add:       8451.89 MB/s
+INTEGER   Triad:     7626.46 MB/s
+---
+INTEGER   AVERAGE:   8454.13 MB/s
+
+Benchmark #388:
+INTEGER   Copy:      6869.20 MB/s
+INTEGER   Scale:     8650.49 MB/s
+INTEGER   Add:       8682.55 MB/s
+INTEGER   Triad:     8209.56 MB/s
+---
+INTEGER   AVERAGE:   8102.95 MB/s
+
+Benchmark #389:
+INTEGER   Copy:      8504.89 MB/s
+INTEGER   Scale:     8054.32 MB/s
+INTEGER   Add:       8243.70 MB/s
+INTEGER   Triad:     9170.75 MB/s
+---
+INTEGER   AVERAGE:   8493.41 MB/s
+
+Benchmark #390:
+INTEGER   Copy:      7625.33 MB/s
+INTEGER   Scale:     8819.23 MB/s
+INTEGER   Add:       8858.65 MB/s
+INTEGER   Triad:     8342.44 MB/s
+---
+INTEGER   AVERAGE:   8411.41 MB/s
+
+Benchmark #391:
+INTEGER   Copy:      8513.31 MB/s
+INTEGER   Scale:     8620.10 MB/s
+INTEGER   Add:       8650.49 MB/s
+INTEGER   Triad:     8005.53 MB/s
+---
+INTEGER   AVERAGE:   8447.36 MB/s
+
+Benchmark #392:
+INTEGER   Copy:      6793.15 MB/s
+INTEGER   Scale:     7887.91 MB/s
+INTEGER   Add:       8957.18 MB/s
+INTEGER   Triad:     7985.68 MB/s
+---
+INTEGER   AVERAGE:   7905.98 MB/s
+
+Benchmark #393:
+INTEGER   Copy:      8756.30 MB/s
+INTEGER   Scale:     6666.62 MB/s
+INTEGER   Add:       8679.62 MB/s
+INTEGER   Triad:     8407.77 MB/s
+---
+INTEGER   AVERAGE:   8127.58 MB/s
+
+Benchmark #394:
+INTEGER   Copy:      8061.88 MB/s
+INTEGER   Scale:     7809.03 MB/s
+INTEGER   Add:       8296.78 MB/s
+INTEGER   Triad:     7489.04 MB/s
+---
+INTEGER   AVERAGE:   7914.18 MB/s
+
+Benchmark #395:
+INTEGER   Copy:      7538.34 MB/s
+INTEGER   Scale:     7544.96 MB/s
+INTEGER   Add:       7517.45 MB/s
+INTEGER   Triad:     7460.86 MB/s
+---
+INTEGER   AVERAGE:   7515.40 MB/s
+
+Benchmark #396:
+INTEGER   Copy:      7307.47 MB/s
+INTEGER   Scale:     8192.59 MB/s
+INTEGER   Add:       8575.64 MB/s
+INTEGER   Triad:     7887.91 MB/s
+---
+INTEGER   AVERAGE:   7990.90 MB/s
+
+Benchmark #397:
+INTEGER   Copy:      8654.85 MB/s
+INTEGER   Scale:     8694.27 MB/s
+INTEGER   Add:       7669.58 MB/s
+INTEGER   Triad:     7352.30 MB/s
+---
+INTEGER   AVERAGE:   8092.75 MB/s
+
+Benchmark #398:
+INTEGER   Copy:      8255.58 MB/s
+INTEGER   Scale:     8765.24 MB/s
+INTEGER   Add:       8217.41 MB/s
+INTEGER   Triad:     8828.30 MB/s
+---
+INTEGER   AVERAGE:   8516.63 MB/s
+
+Benchmark #399:
+INTEGER   Copy:      9042.04 MB/s
+INTEGER   Scale:     8707.49 MB/s
+INTEGER   Add:       8567.09 MB/s
+INTEGER   Triad:     8142.12 MB/s
+---
+INTEGER   AVERAGE:   8614.68 MB/s
+
+Benchmark #400:
+INTEGER   Copy:      8957.18 MB/s
+INTEGER   Scale:     6896.78 MB/s
+INTEGER   Add:       7283.72 MB/s
+INTEGER   Triad:     7396.61 MB/s
+---
+INTEGER   AVERAGE:   7633.57 MB/s
+
+Benchmark #401:
+INTEGER   Copy:      6955.41 MB/s
+INTEGER   Scale:     8672.32 MB/s
+INTEGER   Add:       8584.21 MB/s
+INTEGER   Triad:     8786.16 MB/s
+---
+INTEGER   AVERAGE:   8249.53 MB/s
+
+Benchmark #402:
+INTEGER   Copy:      8602.84 MB/s
+INTEGER   Scale:     8805.67 MB/s
+INTEGER   Add:       8765.24 MB/s
+INTEGER   Triad:     8421.50 MB/s
+---
+INTEGER   AVERAGE:   8648.81 MB/s
+
+Benchmark #403:
+INTEGER   Copy:      8787.66 MB/s
+INTEGER   Scale:     8650.49 MB/s
+INTEGER   Add:       9138.23 MB/s
+INTEGER   Triad:     8729.61 MB/s
+---
+INTEGER   AVERAGE:   8826.50 MB/s
+
+Benchmark #404:
+INTEGER   Copy:      7809.03 MB/s
+INTEGER   Scale:     8615.78 MB/s
+INTEGER   Add:       8682.55 MB/s
+INTEGER   Triad:     6658.86 MB/s
+---
+INTEGER   AVERAGE:   7941.56 MB/s
+
+Benchmark #405:
+INTEGER   Copy:      8192.59 MB/s
+INTEGER   Scale:     8355.97 MB/s
+INTEGER   Add:       8199.11 MB/s
+INTEGER   Triad:     7101.08 MB/s
+---
+INTEGER   AVERAGE:   7962.19 MB/s
+
+Benchmark #406:
+INTEGER   Copy:      7541.65 MB/s
+INTEGER   Scale:     8792.15 MB/s
+INTEGER   Add:       8938.54 MB/s
+INTEGER   Triad:     7594.99 MB/s
+---
+INTEGER   AVERAGE:   8216.83 MB/s
+
+Benchmark #407:
+INTEGER   Copy:      7710.89 MB/s
+INTEGER   Scale:     6896.78 MB/s
+INTEGER   Add:       7655.91 MB/s
+INTEGER   Triad:     7854.25 MB/s
+---
+INTEGER   AVERAGE:   7529.46 MB/s
+
+Benchmark #408:
+INTEGER   Copy:      6880.20 MB/s
+INTEGER   Scale:     6833.68 MB/s
+INTEGER   Add:       7405.12 MB/s
+INTEGER   Triad:     6557.20 MB/s
+---
+INTEGER   AVERAGE:   6919.05 MB/s
+
+Benchmark #409:
+INTEGER   Copy:      6944.17 MB/s
+INTEGER   Scale:     8119.03 MB/s
+INTEGER   Add:       8479.70 MB/s
+INTEGER   Triad:     7640.02 MB/s
+---
+INTEGER   AVERAGE:   7795.73 MB/s
+
+Benchmark #410:
+INTEGER   Copy:      8227.91 MB/s
+INTEGER   Scale:     8703.07 MB/s
+INTEGER   Add:       8822.25 MB/s
+INTEGER   Triad:     8762.26 MB/s
+---
+INTEGER   AVERAGE:   8628.87 MB/s
+
+Benchmark #411:
+INTEGER   Copy:      8602.84 MB/s
+INTEGER   Scale:     8738.49 MB/s
+INTEGER   Add:       8111.36 MB/s
+INTEGER   Triad:     8624.43 MB/s
+---
+INTEGER   AVERAGE:   8519.28 MB/s
+
+Benchmark #412:
+INTEGER   Copy:      7611.82 MB/s
+INTEGER   Scale:     8663.57 MB/s
+INTEGER   Add:       9077.07 MB/s
+INTEGER   Triad:     8093.53 MB/s
+---
+INTEGER   AVERAGE:   8361.50 MB/s
+
+Benchmark #413:
+INTEGER   Copy:      7373.33 MB/s
+INTEGER   Scale:     8667.95 MB/s
+INTEGER   Add:       8201.72 MB/s
+INTEGER   Triad:     8867.79 MB/s
+---
+INTEGER   AVERAGE:   8277.70 MB/s
+
+Benchmark #414:
+INTEGER   Copy:      8438.05 MB/s
+INTEGER   Scale:     7794.86 MB/s
+INTEGER   Add:       8771.21 MB/s
+INTEGER   Triad:     8741.45 MB/s
+---
+INTEGER   AVERAGE:   8436.39 MB/s
+
+Benchmark #415:
+INTEGER   Copy:      8654.85 MB/s
+INTEGER   Scale:     8581.35 MB/s
+INTEGER   Add:       8708.96 MB/s
+INTEGER   Triad:     8916.89 MB/s
+---
+INTEGER   AVERAGE:   8715.51 MB/s
+
+Benchmark #416:
+INTEGER   Copy:      6617.82 MB/s
+INTEGER   Scale:     8792.15 MB/s
+INTEGER   Add:       8416.00 MB/s
+INTEGER   Triad:     8518.94 MB/s
+---
+INTEGER   AVERAGE:   8086.23 MB/s
+
+Benchmark #417:
+INTEGER   Copy:      7194.25 MB/s
+INTEGER   Scale:     8703.07 MB/s
+INTEGER   Add:       8789.16 MB/s
+INTEGER   Triad:     8691.33 MB/s
+---
+INTEGER   AVERAGE:   8344.45 MB/s
+
+Benchmark #418:
+INTEGER   Copy:      8641.79 MB/s
+INTEGER   Scale:     7946.29 MB/s
+INTEGER   Add:       8759.28 MB/s
+INTEGER   Triad:     8155.00 MB/s
+---
+INTEGER   AVERAGE:   8375.59 MB/s
+
+Benchmark #419:
+INTEGER   Copy:      8283.45 MB/s
+INTEGER   Scale:     6882.96 MB/s
+INTEGER   Add:       7626.46 MB/s
+INTEGER   Triad:     7497.76 MB/s
+---
+INTEGER   AVERAGE:   7572.66 MB/s
+
+Benchmark #420:
+INTEGER   Copy:      7721.29 MB/s
+INTEGER   Scale:     7584.93 MB/s
+INTEGER   Add:       7394.49 MB/s
+INTEGER   Triad:     7495.58 MB/s
+---
+INTEGER   AVERAGE:   7549.07 MB/s
+
+Benchmark #421:
+INTEGER   Copy:      6330.09 MB/s
+INTEGER   Scale:     7655.91 MB/s
+INTEGER   Add:       7871.05 MB/s
+INTEGER   Triad:     7764.33 MB/s
+---
+INTEGER   AVERAGE:   7405.34 MB/s
+
+Benchmark #422:
+INTEGER   Copy:      8801.16 MB/s
+INTEGER   Scale:     8177.00 MB/s
+INTEGER   Add:       8873.90 MB/s
+INTEGER   Triad:     8706.01 MB/s
+---
+INTEGER   AVERAGE:   8639.52 MB/s
+
+Benchmark #423:
+INTEGER   Copy:      8611.46 MB/s
+INTEGER   Scale:     7873.45 MB/s
+INTEGER   Add:       8155.00 MB/s
+INTEGER   Triad:     7676.44 MB/s
+---
+INTEGER   AVERAGE:   8079.09 MB/s
+
+Benchmark #424:
+INTEGER   Copy:      8823.76 MB/s
+INTEGER   Scale:     8810.19 MB/s
+INTEGER   Add:       8653.39 MB/s
+INTEGER   Triad:     8801.16 MB/s
+---
+INTEGER   AVERAGE:   8772.13 MB/s
+
+Benchmark #425:
+INTEGER   Copy:      8774.19 MB/s
+INTEGER   Scale:     8637.44 MB/s
+INTEGER   Add:       8729.61 MB/s
+INTEGER   Triad:     8991.56 MB/s
+---
+INTEGER   AVERAGE:   8783.20 MB/s
+
+Benchmark #426:
+INTEGER   Copy:      8966.53 MB/s
+INTEGER   Scale:     8720.75 MB/s
+INTEGER   Add:       8535.87 MB/s
+INTEGER   Triad:     8831.32 MB/s
+---
+INTEGER   AVERAGE:   8763.62 MB/s
+
+Benchmark #427:
+INTEGER   Copy:      9018.30 MB/s
+INTEGER   Scale:     7777.22 MB/s
+INTEGER   Add:       9080.27 MB/s
+INTEGER   Triad:     8688.40 MB/s
+---
+INTEGER   AVERAGE:   8641.05 MB/s
+
+Benchmark #428:
+INTEGER   Copy:      8589.93 MB/s
+INTEGER   Scale:     8119.03 MB/s
+INTEGER   Add:       8527.40 MB/s
+INTEGER   Triad:     8315.52 MB/s
+---
+INTEGER   AVERAGE:   8387.97 MB/s
+
+Benchmark #429:
+INTEGER   Copy:      8027.98 MB/s
+INTEGER   Scale:     6502.60 MB/s
+INTEGER   Add:       7346.01 MB/s
+INTEGER   Triad:     8299.45 MB/s
+---
+INTEGER   AVERAGE:   7544.01 MB/s
+
+Benchmark #430:
+INTEGER   Copy:      7389.19 MB/s
+INTEGER   Scale:     7564.89 MB/s
+INTEGER   Add:       8641.79 MB/s
+INTEGER   Triad:     7550.48 MB/s
+---
+INTEGER   AVERAGE:   7786.59 MB/s
+
+Benchmark #431:
+INTEGER   Copy:      8027.98 MB/s
+INTEGER   Scale:     8251.62 MB/s
+INTEGER   Add:       8558.55 MB/s
+INTEGER   Triad:     8807.18 MB/s
+---
+INTEGER   AVERAGE:   8411.33 MB/s
+
+Benchmark #432:
+INTEGER   Copy:      8607.15 MB/s
+INTEGER   Scale:     8319.55 MB/s
+INTEGER   Add:       8521.76 MB/s
+INTEGER   Triad:     8759.28 MB/s
+---
+INTEGER   AVERAGE:   8551.93 MB/s
+
+Benchmark #433:
+INTEGER   Copy:      8223.97 MB/s
+INTEGER   Scale:     7655.91 MB/s
+INTEGER   Add:       8058.10 MB/s
+INTEGER   Triad:     7467.34 MB/s
+---
+INTEGER   AVERAGE:   7851.33 MB/s
+
+Benchmark #434:
+INTEGER   Copy:      7953.64 MB/s
+INTEGER   Scale:     7264.22 MB/s
+INTEGER   Add:       8449.12 MB/s
+INTEGER   Triad:     8653.39 MB/s
+---
+INTEGER   AVERAGE:   8080.09 MB/s
+
+Benchmark #435:
+INTEGER   Copy:      8711.90 MB/s
+INTEGER   Scale:     8796.66 MB/s
+INTEGER   Add:       8259.55 MB/s
+INTEGER   Triad:     9010.42 MB/s
+---
+INTEGER   AVERAGE:   8694.63 MB/s
+
+Benchmark #436:
+INTEGER   Copy:      8672.32 MB/s
+INTEGER   Scale:     8192.59 MB/s
+INTEGER   Add:       9042.04 MB/s
+INTEGER   Triad:     7279.61 MB/s
+---
+INTEGER   AVERAGE:   8296.64 MB/s
+
+Benchmark #437:
+INTEGER   Copy:      8637.44 MB/s
+INTEGER   Scale:     8054.32 MB/s
+INTEGER   Add:       5986.02 MB/s
+INTEGER   Triad:     8765.24 MB/s
+---
+INTEGER   AVERAGE:   7860.75 MB/s
+
+Benchmark #438:
+INTEGER   Copy:      7354.40 MB/s
+INTEGER   Scale:     8130.56 MB/s
+INTEGER   Add:       8656.30 MB/s
+INTEGER   Triad:     7502.13 MB/s
+---
+INTEGER   AVERAGE:   7910.84 MB/s
+
+Benchmark #439:
+INTEGER   Copy:      7485.78 MB/s
+INTEGER   Scale:     8413.26 MB/s
+INTEGER   Add:       8864.74 MB/s
+INTEGER   Triad:     9064.30 MB/s
+---
+INTEGER   AVERAGE:   8457.02 MB/s
+
+Benchmark #440:
+INTEGER   Copy:      8607.15 MB/s
+INTEGER   Scale:     8433.91 MB/s
+INTEGER   Add:       8572.79 MB/s
+INTEGER   Triad:     8621.55 MB/s
+---
+INTEGER   AVERAGE:   8558.85 MB/s
+
+Benchmark #441:
+INTEGER   Copy:      8471.34 MB/s
+INTEGER   Scale:     8335.70 MB/s
+INTEGER   Add:       7432.88 MB/s
+INTEGER   Triad:     7383.90 MB/s
+---
+INTEGER   AVERAGE:   7905.95 MB/s
+
+Benchmark #442:
+INTEGER   Copy:      7433.95 MB/s
+INTEGER   Scale:     8615.78 MB/s
+INTEGER   Add:       8435.29 MB/s
+INTEGER   Triad:     9061.11 MB/s
+---
+INTEGER   AVERAGE:   8386.53 MB/s
+
+Benchmark #443:
+INTEGER   Copy:      8559.97 MB/s
+INTEGER   Scale:     7784.26 MB/s
+INTEGER   Add:       8030.48 MB/s
+INTEGER   Triad:     8462.99 MB/s
+---
+INTEGER   AVERAGE:   8209.43 MB/s
+
+Benchmark #444:
+INTEGER   Copy:      7554.91 MB/s
+INTEGER   Scale:     8442.20 MB/s
+INTEGER   Add:       8513.31 MB/s
+INTEGER   Triad:     8315.52 MB/s
+---
+INTEGER   AVERAGE:   8206.49 MB/s
+
+Benchmark #445:
+INTEGER   Copy:      8633.10 MB/s
+INTEGER   Scale:     8598.53 MB/s
+INTEGER   Add:       7813.77 MB/s
+INTEGER   Triad:     8703.07 MB/s
+---
+INTEGER   AVERAGE:   8437.12 MB/s
+
+Benchmark #446:
+INTEGER   Copy:      8689.87 MB/s
+INTEGER   Scale:     8892.27 MB/s
+INTEGER   Add:       8621.55 MB/s
+INTEGER   Triad:     8157.58 MB/s
+---
+INTEGER   AVERAGE:   8590.32 MB/s
+
+Benchmark #447:
+INTEGER   Copy:      8787.66 MB/s
+INTEGER   Scale:     7669.58 MB/s
+INTEGER   Add:       7499.94 MB/s
+INTEGER   Triad:     7676.44 MB/s
+---
+INTEGER   AVERAGE:   7908.41 MB/s
+
+Benchmark #448:
+INTEGER   Copy:      7495.58 MB/s
+INTEGER   Scale:     7304.37 MB/s
+INTEGER   Add:       7621.95 MB/s
+INTEGER   Triad:     7592.75 MB/s
+---
+INTEGER   AVERAGE:   7503.66 MB/s
+
+Benchmark #449:
+INTEGER   Copy:      7805.48 MB/s
+INTEGER   Scale:     8581.35 MB/s
+INTEGER   Add:       8828.30 MB/s
+INTEGER   Triad:     9387.91 MB/s
+---
+INTEGER   AVERAGE:   8650.76 MB/s
+
+Benchmark #450:
+INTEGER   Copy:      7972.10 MB/s
+INTEGER   Scale:     8641.79 MB/s
+INTEGER   Add:       8334.35 MB/s
+INTEGER   Triad:     8418.75 MB/s
+---
+INTEGER   AVERAGE:   8341.75 MB/s
+
+Benchmark #451:
+INTEGER   Copy:      7628.72 MB/s
+INTEGER   Scale:     7443.62 MB/s
+INTEGER   Add:       6646.84 MB/s
+INTEGER   Triad:     7510.87 MB/s
+---
+INTEGER   AVERAGE:   7307.51 MB/s
+
+Benchmark #452:
+INTEGER   Copy:      7642.29 MB/s
+INTEGER   Scale:     7323.05 MB/s
+INTEGER   Add:       8196.50 MB/s
+INTEGER   Triad:     8106.26 MB/s
+---
+INTEGER   AVERAGE:   7817.03 MB/s
+
+Benchmark #453:
+INTEGER   Copy:      8703.07 MB/s
+INTEGER   Scale:     8624.43 MB/s
+INTEGER   Add:       8935.44 MB/s
+INTEGER   Triad:     8339.74 MB/s
+---
+INTEGER   AVERAGE:   8650.67 MB/s
+
+Benchmark #454:
+INTEGER   Copy:      7655.91 MB/s
+INTEGER   Scale:     7862.64 MB/s
+INTEGER   Add:       7463.02 MB/s
+INTEGER   Triad:     7811.40 MB/s
+---
+INTEGER   AVERAGE:   7698.24 MB/s
+
+Benchmark #455:
+INTEGER   Copy:      7666.16 MB/s
+INTEGER   Scale:     7511.97 MB/s
+INTEGER   Add:       7495.58 MB/s
+INTEGER   Triad:     7963.47 MB/s
+---
+INTEGER   AVERAGE:   7659.30 MB/s
+
+Benchmark #456:
+INTEGER   Copy:      8126.71 MB/s
+INTEGER   Scale:     8096.07 MB/s
+INTEGER   Add:       7880.67 MB/s
+INTEGER   Triad:     9219.97 MB/s
+---
+INTEGER   AVERAGE:   8330.86 MB/s
+
+Benchmark #457:
+INTEGER   Copy:      8542.95 MB/s
+INTEGER   Scale:     8438.05 MB/s
+INTEGER   Add:       8607.15 MB/s
+INTEGER   Triad:     8581.35 MB/s
+---
+INTEGER   AVERAGE:   8542.38 MB/s
+
+Benchmark #458:
+INTEGER   Copy:      8446.35 MB/s
+INTEGER   Scale:     8492.27 MB/s
+INTEGER   Add:       8644.68 MB/s
+INTEGER   Triad:     8027.98 MB/s
+---
+INTEGER   AVERAGE:   8402.82 MB/s
+
+Benchmark #459:
+INTEGER   Copy:      8620.10 MB/s
+INTEGER   Scale:     8805.67 MB/s
+INTEGER   Add:       8665.03 MB/s
+INTEGER   Triad:     8136.98 MB/s
+---
+INTEGER   AVERAGE:   8556.95 MB/s
+
+Benchmark #460:
+INTEGER   Copy:      8805.67 MB/s
+INTEGER   Scale:     8734.05 MB/s
+INTEGER   Add:       8822.25 MB/s
+INTEGER   Triad:     8383.15 MB/s
+---
+INTEGER   AVERAGE:   8686.28 MB/s
+
+Benchmark #461:
+INTEGER   Copy:      7998.08 MB/s
+INTEGER   Scale:     7440.39 MB/s
+INTEGER   Add:       8759.28 MB/s
+INTEGER   Triad:     8040.50 MB/s
+---
+INTEGER   AVERAGE:   8059.56 MB/s
+
+Benchmark #462:
+INTEGER   Copy:      7683.30 MB/s
+INTEGER   Scale:     6833.68 MB/s
+INTEGER   Add:       8679.62 MB/s
+INTEGER   Triad:     8771.21 MB/s
+---
+INTEGER   AVERAGE:   7991.95 MB/s
+
+Benchmark #463:
+INTEGER   Copy:      8729.61 MB/s
+INTEGER   Scale:     8676.70 MB/s
+INTEGER   Add:       8703.07 MB/s
+INTEGER   Triad:     8165.34 MB/s
+---
+INTEGER   AVERAGE:   8568.68 MB/s
+
+Benchmark #464:
+INTEGER   Copy:      8646.13 MB/s
+INTEGER   Scale:     8530.22 MB/s
+INTEGER   Add:       8876.96 MB/s
+INTEGER   Triad:     8895.34 MB/s
+---
+INTEGER   AVERAGE:   8737.16 MB/s
+
+Benchmark #465:
+INTEGER   Copy:      8774.19 MB/s
+INTEGER   Scale:     8966.53 MB/s
+INTEGER   Add:       8714.85 MB/s
+INTEGER   Triad:     9236.49 MB/s
+---
+INTEGER   AVERAGE:   8923.01 MB/s
+
+Benchmark #466:
+INTEGER   Copy:      8633.10 MB/s
+INTEGER   Scale:     7615.19 MB/s
+INTEGER   Add:       8895.34 MB/s
+INTEGER   Triad:     8659.21 MB/s
+---
+INTEGER   AVERAGE:   8450.71 MB/s
+
+Benchmark #467:
+INTEGER   Copy:      7721.29 MB/s
+INTEGER   Scale:     6787.78 MB/s
+INTEGER   Add:       7248.89 MB/s
+INTEGER   Triad:     6974.24 MB/s
+---
+INTEGER   AVERAGE:   7183.05 MB/s
+
+Benchmark #468:
+INTEGER   Copy:      6507.53 MB/s
+INTEGER   Scale:     8742.94 MB/s
+INTEGER   Add:       8870.84 MB/s
+INTEGER   Triad:     7583.82 MB/s
+---
+INTEGER   AVERAGE:   7926.28 MB/s
+
+Benchmark #469:
+INTEGER   Copy:      7628.72 MB/s
+INTEGER   Scale:     8598.53 MB/s
+INTEGER   Add:       8527.40 MB/s
+INTEGER   Triad:     8703.07 MB/s
+---
+INTEGER   AVERAGE:   8364.43 MB/s
+
+Benchmark #470:
+INTEGER   Copy:      8698.67 MB/s
+INTEGER   Scale:     7081.56 MB/s
+INTEGER   Add:       8682.55 MB/s
+INTEGER   Triad:     7417.91 MB/s
+---
+INTEGER   AVERAGE:   7970.17 MB/s
+
+Benchmark #471:
+INTEGER   Copy:      6795.83 MB/s
+INTEGER   Scale:     6995.06 MB/s
+INTEGER   Add:       7809.03 MB/s
+INTEGER   Triad:     7458.70 MB/s
+---
+INTEGER   AVERAGE:   7264.66 MB/s
+
+Benchmark #472:
+INTEGER   Copy:      7531.73 MB/s
+INTEGER   Scale:     7535.03 MB/s
+INTEGER   Add:       8954.07 MB/s
+INTEGER   Triad:     8241.06 MB/s
+---
+INTEGER   AVERAGE:   8065.47 MB/s
+
+Benchmark #473:
+INTEGER   Copy:      7961.01 MB/s
+INTEGER   Scale:     8915.34 MB/s
+INTEGER   Add:       8098.62 MB/s
+INTEGER   Triad:     7590.52 MB/s
+---
+INTEGER   AVERAGE:   8141.37 MB/s
+
+Benchmark #474:
+INTEGER   Copy:      7777.22 MB/s
+INTEGER   Scale:     7784.26 MB/s
+INTEGER   Add:       6266.98 MB/s
+INTEGER   Triad:     8670.86 MB/s
+---
+INTEGER   AVERAGE:   7624.83 MB/s
+
+Benchmark #475:
+INTEGER   Copy:      7728.24 MB/s
+INTEGER   Scale:     7020.79 MB/s
+INTEGER   Add:       7678.73 MB/s
+INTEGER   Triad:     8204.33 MB/s
+---
+INTEGER   AVERAGE:   7658.02 MB/s
+
+Benchmark #476:
+INTEGER   Copy:      8530.22 MB/s
+INTEGER   Scale:     8454.66 MB/s
+INTEGER   Add:       8665.03 MB/s
+INTEGER   Triad:     8801.16 MB/s
+---
+INTEGER   AVERAGE:   8612.77 MB/s
+
+Benchmark #477:
+INTEGER   Copy:      9533.78 MB/s
+INTEGER   Scale:     8751.84 MB/s
+INTEGER   Add:       8584.21 MB/s
+INTEGER   Triad:     8612.90 MB/s
+---
+INTEGER   AVERAGE:   8870.68 MB/s
+
+Benchmark #478:
+INTEGER   Copy:      8173.11 MB/s
+INTEGER   Scale:     7628.72 MB/s
+INTEGER   Add:       7678.73 MB/s
+INTEGER   Triad:     8241.06 MB/s
+---
+INTEGER   AVERAGE:   7930.40 MB/s
+
+Benchmark #479:
+INTEGER   Copy:      6507.53 MB/s
+INTEGER   Scale:     8994.70 MB/s
+INTEGER   Add:       9316.63 MB/s
+INTEGER   Triad:     8941.64 MB/s
+---
+INTEGER   AVERAGE:   8440.12 MB/s
+
+Benchmark #480:
+INTEGER   Copy:      8409.14 MB/s
+INTEGER   Scale:     9393.04 MB/s
+INTEGER   Add:       8864.74 MB/s
+INTEGER   Triad:     8615.78 MB/s
+---
+INTEGER   AVERAGE:   8820.68 MB/s
+
+Benchmark #481:
+INTEGER   Copy:      7332.42 MB/s
+INTEGER   Scale:     7605.08 MB/s
+INTEGER   Add:       7420.04 MB/s
+INTEGER   Triad:     8575.64 MB/s
+---
+INTEGER   AVERAGE:   7733.30 MB/s
+
+Benchmark #482:
+INTEGER   Copy:      7700.52 MB/s
+INTEGER   Scale:     8641.79 MB/s
+INTEGER   Add:       8598.53 MB/s
+INTEGER   Triad:     8302.13 MB/s
+---
+INTEGER   AVERAGE:   8310.74 MB/s
+
+Benchmark #483:
+INTEGER   Copy:      8299.45 MB/s
+INTEGER   Scale:     9362.33 MB/s
+INTEGER   Add:       8729.61 MB/s
+INTEGER   Triad:     8552.87 MB/s
+---
+INTEGER   AVERAGE:   8736.07 MB/s
+
+Benchmark #484:
+INTEGER   Copy:      8521.76 MB/s
+INTEGER   Scale:     8283.45 MB/s
+INTEGER   Add:       8604.28 MB/s
+INTEGER   Triad:     8328.96 MB/s
+---
+INTEGER   AVERAGE:   8434.61 MB/s
+
+Benchmark #485:
+INTEGER   Copy:      8291.44 MB/s
+INTEGER   Scale:     7693.63 MB/s
+INTEGER   Add:       9554.99 MB/s
+INTEGER   Triad:     8679.62 MB/s
+---
+INTEGER   AVERAGE:   8554.92 MB/s
+
+Benchmark #486:
+INTEGER   Copy:      8672.32 MB/s
+INTEGER   Scale:     8594.23 MB/s
+INTEGER   Add:       8777.18 MB/s
+INTEGER   Triad:     7778.39 MB/s
+---
+INTEGER   AVERAGE:   8455.53 MB/s
+
+Benchmark #487:
+INTEGER   Copy:      8173.11 MB/s
+INTEGER   Scale:     7006.47 MB/s
+INTEGER   Add:       8700.14 MB/s
+INTEGER   Triad:     8595.67 MB/s
+---
+INTEGER   AVERAGE:   8118.84 MB/s
+
+Benchmark #488:
+INTEGER   Copy:      5768.93 MB/s
+INTEGER   Scale:     7791.32 MB/s
+INTEGER   Add:       8708.96 MB/s
+INTEGER   Triad:     8201.72 MB/s
+---
+INTEGER   AVERAGE:   7617.73 MB/s
+
+Benchmark #489:
+INTEGER   Copy:      9187.10 MB/s
+INTEGER   Scale:     8446.35 MB/s
+INTEGER   Add:       8732.57 MB/s
+INTEGER   Triad:     7754.98 MB/s
+---
+INTEGER   AVERAGE:   8530.25 MB/s
+
+Benchmark #490:
+INTEGER   Copy:      7251.95 MB/s
+INTEGER   Scale:     7357.55 MB/s
+INTEGER   Add:       8443.58 MB/s
+INTEGER   Triad:     8106.26 MB/s
+---
+INTEGER   AVERAGE:   7789.83 MB/s
+
+Benchmark #491:
+INTEGER   Copy:      6932.96 MB/s
+INTEGER   Scale:     6594.96 MB/s
+INTEGER   Add:       7887.91 MB/s
+INTEGER   Triad:     9144.71 MB/s
+---
+INTEGER   AVERAGE:   7640.14 MB/s
+
+Benchmark #492:
+INTEGER   Copy:      8751.84 MB/s
+INTEGER   Scale:     8869.32 MB/s
+INTEGER   Add:       9418.79 MB/s
+INTEGER   Triad:     9303.18 MB/s
+---
+INTEGER   AVERAGE:   9085.78 MB/s
+
+Benchmark #493:
+INTEGER   Copy:      9444.68 MB/s
+INTEGER   Scale:     9321.69 MB/s
+INTEGER   Add:       9626.37 MB/s
+INTEGER   Triad:     8691.33 MB/s
+---
+INTEGER   AVERAGE:   9271.02 MB/s
+
+Benchmark #494:
+INTEGER   Copy:      7459.78 MB/s
+INTEGER   Scale:     8279.46 MB/s
+INTEGER   Add:       7897.58 MB/s
+INTEGER   Triad:     7681.01 MB/s
+---
+INTEGER   AVERAGE:   7829.46 MB/s
+
+Benchmark #495:
+INTEGER   Copy:      7304.37 MB/s
+INTEGER   Scale:     7006.47 MB/s
+INTEGER   Add:       7559.34 MB/s
+INTEGER   Triad:     6949.79 MB/s
+---
+INTEGER   AVERAGE:   7204.99 MB/s
+
+Benchmark #496:
+INTEGER   Copy:      8216.10 MB/s
+INTEGER   Scale:     7515.25 MB/s
+INTEGER   Add:       6410.40 MB/s
+INTEGER   Triad:     8488.08 MB/s
+---
+INTEGER   AVERAGE:   7657.46 MB/s
+
+Benchmark #497:
+INTEGER   Copy:      8641.79 MB/s
+INTEGER   Scale:     8380.42 MB/s
+INTEGER   Add:       8858.65 MB/s
+INTEGER   Triad:     8567.09 MB/s
+---
+INTEGER   AVERAGE:   8611.99 MB/s
+
+Benchmark #498:
+INTEGER   Copy:      8413.26 MB/s
+INTEGER   Scale:     8805.67 MB/s
+INTEGER   Add:       9035.70 MB/s
+INTEGER   Triad:     7761.99 MB/s
+---
+INTEGER   AVERAGE:   8504.15 MB/s
+
+Benchmark #499:
+INTEGER   Copy:      7505.40 MB/s
+INTEGER   Scale:     6674.39 MB/s
+INTEGER   Add:       8530.22 MB/s
+INTEGER   Triad:     8320.89 MB/s
+---
+INTEGER   AVERAGE:   7757.73 MB/s
+
+Benchmark #500:
+INTEGER   Copy:      7777.22 MB/s
+INTEGER   Scale:     6666.62 MB/s
+INTEGER   Add:       7743.33 MB/s
+INTEGER   Triad:     8451.89 MB/s
+---
+INTEGER   AVERAGE:   7659.76 MB/s
+
+INTEGER BatchRun   Copy:      7822.19 MB/s
+INTEGER BatchRun   Scale:     7723.27 MB/s
+INTEGER BatchRun   Add:       7897.62 MB/s
+INTEGER BatchRun   Triad:     7846.99 MB/s
+---
+INTEGER BatchRun   AVERAGE:   7822.52 MB/s

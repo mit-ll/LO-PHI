@@ -1,0 +1,11 @@
+# Open command prompt
+SPECIAL:LEFT_GUI r
+TEXT:cmd.exe
+SPECIAL:RETURN
+
+# sleep for a bit
+SLEEP:5
+
+# Say Hello
+TEXT:echo "Hello_World!"
+SPECIAL:RETURN

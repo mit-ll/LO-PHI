@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="analysis">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="report_version"/>
+        <xs:element ref="configuration"/>
+        <xs:element ref="program_options"           minOccurs="0"/>
+        <xs:element ref="summary"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="analysis_subject"        maxOccurs="unbounded"/>
+          <xs:element ref="tracked_dll"             maxOccurs="unbounded"/>
+        </xs:choice>
+        <xs:element ref="popups"                    minOccurs="0"/>
+        <xs:element ref="global_network_activities" minOccurs="0"/>
+        <xs:element ref="global_file_info"          minOccurs="0"/>
+        <xs:element ref="system_file_info"          minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="report_version">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="major" type="xs:integer" fixed="4"/>
+        <xs:element name="minor" type="xs:integer" fixed="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="configuration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="time_needed"        type="xs:string"/>
+        <xs:element name="report_created"     type="xs:string"/>
+        <xs:element name="termination_reason" type="xs:string"/>
+        <xs:element ref="ttanalyze_version"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ttanalyze_version">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="prog_version" type="xs:NMTOKEN"/>
+        <xs:element name="svn_revision" type="xs:string"/>
+        <xs:element name="build_date"   type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="program_options">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="analyze"                 type="xs:string"/>
+        <xs:element name="console-output"          type="xs:string"/>
+        <xs:element name="debug"                   type="xs:string"/>
+        <xs:element name="disassemble"             type="xs:string"/>
+        <xs:element name="download-modified-files" type="xs:string"/>
+        <xs:element name="fake-processes"          type="xs:string"/>
+        <xs:element name="host-address"            type="xs:string"/>
+        <xs:element name="kill-popups"             type="xs:string"/>
+        <xs:element name="qemu-ip"                 type="xs:string"/>
+        <xs:element name="report-only-after-ep"    type="xs:string"/>
+        <xs:element name="report-only-hlf"         type="xs:string"/>
+        <xs:element name="show-qemu"               type="xs:string"/>
+        <xs:element name="tap-adapter-name"        type="xs:string"/>
+        <xs:element name="timeout"                 type="xs:string"/>
+        <xs:element name="upload"                  type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="summary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="auto_start"        type="xs:boolean"/>
+        <xs:element name="internet_settings" type="xs:boolean"/>
+        <xs:element name="bho"               type="xs:boolean"/>
+        <xs:element name="win_dir_copy"      type="xs:boolean"/>
+        <xs:element name="av_kill"           type="xs:boolean"/>
+        <xs:element name="com_object"        type="xs:boolean"/>
+        <xs:element name="dlf"               type="xs:boolean"/>
+        <xs:element name="ircbot"            type="xs:boolean"/>
+        <xs:element name="spambot"           type="xs:boolean"/>
+        <xs:element name="addressscan"       type="xs:boolean"/>
+        <xs:element name="portscan"          type="xs:boolean"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="analysis_subject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="general"/>
+        <xs:element ref="dll_dependencies" minOccurs="0"/>
+        <xs:element name="peid"            minOccurs="0" type="xs:string"/>
+        <xs:element name="sigbuster"       minOccurs="0" type="xs:string"/>
+        <xs:element ref="ikarus_scanner"   minOccurs="0"/>
+        <xs:element ref="program_output"   minOccurs="0"/>
+        <xs:element ref="popups"           minOccurs="0"/>
+        <xs:element ref="activities"       minOccurs="0"/>
+        <xs:element ref="anubis_evasion"   minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tracked_dll">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="general"/>
+        <xs:element ref="dll_dependencies" minOccurs="0"/>
+        <xs:element name="peid"            minOccurs="0" type="xs:string"/>
+        <xs:element name="sigbuster"       minOccurs="0" type="xs:string"/>
+        <xs:element ref="ikarus_scanner"   minOccurs="0"/>
+        <xs:element ref="program_output"   minOccurs="0"/>
+        <xs:element ref="popups"           minOccurs="0"/>
+        <xs:element ref="activities"       minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="general">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="id"              type="xs:integer"/>
+        <xs:element name="parent_id"       type="xs:integer"/>
+        <xs:element name="analysis_reason" type="xs:string"/>
+        <xs:element name="submission_fn"   type="xs:string"  minOccurs="0"/>
+        <xs:element name="virtual_fn"      type="xs:string"/>
+        <xs:element name="virtual_path"    type="xs:string"/>
+        <xs:element name="md5"             type="xs:string"  minOccurs="0"/>
+        <xs:element name="sha1"            type="xs:string"  minOccurs="0"/>
+        <xs:element name="crc32"           type="xs:string"  minOccurs="0"/>
+        <xs:element name="file_size"       type="xs:string"  minOccurs="0"/>
+        <xs:element name="arguments"       type="xs:string"  minOccurs="0"/>
+        <xs:element name="status"          type="xs:string"  minOccurs="0"/>
+        <xs:element name="exit_code"       type="xs:integer" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="dll_dependencies">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="loaded_dll" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="loaded_dll">
+    <xs:complexType>
+      <xs:attribute name="base_address"            use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="base_name"               use="required"/>
+      <xs:attribute name="full_name"               use="required"/>
+      <xs:attribute name="is_load_time_dependency" use="required" type="is_load_time_dependency"/>
+      <xs:attribute name="load_time"               use="required" type="xs:integer"/>
+      <xs:attribute name="size"                    use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="is_load_time_dependency">
+    <xs:restriction base="xs:integer">
+      <xs:enumeration value="0"/>
+      <xs:enumeration value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:element name="ikarus_scanner">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="sig" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sig">
+    <xs:complexType>
+      <xs:attribute name="id"   use="required"/>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="program_output">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="stdout" minOccurs="0" type="xs:string"/>
+        <xs:element name="stderr" minOccurs="0" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="activities">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="file_activities"     minOccurs="0"/>
+          <xs:element ref="registry_activities" minOccurs="0"/>
+          <xs:element ref="service_activities"  minOccurs="0"/>
+          <xs:element ref="process_activities"  minOccurs="0"/>
+          <xs:element ref="network_activities"  minOccurs="0"/>
+          <xs:element ref="misc_activities"     minOccurs="0"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="file_activities">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="file_deleted"                 minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="file_created"                 minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="file_read"                    minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="file_modified"                minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="directory_created"            minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="directory_removed"            minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="file_renamed"                 minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="link_created"                 minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="fs_control_communication"     minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="device_control_communication" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="section_object_created"       minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="directory_monitored"          minOccurs="0" maxOccurs="unbounded"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="file_deleted">
+    <xs:complexType>
+      <xs:attribute name="description" use="optional" type="description"/>
+      <xs:attribute name="name"        use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="file_created">
+    <xs:complexType>
+      <xs:attribute name="description" use="optional" type="description"/>
+      <xs:attribute name="name"        use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="file_read">
+    <xs:complexType>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="file_modified">
+    <xs:complexType>
+      <xs:attribute name="description" use="optional" type="description"/>
+      <xs:attribute name="name"        use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="directory_created">
+    <xs:complexType>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="directory_removed">
+    <xs:complexType>
+      <xs:attribute name="description" use="optional" type="description"/>
+      <xs:attribute name="name"        use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="file_renamed">
+    <xs:complexType>
+      <xs:attribute name="description" use="optional" type="description"/>
+      <xs:attribute name="new_name"    use="required"/>
+      <xs:attribute name="old_name"    use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="link_created">
+    <xs:complexType>
+      <xs:attribute name="existing_file" use="required"/>
+      <xs:attribute name="link_name"     use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fs_control_communication">
+    <xs:complexType>
+      <xs:attribute name="control_code" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="count"        use="required" type="xs:integer"/>
+      <xs:attribute name="file"         use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="device_control_communication">
+    <xs:complexType>
+      <xs:attribute name="control_code" use="required"/>
+      <xs:attribute name="count"        use="required" type="xs:integer"/>
+      <xs:attribute name="file"         use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="section_object_created">
+    <xs:complexType>
+      <xs:attribute name="file_name"    use="required"/>
+      <xs:attribute name="section_name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="directory_monitored">
+    <xs:complexType>
+      <xs:attribute name="count"         use="required"/>
+      <xs:attribute name="directory"     use="required"/>
+      <xs:attribute name="notify_filter" use="required"/>
+      <xs:attribute name="watch_subtree" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="registry_activities">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="reg_key_created"           minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="reg_key_created_or_opened" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="reg_key_deleted"           minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="reg_value_deleted"         minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="reg_value_modified"        minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="reg_value_read"            minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="reg_key_monitored"         minOccurs="0" maxOccurs="unbounded"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="reg_key_created">
+    <xs:complexType>
+      <xs:attribute name="description" use="optional" type="description"/>
+      <xs:attribute name="name"        use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="reg_key_created_or_opened">
+    <xs:complexType>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="reg_key_deleted">
+    <xs:complexType>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="reg_value_deleted">
+    <xs:complexType>
+      <xs:attribute name="key"        use="required"/>
+      <xs:attribute name="value_name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="reg_value_modified">
+    <xs:complexType>
+      <xs:attribute name="count"       use="required" type="xs:integer"/>
+      <xs:attribute name="description" use="optional" type="description"/>
+      <xs:attribute name="key"         use="required"/>
+      <xs:attribute name="value_data"  use="required"/>
+      <xs:attribute name="value_name"  use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="reg_value_read">
+    <xs:complexType>
+      <xs:attribute name="count"      use="required" type="xs:integer"/>
+      <xs:attribute name="key"        use="required"/>
+      <xs:attribute name="value_data" use="required"/>
+      <xs:attribute name="value_name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="reg_key_monitored">
+    <xs:complexType>
+      <xs:attribute name="count"         use="required" type="xs:integer"/>
+      <xs:attribute name="key"           use="required"/>
+      <xs:attribute name="notify_filter" use="required"/>
+      <xs:attribute name="watch_subtree" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="service_activities">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="service_started"      minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="service_created"      minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="service_deleted"      minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="service_changed"      minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="service_control_code" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="service_started">
+    <xs:complexType>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="service_created">
+    <xs:complexType>
+      <xs:attribute name="name" use="required"/>
+      <xs:attribute name="path" use="required"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="service_deleted">
+    <xs:complexType>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="service_changed">
+    <xs:complexType>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="service_control_code">
+    <xs:complexType>
+      <xs:attribute name="control_code" use="required"/>
+      <xs:attribute name="service" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="process_activities">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="process_created"          minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="process_killed"           minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="remote_thread_created"    minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="thread_information"       minOccurs="0"/>
+          <xs:element ref="foreign_mem_area_read"    minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="foreign_mem_area_write" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="process_created">
+    <xs:complexType>
+      <xs:attribute name="cmd_line"    use="required"/>
+      <xs:attribute name="exe_name"    use="required"/>
+      <xs:attribute name="description" use="optional" type="description"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="process_killed">
+    <xs:complexType>
+      <xs:attribute name="description" use="optional" type="description"/>
+      <xs:attribute name="name"        use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="remote_thread_created">
+    <xs:complexType>
+      <xs:attribute name="process" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="thread_information">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="thread_status" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="thread_status">
+    <xs:complexType>
+      <xs:attribute name="number_of_threads" use="required" type="xs:integer"/>
+      <xs:attribute name="time"              use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="foreign_mem_area_read">
+    <xs:complexType>
+      <xs:attribute name="process" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="foreign_mem_area_write">
+    <xs:complexType>
+      <xs:attribute name="process" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="global_network_activities">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="dns_queries"   minOccurs="0"/>
+          <xs:element ref="sockets"       minOccurs="0"/>
+          <xs:element ref="ping_requests" minOccurs="0"/>
+          <xs:element ref="icmp_traffic"  minOccurs="0"/>
+          <xs:element ref="tcp_traffic"   minOccurs="0"/>
+          <xs:element ref="udp_traffic"   minOccurs="0"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="network_activities">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="dns_queries"   minOccurs="0"/>
+          <xs:element ref="sockets"       minOccurs="0"/>
+          <xs:element ref="ping_requests" minOccurs="0"/>
+          <xs:element ref="icmp_traffic"  minOccurs="0"/>
+          <xs:element ref="tcp_traffic"   minOccurs="0"/>
+          <xs:element ref="udp_traffic"   minOccurs="0"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dns_queries">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dns_query" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dns_query">
+    <xs:complexType>
+      <xs:attribute name="dest_ip"    use="optional"/>
+      <xs:attribute name="dest_port"  use="optional" type="xs:integer"/>
+      <xs:attribute name="name"       use="required"/>
+      <xs:attribute name="protocol"   use="optional"/>
+      <xs:attribute name="result"     use="required"/>
+      <xs:attribute name="src_ip"     use="optional"/>
+      <xs:attribute name="src_port"   use="optional" type="xs:integer"/>
+      <xs:attribute name="successful" use="required"/>
+      <xs:attribute name="type"       use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sockets">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="socket" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="socket">
+    <xs:complexType>
+      <xs:attribute name="close_time"        use="required"/>
+      <xs:attribute name="create_time"       use="required"/>
+      <xs:attribute name="created_by_thread" use="required" type="xs:integer"/>
+      <xs:attribute name="foreign_ip"        use="required"/>
+      <xs:attribute name="foreign_port"      use="required" type="xs:integer"/>
+      <xs:attribute name="is_listening"      use="required" type="xs:integer"/>
+      <xs:attribute name="local_ip"          use="required"/>
+      <xs:attribute name="local_port"        use="required" type="xs:integer"/>
+      <xs:attribute name="type"              use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ping_requests">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ping_request" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ping_request">
+    <xs:complexType>
+      <xs:attribute name="dest"      use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="got_reply" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="icmp_traffic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="pings" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pings">
+    <xs:complexType>
+      <xs:attribute name="got_reply" use="required" type="xs:integer"/>
+      <xs:attribute name="sent"      use="required" type="xs:integer"/>
+      <xs:attribute name="subnet"    use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tcp_traffic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="http_traffic"        minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="irc_traffic"         minOccurs="0"/>
+          <xs:element ref="smtp_traffic"        minOccurs="0"/>
+          <xs:element ref="ftp_traffic"         minOccurs="0"/>
+          <xs:element ref="scans"               minOccurs="0"/>
+          <xs:element ref="unknown_tcp_traffic" minOccurs="0"/>
+          <xs:element ref="connection_attempts" minOccurs="0"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="http_traffic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="http_conversation" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="http_conversation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="http_request" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="description" use="optional" type="description"/>
+      <xs:attribute name="dest_ip"     use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="dest_port"   use="required" type="xs:integer"/>
+      <xs:attribute name="hostname"    use="required"/>
+      <xs:attribute name="src_ip"      use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="src_port"    use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="http_request">
+    <xs:complexType>
+      <xs:attribute name="request"  use="required"/>
+      <xs:attribute name="response" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="irc_traffic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="irc_conversation" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="description" use="optional" type="description"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="irc_conversation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="channel"            minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="privmsg_to_channel" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="privmsg_to_user"    minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="channel_topic"      minOccurs="0" maxOccurs="unbounded"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="dest_ip"     use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="dest_port"   use="required" type="xs:integer"/>
+      <xs:attribute name="nick"        use="required"/>
+      <xs:attribute name="server_pass" use="required"/>
+      <xs:attribute name="src_ip"      use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="src_port"    use="required" type="xs:integer"/>
+      <xs:attribute name="user"        use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="channel">
+    <xs:complexType>
+      <xs:attribute name="joined_channel" use="required"/>
+      <xs:attribute name="password"       use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="privmsg_to_channel">
+    <xs:complexType>
+      <xs:attribute name="channel"  use="required"/>
+      <xs:attribute name="priv_msg" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="privmsg_to_user">
+    <xs:complexType>
+      <xs:attribute name="priv_msg" use="required"/>
+      <xs:attribute name="user"     use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="channel_topic">
+    <xs:complexType>
+      <xs:attribute name="channel" use="required"/>
+      <xs:attribute name="topic"   use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="smtp_traffic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="smtp_conversation" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="smtp_conversation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="attached_files" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="content"      use="required"/>
+      <xs:attribute name="description"  use="optional" type="description"/>
+      <xs:attribute name="dest_ip"      use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="dest_port"    use="required" type="xs:integer"/>
+      <xs:attribute name="recipient"    use="required"/>
+      <xs:attribute name="sender"       use="required"/>
+      <xs:attribute name="server_reply" use="required"/>
+      <xs:attribute name="src_ip"       use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="src_port"     use="required" type="xs:integer"/>
+      <xs:attribute name="subject"      use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="attached_files">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="file"         use="required"/>
+          <xs:attribute name="content_type" use="required"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ftp_traffic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ftp_conversation" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ftp_conversation">
+    <xs:complexType>
+      <xs:attribute name="dest_ip"   use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="dest_port" use="required" type="xs:integer"/>
+      <xs:attribute name="password"  use="required"/>
+      <xs:attribute name="src_ip"    use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="src_port"  use="required" type="xs:integer"/>
+      <xs:attribute name="user"      use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="scans">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="address_scan" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="port_scan"    minOccurs="0" maxOccurs="unbounded"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="address_scan">
+    <xs:complexType>
+      <xs:attribute name="a_count"      use="required" type="xs:integer"/>
+      <xs:attribute name="description"  use="optional" type="description"/>
+      <xs:attribute name="remote_port"  use="required" type="xs:integer"/>
+      <xs:attribute name="subnet"       use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="port_scan">
+    <xs:complexType>
+      <xs:attribute name="description"  use="optional" type="description"/>
+      <xs:attribute name="p_count"      use="required" type="xs:integer"/>
+      <xs:attribute name="remote_ip"    use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="unknown_tcp_traffic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tcp_conversation" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tcp_conversation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="data" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="dest_ip"        use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="dest_port"      use="required" type="xs:integer"/>
+      <xs:attribute name="org_bytes_sent" use="required" type="xs:integer"/>
+      <xs:attribute name="res_bytes_sent" use="required" type="xs:integer"/>
+      <xs:attribute name="src_ip"         use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="src_port"       use="required" type="xs:integer"/>
+      <xs:attribute name="state"          use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="data">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="direction" use="required" type="xs:NCName"/>
+          <xs:attribute name="seq"       use="required" type="xs:integer"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="connection_attempts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="connection_attempt"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="connection_attempt">
+    <xs:complexType>
+      <xs:attribute name="dest_ip"   use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="dest_port" use="required" type="xs:integer"/>
+      <xs:attribute name="src_ip"    use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="src_port"  use="required" type="xs:integer"/>
+      <xs:attribute name="state"     use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="udp_traffic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="unknown_udp_traffic" minOccurs="0"/>
+        <xs:element ref="scans"               minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="unknown_udp_traffic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="udp_conversation" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="udp_conversation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="data" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="direction" use="required" type="xs:NCName"/>
+                <xs:attribute name="seq"       use="required" type="xs:integer"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="dest_ip"        use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="dest_port"      use="required" type="xs:integer"/>
+      <xs:attribute name="org_bytes_sent" use="required" type="xs:integer"/>
+      <xs:attribute name="res_bytes_sent" use="required" type="xs:integer"/>
+      <xs:attribute name="src_ip"         use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="src_port"       use="required" type="xs:integer"/>
+      <xs:attribute name="state"          use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="misc_activities">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="mutex_created"      minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="driver_loaded"      minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="driver_unloaded"    minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="key_was_checked"    minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="exception_occurred" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mutex_created">
+    <xs:complexType>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="driver_loaded">
+    <xs:complexType>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="driver_unloaded">
+    <xs:complexType>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="key_was_checked">
+    <xs:complexType>
+      <xs:attribute name="count" use="required" type="xs:integer"/>
+      <xs:attribute name="key"   use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="exception_occurred">
+    <xs:complexType>
+      <xs:attribute name="count"       use="required" type="xs:integer"/>
+      <xs:attribute name="description" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="anubis_evasion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="keywords" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="keywords">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="source"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="source">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element name="popups"/>
+        <xs:element name="stdout"/>
+        <xs:element name="binary"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:simpleType name="description">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="auto_start"/>
+      <xs:enumeration value="internet_settings"/>
+      <xs:enumeration value="win_dir_copy"/>
+      <xs:enumeration value="av_kill"/>
+      <xs:enumeration value="com_object"/>
+      <xs:enumeration value="dlf"/>
+      <xs:enumeration value="ircbot"/>
+      <xs:enumeration value="spambot"/>
+      <xs:enumeration value="addressscan"/>
+      <xs:enumeration value="portscan"/>
+      <xs:enumeration value="file_modification_destruction"/>
+      <xs:enumeration value="process_spawn"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:element name="popups">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="popup" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="popup">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="screenshot" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute name="number_of_popups" use="required"/>
+      <xs:attribute name="process_name"     use="required"/>
+      <xs:attribute name="window_name"      use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="screenshot">
+    <xs:complexType>
+      <xs:attribute name="src"       use="required"/>
+      <xs:attribute name="src_small" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="global_file_info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="global_file" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="global_file">
+    <xs:complexType>
+      <xs:attribute name="info"       use="required"/>
+      <xs:attribute name="md5"        use="required"/>
+      <xs:attribute name="mimetype"   use="required"/>
+      <xs:attribute name="name"       use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="system_file_info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="system_file" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="system_file" type="xs:string">
+    <xs:complexType>
+      <xs:attribute name="file_name"        use="required"/>
+      <xs:attribute name="deleted"          use="optional"/>
+      <xs:attribute name="diff_truncated"   use="optional"/>
+      <xs:attribute name="diff_cmd"         use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>

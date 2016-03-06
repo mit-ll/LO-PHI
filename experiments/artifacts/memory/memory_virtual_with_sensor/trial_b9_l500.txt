@@ -1,0 +1,4012 @@
+RAMspeed (Win32) v1.1.1 by Rhett M. Hollander and Paul V. Bolotoff, 2002-09
+
+8Gb per pass mode
+
+500-benchmark MMXmem BatchRun mode
+
+Benchmark #1:
+MMX       Copy:      9221.62 MB/s
+MMX       Scale:     8323.58 MB/s
+MMX       Add:       9742.84 MB/s
+MMX       Triad:     10258.68 MB/s
+---
+MMX       AVERAGE:   9386.68 MB/s
+
+Benchmark #2:
+MMX       Copy:      9640.78 MB/s
+MMX       Scale:     9930.56 MB/s
+MMX       Add:       10242.37 MB/s
+MMX       Triad:     11708.23 MB/s
+---
+MMX       AVERAGE:   10380.48 MB/s
+
+Benchmark #3:
+MMX       Copy:      10469.15 MB/s
+MMX       Scale:     10559.23 MB/s
+MMX       Add:       8694.27 MB/s
+MMX       Triad:     8985.29 MB/s
+---
+MMX       AVERAGE:   9676.98 MB/s
+
+Benchmark #4:
+MMX       Copy:      7714.36 MB/s
+MMX       Scale:     6986.53 MB/s
+MMX       Add:       7797.22 MB/s
+MMX       Triad:     7581.58 MB/s
+---
+MMX       AVERAGE:   7519.92 MB/s
+
+Benchmark #5:
+MMX       Copy:      9662.47 MB/s
+MMX       Scale:     7357.55 MB/s
+MMX       Add:       10951.89 MB/s
+MMX       Triad:     8008.02 MB/s
+---
+MMX       AVERAGE:   8994.98 MB/s
+
+Benchmark #6:
+MMX       Copy:      8689.87 MB/s
+MMX       Scale:     8615.78 MB/s
+MMX       Add:       9340.27 MB/s
+MMX       Triad:     8440.81 MB/s
+---
+MMX       AVERAGE:   8771.68 MB/s
+
+Benchmark #7:
+MMX       Copy:      7608.45 MB/s
+MMX       Scale:     7511.97 MB/s
+MMX       Add:       6901.39 MB/s
+MMX       Triad:     6688.24 MB/s
+---
+MMX       AVERAGE:   7177.51 MB/s
+
+Benchmark #8:
+MMX       Copy:      8142.12 MB/s
+MMX       Scale:     8787.66 MB/s
+MMX       Add:       8085.91 MB/s
+MMX       Triad:     8068.19 MB/s
+---
+MMX       AVERAGE:   8270.97 MB/s
+
+Benchmark #9:
+MMX       Copy:      8756.30 MB/s
+MMX       Scale:     6360.56 MB/s
+MMX       Add:       10570.06 MB/s
+MMX       Triad:     11317.44 MB/s
+---
+MMX       AVERAGE:   9251.09 MB/s
+
+Benchmark #10:
+MMX       Copy:      9221.62 MB/s
+MMX       Scale:     8462.99 MB/s
+MMX       Add:       10873.33 MB/s
+MMX       Triad:     11175.11 MB/s
+---
+MMX       AVERAGE:   9933.26 MB/s
+
+Benchmark #11:
+MMX       Copy:      10111.75 MB/s
+MMX       Scale:     11339.85 MB/s
+MMX       Add:       9805.86 MB/s
+MMX       Triad:     12359.62 MB/s
+---
+MMX       AVERAGE:   10904.27 MB/s
+
+Benchmark #12:
+MMX       Copy:      10105.81 MB/s
+MMX       Scale:     8980.59 MB/s
+MMX       Add:       8840.41 MB/s
+MMX       Triad:     8804.17 MB/s
+---
+MMX       AVERAGE:   9182.74 MB/s
+
+Benchmark #13:
+MMX       Copy:      8906.10 MB/s
+MMX       Scale:     7851.86 MB/s
+MMX       Add:       7651.37 MB/s
+MMX       Triad:     8665.03 MB/s
+---
+MMX       AVERAGE:   8268.59 MB/s
+
+Benchmark #14:
+MMX       Copy:      7635.50 MB/s
+MMX       Scale:     8429.77 MB/s
+MMX       Add:       8416.00 MB/s
+MMX       Triad:     8798.16 MB/s
+---
+MMX       AVERAGE:   8319.86 MB/s
+
+Benchmark #15:
+MMX       Copy:      8676.70 MB/s
+MMX       Scale:     8347.85 MB/s
+MMX       Add:       10458.52 MB/s
+MMX       Triad:     8592.80 MB/s
+---
+MMX       AVERAGE:   9018.97 MB/s
+
+Benchmark #16:
+MMX       Copy:      9046.80 MB/s
+MMX       Scale:     9439.49 MB/s
+MMX       Add:       10361.80 MB/s
+MMX       Triad:     8919.97 MB/s
+---
+MMX       AVERAGE:   9442.02 MB/s
+
+Benchmark #17:
+MMX       Copy:      9947.81 MB/s
+MMX       Scale:     8196.50 MB/s
+MMX       Add:       9309.90 MB/s
+MMX       Triad:     10604.86 MB/s
+---
+MMX       AVERAGE:   9514.77 MB/s
+
+Benchmark #18:
+MMX       Copy:      7994.36 MB/s
+MMX       Scale:     8405.02 MB/s
+MMX       Add:       10042.79 MB/s
+MMX       Triad:     8876.96 MB/s
+---
+MMX       AVERAGE:   8829.78 MB/s
+
+Benchmark #19:
+MMX       Copy:      8458.82 MB/s
+MMX       Scale:     8961.85 MB/s
+MMX       Add:       10565.73 MB/s
+MMX       Triad:     10266.85 MB/s
+---
+MMX       AVERAGE:   9563.31 MB/s
+
+Benchmark #20:
+MMX       Copy:      8307.48 MB/s
+MMX       Scale:     9018.30 MB/s
+MMX       Add:       8361.39 MB/s
+MMX       Triad:     9374.25 MB/s
+---
+MMX       AVERAGE:   8765.36 MB/s
+
+Benchmark #21:
+MMX       Copy:      8134.41 MB/s
+MMX       Scale:     9004.12 MB/s
+MMX       Add:       9669.72 MB/s
+MMX       Triad:     9180.55 MB/s
+---
+MMX       AVERAGE:   8997.20 MB/s
+
+Benchmark #22:
+MMX       Copy:      8483.89 MB/s
+MMX       Scale:     8620.10 MB/s
+MMX       Add:       10462.77 MB/s
+MMX       Triad:     9877.27 MB/s
+---
+MMX       AVERAGE:   9361.01 MB/s
+
+Benchmark #23:
+MMX       Copy:      8479.70 MB/s
+MMX       Scale:     8103.71 MB/s
+MMX       Add:       9391.33 MB/s
+MMX       Triad:     8780.17 MB/s
+---
+MMX       AVERAGE:   8688.73 MB/s
+
+Benchmark #24:
+MMX       Copy:      8115.20 MB/s
+MMX       Scale:     8157.58 MB/s
+MMX       Add:       8454.66 MB/s
+MMX       Triad:     8350.55 MB/s
+---
+MMX       AVERAGE:   8269.50 MB/s
+
+Benchmark #25:
+MMX       Copy:      7994.36 MB/s
+MMX       Scale:     8957.18 MB/s
+MMX       Add:       8299.45 MB/s
+MMX       Triad:     10804.95 MB/s
+---
+MMX       AVERAGE:   9013.98 MB/s
+
+Benchmark #26:
+MMX       Copy:      9065.89 MB/s
+MMX       Scale:     7515.25 MB/s
+MMX       Add:       9717.12 MB/s
+MMX       Triad:     9391.33 MB/s
+---
+MMX       AVERAGE:   8922.40 MB/s
+
+Benchmark #27:
+MMX       Copy:      8291.44 MB/s
+MMX       Scale:     7598.35 MB/s
+MMX       Add:       9594.12 MB/s
+MMX       Triad:     9233.18 MB/s
+---
+MMX       AVERAGE:   8679.27 MB/s
+
+Benchmark #28:
+MMX       Copy:      8024.23 MB/s
+MMX       Scale:     7518.54 MB/s
+MMX       Add:       9554.99 MB/s
+MMX       Triad:     9144.71 MB/s
+---
+MMX       AVERAGE:   8560.62 MB/s
+
+Benchmark #29:
+MMX       Copy:      8396.81 MB/s
+MMX       Scale:     8115.20 MB/s
+MMX       Add:       10109.77 MB/s
+MMX       Triad:     10222.06 MB/s
+---
+MMX       AVERAGE:   9210.96 MB/s
+
+Benchmark #30:
+MMX       Copy:      10099.86 MB/s
+MMX       Scale:     9296.47 MB/s
+MMX       Add:       8482.49 MB/s
+MMX       Triad:     8650.49 MB/s
+---
+MMX       AVERAGE:   9132.33 MB/s
+
+Benchmark #31:
+MMX       Copy:      7964.71 MB/s
+MMX       Scale:     8046.78 MB/s
+MMX       Add:       9547.91 MB/s
+MMX       Triad:     9961.27 MB/s
+---
+MMX       AVERAGE:   8880.16 MB/s
+
+Benchmark #32:
+MMX       Copy:      9629.97 MB/s
+MMX       Scale:     10244.41 MB/s
+MMX       Add:       10823.10 MB/s
+MMX       Triad:     10670.73 MB/s
+---
+MMX       AVERAGE:   10342.05 MB/s
+
+Benchmark #33:
+MMX       Copy:      9994.11 MB/s
+MMX       Scale:     9629.97 MB/s
+MMX       Add:       10531.18 MB/s
+MMX       Triad:     9530.25 MB/s
+---
+MMX       AVERAGE:   9921.38 MB/s
+
+Benchmark #34:
+MMX       Copy:      9382.78 MB/s
+MMX       Scale:     10123.67 MB/s
+MMX       Add:       9266.38 MB/s
+MMX       Triad:     8058.10 MB/s
+---
+MMX       AVERAGE:   9207.73 MB/s
+
+Benchmark #35:
+MMX       Copy:      8103.71 MB/s
+MMX       Scale:     10141.60 MB/s
+MMX       Add:       10279.14 MB/s
+MMX       Triad:     9695.19 MB/s
+---
+MMX       AVERAGE:   9554.91 MB/s
+
+Benchmark #36:
+MMX       Copy:      9281.40 MB/s
+MMX       Scale:     8243.70 MB/s
+MMX       Add:       8206.94 MB/s
+MMX       Triad:     8093.53 MB/s
+---
+MMX       AVERAGE:   8456.39 MB/s
+
+Benchmark #37:
+MMX       Copy:      7417.91 MB/s
+MMX       Scale:     8633.10 MB/s
+MMX       Add:       8337.04 MB/s
+MMX       Triad:     9243.11 MB/s
+---
+MMX       AVERAGE:   8407.79 MB/s
+
+Benchmark #38:
+MMX       Copy:      8924.61 MB/s
+MMX       Scale:     8985.29 MB/s
+MMX       Add:       8592.80 MB/s
+MMX       Triad:     8170.51 MB/s
+---
+MMX       AVERAGE:   8668.30 MB/s
+
+Benchmark #39:
+MMX       Copy:      9695.19 MB/s
+MMX       Scale:     8016.74 MB/s
+MMX       Add:       9772.39 MB/s
+MMX       Triad:     9190.37 MB/s
+---
+MMX       AVERAGE:   9168.67 MB/s
+
+Benchmark #40:
+MMX       Copy:      8667.95 MB/s
+MMX       Scale:     9065.89 MB/s
+MMX       Add:       9038.86 MB/s
+MMX       Triad:     8774.19 MB/s
+---
+MMX       AVERAGE:   8886.72 MB/s
+
+Benchmark #41:
+MMX       Copy:      7686.74 MB/s
+MMX       Scale:     7307.47 MB/s
+MMX       Add:       8994.70 MB/s
+MMX       Triad:     10295.57 MB/s
+---
+MMX       AVERAGE:   8571.12 MB/s
+
+Benchmark #42:
+MMX       Copy:      9794.68 MB/s
+MMX       Scale:     10046.71 MB/s
+MMX       Add:       10038.88 MB/s
+MMX       Triad:     8870.84 MB/s
+---
+MMX       AVERAGE:   9687.78 MB/s
+
+Benchmark #43:
+MMX       Copy:      8323.58 MB/s
+MMX       Scale:     6753.09 MB/s
+MMX       Add:       9381.07 MB/s
+MMX       Triad:     9360.63 MB/s
+---
+MMX       AVERAGE:   8454.59 MB/s
+
+Benchmark #44:
+MMX       Copy:      10093.93 MB/s
+MMX       Scale:     8364.10 MB/s
+MMX       Add:       8938.54 MB/s
+MMX       Triad:     10557.07 MB/s
+---
+MMX       AVERAGE:   9488.41 MB/s
+
+Benchmark #45:
+MMX       Copy:      7598.35 MB/s
+MMX       Scale:     7686.74 MB/s
+MMX       Add:       9306.54 MB/s
+MMX       Triad:     8267.50 MB/s
+---
+MMX       AVERAGE:   8214.78 MB/s
+
+Benchmark #46:
+MMX       Copy:      9890.54 MB/s
+MMX       Scale:     8624.43 MB/s
+MMX       Add:       9512.66 MB/s
+MMX       Triad:     9687.90 MB/s
+---
+MMX       AVERAGE:   9428.88 MB/s
+
+Benchmark #47:
+MMX       Copy:      7131.54 MB/s
+MMX       Scale:     8615.78 MB/s
+MMX       Add:       8982.16 MB/s
+MMX       Triad:     9193.65 MB/s
+---
+MMX       AVERAGE:   8480.78 MB/s
+
+Benchmark #48:
+MMX       Copy:      8188.69 MB/s
+MMX       Scale:     6674.39 MB/s
+MMX       Add:       9604.85 MB/s
+MMX       Triad:     9798.40 MB/s
+---
+MMX       AVERAGE:   8566.58 MB/s
+
+Benchmark #49:
+MMX       Copy:      9491.64 MB/s
+MMX       Scale:     9286.42 MB/s
+MMX       Add:       9626.37 MB/s
+MMX       Triad:     9790.96 MB/s
+---
+MMX       AVERAGE:   9548.85 MB/s
+
+Benchmark #50:
+MMX       Copy:      8384.51 MB/s
+MMX       Scale:     7866.24 MB/s
+MMX       Add:       10129.64 MB/s
+MMX       Triad:     8119.03 MB/s
+---
+MMX       AVERAGE:   8624.86 MB/s
+
+Benchmark #51:
+MMX       Copy:      10046.71 MB/s
+MMX       Scale:     10034.97 MB/s
+MMX       Add:       9340.27 MB/s
+MMX       Triad:     9934.39 MB/s
+---
+MMX       AVERAGE:   9839.08 MB/s
+
+Benchmark #52:
+MMX       Copy:      8729.61 MB/s
+MMX       Scale:     8521.76 MB/s
+MMX       Add:       9519.69 MB/s
+MMX       Triad:     9911.46 MB/s
+---
+MMX       AVERAGE:   9170.63 MB/s
+
+Benchmark #53:
+MMX       Copy:      9201.86 MB/s
+MMX       Scale:     8405.02 MB/s
+MMX       Add:       8935.44 MB/s
+MMX       Triad:     8723.70 MB/s
+---
+MMX       AVERAGE:   8816.50 MB/s
+
+Benchmark #54:
+MMX       Copy:      7642.29 MB/s
+MMX       Scale:     7427.53 MB/s
+MMX       Add:       8119.03 MB/s
+MMX       Triad:     8828.30 MB/s
+---
+MMX       AVERAGE:   8004.29 MB/s
+
+Benchmark #55:
+MMX       Copy:      7463.02 MB/s
+MMX       Scale:     9152.83 MB/s
+MMX       Add:       10266.85 MB/s
+MMX       Triad:     8558.55 MB/s
+---
+MMX       AVERAGE:   8860.31 MB/s
+
+Benchmark #56:
+MMX       Copy:      8738.49 MB/s
+MMX       Scale:     9533.78 MB/s
+MMX       Add:       9590.55 MB/s
+MMX       Triad:     7975.80 MB/s
+---
+MMX       AVERAGE:   8959.65 MB/s
+
+Benchmark #57:
+MMX       Copy:      8787.66 MB/s
+MMX       Scale:     8247.66 MB/s
+MMX       Add:       10129.64 MB/s
+MMX       Triad:     9554.99 MB/s
+---
+MMX       AVERAGE:   9179.99 MB/s
+
+Benchmark #58:
+MMX       Copy:      8291.44 MB/s
+MMX       Scale:     8122.87 MB/s
+MMX       Add:       9283.07 MB/s
+MMX       Triad:     9353.83 MB/s
+---
+MMX       AVERAGE:   8762.80 MB/s
+
+Benchmark #59:
+MMX       Copy:      9496.89 MB/s
+MMX       Scale:     8869.32 MB/s
+MMX       Add:       8861.69 MB/s
+MMX       Triad:     9442.95 MB/s
+---
+MMX       AVERAGE:   9167.71 MB/s
+
+Benchmark #60:
+MMX       Copy:      7759.65 MB/s
+MMX       Scale:     9528.49 MB/s
+MMX       Add:       7335.55 MB/s
+MMX       Triad:     8963.41 MB/s
+---
+MMX       AVERAGE:   8396.78 MB/s
+
+Benchmark #61:
+MMX       Copy:      7489.04 MB/s
+MMX       Scale:     8177.00 MB/s
+MMX       Add:       9112.38 MB/s
+MMX       Triad:     9862.15 MB/s
+---
+MMX       AVERAGE:   8660.14 MB/s
+
+Benchmark #62:
+MMX       Copy:      9357.23 MB/s
+MMX       Scale:     9936.30 MB/s
+MMX       Add:       9984.43 MB/s
+MMX       Triad:     9048.39 MB/s
+---
+MMX       AVERAGE:   9581.59 MB/s
+
+Benchmark #63:
+MMX       Copy:      9460.28 MB/s
+MMX       Scale:     8864.74 MB/s
+MMX       Add:       9038.86 MB/s
+MMX       Triad:     9177.28 MB/s
+---
+MMX       AVERAGE:   9135.29 MB/s
+
+Benchmark #64:
+MMX       Copy:      7064.09 MB/s
+MMX       Scale:     6785.10 MB/s
+MMX       Add:       7158.28 MB/s
+MMX       Triad:     7736.36 MB/s
+---
+MMX       AVERAGE:   7185.96 MB/s
+
+Benchmark #65:
+MMX       Copy:      8279.46 MB/s
+MMX       Scale:     7427.53 MB/s
+MMX       Add:       7724.76 MB/s
+MMX       Triad:     9289.76 MB/s
+---
+MMX       AVERAGE:   8180.38 MB/s
+
+Benchmark #66:
+MMX       Copy:      8538.70 MB/s
+MMX       Scale:     8208.25 MB/s
+MMX       Add:       8126.71 MB/s
+MMX       Triad:     7806.67 MB/s
+---
+MMX       AVERAGE:   8170.08 MB/s
+
+Benchmark #67:
+MMX       Copy:      7927.95 MB/s
+MMX       Scale:     6921.78 MB/s
+MMX       Add:       9096.30 MB/s
+MMX       Triad:     9432.58 MB/s
+---
+MMX       AVERAGE:   8344.65 MB/s
+
+Benchmark #68:
+MMX       Copy:      8069.45 MB/s
+MMX       Scale:     9182.19 MB/s
+MMX       Add:       10609.22 MB/s
+MMX       Triad:     8633.10 MB/s
+---
+MMX       AVERAGE:   9123.49 MB/s
+
+Benchmark #69:
+MMX       Copy:      8263.53 MB/s
+MMX       Scale:     9306.54 MB/s
+MMX       Add:       11793.96 MB/s
+MMX       Triad:     10086.03 MB/s
+---
+MMX       AVERAGE:   9862.51 MB/s
+
+Benchmark #70:
+MMX       Copy:      8547.20 MB/s
+MMX       Scale:     6972.35 MB/s
+MMX       Add:       9790.96 MB/s
+MMX       Triad:     10341.01 MB/s
+---
+MMX       AVERAGE:   8912.88 MB/s
+
+Benchmark #71:
+MMX       Copy:      9789.10 MB/s
+MMX       Scale:     9143.09 MB/s
+MMX       Add:       10887.12 MB/s
+MMX       Triad:     9669.72 MB/s
+---
+MMX       AVERAGE:   9872.26 MB/s
+
+Benchmark #72:
+MMX       Copy:      10533.33 MB/s
+MMX       Scale:     11184.81 MB/s
+MMX       Add:       11550.79 MB/s
+MMX       Triad:     8136.98 MB/s
+---
+MMX       AVERAGE:   10351.48 MB/s
+
+Benchmark #73:
+MMX       Copy:      7395.55 MB/s
+MMX       Scale:     7909.70 MB/s
+MMX       Add:       8307.48 MB/s
+MMX       Triad:     10238.30 MB/s
+---
+MMX       AVERAGE:   8462.76 MB/s
+
+Benchmark #74:
+MMX       Copy:      8796.66 MB/s
+MMX       Scale:     11400.05 MB/s
+MMX       Add:       11947.06 MB/s
+MMX       Triad:     10121.68 MB/s
+---
+MMX       AVERAGE:   10566.36 MB/s
+
+Benchmark #75:
+MMX       Copy:      8138.26 MB/s
+MMX       Scale:     9276.39 MB/s
+MMX       Add:       9502.14 MB/s
+MMX       Triad:     8864.74 MB/s
+---
+MMX       AVERAGE:   8945.38 MB/s
+
+Benchmark #76:
+MMX       Copy:      7855.45 MB/s
+MMX       Scale:     7408.31 MB/s
+MMX       Add:       8966.53 MB/s
+MMX       Triad:     9673.35 MB/s
+---
+MMX       AVERAGE:   8475.91 MB/s
+
+Benchmark #77:
+MMX       Copy:      9533.78 MB/s
+MMX       Scale:     10105.81 MB/s
+MMX       Add:       9965.12 MB/s
+MMX       Triad:     8944.74 MB/s
+---
+MMX       AVERAGE:   9637.36 MB/s
+
+Benchmark #78:
+MMX       Copy:      9018.30 MB/s
+MMX       Scale:     9449.87 MB/s
+MMX       Add:       9750.21 MB/s
+MMX       Triad:     9619.19 MB/s
+---
+MMX       AVERAGE:   9459.39 MB/s
+
+Benchmark #79:
+MMX       Copy:      8331.65 MB/s
+MMX       Scale:     9418.79 MB/s
+MMX       Add:       10522.58 MB/s
+MMX       Triad:     10587.43 MB/s
+---
+MMX       AVERAGE:   9715.11 MB/s
+
+Benchmark #80:
+MMX       Copy:      9919.09 MB/s
+MMX       Scale:     9884.85 MB/s
+MMX       Add:       10279.14 MB/s
+MMX       Triad:     10644.28 MB/s
+---
+MMX       AVERAGE:   10181.84 MB/s
+
+Benchmark #81:
+MMX       Copy:      10189.72 MB/s
+MMX       Scale:     9750.21 MB/s
+MMX       Add:       10038.88 MB/s
+MMX       Triad:     8610.02 MB/s
+---
+MMX       AVERAGE:   9647.21 MB/s
+
+Benchmark #82:
+MMX       Copy:      8235.80 MB/s
+MMX       Scale:     8046.78 MB/s
+MMX       Add:       9802.13 MB/s
+MMX       Triad:     10509.71 MB/s
+---
+MMX       AVERAGE:   9148.60 MB/s
+
+Benchmark #83:
+MMX       Copy:      9316.63 MB/s
+MMX       Scale:     9301.50 MB/s
+MMX       Add:       10201.82 MB/s
+MMX       Triad:     10230.17 MB/s
+---
+MMX       AVERAGE:   9762.53 MB/s
+
+Benchmark #84:
+MMX       Copy:      9118.83 MB/s
+MMX       Scale:     7638.89 MB/s
+MMX       Add:       8499.28 MB/s
+MMX       Triad:     7637.76 MB/s
+---
+MMX       AVERAGE:   8223.69 MB/s
+
+Benchmark #85:
+MMX       Copy:      7185.22 MB/s
+MMX       Scale:     7690.18 MB/s
+MMX       Add:       9809.59 MB/s
+MMX       Triad:     10213.95 MB/s
+---
+MMX       AVERAGE:   8724.74 MB/s
+
+Benchmark #86:
+MMX       Copy:      9470.71 MB/s
+MMX       Scale:     8433.91 MB/s
+MMX       Add:       8685.47 MB/s
+MMX       Triad:     9669.72 MB/s
+---
+MMX       AVERAGE:   9064.95 MB/s
+
+Benchmark #87:
+MMX       Copy:      9475.93 MB/s
+MMX       Scale:     9311.58 MB/s
+MMX       Add:       9713.46 MB/s
+MMX       Triad:     9965.12 MB/s
+---
+MMX       AVERAGE:   9616.52 MB/s
+
+Benchmark #88:
+MMX       Copy:      9056.34 MB/s
+MMX       Scale:     10052.59 MB/s
+MMX       Add:       12144.11 MB/s
+MMX       Triad:     9547.91 MB/s
+---
+MMX       AVERAGE:   10200.24 MB/s
+
+Benchmark #89:
+MMX       Copy:      11840.02 MB/s
+MMX       Scale:     11453.25 MB/s
+MMX       Add:       12455.20 MB/s
+MMX       Triad:     8753.33 MB/s
+---
+MMX       AVERAGE:   11125.45 MB/s
+
+Benchmark #90:
+MMX       Copy:      8694.27 MB/s
+MMX       Scale:     7605.08 MB/s
+MMX       Add:       8822.25 MB/s
+MMX       Triad:     9061.11 MB/s
+---
+MMX       AVERAGE:   8545.68 MB/s
+
+Benchmark #91:
+MMX       Copy:      8572.79 MB/s
+MMX       Scale:     9684.26 MB/s
+MMX       Add:       10283.24 MB/s
+MMX       Triad:     9945.89 MB/s
+---
+MMX       AVERAGE:   9621.54 MB/s
+
+Benchmark #92:
+MMX       Copy:      9581.63 MB/s
+MMX       Scale:     9291.44 MB/s
+MMX       Add:       10896.32 MB/s
+MMX       Triad:     10887.12 MB/s
+---
+MMX       AVERAGE:   10164.13 MB/s
+
+Benchmark #93:
+MMX       Copy:      9930.56 MB/s
+MMX       Scale:     9850.84 MB/s
+MMX       Add:       10173.63 MB/s
+MMX       Triad:     9572.74 MB/s
+---
+MMX       AVERAGE:   9881.94 MB/s
+
+Benchmark #94:
+MMX       Copy:      8054.32 MB/s
+MMX       Scale:     6755.75 MB/s
+MMX       Add:       9590.55 MB/s
+MMX       Triad:     10544.11 MB/s
+---
+MMX       AVERAGE:   8736.18 MB/s
+
+Benchmark #95:
+MMX       Copy:      9157.71 MB/s
+MMX       Scale:     8433.91 MB/s
+MMX       Add:       9828.30 MB/s
+MMX       Triad:     10105.81 MB/s
+---
+MMX       AVERAGE:   9381.43 MB/s
+
+Benchmark #96:
+MMX       Copy:      9246.43 MB/s
+MMX       Scale:     8883.08 MB/s
+MMX       Add:       10728.48 MB/s
+MMX       Triad:     10600.50 MB/s
+---
+MMX       AVERAGE:   9864.62 MB/s
+
+Benchmark #97:
+MMX       Copy:      8892.27 MB/s
+MMX       Scale:     7558.24 MB/s
+MMX       Add:       8735.53 MB/s
+MMX       Triad:     8131.84 MB/s
+---
+MMX       AVERAGE:   8329.47 MB/s
+
+Benchmark #98:
+MMX       Copy:      8971.21 MB/s
+MMX       Scale:     10165.60 MB/s
+MMX       Add:       10407.84 MB/s
+MMX       Triad:     10234.24 MB/s
+---
+MMX       AVERAGE:   9944.72 MB/s
+
+Benchmark #99:
+MMX       Copy:      8287.44 MB/s
+MMX       Scale:     8633.10 MB/s
+MMX       Add:       10137.61 MB/s
+MMX       Triad:     10626.72 MB/s
+---
+MMX       AVERAGE:   9421.22 MB/s
+
+Benchmark #100:
+MMX       Copy:      8654.85 MB/s
+MMX       Scale:     9528.49 MB/s
+MMX       Add:       10492.59 MB/s
+MMX       Triad:     9938.22 MB/s
+---
+MMX       AVERAGE:   9653.54 MB/s
+
+Benchmark #101:
+MMX       Copy:      9147.96 MB/s
+MMX       Scale:     9182.19 MB/s
+MMX       Add:       9488.15 MB/s
+MMX       Triad:     10692.86 MB/s
+---
+MMX       AVERAGE:   9627.79 MB/s
+
+Benchmark #102:
+MMX       Copy:      8989.99 MB/s
+MMX       Scale:     8360.03 MB/s
+MMX       Add:       8048.03 MB/s
+MMX       Triad:     9502.14 MB/s
+---
+MMX       AVERAGE:   8725.05 MB/s
+
+Benchmark #103:
+MMX       Copy:      9286.42 MB/s
+MMX       Scale:     9901.94 MB/s
+MMX       Add:       10038.88 MB/s
+MMX       Triad:     10609.22 MB/s
+---
+MMX       AVERAGE:   9959.12 MB/s
+
+Benchmark #104:
+MMX       Copy:      9750.21 MB/s
+MMX       Scale:     9913.37 MB/s
+MMX       Add:       11003.33 MB/s
+MMX       Triad:     10800.42 MB/s
+---
+MMX       AVERAGE:   10366.83 MB/s
+
+Benchmark #105:
+MMX       Copy:      9046.80 MB/s
+MMX       Scale:     9266.38 MB/s
+MMX       Add:       9996.04 MB/s
+MMX       Triad:     9013.57 MB/s
+---
+MMX       AVERAGE:   9330.70 MB/s
+
+Benchmark #106:
+MMX       Copy:      7239.73 MB/s
+MMX       Scale:     8559.97 MB/s
+MMX       Add:       9794.68 MB/s
+MMX       Triad:     10544.11 MB/s
+---
+MMX       AVERAGE:   9034.62 MB/s
+
+Benchmark #107:
+MMX       Copy:      9196.93 MB/s
+MMX       Scale:     9201.86 MB/s
+MMX       Add:       10475.53 MB/s
+MMX       Triad:     10719.55 MB/s
+---
+MMX       AVERAGE:   9898.47 MB/s
+
+Benchmark #108:
+MMX       Copy:      9444.68 MB/s
+MMX       Scale:     9999.92 MB/s
+MMX       Add:       10786.86 MB/s
+MMX       Triad:     10613.59 MB/s
+---
+MMX       AVERAGE:   10211.26 MB/s
+
+Benchmark #109:
+MMX       Copy:      9089.88 MB/s
+MMX       Scale:     9246.43 MB/s
+MMX       Add:       10518.29 MB/s
+MMX       Triad:     10679.57 MB/s
+---
+MMX       AVERAGE:   9883.54 MB/s
+
+Benchmark #110:
+MMX       Copy:      10088.00 MB/s
+MMX       Scale:     9341.96 MB/s
+MMX       Add:       9790.96 MB/s
+MMX       Triad:     10399.44 MB/s
+---
+MMX       AVERAGE:   9905.09 MB/s
+
+Benchmark #111:
+MMX       Copy:      10111.75 MB/s
+MMX       Scale:     8364.10 MB/s
+MMX       Add:       9702.49 MB/s
+MMX       Triad:     10097.89 MB/s
+---
+MMX       AVERAGE:   9569.06 MB/s
+
+Benchmark #112:
+MMX       Copy:      8492.27 MB/s
+MMX       Scale:     9772.39 MB/s
+MMX       Add:       10518.29 MB/s
+MMX       Triad:     10365.97 MB/s
+---
+MMX       AVERAGE:   9787.23 MB/s
+
+Benchmark #113:
+MMX       Copy:      9027.78 MB/s
+MMX       Scale:     9717.12 MB/s
+MMX       Add:       10386.86 MB/s
+MMX       Triad:     10129.64 MB/s
+---
+MMX       AVERAGE:   9815.35 MB/s
+
+Benchmark #114:
+MMX       Copy:      9256.40 MB/s
+MMX       Scale:     8267.50 MB/s
+MMX       Add:       8302.13 MB/s
+MMX       Triad:     9007.27 MB/s
+---
+MMX       AVERAGE:   8708.32 MB/s
+
+Benchmark #115:
+MMX       Copy:      8654.85 MB/s
+MMX       Scale:     9206.79 MB/s
+MMX       Add:       8413.26 MB/s
+MMX       Triad:     8982.16 MB/s
+---
+MMX       AVERAGE:   8814.26 MB/s
+
+Benchmark #116:
+MMX       Copy:      8031.73 MB/s
+MMX       Scale:     8425.63 MB/s
+MMX       Add:       10492.59 MB/s
+MMX       Triad:     9724.45 MB/s
+---
+MMX       AVERAGE:   9168.60 MB/s
+
+Benchmark #117:
+MMX       Copy:      9439.49 MB/s
+MMX       Scale:     8801.16 MB/s
+MMX       Add:       8774.19 MB/s
+MMX       Triad:     9579.85 MB/s
+---
+MMX       AVERAGE:   9148.67 MB/s
+
+Benchmark #118:
+MMX       Copy:      10153.59 MB/s
+MMX       Scale:     7152.32 MB/s
+MMX       Add:       10657.49 MB/s
+MMX       Triad:     10728.48 MB/s
+---
+MMX       AVERAGE:   9672.97 MB/s
+
+Benchmark #119:
+MMX       Copy:      10105.81 MB/s
+MMX       Scale:     9528.49 MB/s
+MMX       Add:       7508.68 MB/s
+MMX       Triad:     9953.57 MB/s
+---
+MMX       AVERAGE:   9274.14 MB/s
+
+Benchmark #120:
+MMX       Copy:      8689.87 MB/s
+MMX       Scale:     9884.85 MB/s
+MMX       Add:       9706.14 MB/s
+MMX       Triad:     9519.69 MB/s
+---
+MMX       AVERAGE:   9450.14 MB/s
+
+Benchmark #121:
+MMX       Copy:      8271.48 MB/s
+MMX       Scale:     10189.72 MB/s
+MMX       Add:       9903.84 MB/s
+MMX       Triad:     10089.98 MB/s
+---
+MMX       AVERAGE:   9613.76 MB/s
+
+Benchmark #122:
+MMX       Copy:      9357.23 MB/s
+MMX       Scale:     7230.58 MB/s
+MMX       Add:       9512.66 MB/s
+MMX       Triad:     9303.18 MB/s
+---
+MMX       AVERAGE:   8850.91 MB/s
+
+Benchmark #123:
+MMX       Copy:      7931.61 MB/s
+MMX       Scale:     8035.49 MB/s
+MMX       Add:       7083.51 MB/s
+MMX       Triad:     8227.91 MB/s
+---
+MMX       AVERAGE:   7819.63 MB/s
+
+Benchmark #124:
+MMX       Copy:      8096.07 MB/s
+MMX       Scale:     8119.03 MB/s
+MMX       Add:       7912.13 MB/s
+MMX       Triad:     8471.34 MB/s
+---
+MMX       AVERAGE:   8149.64 MB/s
+
+Benchmark #125:
+MMX       Copy:      9266.38 MB/s
+MMX       Scale:     10984.57 MB/s
+MMX       Add:       11357.34 MB/s
+MMX       Triad:     11980.38 MB/s
+---
+MMX       AVERAGE:   10897.17 MB/s
+
+Benchmark #126:
+MMX       Copy:      11663.18 MB/s
+MMX       Scale:     10399.44 MB/s
+MMX       Add:       11504.38 MB/s
+MMX       Triad:     10993.94 MB/s
+---
+MMX       AVERAGE:   11140.24 MB/s
+
+Benchmark #127:
+MMX       Copy:      10189.72 MB/s
+MMX       Scale:     8287.44 MB/s
+MMX       Add:       10989.26 MB/s
+MMX       Triad:     10509.71 MB/s
+---
+MMX       AVERAGE:   9994.03 MB/s
+
+Benchmark #128:
+MMX       Copy:      10040.84 MB/s
+MMX       Scale:     8906.10 MB/s
+MMX       Add:       9193.65 MB/s
+MMX       Triad:     11947.06 MB/s
+---
+MMX       AVERAGE:   10021.91 MB/s
+
+Benchmark #129:
+MMX       Copy:      9013.57 MB/s
+MMX       Scale:     8676.70 MB/s
+MMX       Add:       9453.34 MB/s
+MMX       Triad:     10728.48 MB/s
+---
+MMX       AVERAGE:   9468.02 MB/s
+
+Benchmark #130:
+MMX       Copy:      9856.49 MB/s
+MMX       Scale:     9592.33 MB/s
+MMX       Add:       9387.91 MB/s
+MMX       Triad:     10800.42 MB/s
+---
+MMX       AVERAGE:   9909.29 MB/s
+
+Benchmark #131:
+MMX       Copy:      8400.91 MB/s
+MMX       Scale:     8961.85 MB/s
+MMX       Add:       9839.56 MB/s
+MMX       Triad:     9470.71 MB/s
+---
+MMX       AVERAGE:   9168.26 MB/s
+
+Benchmark #132:
+MMX       Copy:      7735.20 MB/s
+MMX       Scale:     8031.73 MB/s
+MMX       Add:       10437.34 MB/s
+MMX       Triad:     8685.47 MB/s
+---
+MMX       AVERAGE:   8722.44 MB/s
+
+Benchmark #133:
+MMX       Copy:      7544.96 MB/s
+MMX       Scale:     7233.63 MB/s
+MMX       Add:       9640.78 MB/s
+MMX       Triad:     9279.73 MB/s
+---
+MMX       AVERAGE:   8424.77 MB/s
+
+Benchmark #134:
+MMX       Copy:      8559.97 MB/s
+MMX       Scale:     9528.49 MB/s
+MMX       Add:       11107.67 MB/s
+MMX       Triad:     10710.64 MB/s
+---
+MMX       AVERAGE:   9976.70 MB/s
+
+Benchmark #135:
+MMX       Copy:      10141.60 MB/s
+MMX       Scale:     9999.92 MB/s
+MMX       Add:       10859.59 MB/s
+MMX       Triad:     9684.26 MB/s
+---
+MMX       AVERAGE:   10171.34 MB/s
+
+Benchmark #136:
+MMX       Copy:      9739.15 MB/s
+MMX       Scale:     9662.47 MB/s
+MMX       Add:       10622.34 MB/s
+MMX       Triad:     10970.54 MB/s
+---
+MMX       AVERAGE:   10248.63 MB/s
+
+Benchmark #137:
+MMX       Copy:      9651.61 MB/s
+MMX       Scale:     9930.56 MB/s
+MMX       Add:       10173.63 MB/s
+MMX       Triad:     9167.49 MB/s
+---
+MMX       AVERAGE:   9730.82 MB/s
+
+Benchmark #138:
+MMX       Copy:      8130.56 MB/s
+MMX       Scale:     9316.63 MB/s
+MMX       Add:       10454.28 MB/s
+MMX       Triad:     11008.03 MB/s
+---
+MMX       AVERAGE:   9727.38 MB/s
+
+Benchmark #139:
+MMX       Copy:      10201.82 MB/s
+MMX       Scale:     7433.95 MB/s
+MMX       Add:       8101.16 MB/s
+MMX       Triad:     9010.42 MB/s
+---
+MMX       AVERAGE:   8686.84 MB/s
+
+Benchmark #140:
+MMX       Copy:      9187.10 MB/s
+MMX       Scale:     7931.61 MB/s
+MMX       Add:       9422.23 MB/s
+MMX       Triad:     8873.90 MB/s
+---
+MMX       AVERAGE:   8853.71 MB/s
+
+Benchmark #141:
+MMX       Copy:      7953.64 MB/s
+MMX       Scale:     7738.68 MB/s
+MMX       Add:       8947.85 MB/s
+MMX       Triad:     8139.55 MB/s
+---
+MMX       AVERAGE:   8194.93 MB/s
+
+Benchmark #142:
+MMX       Copy:      8624.43 MB/s
+MMX       Scale:     8084.64 MB/s
+MMX       Add:       10505.42 MB/s
+MMX       Triad:     9141.47 MB/s
+---
+MMX       AVERAGE:   9088.99 MB/s
+
+Benchmark #143:
+MMX       Copy:      8720.75 MB/s
+MMX       Scale:     10076.17 MB/s
+MMX       Add:       10609.22 MB/s
+MMX       Triad:     11017.44 MB/s
+---
+MMX       AVERAGE:   10105.90 MB/s
+
+Benchmark #144:
+MMX       Copy:      10244.41 MB/s
+MMX       Scale:     8396.81 MB/s
+MMX       Add:       11012.74 MB/s
+MMX       Triad:     10505.42 MB/s
+---
+MMX       AVERAGE:   10039.84 MB/s
+
+Benchmark #145:
+MMX       Copy:      9794.68 MB/s
+MMX       Scale:     9037.28 MB/s
+MMX       Add:       10591.78 MB/s
+MMX       Triad:     10670.73 MB/s
+---
+MMX       AVERAGE:   10023.62 MB/s
+
+Benchmark #146:
+MMX       Copy:      10070.26 MB/s
+MMX       Scale:     8938.54 MB/s
+MMX       Add:       9691.54 MB/s
+MMX       Triad:     9336.89 MB/s
+---
+MMX       AVERAGE:   9509.31 MB/s
+
+Benchmark #147:
+MMX       Copy:      8319.55 MB/s
+MMX       Scale:     8896.88 MB/s
+MMX       Add:       10750.86 MB/s
+MMX       Triad:     10197.79 MB/s
+---
+MMX       AVERAGE:   9541.27 MB/s
+
+Benchmark #148:
+MMX       Copy:      8177.00 MB/s
+MMX       Scale:     10147.59 MB/s
+MMX       Add:       10859.59 MB/s
+MMX       Triad:     9676.98 MB/s
+---
+MMX       AVERAGE:   9715.29 MB/s
+
+Benchmark #149:
+MMX       Copy:      8368.18 MB/s
+MMX       Scale:     8509.10 MB/s
+MMX       Add:       8374.98 MB/s
+MMX       Triad:     9698.83 MB/s
+---
+MMX       AVERAGE:   8737.77 MB/s
+
+Benchmark #150:
+MMX       Copy:      8607.15 MB/s
+MMX       Scale:     7310.58 MB/s
+MMX       Add:       9038.86 MB/s
+MMX       Triad:     9269.71 MB/s
+---
+MMX       AVERAGE:   8556.58 MB/s
+
+Benchmark #151:
+MMX       Copy:      8251.62 MB/s
+MMX       Scale:     9138.23 MB/s
+MMX       Add:       11902.91 MB/s
+MMX       Triad:     12126.97 MB/s
+---
+MMX       AVERAGE:   10354.93 MB/s
+
+Benchmark #152:
+MMX       Copy:      7338.69 MB/s
+MMX       Scale:     8901.49 MB/s
+MMX       Add:       11799.36 MB/s
+MMX       Triad:     7681.01 MB/s
+---
+MMX       AVERAGE:   8930.14 MB/s
+
+Benchmark #153:
+MMX       Copy:      8311.50 MB/s
+MMX       Scale:     8142.12 MB/s
+MMX       Add:       8988.42 MB/s
+MMX       Triad:     8994.70 MB/s
+---
+MMX       AVERAGE:   8609.18 MB/s
+
+Benchmark #154:
+MMX       Copy:      9811.46 MB/s
+MMX       Scale:     8734.05 MB/s
+MMX       Add:       10591.78 MB/s
+MMX       Triad:     9223.27 MB/s
+---
+MMX       AVERAGE:   9590.14 MB/s
+
+Benchmark #155:
+MMX       Copy:      9845.20 MB/s
+MMX       Scale:     9539.07 MB/s
+MMX       Add:       9415.35 MB/s
+MMX       Triad:     9439.49 MB/s
+---
+MMX       AVERAGE:   9559.78 MB/s
+
+Benchmark #156:
+MMX       Copy:      8192.59 MB/s
+MMX       Scale:     9352.13 MB/s
+MMX       Add:       10914.78 MB/s
+MMX       Triad:     10042.79 MB/s
+---
+MMX       AVERAGE:   9625.58 MB/s
+
+Benchmark #157:
+MMX       Copy:      9544.37 MB/s
+MMX       Scale:     9251.41 MB/s
+MMX       Add:       9016.73 MB/s
+MMX       Triad:     8435.29 MB/s
+---
+MMX       AVERAGE:   9061.95 MB/s
+
+Benchmark #158:
+MMX       Copy:      8122.87 MB/s
+MMX       Scale:     8024.23 MB/s
+MMX       Add:       8096.07 MB/s
+MMX       Triad:     7761.99 MB/s
+---
+MMX       AVERAGE:   8001.29 MB/s
+
+Benchmark #159:
+MMX       Copy:      6820.11 MB/s
+MMX       Scale:     7686.74 MB/s
+MMX       Add:       9949.73 MB/s
+MMX       Triad:     9779.81 MB/s
+---
+MMX       AVERAGE:   8559.10 MB/s
+
+Benchmark #160:
+MMX       Copy:      9766.84 MB/s
+MMX       Scale:     9539.07 MB/s
+MMX       Add:       10657.49 MB/s
+MMX       Triad:     10800.42 MB/s
+---
+MMX       AVERAGE:   10190.95 MB/s
+
+Benchmark #161:
+MMX       Copy:      9624.58 MB/s
+MMX       Scale:     9976.70 MB/s
+MMX       Add:       9619.19 MB/s
+MMX       Triad:     10800.42 MB/s
+---
+MMX       AVERAGE:   10005.22 MB/s
+
+Benchmark #162:
+MMX       Copy:      9372.54 MB/s
+MMX       Scale:     9133.37 MB/s
+MMX       Add:       10246.44 MB/s
+MMX       Triad:     10250.52 MB/s
+---
+MMX       AVERAGE:   9750.72 MB/s
+
+Benchmark #163:
+MMX       Copy:      7953.64 MB/s
+MMX       Scale:     7146.37 MB/s
+MMX       Add:       10565.73 MB/s
+MMX       Triad:     8320.89 MB/s
+---
+MMX       AVERAGE:   8496.66 MB/s
+
+Benchmark #164:
+MMX       Copy:      8910.72 MB/s
+MMX       Scale:     8492.27 MB/s
+MMX       Add:       9266.38 MB/s
+MMX       Triad:     7990.64 MB/s
+---
+MMX       AVERAGE:   8665.00 MB/s
+
+Benchmark #165:
+MMX       Copy:      9177.28 MB/s
+MMX       Scale:     9291.44 MB/s
+MMX       Add:       10773.33 MB/s
+MMX       Triad:     10644.28 MB/s
+---
+MMX       AVERAGE:   9971.58 MB/s
+
+Benchmark #166:
+MMX       Copy:      9890.54 MB/s
+MMX       Scale:     9491.64 MB/s
+MMX       Add:       8997.84 MB/s
+MMX       Triad:     10773.33 MB/s
+---
+MMX       AVERAGE:   9788.34 MB/s
+
+Benchmark #167:
+MMX       Copy:      8429.77 MB/s
+MMX       Scale:     7738.68 MB/s
+MMX       Add:       8073.25 MB/s
+MMX       Triad:     8714.85 MB/s
+---
+MMX       AVERAGE:   8239.14 MB/s
+
+Benchmark #168:
+MMX       Copy:      7611.82 MB/s
+MMX       Scale:     8255.58 MB/s
+MMX       Add:       9590.55 MB/s
+MMX       Triad:     9233.18 MB/s
+---
+MMX       AVERAGE:   8672.78 MB/s
+
+Benchmark #169:
+MMX       Copy:      7285.78 MB/s
+MMX       Scale:     9678.80 MB/s
+MMX       Add:       9405.04 MB/s
+MMX       Triad:     10737.42 MB/s
+---
+MMX       AVERAGE:   9276.76 MB/s
+
+Benchmark #170:
+MMX       Copy:      10040.84 MB/s
+MMX       Scale:     9845.20 MB/s
+MMX       Add:       9865.93 MB/s
+MMX       Triad:     8982.16 MB/s
+---
+MMX       AVERAGE:   9683.53 MB/s
+
+Benchmark #171:
+MMX       Copy:      7679.87 MB/s
+MMX       Scale:     9953.57 MB/s
+MMX       Add:       9900.04 MB/s
+MMX       Triad:     9115.60 MB/s
+---
+MMX       AVERAGE:   9162.27 MB/s
+
+Benchmark #172:
+MMX       Copy:      9226.57 MB/s
+MMX       Scale:     8742.94 MB/s
+MMX       Add:       10832.20 MB/s
+MMX       Triad:     10023.26 MB/s
+---
+MMX       AVERAGE:   9706.24 MB/s
+
+Benchmark #173:
+MMX       Copy:      8878.49 MB/s
+MMX       Scale:     9296.47 MB/s
+MMX       Add:       10679.57 MB/s
+MMX       Triad:     9446.41 MB/s
+---
+MMX       AVERAGE:   9575.23 MB/s
+
+Benchmark #174:
+MMX       Copy:      9549.68 MB/s
+MMX       Scale:     9018.30 MB/s
+MMX       Add:       10303.80 MB/s
+MMX       Triad:     10165.60 MB/s
+---
+MMX       AVERAGE:   9759.35 MB/s
+
+Benchmark #175:
+MMX       Copy:      8943.19 MB/s
+MMX       Scale:     7946.29 MB/s
+MMX       Add:       8088.45 MB/s
+MMX       Triad:     8394.07 MB/s
+---
+MMX       AVERAGE:   8343.00 MB/s
+
+Benchmark #176:
+MMX       Copy:      8496.47 MB/s
+MMX       Scale:     7731.71 MB/s
+MMX       Add:       8991.56 MB/s
+MMX       Triad:     8795.15 MB/s
+---
+MMX       AVERAGE:   8503.73 MB/s
+
+Benchmark #177:
+MMX       Copy:      7578.24 MB/s
+MMX       Scale:     7979.50 MB/s
+MMX       Add:       7273.44 MB/s
+MMX       Triad:     8864.74 MB/s
+---
+MMX       AVERAGE:   7923.98 MB/s
+
+Benchmark #178:
+MMX       Copy:      8801.16 MB/s
+MMX       Scale:     9211.73 MB/s
+MMX       Add:       9569.18 MB/s
+MMX       Triad:     8510.50 MB/s
+---
+MMX       AVERAGE:   9023.14 MB/s
+
+Benchmark #179:
+MMX       Copy:      7700.52 MB/s
+MMX       Scale:     9201.86 MB/s
+MMX       Add:       9080.27 MB/s
+MMX       Triad:     8638.89 MB/s
+---
+MMX       AVERAGE:   8655.38 MB/s
+
+Benchmark #180:
+MMX       Copy:      7635.50 MB/s
+MMX       Scale:     7666.16 MB/s
+MMX       Add:       9640.78 MB/s
+MMX       Triad:     10484.05 MB/s
+---
+MMX       AVERAGE:   8856.62 MB/s
+
+Benchmark #181:
+MMX       Copy:      8339.74 MB/s
+MMX       Scale:     8971.21 MB/s
+MMX       Add:       9615.60 MB/s
+MMX       Triad:     9229.87 MB/s
+---
+MMX       AVERAGE:   9039.11 MB/s
+
+Benchmark #182:
+MMX       Copy:      8275.47 MB/s
+MMX       Scale:     9570.96 MB/s
+MMX       Add:       9296.47 MB/s
+MMX       Triad:     9233.18 MB/s
+---
+MMX       AVERAGE:   9094.02 MB/s
+
+Benchmark #183:
+MMX       Copy:      9018.30 MB/s
+MMX       Scale:     9331.81 MB/s
+MMX       Add:       9783.52 MB/s
+MMX       Triad:     9174.01 MB/s
+---
+MMX       AVERAGE:   9326.91 MB/s
+
+Benchmark #184:
+MMX       Copy:      7411.51 MB/s
+MMX       Scale:     7006.47 MB/s
+MMX       Add:       8703.07 MB/s
+MMX       Triad:     8230.53 MB/s
+---
+MMX       AVERAGE:   7837.90 MB/s
+
+Benchmark #185:
+MMX       Copy:      8855.60 MB/s
+MMX       Scale:     8376.34 MB/s
+MMX       Add:       8134.41 MB/s
+MMX       Triad:     9306.54 MB/s
+---
+MMX       AVERAGE:   8668.22 MB/s
+
+Benchmark #186:
+MMX       Copy:      7938.94 MB/s
+MMX       Scale:     9032.53 MB/s
+MMX       Add:       9702.49 MB/s
+MMX       Triad:     8471.34 MB/s
+---
+MMX       AVERAGE:   8786.32 MB/s
+
+Benchmark #187:
+MMX       Copy:      7558.24 MB/s
+MMX       Scale:     8417.38 MB/s
+MMX       Add:       9057.93 MB/s
+MMX       Triad:     9013.57 MB/s
+---
+MMX       AVERAGE:   8511.78 MB/s
+
+Benchmark #188:
+MMX       Copy:      8999.41 MB/s
+MMX       Scale:     7957.33 MB/s
+MMX       Add:       9676.98 MB/s
+MMX       Triad:     9253.07 MB/s
+---
+MMX       AVERAGE:   8971.70 MB/s
+
+Benchmark #189:
+MMX       Copy:      8311.50 MB/s
+MMX       Scale:     8200.41 MB/s
+MMX       Add:       10670.73 MB/s
+MMX       Triad:     8624.43 MB/s
+---
+MMX       AVERAGE:   8951.77 MB/s
+
+Benchmark #190:
+MMX       Copy:      8654.85 MB/s
+MMX       Scale:     8611.46 MB/s
+MMX       Add:       9768.69 MB/s
+MMX       Triad:     9586.98 MB/s
+---
+MMX       AVERAGE:   9155.49 MB/s
+
+Benchmark #191:
+MMX       Copy:      8413.26 MB/s
+MMX       Scale:     8594.23 MB/s
+MMX       Add:       10258.68 MB/s
+MMX       Triad:     9896.24 MB/s
+---
+MMX       AVERAGE:   9290.60 MB/s
+
+Benchmark #192:
+MMX       Copy:      7714.36 MB/s
+MMX       Scale:     9377.66 MB/s
+MMX       Add:       9083.47 MB/s
+MMX       Triad:     7854.25 MB/s
+---
+MMX       AVERAGE:   8507.43 MB/s
+
+Benchmark #193:
+MMX       Copy:      6978.01 MB/s
+MMX       Scale:     7459.78 MB/s
+MMX       Add:       8347.85 MB/s
+MMX       Triad:     8318.21 MB/s
+---
+MMX       AVERAGE:   7775.96 MB/s
+
+Benchmark #194:
+MMX       Copy:      7830.39 MB/s
+MMX       Scale:     7859.04 MB/s
+MMX       Add:       8926.15 MB/s
+MMX       Triad:     9064.30 MB/s
+---
+MMX       AVERAGE:   8419.97 MB/s
+
+Benchmark #195:
+MMX       Copy:      8421.50 MB/s
+MMX       Scale:     8685.47 MB/s
+MMX       Add:       8380.42 MB/s
+MMX       Triad:     10692.86 MB/s
+---
+MMX       AVERAGE:   9045.07 MB/s
+
+Benchmark #196:
+MMX       Copy:      8287.44 MB/s
+MMX       Scale:     8073.25 MB/s
+MMX       Add:       9067.49 MB/s
+MMX       Triad:     8969.65 MB/s
+---
+MMX       AVERAGE:   8599.46 MB/s
+
+Benchmark #197:
+MMX       Copy:      9439.49 MB/s
+MMX       Scale:     8380.42 MB/s
+MMX       Add:       9658.85 MB/s
+MMX       Triad:     9666.09 MB/s
+---
+MMX       AVERAGE:   9286.21 MB/s
+
+Benchmark #198:
+MMX       Copy:      8192.59 MB/s
+MMX       Scale:     7848.27 MB/s
+MMX       Add:       9449.87 MB/s
+MMX       Triad:     8610.02 MB/s
+---
+MMX       AVERAGE:   8525.19 MB/s
+
+Benchmark #199:
+MMX       Copy:      8331.65 MB/s
+MMX       Scale:     7463.02 MB/s
+MMX       Add:       9026.20 MB/s
+MMX       Triad:     9691.54 MB/s
+---
+MMX       AVERAGE:   8628.10 MB/s
+
+Benchmark #200:
+MMX       Copy:      8039.25 MB/s
+MMX       Scale:     9554.99 MB/s
+MMX       Add:       10193.75 MB/s
+MMX       Triad:     9233.18 MB/s
+---
+MMX       AVERAGE:   9255.29 MB/s
+
+Benchmark #201:
+MMX       Copy:      9387.91 MB/s
+MMX       Scale:     8119.03 MB/s
+MMX       Add:       8005.53 MB/s
+MMX       Triad:     8944.74 MB/s
+---
+MMX       AVERAGE:   8614.30 MB/s
+
+Benchmark #202:
+MMX       Copy:      8594.23 MB/s
+MMX       Scale:     7823.26 MB/s
+MMX       Add:       8558.55 MB/s
+MMX       Triad:     8165.34 MB/s
+---
+MMX       AVERAGE:   8285.34 MB/s
+
+Benchmark #203:
+MMX       Copy:      7611.82 MB/s
+MMX       Scale:     8534.46 MB/s
+MMX       Add:       9377.66 MB/s
+MMX       Triad:     8380.42 MB/s
+---
+MMX       AVERAGE:   8476.09 MB/s
+
+Benchmark #204:
+MMX       Copy:      9408.47 MB/s
+MMX       Scale:     7285.78 MB/s
+MMX       Add:       8471.34 MB/s
+MMX       Triad:     8880.02 MB/s
+---
+MMX       AVERAGE:   8511.40 MB/s
+
+Benchmark #205:
+MMX       Copy:      7084.48 MB/s
+MMX       Scale:     7949.96 MB/s
+MMX       Add:       9364.03 MB/s
+MMX       Triad:     8997.84 MB/s
+---
+MMX       AVERAGE:   8349.08 MB/s
+
+Benchmark #206:
+MMX       Copy:      8231.85 MB/s
+MMX       Scale:     8192.59 MB/s
+MMX       Add:       9512.66 MB/s
+MMX       Triad:     9949.73 MB/s
+---
+MMX       AVERAGE:   8971.71 MB/s
+
+Benchmark #207:
+MMX       Copy:      8077.04 MB/s
+MMX       Scale:     7437.17 MB/s
+MMX       Add:       8756.30 MB/s
+MMX       Triad:     9177.28 MB/s
+---
+MMX       AVERAGE:   8361.95 MB/s
+
+Benchmark #208:
+MMX       Copy:      8046.78 MB/s
+MMX       Scale:     8725.17 MB/s
+MMX       Add:       8342.44 MB/s
+MMX       Triad:     10386.86 MB/s
+---
+MMX       AVERAGE:   8875.31 MB/s
+
+Benchmark #209:
+MMX       Copy:      7898.79 MB/s
+MMX       Scale:     7855.45 MB/s
+MMX       Add:       10544.11 MB/s
+MMX       Triad:     8312.84 MB/s
+---
+MMX       AVERAGE:   8652.80 MB/s
+
+Benchmark #210:
+MMX       Copy:      7787.79 MB/s
+MMX       Scale:     7669.58 MB/s
+MMX       Add:       8050.55 MB/s
+MMX       Triad:     8267.50 MB/s
+---
+MMX       AVERAGE:   7943.86 MB/s
+
+Benchmark #211:
+MMX       Copy:      8641.79 MB/s
+MMX       Scale:     9113.99 MB/s
+MMX       Add:       8985.29 MB/s
+MMX       Triad:     9491.64 MB/s
+---
+MMX       AVERAGE:   9058.18 MB/s
+
+Benchmark #212:
+MMX       Copy:      7601.71 MB/s
+MMX       Scale:     7078.64 MB/s
+MMX       Add:       9256.40 MB/s
+MMX       Triad:     9724.45 MB/s
+---
+MMX       AVERAGE:   8415.30 MB/s
+
+Benchmark #213:
+MMX       Copy:      6734.56 MB/s
+MMX       Scale:     8180.89 MB/s
+MMX       Add:       8723.70 MB/s
+MMX       Triad:     10657.49 MB/s
+---
+MMX       AVERAGE:   8574.16 MB/s
+
+Benchmark #214:
+MMX       Copy:      7578.24 MB/s
+MMX       Scale:     9206.79 MB/s
+MMX       Add:       9540.84 MB/s
+MMX       Triad:     10034.97 MB/s
+---
+MMX       AVERAGE:   9090.21 MB/s
+
+Benchmark #215:
+MMX       Copy:      9755.75 MB/s
+MMX       Scale:     9367.43 MB/s
+MMX       Add:       10370.14 MB/s
+MMX       Triad:     8892.27 MB/s
+---
+MMX       AVERAGE:   9596.40 MB/s
+
+Benchmark #216:
+MMX       Copy:      8801.16 MB/s
+MMX       Scale:     8355.97 MB/s
+MMX       Add:       9467.23 MB/s
+MMX       Triad:     8982.16 MB/s
+---
+MMX       AVERAGE:   8901.63 MB/s
+
+Benchmark #217:
+MMX       Copy:      8122.87 MB/s
+MMX       Scale:     8275.47 MB/s
+MMX       Add:       9626.37 MB/s
+MMX       Triad:     10275.04 MB/s
+---
+MMX       AVERAGE:   9074.94 MB/s
+
+Benchmark #218:
+MMX       Copy:      9517.93 MB/s
+MMX       Scale:     8177.00 MB/s
+MMX       Add:       8085.91 MB/s
+MMX       Triad:     9134.99 MB/s
+---
+MMX       AVERAGE:   8728.96 MB/s
+
+Benchmark #219:
+MMX       Copy:      8227.91 MB/s
+MMX       Scale:     7012.19 MB/s
+MMX       Add:       8053.06 MB/s
+MMX       Triad:     8206.94 MB/s
+---
+MMX       AVERAGE:   7875.03 MB/s
+
+Benchmark #220:
+MMX       Copy:      7058.29 MB/s
+MMX       Scale:     7134.50 MB/s
+MMX       Add:       7975.80 MB/s
+MMX       Triad:     8286.11 MB/s
+---
+MMX       AVERAGE:   7613.67 MB/s
+
+Benchmark #221:
+MMX       Copy:      8291.44 MB/s
+MMX       Scale:     7990.64 MB/s
+MMX       Add:       9436.03 MB/s
+MMX       Triad:     9687.90 MB/s
+---
+MMX       AVERAGE:   8851.50 MB/s
+
+Benchmark #222:
+MMX       Copy:      8119.03 MB/s
+MMX       Scale:     8243.70 MB/s
+MMX       Add:       9888.64 MB/s
+MMX       Triad:     8738.49 MB/s
+---
+MMX       AVERAGE:   8747.47 MB/s
+
+Benchmark #223:
+MMX       Copy:      8157.58 MB/s
+MMX       Scale:     9236.49 MB/s
+MMX       Add:       10518.29 MB/s
+MMX       Triad:     9269.71 MB/s
+---
+MMX       AVERAGE:   9295.52 MB/s
+
+Benchmark #224:
+MMX       Copy:      8751.84 MB/s
+MMX       Scale:     8243.70 MB/s
+MMX       Add:       10403.63 MB/s
+MMX       Triad:     10395.24 MB/s
+---
+MMX       AVERAGE:   9448.60 MB/s
+
+Benchmark #225:
+MMX       Copy:      9104.33 MB/s
+MMX       Scale:     7408.31 MB/s
+MMX       Add:       9572.74 MB/s
+MMX       Triad:     10046.71 MB/s
+---
+MMX       AVERAGE:   9033.02 MB/s
+
+Benchmark #226:
+MMX       Copy:      8957.18 MB/s
+MMX       Scale:     7935.27 MB/s
+MMX       Add:       8828.30 MB/s
+MMX       Triad:     8843.45 MB/s
+---
+MMX       AVERAGE:   8641.05 MB/s
+
+Benchmark #227:
+MMX       Copy:      8521.76 MB/s
+MMX       Scale:     7906.06 MB/s
+MMX       Add:       8541.53 MB/s
+MMX       Triad:     7904.85 MB/s
+---
+MMX       AVERAGE:   8218.55 MB/s
+
+Benchmark #228:
+MMX       Copy:      7508.68 MB/s
+MMX       Scale:     6992.21 MB/s
+MMX       Add:       7866.24 MB/s
+MMX       Triad:     8496.47 MB/s
+---
+MMX       AVERAGE:   7715.90 MB/s
+
+Benchmark #229:
+MMX       Copy:      8077.04 MB/s
+MMX       Scale:     8263.53 MB/s
+MMX       Add:       8801.16 MB/s
+MMX       Triad:     9273.05 MB/s
+---
+MMX       AVERAGE:   8603.69 MB/s
+
+Benchmark #230:
+MMX       Copy:      8496.47 MB/s
+MMX       Scale:     7625.33 MB/s
+MMX       Add:       7907.27 MB/s
+MMX       Triad:     8592.80 MB/s
+---
+MMX       AVERAGE:   8155.47 MB/s
+
+Benchmark #231:
+MMX       Copy:      8947.85 MB/s
+MMX       Scale:     7498.85 MB/s
+MMX       Add:       8513.31 MB/s
+MMX       Triad:     9048.39 MB/s
+---
+MMX       AVERAGE:   8502.10 MB/s
+
+Benchmark #232:
+MMX       Copy:      7659.33 MB/s
+MMX       Scale:     8084.64 MB/s
+MMX       Add:       9576.29 MB/s
+MMX       Triad:     10023.26 MB/s
+---
+MMX       AVERAGE:   8835.88 MB/s
+
+Benchmark #233:
+MMX       Copy:      7084.48 MB/s
+MMX       Scale:     7791.32 MB/s
+MMX       Add:       8777.18 MB/s
+MMX       Triad:     9579.85 MB/s
+---
+MMX       AVERAGE:   8308.21 MB/s
+
+Benchmark #234:
+MMX       Copy:      9700.66 MB/s
+MMX       Scale:     7518.54 MB/s
+MMX       Add:       9309.90 MB/s
+MMX       Triad:     8468.55 MB/s
+---
+MMX       AVERAGE:   8749.41 MB/s
+
+Benchmark #235:
+MMX       Copy:      8043.01 MB/s
+MMX       Scale:     8149.84 MB/s
+MMX       Add:       9731.80 MB/s
+MMX       Triad:     9662.47 MB/s
+---
+MMX       AVERAGE:   8896.78 MB/s
+
+Benchmark #236:
+MMX       Copy:      8134.41 MB/s
+MMX       Scale:     7898.79 MB/s
+MMX       Add:       8670.86 MB/s
+MMX       Triad:     7757.32 MB/s
+---
+MMX       AVERAGE:   8115.34 MB/s
+
+Benchmark #237:
+MMX       Copy:      7505.40 MB/s
+MMX       Scale:     7379.67 MB/s
+MMX       Add:       8792.15 MB/s
+MMX       Triad:     9147.96 MB/s
+---
+MMX       AVERAGE:   8206.30 MB/s
+
+Benchmark #238:
+MMX       Copy:      7020.79 MB/s
+MMX       Scale:     7787.79 MB/s
+MMX       Add:       8075.78 MB/s
+MMX       Triad:     8972.77 MB/s
+---
+MMX       AVERAGE:   7964.28 MB/s
+
+Benchmark #239:
+MMX       Copy:      7363.85 MB/s
+MMX       Scale:     7679.87 MB/s
+MMX       Add:       8795.15 MB/s
+MMX       Triad:     9586.98 MB/s
+---
+MMX       AVERAGE:   8356.46 MB/s
+
+Benchmark #240:
+MMX       Copy:      6638.28 MB/s
+MMX       Scale:     8774.19 MB/s
+MMX       Add:       8694.27 MB/s
+MMX       Triad:     8819.23 MB/s
+---
+MMX       AVERAGE:   8231.49 MB/s
+
+Benchmark #241:
+MMX       Copy:      8251.62 MB/s
+MMX       Scale:     8212.17 MB/s
+MMX       Add:       8191.29 MB/s
+MMX       Triad:     9293.11 MB/s
+---
+MMX       AVERAGE:   8487.05 MB/s
+
+Benchmark #242:
+MMX       Copy:      7791.32 MB/s
+MMX       Scale:     8933.89 MB/s
+MMX       Add:       9640.78 MB/s
+MMX       Triad:     9662.47 MB/s
+---
+MMX       AVERAGE:   9007.12 MB/s
+
+Benchmark #243:
+MMX       Copy:      9128.52 MB/s
+MMX       Scale:     9460.28 MB/s
+MMX       Add:       9858.38 MB/s
+MMX       Triad:     9313.26 MB/s
+---
+MMX       AVERAGE:   9440.11 MB/s
+
+Benchmark #244:
+MMX       Copy:      8247.66 MB/s
+MMX       Scale:     8239.75 MB/s
+MMX       Add:       9029.36 MB/s
+MMX       Triad:     8682.55 MB/s
+---
+MMX       AVERAGE:   8549.83 MB/s
+
+Benchmark #245:
+MMX       Copy:      8080.84 MB/s
+MMX       Scale:     7158.28 MB/s
+MMX       Add:       9151.21 MB/s
+MMX       Triad:     8524.58 MB/s
+---
+MMX       AVERAGE:   8228.73 MB/s
+
+Benchmark #246:
+MMX       Copy:      8594.23 MB/s
+MMX       Scale:     9042.04 MB/s
+MMX       Add:       9316.63 MB/s
+MMX       Triad:     9141.47 MB/s
+---
+MMX       AVERAGE:   9023.59 MB/s
+
+Benchmark #247:
+MMX       Copy:      7338.69 MB/s
+MMX       Scale:     6703.03 MB/s
+MMX       Add:       7626.46 MB/s
+MMX       Triad:     8241.06 MB/s
+---
+MMX       AVERAGE:   7477.31 MB/s
+
+Benchmark #248:
+MMX       Copy:      7525.13 MB/s
+MMX       Scale:     7710.89 MB/s
+MMX       Add:       8432.53 MB/s
+MMX       Triad:     8950.96 MB/s
+---
+MMX       AVERAGE:   8154.88 MB/s
+
+Benchmark #249:
+MMX       Copy:      7628.72 MB/s
+MMX       Scale:     6850.03 MB/s
+MMX       Add:       8243.70 MB/s
+MMX       Triad:     8083.38 MB/s
+---
+MMX       AVERAGE:   7701.45 MB/s
+
+Benchmark #250:
+MMX       Copy:      7203.30 MB/s
+MMX       Scale:     6983.69 MB/s
+MMX       Add:       7463.02 MB/s
+MMX       Triad:     8988.42 MB/s
+---
+MMX       AVERAGE:   7659.61 MB/s
+
+Benchmark #251:
+MMX       Copy:      7710.89 MB/s
+MMX       Scale:     8530.22 MB/s
+MMX       Add:       9477.68 MB/s
+MMX       Triad:     9572.74 MB/s
+---
+MMX       AVERAGE:   8822.88 MB/s
+
+Benchmark #252:
+MMX       Copy:      8841.93 MB/s
+MMX       Scale:     8054.32 MB/s
+MMX       Add:       9370.84 MB/s
+MMX       Triad:     8786.16 MB/s
+---
+MMX       AVERAGE:   8763.31 MB/s
+
+Benchmark #253:
+MMX       Copy:      7979.50 MB/s
+MMX       Scale:     7728.24 MB/s
+MMX       Add:       8843.45 MB/s
+MMX       Triad:     8272.81 MB/s
+---
+MMX       AVERAGE:   8206.00 MB/s
+
+Benchmark #254:
+MMX       Copy:      8892.27 MB/s
+MMX       Scale:     8200.41 MB/s
+MMX       Add:       10657.49 MB/s
+MMX       Triad:     10193.75 MB/s
+---
+MMX       AVERAGE:   9485.98 MB/s
+
+Benchmark #255:
+MMX       Copy:      8878.49 MB/s
+MMX       Scale:     8663.57 MB/s
+MMX       Add:       8366.82 MB/s
+MMX       Triad:     8831.32 MB/s
+---
+MMX       AVERAGE:   8685.05 MB/s
+
+Benchmark #256:
+MMX       Copy:      6869.20 MB/s
+MMX       Scale:     8149.84 MB/s
+MMX       Add:       7750.32 MB/s
+MMX       Triad:     10420.46 MB/s
+---
+MMX       AVERAGE:   8297.46 MB/s
+
+Benchmark #257:
+MMX       Copy:      7535.03 MB/s
+MMX       Scale:     8910.72 MB/s
+MMX       Add:       10679.57 MB/s
+MMX       Triad:     8792.15 MB/s
+---
+MMX       AVERAGE:   8979.37 MB/s
+
+Benchmark #258:
+MMX       Copy:      8001.80 MB/s
+MMX       Scale:     8615.78 MB/s
+MMX       Add:       7450.07 MB/s
+MMX       Triad:     8831.32 MB/s
+---
+MMX       AVERAGE:   8224.75 MB/s
+
+Benchmark #259:
+MMX       Copy:      6742.49 MB/s
+MMX       Scale:     8142.12 MB/s
+MMX       Add:       8170.51 MB/s
+MMX       Triad:     8510.50 MB/s
+---
+MMX       AVERAGE:   7891.41 MB/s
+
+Benchmark #260:
+MMX       Copy:      7427.53 MB/s
+MMX       Scale:     8542.95 MB/s
+MMX       Add:       9144.71 MB/s
+MMX       Triad:     9004.12 MB/s
+---
+MMX       AVERAGE:   8529.83 MB/s
+
+Benchmark #261:
+MMX       Copy:      7833.96 MB/s
+MMX       Scale:     7638.89 MB/s
+MMX       Add:       8251.62 MB/s
+MMX       Triad:     8858.65 MB/s
+---
+MMX       AVERAGE:   8145.78 MB/s
+
+Benchmark #262:
+MMX       Copy:      8134.41 MB/s
+MMX       Scale:     7777.22 MB/s
+MMX       Add:       8254.26 MB/s
+MMX       Triad:     8828.30 MB/s
+---
+MMX       AVERAGE:   8248.55 MB/s
+
+Benchmark #263:
+MMX       Copy:      7392.37 MB/s
+MMX       Scale:     8153.71 MB/s
+MMX       Add:       8589.93 MB/s
+MMX       Triad:     9057.93 MB/s
+---
+MMX       AVERAGE:   8298.49 MB/s
+
+Benchmark #264:
+MMX       Copy:      7673.01 MB/s
+MMX       Scale:     7601.71 MB/s
+MMX       Add:       8507.69 MB/s
+MMX       Triad:     8307.48 MB/s
+---
+MMX       AVERAGE:   8022.47 MB/s
+
+Benchmark #265:
+MMX       Copy:      9099.51 MB/s
+MMX       Scale:     9037.28 MB/s
+MMX       Add:       9144.71 MB/s
+MMX       Triad:     8735.53 MB/s
+---
+MMX       AVERAGE:   9004.26 MB/s
+
+Benchmark #266:
+MMX       Copy:      8892.27 MB/s
+MMX       Scale:     8084.64 MB/s
+MMX       Add:       8488.08 MB/s
+MMX       Triad:     8843.45 MB/s
+---
+MMX       AVERAGE:   8577.11 MB/s
+
+Benchmark #267:
+MMX       Copy:      7833.96 MB/s
+MMX       Scale:     7200.28 MB/s
+MMX       Add:       8440.81 MB/s
+MMX       Triad:     8364.10 MB/s
+---
+MMX       AVERAGE:   7959.79 MB/s
+
+Benchmark #268:
+MMX       Copy:      7855.45 MB/s
+MMX       Scale:     7233.63 MB/s
+MMX       Add:       9229.87 MB/s
+MMX       Triad:     7122.67 MB/s
+---
+MMX       AVERAGE:   7860.40 MB/s
+
+Benchmark #269:
+MMX       Copy:      7528.43 MB/s
+MMX       Scale:     8319.55 MB/s
+MMX       Add:       9193.65 MB/s
+MMX       Triad:     8485.28 MB/s
+---
+MMX       AVERAGE:   8381.73 MB/s
+
+Benchmark #270:
+MMX       Copy:      8173.11 MB/s
+MMX       Scale:     7859.04 MB/s
+MMX       Add:       8729.61 MB/s
+MMX       Triad:     8741.45 MB/s
+---
+MMX       AVERAGE:   8375.80 MB/s
+
+Benchmark #271:
+MMX       Copy:      7625.33 MB/s
+MMX       Scale:     7282.69 MB/s
+MMX       Add:       8222.66 MB/s
+MMX       Triad:     7731.71 MB/s
+---
+MMX       AVERAGE:   7715.60 MB/s
+
+Benchmark #272:
+MMX       Copy:      6986.53 MB/s
+MMX       Scale:     7505.40 MB/s
+MMX       Add:       8383.15 MB/s
+MMX       Triad:     7961.01 MB/s
+---
+MMX       AVERAGE:   7709.02 MB/s
+
+Benchmark #273:
+MMX       Copy:      7158.28 MB/s
+MMX       Scale:     6825.53 MB/s
+MMX       Add:       8027.98 MB/s
+MMX       Triad:     8270.16 MB/s
+---
+MMX       AVERAGE:   7570.49 MB/s
+
+Benchmark #274:
+MMX       Copy:      6961.05 MB/s
+MMX       Scale:     7206.32 MB/s
+MMX       Add:       8369.54 MB/s
+MMX       Triad:     8391.34 MB/s
+---
+MMX       AVERAGE:   7732.06 MB/s
+
+Benchmark #275:
+MMX       Copy:      8355.97 MB/s
+MMX       Scale:     7411.51 MB/s
+MMX       Add:       7811.40 MB/s
+MMX       Triad:     8005.53 MB/s
+---
+MMX       AVERAGE:   7896.10 MB/s
+
+Benchmark #276:
+MMX       Copy:      8024.23 MB/s
+MMX       Scale:     8810.19 MB/s
+MMX       Add:       9263.05 MB/s
+MMX       Triad:     7892.74 MB/s
+---
+MMX       AVERAGE:   8497.55 MB/s
+
+Benchmark #277:
+MMX       Copy:      8005.53 MB/s
+MMX       Scale:     5946.65 MB/s
+MMX       Add:       8533.05 MB/s
+MMX       Triad:     9073.87 MB/s
+---
+MMX       AVERAGE:   7889.78 MB/s
+
+Benchmark #278:
+MMX       Copy:      8287.44 MB/s
+MMX       Scale:     7521.83 MB/s
+MMX       Add:       8493.67 MB/s
+MMX       Triad:     10141.60 MB/s
+---
+MMX       AVERAGE:   8611.14 MB/s
+
+Benchmark #279:
+MMX       Copy:      9321.69 MB/s
+MMX       Scale:     9717.12 MB/s
+MMX       Add:       10246.44 MB/s
+MMX       Triad:     8676.70 MB/s
+---
+MMX       AVERAGE:   9490.49 MB/s
+
+Benchmark #280:
+MMX       Copy:      7110.87 MB/s
+MMX       Scale:     7218.43 MB/s
+MMX       Add:       8413.26 MB/s
+MMX       Triad:     9190.37 MB/s
+---
+MMX       AVERAGE:   7983.23 MB/s
+
+Benchmark #281:
+MMX       Copy:      7248.89 MB/s
+MMX       Scale:     6697.80 MB/s
+MMX       Add:       9102.72 MB/s
+MMX       Triad:     8544.36 MB/s
+---
+MMX       AVERAGE:   7898.45 MB/s
+
+Benchmark #282:
+MMX       Copy:      7069.91 MB/s
+MMX       Scale:     7642.29 MB/s
+MMX       Add:       8191.29 MB/s
+MMX       Triad:     8883.08 MB/s
+---
+MMX       AVERAGE:   7946.64 MB/s
+
+Benchmark #283:
+MMX       Copy:      7482.52 MB/s
+MMX       Scale:     7479.26 MB/s
+MMX       Add:       7990.64 MB/s
+MMX       Triad:     7715.51 MB/s
+---
+MMX       AVERAGE:   7666.98 MB/s
+
+Benchmark #284:
+MMX       Copy:      7961.01 MB/s
+MMX       Scale:     7411.51 MB/s
+MMX       Add:       8485.28 MB/s
+MMX       Triad:     8584.21 MB/s
+---
+MMX       AVERAGE:   8110.50 MB/s
+
+Benchmark #285:
+MMX       Copy:      6658.86 MB/s
+MMX       Scale:     7728.24 MB/s
+MMX       Add:       8670.86 MB/s
+MMX       Triad:     7995.60 MB/s
+---
+MMX       AVERAGE:   7763.39 MB/s
+
+Benchmark #286:
+MMX       Copy:      6679.58 MB/s
+MMX       Scale:     6739.85 MB/s
+MMX       Add:       7924.29 MB/s
+MMX       Triad:     9576.29 MB/s
+---
+MMX       AVERAGE:   7730.00 MB/s
+
+Benchmark #287:
+MMX       Copy:      8689.87 MB/s
+MMX       Scale:     6941.36 MB/s
+MMX       Add:       9680.62 MB/s
+MMX       Triad:     9540.84 MB/s
+---
+MMX       AVERAGE:   8713.17 MB/s
+
+Benchmark #288:
+MMX       Copy:      8589.93 MB/s
+MMX       Scale:     8971.21 MB/s
+MMX       Add:       8777.18 MB/s
+MMX       Triad:     8369.54 MB/s
+---
+MMX       AVERAGE:   8676.97 MB/s
+
+Benchmark #289:
+MMX       Copy:      8654.85 MB/s
+MMX       Scale:     8103.71 MB/s
+MMX       Add:       8315.52 MB/s
+MMX       Triad:     8106.26 MB/s
+---
+MMX       AVERAGE:   8295.09 MB/s
+
+Benchmark #290:
+MMX       Copy:      7707.43 MB/s
+MMX       Scale:     7093.26 MB/s
+MMX       Add:       7667.30 MB/s
+MMX       Triad:     8147.27 MB/s
+---
+MMX       AVERAGE:   7653.81 MB/s
+
+Benchmark #291:
+MMX       Copy:      7291.96 MB/s
+MMX       Scale:     7690.18 MB/s
+MMX       Add:       8735.53 MB/s
+MMX       Triad:     8178.29 MB/s
+---
+MMX       AVERAGE:   7973.99 MB/s
+
+Benchmark #292:
+MMX       Copy:      7128.58 MB/s
+MMX       Scale:     6907.87 MB/s
+MMX       Add:       7156.29 MB/s
+MMX       Triad:     8402.28 MB/s
+---
+MMX       AVERAGE:   7398.75 MB/s
+
+Benchmark #293:
+MMX       Copy:      6432.00 MB/s
+MMX       Scale:     8372.26 MB/s
+MMX       Add:       8822.25 MB/s
+MMX       Triad:     8096.07 MB/s
+---
+MMX       AVERAGE:   7930.65 MB/s
+
+Benchmark #294:
+MMX       Copy:      6902.32 MB/s
+MMX       Scale:     7975.80 MB/s
+MMX       Add:       8783.16 MB/s
+MMX       Triad:     9326.75 MB/s
+---
+MMX       AVERAGE:   8247.01 MB/s
+
+Benchmark #295:
+MMX       Copy:      7638.89 MB/s
+MMX       Scale:     6755.75 MB/s
+MMX       Add:       8005.53 MB/s
+MMX       Triad:     7934.05 MB/s
+---
+MMX       AVERAGE:   7583.56 MB/s
+
+Benchmark #296:
+MMX       Copy:      7443.62 MB/s
+MMX       Scale:     7158.28 MB/s
+MMX       Add:       7797.22 MB/s
+MMX       Triad:     8402.28 MB/s
+---
+MMX       AVERAGE:   7700.35 MB/s
+
+Benchmark #297:
+MMX       Copy:      8009.26 MB/s
+MMX       Scale:     9706.14 MB/s
+MMX       Add:       9474.19 MB/s
+MMX       Triad:     7851.86 MB/s
+---
+MMX       AVERAGE:   8760.36 MB/s
+
+Benchmark #298:
+MMX       Copy:      7288.87 MB/s
+MMX       Scale:     8103.71 MB/s
+MMX       Add:       8085.91 MB/s
+MMX       Triad:     8589.93 MB/s
+---
+MMX       AVERAGE:   8017.11 MB/s
+
+Benchmark #299:
+MMX       Copy:      7638.89 MB/s
+MMX       Scale:     7498.85 MB/s
+MMX       Add:       8310.16 MB/s
+MMX       Triad:     8108.81 MB/s
+---
+MMX       AVERAGE:   7889.18 MB/s
+
+Benchmark #300:
+MMX       Copy:      7411.51 MB/s
+MMX       Scale:     8654.85 MB/s
+MMX       Add:       8220.03 MB/s
+MMX       Triad:     8837.38 MB/s
+---
+MMX       AVERAGE:   8280.94 MB/s
+
+Benchmark #301:
+MMX       Copy:      6952.60 MB/s
+MMX       Scale:     7298.16 MB/s
+MMX       Add:       8717.80 MB/s
+MMX       Triad:     8656.30 MB/s
+---
+MMX       AVERAGE:   7906.21 MB/s
+
+Benchmark #302:
+MMX       Copy:      5701.91 MB/s
+MMX       Scale:     7437.17 MB/s
+MMX       Add:       8073.25 MB/s
+MMX       Triad:     8753.33 MB/s
+---
+MMX       AVERAGE:   7491.42 MB/s
+
+Benchmark #303:
+MMX       Copy:      6761.07 MB/s
+MMX       Scale:     7401.93 MB/s
+MMX       Add:       8496.47 MB/s
+MMX       Triad:     8667.95 MB/s
+---
+MMX       AVERAGE:   7831.85 MB/s
+
+Benchmark #304:
+MMX       Copy:      7773.70 MB/s
+MMX       Scale:     8103.71 MB/s
+MMX       Add:       6638.28 MB/s
+MMX       Triad:     8416.00 MB/s
+---
+MMX       AVERAGE:   7732.92 MB/s
+
+Benchmark #305:
+MMX       Copy:      7357.55 MB/s
+MMX       Scale:     6468.32 MB/s
+MMX       Add:       9167.49 MB/s
+MMX       Triad:     8685.47 MB/s
+---
+MMX       AVERAGE:   7919.71 MB/s
+
+Benchmark #306:
+MMX       Copy:      6763.73 MB/s
+MMX       Scale:     7717.82 MB/s
+MMX       Add:       8777.18 MB/s
+MMX       Triad:     8801.16 MB/s
+---
+MMX       AVERAGE:   8014.97 MB/s
+
+Benchmark #307:
+MMX       Copy:      7621.95 MB/s
+MMX       Scale:     7261.15 MB/s
+MMX       Add:       9519.69 MB/s
+MMX       Triad:     8267.50 MB/s
+---
+MMX       AVERAGE:   8167.57 MB/s
+
+Benchmark #308:
+MMX       Copy:      7830.39 MB/s
+MMX       Scale:     7862.64 MB/s
+MMX       Add:       8438.05 MB/s
+MMX       Triad:     8337.04 MB/s
+---
+MMX       AVERAGE:   8117.03 MB/s
+
+Benchmark #309:
+MMX       Copy:      8751.84 MB/s
+MMX       Scale:     9143.09 MB/s
+MMX       Add:       8043.01 MB/s
+MMX       Triad:     8670.86 MB/s
+---
+MMX       AVERAGE:   8652.20 MB/s
+
+Benchmark #310:
+MMX       Copy:      7414.70 MB/s
+MMX       Scale:     6610.18 MB/s
+MMX       Add:       7936.50 MB/s
+MMX       Triad:     8786.16 MB/s
+---
+MMX       AVERAGE:   7686.89 MB/s
+
+Benchmark #311:
+MMX       Copy:      7200.28 MB/s
+MMX       Scale:     7282.69 MB/s
+MMX       Add:       9167.49 MB/s
+MMX       Triad:     8861.69 MB/s
+---
+MMX       AVERAGE:   8128.04 MB/s
+
+Benchmark #312:
+MMX       Copy:      7673.01 MB/s
+MMX       Scale:     7766.67 MB/s
+MMX       Add:       8688.40 MB/s
+MMX       Triad:     6993.16 MB/s
+---
+MMX       AVERAGE:   7780.31 MB/s
+
+Benchmark #313:
+MMX       Copy:      7401.93 MB/s
+MMX       Scale:     7146.37 MB/s
+MMX       Add:       8889.20 MB/s
+MMX       Triad:     9942.05 MB/s
+---
+MMX       AVERAGE:   8344.89 MB/s
+
+Benchmark #314:
+MMX       Copy:      8883.08 MB/s
+MMX       Scale:     8111.36 MB/s
+MMX       Add:       10086.03 MB/s
+MMX       Triad:     10345.16 MB/s
+---
+MMX       AVERAGE:   9356.41 MB/s
+
+Benchmark #315:
+MMX       Copy:      8534.46 MB/s
+MMX       Scale:     8734.05 MB/s
+MMX       Add:       10814.02 MB/s
+MMX       Triad:     10117.71 MB/s
+---
+MMX       AVERAGE:   9550.06 MB/s
+
+Benchmark #316:
+MMX       Copy:      9624.58 MB/s
+MMX       Scale:     8483.89 MB/s
+MMX       Add:       9884.85 MB/s
+MMX       Triad:     7577.13 MB/s
+---
+MMX       AVERAGE:   8892.61 MB/s
+
+Benchmark #317:
+MMX       Copy:      7376.50 MB/s
+MMX       Scale:     8157.58 MB/s
+MMX       Add:       9174.01 MB/s
+MMX       Triad:     9266.38 MB/s
+---
+MMX       AVERAGE:   8493.62 MB/s
+
+Benchmark #318:
+MMX       Copy:      7137.46 MB/s
+MMX       Scale:     7690.18 MB/s
+MMX       Add:       8488.08 MB/s
+MMX       Triad:     9309.90 MB/s
+---
+MMX       AVERAGE:   8156.41 MB/s
+
+Benchmark #319:
+MMX       Copy:      7697.07 MB/s
+MMX       Scale:     9449.87 MB/s
+MMX       Add:       8708.96 MB/s
+MMX       Triad:     8471.34 MB/s
+---
+MMX       AVERAGE:   8581.81 MB/s
+
+Benchmark #320:
+MMX       Copy:      8173.11 MB/s
+MMX       Scale:     8421.50 MB/s
+MMX       Add:       10635.49 MB/s
+MMX       Triad:     9381.07 MB/s
+---
+MMX       AVERAGE:   9152.79 MB/s
+
+Benchmark #321:
+MMX       Copy:      8598.53 MB/s
+MMX       Scale:     8585.64 MB/s
+MMX       Add:       7310.58 MB/s
+MMX       Triad:     8235.80 MB/s
+---
+MMX       AVERAGE:   8182.64 MB/s
+
+Benchmark #322:
+MMX       Copy:      8231.85 MB/s
+MMX       Scale:     8421.50 MB/s
+MMX       Add:       8364.10 MB/s
+MMX       Triad:     9488.15 MB/s
+---
+MMX       AVERAGE:   8626.40 MB/s
+
+Benchmark #323:
+MMX       Copy:      6306.85 MB/s
+MMX       Scale:     6921.78 MB/s
+MMX       Add:       9042.04 MB/s
+MMX       Triad:     9405.04 MB/s
+---
+MMX       AVERAGE:   7918.93 MB/s
+
+Benchmark #324:
+MMX       Copy:      8577.07 MB/s
+MMX       Scale:     8734.05 MB/s
+MMX       Add:       11292.64 MB/s
+MMX       Triad:     11432.92 MB/s
+---
+MMX       AVERAGE:   10009.17 MB/s
+
+Benchmark #325:
+MMX       Copy:      9301.50 MB/s
+MMX       Scale:     6888.48 MB/s
+MMX       Add:       8193.90 MB/s
+MMX       Triad:     6215.58 MB/s
+---
+MMX       AVERAGE:   7649.86 MB/s
+
+Benchmark #326:
+MMX       Copy:      6497.68 MB/s
+MMX       Scale:     8016.74 MB/s
+MMX       Add:       9666.09 MB/s
+MMX       Triad:     7581.58 MB/s
+---
+MMX       AVERAGE:   7940.52 MB/s
+
+Benchmark #327:
+MMX       Copy:      6628.04 MB/s
+MMX       Scale:     7574.90 MB/s
+MMX       Add:       8831.32 MB/s
+MMX       Triad:     8410.51 MB/s
+---
+MMX       AVERAGE:   7861.19 MB/s
+
+Benchmark #328:
+MMX       Copy:      8372.26 MB/s
+MMX       Scale:     7601.71 MB/s
+MMX       Add:       8355.97 MB/s
+MMX       Triad:     8131.84 MB/s
+---
+MMX       AVERAGE:   8115.44 MB/s
+
+Benchmark #329:
+MMX       Copy:      7285.78 MB/s
+MMX       Scale:     7690.18 MB/s
+MMX       Add:       8106.26 MB/s
+MMX       Triad:     9340.27 MB/s
+---
+MMX       AVERAGE:   8105.62 MB/s
+
+Benchmark #330:
+MMX       Copy:      7525.13 MB/s
+MMX       Scale:     7551.59 MB/s
+MMX       Add:       8969.65 MB/s
+MMX       Triad:     7859.04 MB/s
+---
+MMX       AVERAGE:   7976.35 MB/s
+
+Benchmark #331:
+MMX       Copy:      8122.87 MB/s
+MMX       Scale:     6485.42 MB/s
+MMX       Add:       8328.96 MB/s
+MMX       Triad:     9394.75 MB/s
+---
+MMX       AVERAGE:   8083.00 MB/s
+
+Benchmark #332:
+MMX       Copy:      7683.30 MB/s
+MMX       Scale:     7571.56 MB/s
+MMX       Add:       9045.21 MB/s
+MMX       Triad:     7885.50 MB/s
+---
+MMX       AVERAGE:   8046.39 MB/s
+
+Benchmark #333:
+MMX       Copy:      7386.01 MB/s
+MMX       Scale:     6372.36 MB/s
+MMX       Add:       7948.74 MB/s
+MMX       Triad:     7958.56 MB/s
+---
+MMX       AVERAGE:   7416.42 MB/s
+
+Benchmark #334:
+MMX       Copy:      7023.66 MB/s
+MMX       Scale:     7611.82 MB/s
+MMX       Add:       8490.87 MB/s
+MMX       Triad:     8524.58 MB/s
+---
+MMX       AVERAGE:   7912.73 MB/s
+
+Benchmark #335:
+MMX       Copy:      6769.06 MB/s
+MMX       Scale:     8177.00 MB/s
+MMX       Add:       8659.21 MB/s
+MMX       Triad:     8837.38 MB/s
+---
+MMX       AVERAGE:   8110.66 MB/s
+
+Benchmark #336:
+MMX       Copy:      9496.89 MB/s
+MMX       Scale:     10023.26 MB/s
+MMX       Add:       7720.13 MB/s
+MMX       Triad:     7847.08 MB/s
+---
+MMX       AVERAGE:   8771.84 MB/s
+
+Benchmark #337:
+MMX       Copy:      7360.70 MB/s
+MMX       Scale:     8384.51 MB/s
+MMX       Add:       8073.25 MB/s
+MMX       Triad:     8296.78 MB/s
+---
+MMX       AVERAGE:   8028.81 MB/s
+
+Benchmark #338:
+MMX       Copy:      7830.39 MB/s
+MMX       Scale:     9408.47 MB/s
+MMX       Add:       7926.73 MB/s
+MMX       Triad:     7804.30 MB/s
+---
+MMX       AVERAGE:   8242.47 MB/s
+
+Benchmark #339:
+MMX       Copy:      7335.55 MB/s
+MMX       Scale:     7498.85 MB/s
+MMX       Add:       8446.35 MB/s
+MMX       Triad:     7298.16 MB/s
+---
+MMX       AVERAGE:   7644.73 MB/s
+
+Benchmark #340:
+MMX       Copy:      6374.72 MB/s
+MMX       Scale:     7502.13 MB/s
+MMX       Add:       9673.35 MB/s
+MMX       Triad:     8413.26 MB/s
+---
+MMX       AVERAGE:   7990.86 MB/s
+
+Benchmark #341:
+MMX       Copy:      8611.46 MB/s
+MMX       Scale:     8551.45 MB/s
+MMX       Add:       8326.27 MB/s
+MMX       Triad:     8152.42 MB/s
+---
+MMX       AVERAGE:   8410.40 MB/s
+
+Benchmark #342:
+MMX       Copy:      7408.31 MB/s
+MMX       Scale:     7128.58 MB/s
+MMX       Add:       7757.32 MB/s
+MMX       Triad:     9463.75 MB/s
+---
+MMX       AVERAGE:   7939.49 MB/s
+
+Benchmark #343:
+MMX       Copy:      8376.34 MB/s
+MMX       Scale:     8080.84 MB/s
+MMX       Add:       8235.80 MB/s
+MMX       Triad:     8421.50 MB/s
+---
+MMX       AVERAGE:   8278.62 MB/s
+
+Benchmark #344:
+MMX       Copy:      7673.01 MB/s
+MMX       Scale:     7255.01 MB/s
+MMX       Add:       7685.60 MB/s
+MMX       Triad:     7450.07 MB/s
+---
+MMX       AVERAGE:   7515.92 MB/s
+
+Benchmark #345:
+MMX       Copy:      5658.72 MB/s
+MMX       Scale:     7427.53 MB/s
+MMX       Add:       8555.71 MB/s
+MMX       Triad:     8783.16 MB/s
+---
+MMX       AVERAGE:   7606.28 MB/s
+
+Benchmark #346:
+MMX       Copy:      7279.61 MB/s
+MMX       Scale:     7895.16 MB/s
+MMX       Add:       8196.50 MB/s
+MMX       Triad:     8233.16 MB/s
+---
+MMX       AVERAGE:   7901.11 MB/s
+
+Benchmark #347:
+MMX       Copy:      7472.76 MB/s
+MMX       Scale:     8952.51 MB/s
+MMX       Add:       9658.85 MB/s
+MMX       Triad:     9167.49 MB/s
+---
+MMX       AVERAGE:   8812.90 MB/s
+
+Benchmark #348:
+MMX       Copy:      6966.69 MB/s
+MMX       Scale:     8433.91 MB/s
+MMX       Add:       7965.94 MB/s
+MMX       Triad:     8530.22 MB/s
+---
+MMX       AVERAGE:   7974.19 MB/s
+
+Benchmark #349:
+MMX       Copy:      7649.10 MB/s
+MMX       Scale:     7110.87 MB/s
+MMX       Add:       9706.14 MB/s
+MMX       Triad:     10539.80 MB/s
+---
+MMX       AVERAGE:   8751.48 MB/s
+
+Benchmark #350:
+MMX       Copy:      9739.15 MB/s
+MMX       Scale:     7998.08 MB/s
+MMX       Add:       8302.13 MB/s
+MMX       Triad:     8199.11 MB/s
+---
+MMX       AVERAGE:   8559.62 MB/s
+
+Benchmark #351:
+MMX       Copy:      7200.28 MB/s
+MMX       Scale:     7326.17 MB/s
+MMX       Add:       9073.87 MB/s
+MMX       Triad:     8598.53 MB/s
+---
+MMX       AVERAGE:   8049.71 MB/s
+
+Benchmark #352:
+MMX       Copy:      7745.66 MB/s
+MMX       Scale:     8933.89 MB/s
+MMX       Add:       9779.81 MB/s
+MMX       Triad:     9453.34 MB/s
+---
+MMX       AVERAGE:   8978.17 MB/s
+
+Benchmark #353:
+MMX       Copy:      7072.82 MB/s
+MMX       Scale:     6288.39 MB/s
+MMX       Add:       9562.08 MB/s
+MMX       Triad:     10631.11 MB/s
+---
+MMX       AVERAGE:   8388.60 MB/s
+
+Benchmark #354:
+MMX       Copy:      6980.85 MB/s
+MMX       Scale:     6643.41 MB/s
+MMX       Add:       7132.52 MB/s
+MMX       Triad:     8840.41 MB/s
+---
+MMX       AVERAGE:   7399.30 MB/s
+
+Benchmark #355:
+MMX       Copy:      9133.37 MB/s
+MMX       Scale:     9662.47 MB/s
+MMX       Add:       9323.37 MB/s
+MMX       Triad:     7961.01 MB/s
+---
+MMX       AVERAGE:   9020.06 MB/s
+
+Benchmark #356:
+MMX       Copy:      6896.78 MB/s
+MMX       Scale:     8192.59 MB/s
+MMX       Add:       7701.67 MB/s
+MMX       Triad:     9057.93 MB/s
+---
+MMX       AVERAGE:   7962.24 MB/s
+
+Benchmark #357:
+MMX       Copy:      8360.03 MB/s
+MMX       Scale:     7386.01 MB/s
+MMX       Add:       8822.25 MB/s
+MMX       Triad:     7909.70 MB/s
+---
+MMX       AVERAGE:   8119.50 MB/s
+
+Benchmark #358:
+MMX       Copy:      6963.87 MB/s
+MMX       Scale:     7598.35 MB/s
+MMX       Add:       9509.15 MB/s
+MMX       Triad:     9537.31 MB/s
+---
+MMX       AVERAGE:   8402.17 MB/s
+
+Benchmark #359:
+MMX       Copy:      8607.15 MB/s
+MMX       Scale:     8212.17 MB/s
+MMX       Add:       9206.79 MB/s
+MMX       Triad:     8774.19 MB/s
+---
+MMX       AVERAGE:   8700.08 MB/s
+
+Benchmark #360:
+MMX       Copy:      8637.44 MB/s
+MMX       Scale:     8069.45 MB/s
+MMX       Add:       9691.54 MB/s
+MMX       Triad:     9516.18 MB/s
+---
+MMX       AVERAGE:   8978.65 MB/s
+
+Benchmark #361:
+MMX       Copy:      8462.99 MB/s
+MMX       Scale:     7841.11 MB/s
+MMX       Add:       8694.27 MB/s
+MMX       Triad:     8926.15 MB/s
+---
+MMX       AVERAGE:   8481.13 MB/s
+
+Benchmark #362:
+MMX       Copy:      7735.20 MB/s
+MMX       Scale:     8061.88 MB/s
+MMX       Add:       8926.15 MB/s
+MMX       Triad:     8482.49 MB/s
+---
+MMX       AVERAGE:   8301.43 MB/s
+
+Benchmark #363:
+MMX       Copy:      8400.91 MB/s
+MMX       Scale:     7731.71 MB/s
+MMX       Add:       8762.26 MB/s
+MMX       Triad:     9299.82 MB/s
+---
+MMX       AVERAGE:   8548.68 MB/s
+
+Benchmark #364:
+MMX       Copy:      7998.08 MB/s
+MMX       Scale:     8231.85 MB/s
+MMX       Add:       9350.44 MB/s
+MMX       Triad:     7519.64 MB/s
+---
+MMX       AVERAGE:   8275.00 MB/s
+
+Benchmark #365:
+MMX       Copy:      7728.24 MB/s
+MMX       Scale:     6997.91 MB/s
+MMX       Add:       9972.83 MB/s
+MMX       Triad:     9010.42 MB/s
+---
+MMX       AVERAGE:   8427.35 MB/s
+
+Benchmark #366:
+MMX       Copy:      7895.16 MB/s
+MMX       Scale:     8084.64 MB/s
+MMX       Add:       8462.99 MB/s
+MMX       Triad:     9470.71 MB/s
+---
+MMX       AVERAGE:   8478.38 MB/s
+
+Benchmark #367:
+MMX       Copy:      8271.48 MB/s
+MMX       Scale:     7949.96 MB/s
+MMX       Add:       10424.68 MB/s
+MMX       Triad:     9562.08 MB/s
+---
+MMX       AVERAGE:   9052.05 MB/s
+
+Benchmark #368:
+MMX       Copy:      9177.28 MB/s
+MMX       Scale:     8496.47 MB/s
+MMX       Add:       10386.86 MB/s
+MMX       Triad:     9757.59 MB/s
+---
+MMX       AVERAGE:   9454.55 MB/s
+
+Benchmark #369:
+MMX       Copy:      8628.76 MB/s
+MMX       Scale:     10147.59 MB/s
+MMX       Add:       9206.79 MB/s
+MMX       Triad:     9446.41 MB/s
+---
+MMX       AVERAGE:   9357.39 MB/s
+
+Benchmark #370:
+MMX       Copy:      7927.95 MB/s
+MMX       Scale:     8016.74 MB/s
+MMX       Add:       9612.01 MB/s
+MMX       Triad:     9968.98 MB/s
+---
+MMX       AVERAGE:   8881.42 MB/s
+
+Benchmark #371:
+MMX       Copy:      9056.34 MB/s
+MMX       Scale:     7188.23 MB/s
+MMX       Add:       8402.28 MB/s
+MMX       Triad:     9147.96 MB/s
+---
+MMX       AVERAGE:   8448.70 MB/s
+
+Benchmark #372:
+MMX       Copy:      7505.40 MB/s
+MMX       Scale:     8919.97 MB/s
+MMX       Add:       9266.38 MB/s
+MMX       Triad:     9495.14 MB/s
+---
+MMX       AVERAGE:   8796.72 MB/s
+
+Benchmark #373:
+MMX       Copy:      8698.67 MB/s
+MMX       Scale:     9172.38 MB/s
+MMX       Add:       8053.06 MB/s
+MMX       Triad:     11238.47 MB/s
+---
+MMX       AVERAGE:   9290.64 MB/s
+
+Benchmark #374:
+MMX       Copy:      9919.09 MB/s
+MMX       Scale:     10305.86 MB/s
+MMX       Add:       10609.22 MB/s
+MMX       Triad:     9945.89 MB/s
+---
+MMX       AVERAGE:   10195.02 MB/s
+
+Benchmark #375:
+MMX       Copy:      8711.90 MB/s
+MMX       Scale:     7898.79 MB/s
+MMX       Add:       9884.85 MB/s
+MMX       Triad:     10011.58 MB/s
+---
+MMX       AVERAGE:   9126.78 MB/s
+
+Benchmark #376:
+MMX       Copy:      9172.38 MB/s
+MMX       Scale:     9113.99 MB/s
+MMX       Add:       9533.78 MB/s
+MMX       Triad:     10117.71 MB/s
+---
+MMX       AVERAGE:   9484.46 MB/s
+
+Benchmark #377:
+MMX       Copy:      9182.19 MB/s
+MMX       Scale:     8092.26 MB/s
+MMX       Add:       10027.16 MB/s
+MMX       Triad:     9968.98 MB/s
+---
+MMX       AVERAGE:   9317.65 MB/s
+
+Benchmark #378:
+MMX       Copy:      8999.41 MB/s
+MMX       Scale:     9123.67 MB/s
+MMX       Add:       9938.22 MB/s
+MMX       Triad:     9102.72 MB/s
+---
+MMX       AVERAGE:   9291.00 MB/s
+
+Benchmark #379:
+MMX       Copy:      9231.53 MB/s
+MMX       Scale:     9211.73 MB/s
+MMX       Add:       9724.45 MB/s
+MMX       Triad:     9996.04 MB/s
+---
+MMX       AVERAGE:   9540.94 MB/s
+
+Benchmark #380:
+MMX       Copy:      6888.48 MB/s
+MMX       Scale:     8454.66 MB/s
+MMX       Add:       9776.10 MB/s
+MMX       Triad:     9498.64 MB/s
+---
+MMX       AVERAGE:   8654.47 MB/s
+
+Benchmark #381:
+MMX       Copy:      6961.05 MB/s
+MMX       Scale:     7463.02 MB/s
+MMX       Add:       9253.07 MB/s
+MMX       Triad:     8738.49 MB/s
+---
+MMX       AVERAGE:   8103.91 MB/s
+
+Benchmark #382:
+MMX       Copy:      6963.87 MB/s
+MMX       Scale:     8027.98 MB/s
+MMX       Add:       8516.13 MB/s
+MMX       Triad:     9353.83 MB/s
+---
+MMX       AVERAGE:   8215.45 MB/s
+
+Benchmark #383:
+MMX       Copy:      8496.47 MB/s
+MMX       Scale:     8765.24 MB/s
+MMX       Add:       10027.16 MB/s
+MMX       Triad:     9236.49 MB/s
+---
+MMX       AVERAGE:   9131.34 MB/s
+
+Benchmark #384:
+MMX       Copy:      8429.77 MB/s
+MMX       Scale:     8039.25 MB/s
+MMX       Add:       8846.48 MB/s
+MMX       Triad:     8191.29 MB/s
+---
+MMX       AVERAGE:   8376.70 MB/s
+
+Benchmark #385:
+MMX       Copy:      8311.50 MB/s
+MMX       Scale:     8823.76 MB/s
+MMX       Add:       9850.84 MB/s
+MMX       Triad:     9764.99 MB/s
+---
+MMX       AVERAGE:   9187.77 MB/s
+
+Benchmark #386:
+MMX       Copy:      8442.20 MB/s
+MMX       Scale:     8756.30 MB/s
+MMX       Add:       9436.03 MB/s
+MMX       Triad:     9439.49 MB/s
+---
+MMX       AVERAGE:   9018.51 MB/s
+
+Benchmark #387:
+MMX       Copy:      9075.47 MB/s
+MMX       Scale:     9271.38 MB/s
+MMX       Add:       8774.19 MB/s
+MMX       Triad:     9484.65 MB/s
+---
+MMX       AVERAGE:   9151.42 MB/s
+
+Benchmark #388:
+MMX       Copy:      8919.97 MB/s
+MMX       Scale:     8747.39 MB/s
+MMX       Add:       9432.58 MB/s
+MMX       Triad:     8555.71 MB/s
+---
+MMX       AVERAGE:   8913.91 MB/s
+
+Benchmark #389:
+MMX       Copy:      8525.99 MB/s
+MMX       Scale:     7877.06 MB/s
+MMX       Add:       9884.85 MB/s
+MMX       Triad:     8178.29 MB/s
+---
+MMX       AVERAGE:   8616.55 MB/s
+
+Benchmark #390:
+MMX       Copy:      7360.70 MB/s
+MMX       Scale:     6164.29 MB/s
+MMX       Add:       8446.35 MB/s
+MMX       Triad:     7912.13 MB/s
+---
+MMX       AVERAGE:   7470.87 MB/s
+
+Benchmark #391:
+MMX       Copy:      8500.68 MB/s
+MMX       Scale:     7693.63 MB/s
+MMX       Add:       8935.44 MB/s
+MMX       Triad:     8446.35 MB/s
+---
+MMX       AVERAGE:   8394.02 MB/s
+
+Benchmark #392:
+MMX       Copy:      8742.94 MB/s
+MMX       Scale:     10412.04 MB/s
+MMX       Add:       8653.39 MB/s
+MMX       Triad:     8296.78 MB/s
+---
+MMX       AVERAGE:   9026.29 MB/s
+
+Benchmark #393:
+MMX       Copy:      7310.58 MB/s
+MMX       Scale:     6836.40 MB/s
+MMX       Add:       8438.05 MB/s
+MMX       Triad:     7816.14 MB/s
+---
+MMX       AVERAGE:   7600.29 MB/s
+
+Benchmark #394:
+MMX       Copy:      6692.59 MB/s
+MMX       Scale:     7990.64 MB/s
+MMX       Add:       8165.34 MB/s
+MMX       Triad:     8243.70 MB/s
+---
+MMX       AVERAGE:   7773.06 MB/s
+
+Benchmark #395:
+MMX       Copy:      7618.57 MB/s
+MMX       Scale:     8039.25 MB/s
+MMX       Add:       7887.91 MB/s
+MMX       Triad:     9299.82 MB/s
+---
+MMX       AVERAGE:   8211.39 MB/s
+
+Benchmark #396:
+MMX       Copy:      8887.67 MB/s
+MMX       Scale:     8475.52 MB/s
+MMX       Add:       9253.07 MB/s
+MMX       Triad:     10046.71 MB/s
+---
+MMX       AVERAGE:   9165.74 MB/s
+
+Benchmark #397:
+MMX       Copy:      8924.61 MB/s
+MMX       Scale:     8999.41 MB/s
+MMX       Add:       8147.27 MB/s
+MMX       Triad:     9892.44 MB/s
+---
+MMX       AVERAGE:   8990.93 MB/s
+
+Benchmark #398:
+MMX       Copy:      7398.74 MB/s
+MMX       Scale:     7717.82 MB/s
+MMX       Add:       9007.27 MB/s
+MMX       Triad:     8238.43 MB/s
+---
+MMX       AVERAGE:   8090.56 MB/s
+
+Benchmark #399:
+MMX       Copy:      6705.65 MB/s
+MMX       Scale:     7040.93 MB/s
+MMX       Add:       7897.58 MB/s
+MMX       Triad:     8688.40 MB/s
+---
+MMX       AVERAGE:   7583.14 MB/s
+
+Benchmark #400:
+MMX       Copy:      7182.22 MB/s
+MMX       Scale:     7427.53 MB/s
+MMX       Add:       7216.41 MB/s
+MMX       Triad:     7554.91 MB/s
+---
+MMX       AVERAGE:   7345.27 MB/s
+
+Benchmark #401:
+MMX       Copy:      6206.60 MB/s
+MMX       Scale:     7242.78 MB/s
+MMX       Add:       8264.85 MB/s
+MMX       Triad:     8388.61 MB/s
+---
+MMX       AVERAGE:   7525.71 MB/s
+
+Benchmark #402:
+MMX       Copy:      7251.95 MB/s
+MMX       Scale:     7518.54 MB/s
+MMX       Add:       7694.78 MB/s
+MMX       Triad:     8227.91 MB/s
+---
+MMX       AVERAGE:   7673.29 MB/s
+
+Benchmark #403:
+MMX       Copy:      7666.16 MB/s
+MMX       Scale:     7224.50 MB/s
+MMX       Add:       8088.45 MB/s
+MMX       Triad:     8238.43 MB/s
+---
+MMX       AVERAGE:   7804.39 MB/s
+
+Benchmark #404:
+MMX       Copy:      7498.85 MB/s
+MMX       Scale:     7170.23 MB/s
+MMX       Add:       8432.53 MB/s
+MMX       Triad:     7430.74 MB/s
+---
+MMX       AVERAGE:   7633.09 MB/s
+
+Benchmark #405:
+MMX       Copy:      7869.84 MB/s
+MMX       Scale:     6941.36 MB/s
+MMX       Add:       7454.38 MB/s
+MMX       Triad:     8595.67 MB/s
+---
+MMX       AVERAGE:   7715.31 MB/s
+
+Benchmark #406:
+MMX       Copy:      6989.37 MB/s
+MMX       Scale:     7598.35 MB/s
+MMX       Add:       10965.87 MB/s
+MMX       Triad:     9109.16 MB/s
+---
+MMX       AVERAGE:   8665.69 MB/s
+
+Benchmark #407:
+MMX       Copy:      9128.52 MB/s
+MMX       Scale:     9811.46 MB/s
+MMX       Add:       8421.50 MB/s
+MMX       Triad:     8241.06 MB/s
+---
+MMX       AVERAGE:   8900.64 MB/s
+
+Benchmark #408:
+MMX       Copy:      7221.47 MB/s
+MMX       Scale:     7341.82 MB/s
+MMX       Add:       8729.61 MB/s
+MMX       Triad:     8217.41 MB/s
+---
+MMX       AVERAGE:   7877.58 MB/s
+
+Benchmark #409:
+MMX       Copy:      7360.70 MB/s
+MMX       Scale:     7649.10 MB/s
+MMX       Add:       8886.14 MB/s
+MMX       Triad:     7820.88 MB/s
+---
+MMX       AVERAGE:   7929.20 MB/s
+
+Benchmark #410:
+MMX       Copy:      7564.89 MB/s
+MMX       Scale:     7069.91 MB/s
+MMX       Add:       8510.50 MB/s
+MMX       Triad:     8488.08 MB/s
+---
+MMX       AVERAGE:   7908.34 MB/s
+
+Benchmark #411:
+MMX       Copy:      8013.00 MB/s
+MMX       Scale:     8111.36 MB/s
+MMX       Add:       8916.89 MB/s
+MMX       Triad:     9243.11 MB/s
+---
+MMX       AVERAGE:   8571.09 MB/s
+
+Benchmark #412:
+MMX       Copy:      6734.56 MB/s
+MMX       Scale:     7679.87 MB/s
+MMX       Add:       8427.01 MB/s
+MMX       Triad:     7388.13 MB/s
+---
+MMX       AVERAGE:   7557.39 MB/s
+
+Benchmark #413:
+MMX       Copy:      7957.33 MB/s
+MMX       Scale:     6208.84 MB/s
+MMX       Add:       8907.64 MB/s
+MMX       Triad:     8377.70 MB/s
+---
+MMX       AVERAGE:   7862.88 MB/s
+
+Benchmark #414:
+MMX       Copy:      8479.70 MB/s
+MMX       Scale:     8103.71 MB/s
+MMX       Add:       8355.97 MB/s
+MMX       Triad:     8569.94 MB/s
+---
+MMX       AVERAGE:   8377.33 MB/s
+
+Benchmark #415:
+MMX       Copy:      7638.89 MB/s
+MMX       Scale:     8115.20 MB/s
+MMX       Add:       8615.78 MB/s
+MMX       Triad:     8504.89 MB/s
+---
+MMX       AVERAGE:   8218.69 MB/s
+
+Benchmark #416:
+MMX       Copy:      7649.10 MB/s
+MMX       Scale:     7376.50 MB/s
+MMX       Add:       8225.28 MB/s
+MMX       Triad:     8312.84 MB/s
+---
+MMX       AVERAGE:   7890.93 MB/s
+
+Benchmark #417:
+MMX       Copy:      7414.70 MB/s
+MMX       Scale:     6946.98 MB/s
+MMX       Add:       8587.07 MB/s
+MMX       Triad:     1430.86 MB/s
+---
+MMX       AVERAGE:   6094.90 MB/s
+
+Benchmark #418:
+MMX       Copy:      7515.25 MB/s
+MMX       Scale:     7149.34 MB/s
+MMX       Add:       8267.50 MB/s
+MMX       Triad:     7823.26 MB/s
+---
+MMX       AVERAGE:   7688.84 MB/s
+
+Benchmark #419:
+MMX       Copy:      7700.52 MB/s
+MMX       Scale:     7655.91 MB/s
+MMX       Add:       8374.98 MB/s
+MMX       Triad:     9470.71 MB/s
+---
+MMX       AVERAGE:   8300.53 MB/s
+
+Benchmark #420:
+MMX       Copy:      7463.02 MB/s
+MMX       Scale:     7873.45 MB/s
+MMX       Add:       9512.66 MB/s
+MMX       Triad:     8372.26 MB/s
+---
+MMX       AVERAGE:   8305.35 MB/s
+
+Benchmark #421:
+MMX       Copy:      8243.70 MB/s
+MMX       Scale:     7107.93 MB/s
+MMX       Add:       8391.34 MB/s
+MMX       Triad:     8304.80 MB/s
+---
+MMX       AVERAGE:   8011.94 MB/s
+
+Benchmark #422:
+MMX       Copy:      6365.27 MB/s
+MMX       Scale:     7591.63 MB/s
+MMX       Add:       9105.94 MB/s
+MMX       Triad:     8876.96 MB/s
+---
+MMX       AVERAGE:   7984.95 MB/s
+
+Benchmark #423:
+MMX       Copy:      6899.55 MB/s
+MMX       Scale:     7693.63 MB/s
+MMX       Add:       8524.58 MB/s
+MMX       Triad:     7980.74 MB/s
+---
+MMX       AVERAGE:   7774.62 MB/s
+
+Benchmark #424:
+MMX       Copy:      7099.12 MB/s
+MMX       Scale:     6731.92 MB/s
+MMX       Add:       7752.65 MB/s
+MMX       Triad:     8966.53 MB/s
+---
+MMX       AVERAGE:   7637.56 MB/s
+
+Benchmark #425:
+MMX       Copy:      8417.38 MB/s
+MMX       Scale:     7155.30 MB/s
+MMX       Add:       7572.67 MB/s
+MMX       Triad:     8747.39 MB/s
+---
+MMX       AVERAGE:   7973.18 MB/s
+
+Benchmark #426:
+MMX       Copy:      7505.40 MB/s
+MMX       Scale:     8204.33 MB/s
+MMX       Add:       8372.26 MB/s
+MMX       Triad:     7961.01 MB/s
+---
+MMX       AVERAGE:   8010.75 MB/s
+
+Benchmark #427:
+MMX       Copy:      7152.32 MB/s
+MMX       Scale:     7093.26 MB/s
+MMX       Add:       7660.46 MB/s
+MMX       Triad:     8765.24 MB/s
+---
+MMX       AVERAGE:   7667.82 MB/s
+
+Benchmark #428:
+MMX       Copy:      9104.33 MB/s
+MMX       Scale:     7511.97 MB/s
+MMX       Add:       7983.21 MB/s
+MMX       Triad:     7975.80 MB/s
+---
+MMX       AVERAGE:   8143.83 MB/s
+
+Benchmark #429:
+MMX       Copy:      8471.34 MB/s
+MMX       Scale:     8417.38 MB/s
+MMX       Add:       7897.58 MB/s
+MMX       Triad:     8055.58 MB/s
+---
+MMX       AVERAGE:   8210.47 MB/s
+
+Benchmark #430:
+MMX       Copy:      6855.49 MB/s
+MMX       Scale:     8188.69 MB/s
+MMX       Add:       9115.60 MB/s
+MMX       Triad:     9512.66 MB/s
+---
+MMX       AVERAGE:   8418.11 MB/s
+
+Benchmark #431:
+MMX       Copy:      7635.50 MB/s
+MMX       Scale:     7561.56 MB/s
+MMX       Add:       9442.95 MB/s
+MMX       Triad:     8852.56 MB/s
+---
+MMX       AVERAGE:   8373.14 MB/s
+
+Benchmark #432:
+MMX       Copy:      7548.27 MB/s
+MMX       Scale:     6958.23 MB/s
+MMX       Add:       7178.22 MB/s
+MMX       Triad:     8320.89 MB/s
+---
+MMX       AVERAGE:   7501.40 MB/s
+
+Benchmark #433:
+MMX       Copy:      7492.31 MB/s
+MMX       Scale:     8001.80 MB/s
+MMX       Add:       8685.47 MB/s
+MMX       Triad:     9512.66 MB/s
+---
+MMX       AVERAGE:   8423.06 MB/s
+
+Benchmark #434:
+MMX       Copy:      9085.07 MB/s
+MMX       Scale:     8534.46 MB/s
+MMX       Add:       8003.04 MB/s
+MMX       Triad:     7868.64 MB/s
+---
+MMX       AVERAGE:   8372.80 MB/s
+
+Benchmark #435:
+MMX       Copy:      8295.45 MB/s
+MMX       Scale:     7924.29 MB/s
+MMX       Add:       8676.70 MB/s
+MMX       Triad:     8513.31 MB/s
+---
+MMX       AVERAGE:   8352.44 MB/s
+
+Benchmark #436:
+MMX       Copy:      6921.78 MB/s
+MMX       Scale:     6944.17 MB/s
+MMX       Add:       8653.39 MB/s
+MMX       Triad:     8474.12 MB/s
+---
+MMX       AVERAGE:   7748.37 MB/s
+
+Benchmark #437:
+MMX       Copy:      6896.78 MB/s
+MMX       Scale:     7363.85 MB/s
+MMX       Add:       9093.09 MB/s
+MMX       Triad:     8180.89 MB/s
+---
+MMX       AVERAGE:   7883.65 MB/s
+
+Benchmark #438:
+MMX       Copy:      8896.88 MB/s
+MMX       Scale:     7618.57 MB/s
+MMX       Add:       8558.55 MB/s
+MMX       Triad:     8499.28 MB/s
+---
+MMX       AVERAGE:   8393.32 MB/s
+
+Benchmark #439:
+MMX       Copy:      7880.67 MB/s
+MMX       Scale:     8577.07 MB/s
+MMX       Add:       8960.29 MB/s
+MMX       Triad:     8552.87 MB/s
+---
+MMX       AVERAGE:   8492.73 MB/s
+
+Benchmark #440:
+MMX       Copy:      8513.31 MB/s
+MMX       Scale:     7568.22 MB/s
+MMX       Add:       8883.08 MB/s
+MMX       Triad:     7678.73 MB/s
+---
+MMX       AVERAGE:   8160.84 MB/s
+
+Benchmark #441:
+MMX       Copy:      7953.64 MB/s
+MMX       Scale:     7662.74 MB/s
+MMX       Add:       8055.58 MB/s
+MMX       Triad:     8035.49 MB/s
+---
+MMX       AVERAGE:   7926.86 MB/s
+
+Benchmark #442:
+MMX       Copy:      6534.75 MB/s
+MMX       Scale:     7107.93 MB/s
+MMX       Add:       7676.44 MB/s
+MMX       Triad:     8142.12 MB/s
+---
+MMX       AVERAGE:   7365.31 MB/s
+
+Benchmark #443:
+MMX       Copy:      7440.39 MB/s
+MMX       Scale:     6747.79 MB/s
+MMX       Add:       7975.80 MB/s
+MMX       Triad:     8131.84 MB/s
+---
+MMX       AVERAGE:   7573.96 MB/s
+
+Benchmark #444:
+MMX       Copy:      7717.82 MB/s
+MMX       Scale:     7642.29 MB/s
+MMX       Add:       8162.75 MB/s
+MMX       Triad:     7655.91 MB/s
+---
+MMX       AVERAGE:   7794.69 MB/s
+
+Benchmark #445:
+MMX       Copy:      7766.67 MB/s
+MMX       Scale:     7528.43 MB/s
+MMX       Add:       8840.41 MB/s
+MMX       Triad:     9934.39 MB/s
+---
+MMX       AVERAGE:   8517.47 MB/s
+
+Benchmark #446:
+MMX       Copy:      8173.11 MB/s
+MMX       Scale:     6866.45 MB/s
+MMX       Add:       8482.49 MB/s
+MMX       Triad:     7909.70 MB/s
+---
+MMX       AVERAGE:   7857.94 MB/s
+
+Benchmark #447:
+MMX       Copy:      7267.29 MB/s
+MMX       Scale:     7323.05 MB/s
+MMX       Add:       7694.78 MB/s
+MMX       Triad:     8670.86 MB/s
+---
+MMX       AVERAGE:   7738.99 MB/s
+
+Benchmark #448:
+MMX       Copy:      7564.89 MB/s
+MMX       Scale:     8126.71 MB/s
+MMX       Add:       8429.77 MB/s
+MMX       Triad:     8262.20 MB/s
+---
+MMX       AVERAGE:   8095.89 MB/s
+
+Benchmark #449:
+MMX       Copy:      7341.82 MB/s
+MMX       Scale:     7170.23 MB/s
+MMX       Add:       9279.73 MB/s
+MMX       Triad:     8030.48 MB/s
+---
+MMX       AVERAGE:   7955.56 MB/s
+
+Benchmark #450:
+MMX       Copy:      7735.20 MB/s
+MMX       Scale:     7197.26 MB/s
+MMX       Add:       8347.85 MB/s
+MMX       Triad:     8502.08 MB/s
+---
+MMX       AVERAGE:   7945.60 MB/s
+
+Benchmark #451:
+MMX       Copy:      7476.01 MB/s
+MMX       Scale:     7777.22 MB/s
+MMX       Add:       8550.03 MB/s
+MMX       Triad:     8254.26 MB/s
+---
+MMX       AVERAGE:   8014.38 MB/s
+
+Benchmark #452:
+MMX       Copy:      7258.08 MB/s
+MMX       Scale:     7628.72 MB/s
+MMX       Add:       8630.21 MB/s
+MMX       Triad:     8460.21 MB/s
+---
+MMX       AVERAGE:   7994.30 MB/s
+
+Benchmark #453:
+MMX       Copy:      7752.65 MB/s
+MMX       Scale:     7913.34 MB/s
+MMX       Add:       9115.60 MB/s
+MMX       Triad:     8864.74 MB/s
+---
+MMX       AVERAGE:   8411.58 MB/s
+
+Benchmark #454:
+MMX       Copy:      8107.54 MB/s
+MMX       Scale:     8483.89 MB/s
+MMX       Add:       9401.61 MB/s
+MMX       Triad:     8950.96 MB/s
+---
+MMX       AVERAGE:   8736.00 MB/s
+
+Benchmark #455:
+MMX       Copy:      8663.57 MB/s
+MMX       Scale:     8929.25 MB/s
+MMX       Add:       9572.74 MB/s
+MMX       Triad:     11357.34 MB/s
+---
+MMX       AVERAGE:   9630.72 MB/s
+
+Benchmark #456:
+MMX       Copy:      7866.24 MB/s
+MMX       Scale:     7440.39 MB/s
+MMX       Add:       8165.34 MB/s
+MMX       Triad:     8638.89 MB/s
+---
+MMX       AVERAGE:   8027.71 MB/s
+
+Benchmark #457:
+MMX       Copy:      7466.26 MB/s
+MMX       Scale:     7146.37 MB/s
+MMX       Add:       8272.81 MB/s
+MMX       Triad:     10639.89 MB/s
+---
+MMX       AVERAGE:   8381.33 MB/s
+
+Benchmark #458:
+MMX       Copy:      7880.67 MB/s
+MMX       Scale:     6716.13 MB/s
+MMX       Add:       10374.32 MB/s
+MMX       Triad:     7541.65 MB/s
+---
+MMX       AVERAGE:   8128.19 MB/s
+
+Benchmark #459:
+MMX       Copy:      7632.11 MB/s
+MMX       Scale:     7453.31 MB/s
+MMX       Add:       7371.23 MB/s
+MMX       Triad:     8547.20 MB/s
+---
+MMX       AVERAGE:   7750.96 MB/s
+
+Benchmark #460:
+MMX       Copy:      8438.05 MB/s
+MMX       Scale:     7421.11 MB/s
+MMX       Add:       9790.96 MB/s
+MMX       Triad:     10514.00 MB/s
+---
+MMX       AVERAGE:   9041.03 MB/s
+
+Benchmark #461:
+MMX       Copy:      7823.26 MB/s
+MMX       Scale:     6415.19 MB/s
+MMX       Add:       9210.08 MB/s
+MMX       Triad:     8144.69 MB/s
+---
+MMX       AVERAGE:   7898.30 MB/s
+
+Benchmark #462:
+MMX       Copy:      7866.24 MB/s
+MMX       Scale:     7443.62 MB/s
+MMX       Add:       8399.54 MB/s
+MMX       Triad:     8561.40 MB/s
+---
+MMX       AVERAGE:   8067.70 MB/s
+
+Benchmark #463:
+MMX       Copy:      7061.19 MB/s
+MMX       Scale:     7541.65 MB/s
+MMX       Add:       8432.53 MB/s
+MMX       Triad:     9394.75 MB/s
+---
+MMX       AVERAGE:   8107.53 MB/s
+
+Benchmark #464:
+MMX       Copy:      9196.93 MB/s
+MMX       Scale:     8084.64 MB/s
+MMX       Add:       10031.06 MB/s
+MMX       Triad:     9717.12 MB/s
+---
+MMX       AVERAGE:   9257.44 MB/s
+
+Benchmark #465:
+MMX       Copy:      8376.34 MB/s
+MMX       Scale:     8364.10 MB/s
+MMX       Add:       9547.91 MB/s
+MMX       Triad:     9306.54 MB/s
+---
+MMX       AVERAGE:   8898.72 MB/s
+
+Benchmark #466:
+MMX       Copy:      7873.45 MB/s
+MMX       Scale:     8462.99 MB/s
+MMX       Add:       9141.47 MB/s
+MMX       Triad:     9316.63 MB/s
+---
+MMX       AVERAGE:   8698.64 MB/s
+
+Benchmark #467:
+MMX       Copy:      7798.40 MB/s
+MMX       Scale:     8751.84 MB/s
+MMX       Add:       8615.78 MB/s
+MMX       Triad:     8621.55 MB/s
+---
+MMX       AVERAGE:   8446.89 MB/s
+
+Benchmark #468:
+MMX       Copy:      7421.11 MB/s
+MMX       Scale:     6391.32 MB/s
+MMX       Add:       9032.53 MB/s
+MMX       Triad:     10258.68 MB/s
+---
+MMX       AVERAGE:   8275.91 MB/s
+
+Benchmark #469:
+MMX       Copy:      7895.16 MB/s
+MMX       Scale:     9613.80 MB/s
+MMX       Add:       9436.03 MB/s
+MMX       Triad:     10416.25 MB/s
+---
+MMX       AVERAGE:   9340.31 MB/s
+
+Benchmark #470:
+MMX       Copy:      7568.22 MB/s
+MMX       Scale:     7895.16 MB/s
+MMX       Add:       9061.11 MB/s
+MMX       Triad:     8873.90 MB/s
+---
+MMX       AVERAGE:   8349.60 MB/s
+
+Benchmark #471:
+MMX       Copy:      7009.33 MB/s
+MMX       Scale:     8005.53 MB/s
+MMX       Add:       8807.18 MB/s
+MMX       Triad:     8969.65 MB/s
+---
+MMX       AVERAGE:   8197.92 MB/s
+
+Benchmark #472:
+MMX       Copy:      8287.44 MB/s
+MMX       Scale:     8425.63 MB/s
+MMX       Add:       8688.40 MB/s
+MMX       Triad:     9336.89 MB/s
+---
+MMX       AVERAGE:   8684.59 MB/s
+
+Benchmark #473:
+MMX       Copy:      8943.19 MB/s
+MMX       Scale:     10539.80 MB/s
+MMX       Add:       9972.83 MB/s
+MMX       Triad:     10209.91 MB/s
+---
+MMX       AVERAGE:   9916.43 MB/s
+
+Benchmark #474:
+MMX       Copy:      8663.57 MB/s
+MMX       Scale:     8952.51 MB/s
+MMX       Add:       10501.14 MB/s
+MMX       Triad:     10341.01 MB/s
+---
+MMX       AVERAGE:   9614.56 MB/s
+
+Benchmark #475:
+MMX       Copy:      10262.77 MB/s
+MMX       Scale:     10250.52 MB/s
+MMX       Add:       11228.67 MB/s
+MMX       Triad:     10768.83 MB/s
+---
+MMX       AVERAGE:   10627.70 MB/s
+
+Benchmark #476:
+MMX       Copy:      8672.32 MB/s
+MMX       Scale:     9018.30 MB/s
+MMX       Add:       8610.02 MB/s
+MMX       Triad:     9141.47 MB/s
+---
+MMX       AVERAGE:   8860.53 MB/s
+
+Benchmark #477:
+MMX       Copy:      7710.89 MB/s
+MMX       Scale:     8347.85 MB/s
+MMX       Add:       8474.12 MB/s
+MMX       Triad:     8979.03 MB/s
+---
+MMX       AVERAGE:   8377.97 MB/s
+
+Benchmark #478:
+MMX       Copy:      8024.23 MB/s
+MMX       Scale:     8471.34 MB/s
+MMX       Add:       9408.47 MB/s
+MMX       Triad:     9276.39 MB/s
+---
+MMX       AVERAGE:   8795.11 MB/s
+
+Benchmark #479:
+MMX       Copy:      8513.31 MB/s
+MMX       Scale:     8080.84 MB/s
+MMX       Add:       8810.19 MB/s
+MMX       Triad:     8947.85 MB/s
+---
+MMX       AVERAGE:   8588.05 MB/s
+
+Benchmark #480:
+MMX       Copy:      7749.15 MB/s
+MMX       Scale:     7551.59 MB/s
+MMX       Add:       8960.29 MB/s
+MMX       Triad:     8454.66 MB/s
+---
+MMX       AVERAGE:   8178.92 MB/s
+
+Benchmark #481:
+MMX       Copy:      8259.55 MB/s
+MMX       Scale:     9008.85 MB/s
+MMX       Add:       9309.90 MB/s
+MMX       Triad:     9023.04 MB/s
+---
+MMX       AVERAGE:   8900.33 MB/s
+
+Benchmark #482:
+MMX       Copy:      8295.45 MB/s
+MMX       Scale:     8980.59 MB/s
+MMX       Add:       9384.49 MB/s
+MMX       Triad:     9350.44 MB/s
+---
+MMX       AVERAGE:   9002.74 MB/s
+
+Benchmark #483:
+MMX       Copy:      7742.17 MB/s
+MMX       Scale:     7869.84 MB/s
+MMX       Add:       9128.52 MB/s
+MMX       Triad:     8941.64 MB/s
+---
+MMX       AVERAGE:   8420.54 MB/s
+
+Benchmark #484:
+MMX       Copy:      8283.45 MB/s
+MMX       Scale:     7913.34 MB/s
+MMX       Add:       8624.43 MB/s
+MMX       Triad:     9193.65 MB/s
+---
+MMX       AVERAGE:   8503.72 MB/s
+
+Benchmark #485:
+MMX       Copy:      7898.79 MB/s
+MMX       Scale:     8368.18 MB/s
+MMX       Add:       9790.96 MB/s
+MMX       Triad:     9633.57 MB/s
+---
+MMX       AVERAGE:   8922.87 MB/s
+
+Benchmark #486:
+MMX       Copy:      8957.18 MB/s
+MMX       Scale:     8364.10 MB/s
+MMX       Add:       9320.00 MB/s
+MMX       Triad:     9439.49 MB/s
+---
+MMX       AVERAGE:   9020.19 MB/s
+
+Benchmark #487:
+MMX       Copy:      8676.70 MB/s
+MMX       Scale:     8819.23 MB/s
+MMX       Add:       8846.48 MB/s
+MMX       Triad:     8837.38 MB/s
+---
+MMX       AVERAGE:   8794.95 MB/s
+
+Benchmark #488:
+MMX       Copy:      7625.33 MB/s
+MMX       Scale:     7935.27 MB/s
+MMX       Add:       8768.22 MB/s
+MMX       Triad:     8598.53 MB/s
+---
+MMX       AVERAGE:   8231.84 MB/s
+
+Benchmark #489:
+MMX       Copy:      6839.12 MB/s
+MMX       Scale:     5671.80 MB/s
+MMX       Add:       8206.94 MB/s
+MMX       Triad:     9038.86 MB/s
+---
+MMX       AVERAGE:   7439.18 MB/s
+
+Benchmark #490:
+MMX       Copy:      6847.30 MB/s
+MMX       Scale:     7158.28 MB/s
+MMX       Add:       8212.17 MB/s
+MMX       Triad:     7517.45 MB/s
+---
+MMX       AVERAGE:   7433.80 MB/s
+
+Benchmark #491:
+MMX       Copy:      7411.51 MB/s
+MMX       Scale:     8119.03 MB/s
+MMX       Add:       8822.25 MB/s
+MMX       Triad:     10086.03 MB/s
+---
+MMX       AVERAGE:   8609.70 MB/s
+
+Benchmark #492:
+MMX       Copy:      8994.70 MB/s
+MMX       Scale:     8479.70 MB/s
+MMX       Add:       9820.81 MB/s
+MMX       Triad:     9976.70 MB/s
+---
+MMX       AVERAGE:   9317.97 MB/s
+
+Benchmark #493:
+MMX       Copy:      8855.60 MB/s
+MMX       Scale:     8200.41 MB/s
+MMX       Add:       8867.79 MB/s
+MMX       Triad:     8694.27 MB/s
+---
+MMX       AVERAGE:   8654.52 MB/s
+
+Benchmark #494:
+MMX       Copy:      9056.34 MB/s
+MMX       Scale:     8869.32 MB/s
+MMX       Add:       9105.94 MB/s
+MMX       Triad:     9330.12 MB/s
+---
+MMX       AVERAGE:   9090.43 MB/s
+
+Benchmark #495:
+MMX       Copy:      8483.89 MB/s
+MMX       Scale:     7877.06 MB/s
+MMX       Add:       8886.14 MB/s
+MMX       Triad:     9180.55 MB/s
+---
+MMX       AVERAGE:   8606.91 MB/s
+
+Benchmark #496:
+MMX       Copy:      8961.85 MB/s
+MMX       Scale:     7052.49 MB/s
+MMX       Add:       9530.25 MB/s
+MMX       Triad:     8416.00 MB/s
+---
+MMX       AVERAGE:   8490.15 MB/s
+
+Benchmark #497:
+MMX       Copy:      7295.06 MB/s
+MMX       Scale:     6885.72 MB/s
+MMX       Add:       8353.26 MB/s
+MMX       Triad:     8243.70 MB/s
+---
+MMX       AVERAGE:   7694.43 MB/s
+
+Benchmark #498:
+MMX       Copy:      7116.76 MB/s
+MMX       Scale:     6847.30 MB/s
+MMX       Add:       9637.17 MB/s
+MMX       Triad:     8008.02 MB/s
+---
+MMX       AVERAGE:   7902.31 MB/s
+
+Benchmark #499:
+MMX       Copy:      8685.47 MB/s
+MMX       Scale:     6777.07 MB/s
+MMX       Add:       7405.12 MB/s
+MMX       Triad:     8070.72 MB/s
+---
+MMX       AVERAGE:   7734.59 MB/s
+
+Benchmark #500:
+MMX       Copy:      7323.05 MB/s
+MMX       Scale:     7690.18 MB/s
+MMX       Add:       7943.84 MB/s
+MMX       Triad:     8938.54 MB/s
+---
+MMX       AVERAGE:   7973.90 MB/s
+
+MMX BatchRun       Copy:      8250.48 MB/s
+MMX BatchRun       Scale:     8241.83 MB/s
+MMX BatchRun       Add:       9138.82 MB/s
+MMX BatchRun       Triad:     9096.10 MB/s
+---
+MMX BatchRun       AVERAGE:   8681.81 MB/s

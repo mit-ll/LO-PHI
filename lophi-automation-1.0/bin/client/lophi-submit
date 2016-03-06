@@ -1,0 +1,221 @@
+#!/usr/bin/python
+"""
+    This script is used to submit a binary sample for analysis
+
+    (c) 2015 Massachusetts Institute of Technology
+"""
+
+# Native
+import optparse
+import os
+import multiprocessing
+import sys
+import signal
+import uuid
+import ftplib
+import logging
+logger = logging.getLogger(__name__)
+
+# LO-PHI
+import lophi.globals as G
+
+# LO-PHI Automation
+import lophi_automation.database.db as DB
+import lophi_automation.ext_interface.rabbitmq as rabbitmq
+from lophi_automation.network.command import LophiCommand
+
+
+class SubmitJob:
+    
+    def __init__(self):
+        """
+            Initialize our submitter class
+        """
+        signal.signal(signal.SIGINT, self.cleanup)
+
+    def submit_file(self, filename, options):
+        """
+            Submit a file for analysis with the given parameters
+            
+            @param filename: Path to filename to be submitted for analysis
+        """
+        # make sure the file exists
+        hash_name = DB.tohash(filename)
+        
+        # needed for dbase stuff later
+        sample_doc_id = DB.sample_doc_id(filename) 
+        
+        print "* Hashed file %s to %s" % (filename, hash_name)
+        f_name = filename.split('/')[-1]
+        
+        # Ensure that all files stored are .exe
+        if not f_name.endswith(".exe"):
+            f_name += ".exe"
+        
+        # upload binary(ies) to FTP Job server
+        print "* Updating to FTP as: %s"%f_name
+        try:
+            session = ftplib.FTP()
+            session.connect(options.services_host, G.FTP_PORT)
+            session.login(G.FTP_USER, G.FTP_PASSWORD)
+            session.cwd('upload')
+            f = open(filename,'rb')                  # file to send
+            session.storbinary('STOR %s' % f_name, f)     # send the file
+            f.close()                                    # close file and FTP
+            session.quit()
+        except:
+            logger.error("Could not connect to FTP Server.  (%s:%d)"%(options.services_host,G.FTP_PORT))
+            return False
+
+        print "* Uploaded file to FTP Job Server"
+    
+        # Prepare a job to send to the machine, using the sample doc id
+        cmd = LophiCommand(cmd=G.CTRL_CMD_START,
+                           analysis=options.analysis,
+                           machine_type=options.machine_type,
+                           machine=options.machine,
+                           volatility_profile=options.volatility_profile,
+                           sample_doc_id=sample_doc_id,
+                           submitter=G.get_username_local())
+
+        for i in xrange(1, options.runs+1):
+
+            print "* Requested analysis %d of %d . . ." % (i, options.runs)
+            
+            # Send to master
+            logger.debug("Sending: %s"%cmd)
+            self.out_queue.put(str(cmd))
+            
+    def run(self, options, positionals):
+        """
+            Connect to RabbitMQ and our ftp to upload the sample
+        """
+        
+        # open up rabbitmq
+        # Set up communication queue with all of our consumers, processes, and producers
+        self.in_queue = multiprocessing.Queue()
+        self.out_queue = multiprocessing.Queue()
+        # Producer
+        self.ctrl_producer = rabbitmq.LOPHI_RabbitMQ_Producer(options.services_host, 
+                                                         self.out_queue, 
+                                                         G.RabbitMQ.CTRL_IN)
+        self.ctrl_producer.start()
+        # Consummer
+        self.ctrl_consumer = rabbitmq.LOPHI_RabbitMQ_Consumer(options.services_host, 
+                                                         self.in_queue, 
+                                                         G.RabbitMQ.CTRL_OUT+'.'+str(uuid.uuid4()),
+                                                         exchange_type=G.RabbitMQ.TYPE_FANOUT,
+                                                         routing_key='',
+                                                         exchange=G.RabbitMQ.EXCHANGE_FANOUT)
+        
+        if options.sample is not None:
+            self.submit_file(options.sample, options)
+        elif options.sample_dir is not None:
+            
+            # Walk specified directory and submit all files
+            for dirname, dirnames, filenames in os.walk(options.sample_dir):
+                # print path to all filenames.
+                for filename in filenames:
+                    file_path = os.path.join(dirname, filename)
+                    self.submit_file(file_path, options)
+
+        self.out_queue.put(G.CTRL_CMD_KILL)
+        self.ctrl_consumer.stop()
+        
+        
+        sys.exit(0)
+        
+    def cleanup(self, signal, frame):
+        """
+            Cleanup our connections.  Is this needed?
+        """
+        print 'Caught Ctrl+C'
+        self.in_queue.put(G.CTRL_CMD_KILL)
+        self.out_queue.put(G.CTRL_CMD_KILL)
+        sys.exit(0)
+
+
+def main(args=None):
+
+    opts = optparse.OptionParser()
+    
+    # Binary file
+    opts.add_option("-s", "--sample", action="store", type="string",
+        dest="sample", help="Selects the binary file to analyze")
+    
+    # Entire directory of binaries
+    opts.add_option("-D", "--directory", action="store", type="string",
+        dest="sample_dir", help="Submits every file in this directory.")
+
+    # RabbitMQ (for LARIAT, LAMBDA)
+    opts.add_option("-S", "--services_host", action="store", type="string",
+                   dest="services_host", default='localhost',
+        help="Host for global services (MongoDB/RabbitMQ)")
+
+    opts.add_option("-T", "--machine_type", action="store", type="int",
+                   dest="machine_type", help="Type of machine to run.  Options are: \nPHYSICAL = 0\nXEN = 1\nKVM = 2\nANY = 10")
+
+    opts.add_option("-p", "--volatility_profile", action="store", type="string",
+                   dest="volatility_profile", default="WinXPSP3x86",
+                   help="Volatility Profile to use, e.g. WinXPSP3x86")
+
+    opts.add_option("-a", "--analysis", action="store", type="string",
+                   dest="analysis", help="Analysis to run")
+    
+    opts.add_option("-m", "--machine", action="store", type="string",
+                    default=None, dest="machine", 
+                    help="Name of existing machine to run analysis on.  (Optional)")
+    
+    opts.add_option("-r", "--runs", action="store", type="int",
+                   dest="runs", default=1, 
+                   help="Number of times to run this analysis on this binary sample.")
+    
+    #opts.add_option("-b", "--db_server", action="store", type="string",
+    #               dest="db_server", default=None,
+    #    help="Database server for getting info")
+        
+    # Debug?
+    opts.add_option("-d", "--debug", action="store_true", 
+        dest="debug", default=False,
+        help="Turn on debugging output. (Default: False)")
+    
+    
+    (options, positionals) = opts.parse_args(args)
+    
+    
+    if options.debug:
+        print "** Log level set to DEBUG."
+        logging.basicConfig(level=logging.DEBUG)
+    else:
+        logging.basicConfig(level=logging.ERROR)
+    
+    if options.sample is None and options.sample_dir is None:
+        logger.error("Did not specify a binary to analyze!")
+        opts.print_help()
+        return
+    
+    if options.sample is not None and not os.path.exists(options.sample):
+        logger.error("Specified file (%s) does not exist."%options.sample)
+        opts.print_help()
+        return
+    
+    if options.sample_dir is not None and not os.path.exists(options.sample_dir):
+        logger.error("Specified directory (%s) does not exist."%options.sample_dir)
+        opts.print_help()
+        return
+    
+    if options.analysis is None:
+        logger.error("Please specify an analysis name.")
+        opts.print_help()
+        return
+        
+    
+    SubmitJob().run(options, positionals)
+
+
+
+if __name__=="__main__":
+    
+    main()    
+    
+    

@@ -1,0 +1,9 @@
+*.pyc
+*.project
+*.pydevproject
+*.dcap
+*.mfd
+*.log
+*.debhelper
+.*
+*/build/*

@@ -1,0 +1,1650 @@
+(dp0
+Vmodscan
+p1
+(dp2
+sVnetscan
+p3
+(dp4
+VRemoved Entries
+p5
+(lp6
+V0x3f930680 TCPv4    192.168.0.150:49162            192.168.0.255:42186  CLOSED           46719248                
+p7
+aV0x3f987400 TCPv4    192.168.0.150:49158            192.168.0.255:2121   CLOSED           46719248                
+p8
+aV0x3dc19ec0 UDPv4    0.0.0.0:0                      *:*                                   296      svchost.exe    2015-08-16 00:14:09 UTC+0000
+p9
+aV0x3dc19ec0 UDPv6    :::0                           *:*                                   296      svchost.exe    2015-08-16 00:14:09 UTC+0000
+p10
+aV0x3dc23a00 UDPv4    0.0.0.0:64721                  *:*                                   684      svchost.exe    2015-08-16 00:14:22 UTC+0000
+p11
+aV0x3df22dc0 UDPv4    0.0.0.0:55288                  *:*                                   684      svchost.exe    2015-08-16 00:14:19 UTC+0000
+p12
+aV0x3df22dc0 UDPv6    :::55288                       *:*                                   684      svchost.exe    2015-08-16 00:14:19 UTC+0000
+p13
+aV0x3e5ed290 UDPv4    0.0.0.0:60948                  *:*                                   684      svchost.exe    2015-08-16 00:14:19 UTC+0000
+p14
+aV0x3e618310 UDPv4    0.0.0.0:50261                  *:*                                   684      svchost.exe    2015-08-16 00:14:04 UTC+0000
+p15
+aV0x3e68d010 UDPv4    0.0.0.0:58226                  *:*                                   684      svchost.exe    2015-08-16 00:14:22 UTC+0000
+p16
+aV0x3edfd900 UDPv4    0.0.0.0:0                      *:*                                   1856     rundll32.exe   2015-08-16 00:14:22 UTC+0000
+p17
+aV0x3edfd900 UDPv6    :::0                           *:*                                   1856     rundll32.exe   2015-08-16 00:14:22 UTC+0000
+p18
+aV0x3f6857d0 UDPv4    0.0.0.0:52199                  *:*                                   684      svchost.exe    2015-08-16 00:14:21 UTC+0000
+p19
+aV0x3f685920 UDPv4    0.0.0.0:51508                  *:*                                   684      svchost.exe    2015-08-16 00:14:19 UTC+0000
+p20
+aV0x3f6a0d70 UDPv4    0.0.0.0:0                      *:*                                   296      svchost.exe    2015-08-16 00:13:17 UTC+0000
+p21
+aV0x3f6a0d70 UDPv6    :::0                           *:*                                   296      svchost.exe    2015-08-16 00:13:17 UTC+0000
+p22
+aV0x3f6ef670 UDPv4    0.0.0.0:60101                  *:*                                   684      svchost.exe    2015-08-16 00:13:34 UTC+0000
+p23
+aV0x3f711cc0 UDPv4    0.0.0.0:57886                  *:*                                   684      svchost.exe    2015-08-16 00:14:19 UTC+0000
+p24
+aV0x3f711cc0 UDPv6    :::57886                       *:*                                   684      svchost.exe    2015-08-16 00:14:19 UTC+0000
+p25
+aV0x3f8b6710 UDPv4    0.0.0.0:0                      *:*                                   296      svchost.exe    2015-08-16 00:14:08 UTC+0000
+p26
+aV0x3f8b6710 UDPv6    :::0                           *:*                                   296      svchost.exe    2015-08-16 00:14:08 UTC+0000
+p27
+aV0x3f8f1a10 UDPv4    0.0.0.0:57013                  *:*                                   684      svchost.exe    2015-08-16 00:14:22 UTC+0000
+p28
+aV0x3f9049a0 UDPv4    0.0.0.0:0                      *:*                                   2216     GoogleUpdate.e 2015-08-16 00:14:22 UTC+0000
+p29
+aV0x3f9049a0 UDPv6    :::0                           *:*                                   2216     GoogleUpdate.e 2015-08-16 00:14:22 UTC+0000
+p30
+aV0x3f930a80 UDPv4    0.0.0.0:52903                  *:*                                   684      svchost.exe    2015-08-16 00:14:09 UTC+0000
+p31
+asVAdded Entries
+p32
+(lp33
+V0x3f930680 TCPv4    -:49162                        192.168.0.150:42186  CLOSED           3        ?????????8 
+p34
+aV0x3f987400 TCPv4    -:49158                        192.168.0.150:2121   CLOSED           3        ?????????8 
+p35
+aV0x3d815010 UDPv4    127.0.0.1:57734                *:*                                   1480     iexplore.exe   2015-08-16 00:17:10 UTC+0000
+p36
+aV0x3dcd8660 UDPv4    0.0.0.0:56374                  *:*                                   684      svchost.exe    2015-08-16 00:18:48 UTC+0000
+p37
+aV0x3ddb9010 UDPv4    0.0.0.0:0                      *:*                                   1856     rundll32.exe   2015-08-16 00:18:48 UTC+0000
+p38
+aV0x3ddb9010 UDPv6    :::0                           *:*                                   1856     rundll32.exe   2015-08-16 00:18:48 UTC+0000
+p39
+aV0x3f660ec0 UDPv4    127.0.0.1:63523                *:*                                   2744     iexplore.exe   2015-08-16 00:17:10 UTC+0000
+p40
+aV0x3f6cf210 UDPv4    0.0.0.0:54798                  *:*                                   684      svchost.exe    2015-08-16 00:18:33 UTC+0000
+p41
+aV0x3f766600 UDPv4    0.0.0.0:0                      *:*                                   1856     rundll32.exe   2015-08-16 00:18:51 UTC+0000
+p42
+aV0x3f766600 UDPv6    :::0                           *:*                                   1856     rundll32.exe   2015-08-16 00:18:51 UTC+0000
+p43
+aV0x3f770e00 UDPv6    fe80::9c82:e764:54af:55a2:546  *:*                                   848      svchost.exe    2015-08-16 00:18:31 UTC+0000
+p44
+aV0x3f7e8650 UDPv4    0.0.0.0:0                      *:*                                   296      svchost.exe    2015-08-16 00:18:33 UTC+0000
+p45
+aV0x3f7e8650 UDPv6    :::0                           *:*                                   296      svchost.exe    2015-08-16 00:18:33 UTC+0000
+p46
+aV0x3f978590 UDPv4    0.0.0.0:61422                  *:*                                   684      svchost.exe    2015-08-16 00:18:51 UTC+0000
+p47
+assVldrmodules
+p48
+(dp49
+VRemoved Entries
+p50
+(lp51
+V    1080 spoolsv.exe          0x000007fef8750000 True   True   True  \u005cWindows\u005cSystem32\u005cfdPnp.dll
+p52
+aV    2924 sppsvc.exe           0x000007fefd4e0000 True   True   True  \u005cWindows\u005cSystem32\u005cclbcatq.dll
+p53
+aV    2068 WmiPrvSE.exe         0x000007fef9730000 True   True   True  \u005cWindows\u005cSystem32\u005cwbem\u005cwbemprox.dll
+p54
+aV     376 MpCmdRun.exe         0x000007fefd120000 True   True   True  \u005cWindows\u005cSystem32\u005cKernelBase.dll
+p55
+aV     376 MpCmdRun.exe         0x0000000076ef0000 True   True   True  \u005cWindows\u005cSystem32\u005cuser32.dll
+p56
+aV     376 MpCmdRun.exe         0x000007fef9c90000 True   True   True  \u005cWindows\u005cSystem32\u005cwinhttp.dll
+p57
+aV     376 MpCmdRun.exe         0x000007fefefb0000 True   True   True  \u005cWindows\u005cSystem32\u005cshlwapi.dll
+p58
+aV     376 MpCmdRun.exe         0x000007fef27f0000 True   True   True  \u005cProgram Files\u005cWindows Defender\u005cMpClient.dll
+p59
+aV     376 MpCmdRun.exe         0x000007fefd190000 True   True   True  \u005cWindows\u005cSystem32\u005ccrypt32.dll
+p60
+aV     376 MpCmdRun.exe         0x000007fefcfa0000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptbase.dll
+p61
+aV     376 MpCmdRun.exe         0x000007fefd5d0000 True   True   True  \u005cWindows\u005cSystem32\u005coleaut32.dll
+p62
+aV     376 MpCmdRun.exe         0x000007feff190000 True   True   True  \u005cWindows\u005cSystem32\u005cole32.dll
+p63
+aV     376 MpCmdRun.exe         0x000007fefdf80000 True   True   True  \u005cWindows\u005cSystem32\u005cusp10.dll
+p64
+aV     376 MpCmdRun.exe         0x000007fefd940000 True   True   True  \u005cWindows\u005cSystem32\u005cadvapi32.dll
+p65
+aV     376 MpCmdRun.exe         0x000007fefdba0000 True   True   True  \u005cWindows\u005cSystem32\u005crpcrt4.dll
+p66
+aV     376 MpCmdRun.exe         0x000007fef20a0000 True   True   True  \u005cWindows\u005cSystem32\u005cwuapi.dll
+p67
+aV     376 MpCmdRun.exe         0x000007fef4cc0000 True   True   True  \u005cWindows\u005cSystem32\u005ccabinet.dll
+p68
+aV     376 MpCmdRun.exe         0x000007fefd4e0000 True   True   True  \u005cWindows\u005cSystem32\u005cclbcatq.dll
+p69
+aV     376 MpCmdRun.exe         0x000007fefc940000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptsp.dll
+p70
+aV     376 MpCmdRun.exe         0x000007feff3b0000 True   True   True  \u005cWindows\u005cSystem32\u005cgdi32.dll
+p71
+aV     376 MpCmdRun.exe         0x000007feff160000 True   True   True  \u005cWindows\u005cSystem32\u005cimm32.dll
+p72
+aV     376 MpCmdRun.exe         0x00000000ff790000 True   False  True  \u005cProgram Files\u005cWindows Defender\u005cMpCmdRun.exe
+p73
+aV     376 MpCmdRun.exe         0x000007fef4d10000 True   True   True  \u005cProgram Files\u005cWindows Defender\u005cMpCommu.dll
+p74
+aV     376 MpCmdRun.exe         0x000007fefc3b0000 True   True   True  \u005cWindows\u005cSystem32\u005cuserenv.dll
+p75
+aV     376 MpCmdRun.exe         0x000007feff3a0000 True   True   True  \u005cWindows\u005cSystem32\u005clpk.dll
+p76
+aV     376 MpCmdRun.exe         0x000007fefc1e0000 True   True   True  \u005cWindows\u005cSystem32\u005cversion.dll
+p77
+aV     376 MpCmdRun.exe         0x0000000076ff0000 True   True   True  \u005cWindows\u005cSystem32\u005ckernel32.dll
+p78
+aV     376 MpCmdRun.exe         0x000007fefe050000 True   True   True  \u005cWindows\u005cSystem32\u005cmsvcrt.dll
+p79
+aV     376 MpCmdRun.exe         0x000007fefc600000 True   True   True  \u005cWindows\u005cSystem32\u005crsaenh.dll
+p80
+aV     376 MpCmdRun.exe         0x000007fef7110000 True   True   True  \u005cWindows\u005cSystem32\u005cwups.dll
+p81
+aV     376 MpCmdRun.exe         0x000007fefda20000 True   True   True  \u005cWindows\u005cSystem32\u005curlmon.dll
+p82
+aV     376 MpCmdRun.exe         0x000007fefd050000 True   True   True  \u005cWindows\u005cSystem32\u005cRpcRtRemote.dll
+p83
+aV     376 MpCmdRun.exe         0x0000000077110000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p84
+aV     376 MpCmdRun.exe         0x000007fefd070000 True   True   True  \u005cWindows\u005cSystem32\u005cprofapi.dll
+p85
+aV     376 MpCmdRun.exe         0x000007fefee80000 True   True   True  \u005cWindows\u005cSystem32\u005csechost.dll
+p86
+aV     376 MpCmdRun.exe         0x000007fefeea0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsctf.dll
+p87
+aV     376 MpCmdRun.exe         0x000007fefdcd0000 True   True   True  \u005cWindows\u005cSystem32\u005ciertutil.dll
+p88
+aV     376 MpCmdRun.exe         0x000007fef9ae0000 True   True   True  \u005cWindows\u005cSystem32\u005cwebio.dll
+p89
+aV     376 MpCmdRun.exe         0x000007fefe0f0000 True   True   True  \u005cWindows\u005cSystem32\u005cshell32.dll
+p90
+aV     376 MpCmdRun.exe         0x000007fefd300000 True   True   True  \u005cWindows\u005cSystem32\u005cwintrust.dll
+p91
+aV     376 MpCmdRun.exe         0x000007fefd110000 True   True   True  \u005cWindows\u005cSystem32\u005cmsasn1.dll
+p92
+aV    2180 GoogleUpdate.e       0x0000000000270000 True   False  True  \u005cProgram Files (x86)\u005cGoogle\u005cUpdate\u005cGoogleUpdate.exe
+p93
+aV    2180 GoogleUpdate.e       0x0000000000150000 False  False  False \u005cProgram Files (x86)\u005cGoogle\u005cUpdate\u005c1.3.26.9\u005cgoopdateres_en.dll
+p94
+aV    2180 GoogleUpdate.e       0x0000000074de0000 False  False  False \u005cWindows\u005cSysWOW64\u005cRpcRtRemote.dll
+p95
+aV    2180 GoogleUpdate.e       0x0000000076950000 False  False  False \u005cWindows\u005cSysWOW64\u005cadvapi32.dll
+p96
+aV    2180 GoogleUpdate.e       0x0000000075250000 False  False  False \u005cWindows\u005cSysWOW64\u005cole32.dll
+p97
+aV    2180 GoogleUpdate.e       0x0000000073bc0000 False  False  False \u005cWindows\u005cSysWOW64\u005cwinsta.dll
+p98
+aV    2180 GoogleUpdate.e       0x0000000075660000 False  False  False \u005cWindows\u005cSysWOW64\u005cimm32.dll
+p99
+aV    2180 GoogleUpdate.e       0x00000000753e0000 False  False  False \u005cWindows\u005cSysWOW64\u005csechost.dll
+p100
+aV    2180 GoogleUpdate.e       0x0000000074df0000 False  False  False \u005cWindows\u005cSysWOW64\u005crsaenh.dll
+p101
+aV    2180 GoogleUpdate.e       0x0000000075400000 False  False  False \u005cWindows\u005cSysWOW64\u005cWldap32.dll
+p102
+aV    2180 GoogleUpdate.e       0x0000000075600000 False  False  False \u005cWindows\u005cSysWOW64\u005cshlwapi.dll
+p103
+aV    2180 GoogleUpdate.e       0x0000000073820000 False  False  False \u005cProgram Files (x86)\u005cGoogle\u005cUpdate\u005c1.3.26.9\u005cgoopdate.dll
+p104
+aV    2180 GoogleUpdate.e       0x0000000074e50000 False  False  False \u005cWindows\u005cSysWOW64\u005ccryptbase.dll
+p105
+aV    2180 GoogleUpdate.e       0x0000000073060000 False  False  False \u005cWindows\u005cSysWOW64\u005ccryptsp.dll
+p106
+aV    2180 GoogleUpdate.e       0x0000000073080000 False  False  False \u005cWindows\u005cSysWOW64\u005cdbghelp.dll
+p107
+aV    2180 GoogleUpdate.e       0x0000000073290000 False  False  False \u005cWindows\u005cSysWOW64\u005ccscapi.dll
+p108
+aV    2180 GoogleUpdate.e       0x00000000737e0000 False  False  False \u005cWindows\u005cSysWOW64\u005cwkscli.dll
+p109
+aV    2180 GoogleUpdate.e       0x00000000772c0000 False  False  False \u005cWindows\u005cSysWOW64\u005cpsapi.dll
+p110
+aV    2180 GoogleUpdate.e       0x00000000772f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cntdll.dll
+p111
+aV    2180 GoogleUpdate.e       0x0000000076710000 False  False  False \u005cWindows\u005cSysWOW64\u005cuser32.dll
+p112
+aV    2180 GoogleUpdate.e       0x00000000757f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cshell32.dll
+p113
+aV    2180 GoogleUpdate.e       0x0000000073a00000 False  False  False \u005cWindows\u005cSysWOW64\u005cIPHLPAPI.DLL
+p114
+aV    2180 GoogleUpdate.e       0x0000000072f50000 False  False  False \u005cProgram Files (x86)\u005cGoogle\u005cUpdate\u005c1.3.26.9\u005cpsmachine.dll
+p115
+aV    2180 GoogleUpdate.e       0x0000000073260000 False  False  False \u005cWindows\u005cSysWOW64\u005cntmarta.dll
+p116
+aV    2180 GoogleUpdate.e       0x00000000769f0000 False  False  False \u005cWindows\u005cSysWOW64\u005ckernel32.dll
+p117
+aV    2180 GoogleUpdate.e       0x0000000076660000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsvcrt.dll
+p118
+aV    2180 GoogleUpdate.e       0x0000000074ec0000 False  False  False \u005cWindows\u005cSysWOW64\u005crpcrt4.dll
+p119
+aV    2180 GoogleUpdate.e       0x0000000076e60000 False  False  False \u005cWindows\u005cSysWOW64\u005coleaut32.dll
+p120
+aV    2180 GoogleUpdate.e       0x0000000076c00000 False  False  False \u005cWindows\u005cSysWOW64\u005cKernelBase.dll
+p121
+aV    2180 GoogleUpdate.e       0x0000000076510000 False  False  False \u005cWindows\u005cSysWOW64\u005cclbcatq.dll
+p122
+aV    2112 conhost.exe          0x00000000000f0000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cconhost.exe.mui
+p123
+aV    2112 conhost.exe          0x0000000076ef0000 True   True   True  \u005cWindows\u005cSystem32\u005cuser32.dll
+p124
+aV    2112 conhost.exe          0x000007feff3b0000 True   True   True  \u005cWindows\u005cSystem32\u005cgdi32.dll
+p125
+aV    2112 conhost.exe          0x000007fefe050000 True   True   True  \u005cWindows\u005cSystem32\u005cmsvcrt.dll
+p126
+aV    2112 conhost.exe          0x000007feff160000 True   True   True  \u005cWindows\u005cSystem32\u005cimm32.dll
+p127
+aV    2112 conhost.exe          0x000007fefdba0000 True   True   True  \u005cWindows\u005cSystem32\u005crpcrt4.dll
+p128
+aV    2112 conhost.exe          0x000007feff190000 True   True   True  \u005cWindows\u005cSystem32\u005cole32.dll
+p129
+aV    2112 conhost.exe          0x00000000ff3a0000 True   False  True  \u005cWindows\u005cSystem32\u005cconhost.exe
+p130
+aV    2112 conhost.exe          0x000007fefd120000 True   True   True  \u005cWindows\u005cSystem32\u005cKernelBase.dll
+p131
+aV    2112 conhost.exe          0x000007fefd5d0000 True   True   True  \u005cWindows\u005cSystem32\u005coleaut32.dll
+p132
+aV    2112 conhost.exe          0x0000000076ff0000 True   True   True  \u005cWindows\u005cSystem32\u005ckernel32.dll
+p133
+aV    2112 conhost.exe          0x000007fefeea0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsctf.dll
+p134
+aV    2112 conhost.exe          0x000007fefdf80000 True   True   True  \u005cWindows\u005cSystem32\u005cusp10.dll
+p135
+aV    2112 conhost.exe          0x0000000077110000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p136
+aV    2112 conhost.exe          0x000007feff3a0000 True   True   True  \u005cWindows\u005cSystem32\u005clpk.dll
+p137
+aV    1856 rundll32.exe         0x00000000000e0000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005crundll32.exe.mui
+p138
+aV    1856 rundll32.exe         0x00000000004a0000 False  False  False \u005cWindows\u005cSystem32\u005cmsxml6r.dll
+p139
+aV    1856 rundll32.exe         0x000007fefcb10000 True   True   True  \u005cWindows\u005cSystem32\u005cauthz.dll
+p140
+aV    1856 rundll32.exe         0x000007fefd340000 True   True   True  \u005cWindows\u005cSystem32\u005cdevobj.dll
+p141
+aV    1856 rundll32.exe         0x000007fefad40000 True   True   True  \u005cWindows\u005cSystem32\u005cdhcpcsvc6.dll
+p142
+aV    1856 rundll32.exe         0x000007fefc760000 True   True   True  \u005cWindows\u005cSystem32\u005cdnsapi.dll
+p143
+aV    1856 rundll32.exe         0x000007fefefb0000 True   True   True  \u005cWindows\u005cSystem32\u005cshlwapi.dll
+p144
+aV    1856 rundll32.exe         0x000007fefcb80000 True   True   True  \u005cWindows\u005cSystem32\u005cwevtapi.dll
+p145
+aV    1856 rundll32.exe         0x000007feff190000 True   True   True  \u005cWindows\u005cSystem32\u005cole32.dll
+p146
+aV    1856 rundll32.exe         0x000007fefcfa0000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptbase.dll
+p147
+aV    1856 rundll32.exe         0x000007fef5fc0000 True   True   True  \u005cWindows\u005cSystem32\u005cSensApi.dll
+p148
+aV    1856 rundll32.exe         0x000007fefd5d0000 True   True   True  \u005cWindows\u005cSystem32\u005coleaut32.dll
+p149
+aV    1856 rundll32.exe         0x000007fefc8d0000 True   True   True  \u005cWindows\u005cSystem32\u005cwship6.dll
+p150
+aV    1856 rundll32.exe         0x000007fefeea0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsctf.dll
+p151
+aV    1856 rundll32.exe         0x000007fefc2b0000 True   True   True  \u005cWindows\u005cSystem32\u005cWSHTCPIP.DLL
+p152
+aV    1856 rundll32.exe         0x000007fefcf10000 True   True   True  \u005cWindows\u005cSystem32\u005csspicli.dll
+p153
+aV    1856 rundll32.exe         0x000007fef9210000 True   True   True  \u005cWindows\u005cSystem32\u005crasadhlp.dll
+p154
+aV    1856 rundll32.exe         0x000007fefb440000 True   True   True  \u005cWindows\u005cSystem32\u005cdui70.dll
+p155
+aV    1856 rundll32.exe         0x000007fefaf20000 True   True   True  \u005cWindows\u005cSystem32\u005cIPHLPAPI.DLL
+p156
+aV    1856 rundll32.exe         0x000007fef5840000 True   True   True  \u005cWindows\u005cSystem32\u005cframedynos.dll
+p157
+aV    1856 rundll32.exe         0x000007feff3b0000 True   True   True  \u005cWindows\u005cSystem32\u005cgdi32.dll
+p158
+aV    1856 rundll32.exe         0x000007fef98a0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsxml6.dll
+p159
+aV    1856 rundll32.exe         0x000007fefb2b0000 True   True   True  \u005cWindows\u005cSystem32\u005cdwmapi.dll
+p160
+aV    1856 rundll32.exe         0x000007fefb320000 True   True   True  \u005cWindows\u005cSystem32\u005cduser.dll
+p161
+aV    1856 rundll32.exe         0x000007fefc8e0000 True   True   True  \u005cWindows\u005cSystem32\u005cmswsock.dll
+p162
+aV    1856 rundll32.exe         0x000007fefc500000 True   True   True  \u005cWindows\u005cSystem32\u005ccredssp.dll
+p163
+aV    1856 rundll32.exe         0x000007fefb8c0000 True   True   True  \u005cWindows\u005cSystem32\u005cuxtheme.dll
+p164
+aV    1856 rundll32.exe         0x0000000002b10000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cKernelBase.dll.mui
+p165
+aV    1856 rundll32.exe         0x000007fefd120000 True   True   True  \u005cWindows\u005cSystem32\u005cKernelBase.dll
+p166
+aV    1856 rundll32.exe         0x000007fefdf30000 True   True   True  \u005cWindows\u005cSystem32\u005cws2_32.dll
+p167
+aV    1856 rundll32.exe         0x000007fefe0f0000 True   True   True  \u005cWindows\u005cSystem32\u005cshell32.dll
+p168
+aV    1856 rundll32.exe         0x000007fefc940000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptsp.dll
+p169
+aV    1856 rundll32.exe         0x000007fefbb50000 True   True   True  \u005cWindows\u005cwinsxs\u005camd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_fa645303170382f6\u005ccomctl32.dll
+p170
+aV    1856 rundll32.exe         0x000007feff160000 True   True   True  \u005cWindows\u005cSystem32\u005cimm32.dll
+p171
+aV    1856 rundll32.exe         0x000007fefe050000 True   True   True  \u005cWindows\u005cSystem32\u005cmsvcrt.dll
+p172
+aV    1856 rundll32.exe         0x000007fefc3b0000 True   True   True  \u005cWindows\u005cSystem32\u005cuserenv.dll
+p173
+aV    1856 rundll32.exe         0x000007feff3a0000 True   True   True  \u005cWindows\u005cSystem32\u005clpk.dll
+p174
+aV    1856 rundll32.exe         0x000007fefb090000 True   True   True  \u005cWindows\u005cSystem32\u005cwtsapi32.dll
+p175
+aV    1856 rundll32.exe         0x000007fefc1e0000 True   True   True  \u005cWindows\u005cSystem32\u005cversion.dll
+p176
+aV    1856 rundll32.exe         0x000007fefdba0000 True   True   True  \u005cWindows\u005cSystem32\u005crpcrt4.dll
+p177
+aV    1856 rundll32.exe         0x000007fefc600000 True   True   True  \u005cWindows\u005cSystem32\u005crsaenh.dll
+p178
+aV    1856 rundll32.exe         0x000007fefd930000 True   True   True  \u005cWindows\u005cSystem32\u005cnsi.dll
+p179
+aV    1856 rundll32.exe         0x000007fefd050000 True   True   True  \u005cWindows\u005cSystem32\u005cRpcRtRemote.dll
+p180
+aV    1856 rundll32.exe         0x000007fefb6a0000 True   True   True  \u005cWindows\u005cwinsxs\u005camd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7600.16385_none_2b4f45e87195fcc4\u005cGdiPlus.dll
+p181
+aV    1856 rundll32.exe         0x000007fefd070000 True   True   True  \u005cWindows\u005cSystem32\u005cprofapi.dll
+p182
+aV    1856 rundll32.exe         0x000007fefb280000 True   True   True  \u005cWindows\u005cSystem32\u005cPeerDist.dll
+p183
+aV    1856 rundll32.exe         0x000007fefd4e0000 True   True   True  \u005cWindows\u005cSystem32\u005cclbcatq.dll
+p184
+aV    1856 rundll32.exe         0x000007fef9c90000 True   True   True  \u005cWindows\u005cSystem32\u005cwinhttp.dll
+p185
+aV    1856 rundll32.exe         0x000007fefad20000 True   True   True  \u005cWindows\u005cSystem32\u005cdhcpcsvc.dll
+p186
+aV    1856 rundll32.exe         0x000007fef9ae0000 True   True   True  \u005cWindows\u005cSystem32\u005cwebio.dll
+p187
+aV    1856 rundll32.exe         0x000007fefaee0000 True   True   True  \u005cWindows\u005cSystem32\u005cwinnsi.dll
+p188
+aV    1856 rundll32.exe         0x00000000038f0000 False  False  False \u005cWindows\u005cSystem32\u005cimageres.dll
+p189
+aV    1856 rundll32.exe         0x000007fefd360000 True   True   True  \u005cWindows\u005cSystem32\u005ccfgmgr32.dll
+p190
+aV    2216 GoogleUpdate.e       0x0000000074ec0000 False  False  False \u005cWindows\u005cSysWOW64\u005crpcrt4.dll
+p191
+aV    2216 GoogleUpdate.e       0x00000000001d0000 False  False  False \u005cProgram Files (x86)\u005cGoogle\u005cUpdate\u005c1.3.26.9\u005cgoopdateres_en.dll
+p192
+aV    2216 GoogleUpdate.e       0x0000000073730000 False  False  False \u005cWindows\u005cSysWOW64\u005cuserenv.dll
+p193
+aV    2216 GoogleUpdate.e       0x0000000073b40000 False  False  False \u005cWindows\u005cSysWOW64\u005cdnsapi.dll
+p194
+aV    2216 GoogleUpdate.e       0x00000000765a0000 False  False  False \u005cWindows\u005cSysWOW64\u005cusp10.dll
+p195
+aV    2216 GoogleUpdate.e       0x0000000072740000 False  False  False \u005cWindows\u005cSysWOW64\u005cmswsock.dll
+p196
+aV    2216 GoogleUpdate.e       0x0000000073760000 False  False  False \u005cWindows\u005cSysWOW64\u005crasman.dll
+p197
+aV    2216 GoogleUpdate.e       0x0000000073170000 False  False  False \u005cWindows\u005cSysWOW64\u005ccredssp.dll
+p198
+aV    2216 GoogleUpdate.e       0x0000000072780000 False  False  False \u005cWindows\u005cSysWOW64\u005cauthz.dll
+p199
+aV    2216 GoogleUpdate.e       0x0000000076af0000 False  False  False \u005cWindows\u005cSysWOW64\u005cnsi.dll
+p200
+aV    2216 GoogleUpdate.e       0x0000000075250000 False  False  False \u005cWindows\u005cSysWOW64\u005cole32.dll
+p201
+aV    2216 GoogleUpdate.e       0x00000000772f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cntdll.dll
+p202
+aV    2216 GoogleUpdate.e       0x0000000001dd0000 False  False  False \u005cWindows\u005cSysWOW64\u005cen-US\u005cKernelBase.dll.mui
+p203
+aV    2216 GoogleUpdate.e       0x00000000737e0000 False  False  False \u005cWindows\u005cSysWOW64\u005cwkscli.dll
+p204
+aV    2216 GoogleUpdate.e       0x0000000076c00000 False  False  False \u005cWindows\u005cSysWOW64\u005cKernelBase.dll
+p205
+aV    2216 GoogleUpdate.e       0x00000000739f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cwinnsi.dll
+p206
+aV    2216 GoogleUpdate.e       0x00000000756c0000 False  False  False \u005cWindows\u005cSysWOW64\u005clpk.dll
+p207
+aV    2216 GoogleUpdate.e       0x00000000737f0000 False  False  False \u005cWindows\u005cSysWOW64\u005csrvcli.dll
+p208
+aV    2216 GoogleUpdate.e       0x0000000076710000 False  False  False \u005cWindows\u005cSysWOW64\u005cuser32.dll
+p209
+aV    2216 GoogleUpdate.e       0x00000000727a0000 False  False  False \u005cWindows\u005cSysWOW64\u005cwebio.dll
+p210
+aV    2216 GoogleUpdate.e       0x0000000073820000 False  False  False \u005cProgram Files (x86)\u005cGoogle\u005cUpdate\u005c1.3.26.9\u005cgoopdate.dll
+p211
+aV    2216 GoogleUpdate.e       0x0000000073a90000 True   True   True  \u005cWindows\u005cSystem32\u005cwow64.dll
+p212
+aV    2216 GoogleUpdate.e       0x0000000073a30000 True   True   True  \u005cWindows\u005cSystem32\u005cwow64win.dll
+p213
+aV    2216 GoogleUpdate.e       0x0000000075600000 False  False  False \u005cWindows\u005cSysWOW64\u005cshlwapi.dll
+p214
+aV    2216 GoogleUpdate.e       0x0000000076440000 False  False  False \u005cWindows\u005cSysWOW64\u005cgdi32.dll
+p215
+aV    2216 GoogleUpdate.e       0x0000000074e50000 False  False  False \u005cWindows\u005cSysWOW64\u005ccryptbase.dll
+p216
+aV    2216 GoogleUpdate.e       0x0000000072720000 False  False  False \u005cWindows\u005cSysWOW64\u005cdhcpcsvc.dll
+p217
+aV    2216 GoogleUpdate.e       0x0000000000270000 True   False  True  \u005cProgram Files (x86)\u005cGoogle\u005cUpdate\u005cGoogleUpdate.exe
+p218
+aV    2216 GoogleUpdate.e       0x0000000073080000 False  False  False \u005cWindows\u005cSysWOW64\u005cdbghelp.dll
+p219
+aV    2216 GoogleUpdate.e       0x0000000073290000 False  False  False \u005cWindows\u005cSysWOW64\u005ccscapi.dll
+p220
+aV    2216 GoogleUpdate.e       0x0000000077110000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p221
+aV    2216 GoogleUpdate.e       0x0000000075660000 False  False  False \u005cWindows\u005cSysWOW64\u005cimm32.dll
+p222
+aV    2216 GoogleUpdate.e       0x0000000072cc0000 False  False  False \u005cWindows\u005cSysWOW64\u005cPeerDist.dll
+p223
+aV    2216 GoogleUpdate.e       0x0000000076c60000 False  False  False \u005cWindows\u005cSysWOW64\u005ciertutil.dll
+p224
+aV    2216 GoogleUpdate.e       0x00000000756d0000 False  False  False \u005cWindows\u005cSysWOW64\u005ccrypt32.dll
+p225
+aV    2216 GoogleUpdate.e       0x00000000772c0000 False  False  False \u005cWindows\u005cSysWOW64\u005cpsapi.dll
+p226
+aV    2216 GoogleUpdate.e       0x0000000073720000 False  False  False \u005cWindows\u005cSysWOW64\u005cprofapi.dll
+p227
+aV    2216 GoogleUpdate.e       0x00000000755a0000 False  False  False \u005cWindows\u005cSysWOW64\u005ccfgmgr32.dll
+p228
+aV    2216 GoogleUpdate.e       0x00000000769f0000 False  False  False \u005cWindows\u005cSysWOW64\u005ckernel32.dll
+p229
+aV    2216 GoogleUpdate.e       0x0000000074dd0000 False  False  False \u005cWindows\u005cSysWOW64\u005crasadhlp.dll
+p230
+aV    2216 GoogleUpdate.e       0x00000000757f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cshell32.dll
+p231
+aV    2216 GoogleUpdate.e       0x0000000073320000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsimg32.dll
+p232
+aV    2216 GoogleUpdate.e       0x0000000076810000 False  False  False \u005cWindows\u005cSysWOW64\u005curlmon.dll
+p233
+aV    2216 GoogleUpdate.e       0x0000000073570000 False  False  False \u005cWindows\u005cwinsxs\u005cx86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_421189da2b7fabfc\u005ccomctl32.dll
+p234
+aV    2216 GoogleUpdate.e       0x00000000755d0000 False  False  False \u005cWindows\u005cSysWOW64\u005cwintrust.dll
+p235
+aV    2216 GoogleUpdate.e       0x0000000072f50000 False  False  False \u005cProgram Files (x86)\u005cGoogle\u005cUpdate\u005c1.3.26.9\u005cpsmachine.dll
+p236
+aV    2216 GoogleUpdate.e       0x0000000073750000 False  False  False \u005cWindows\u005cSysWOW64\u005cversion.dll
+p237
+aV    2216 GoogleUpdate.e       0x00000000753e0000 False  False  False \u005cWindows\u005cSysWOW64\u005csechost.dll
+p238
+aV    2216 GoogleUpdate.e       0x0000000072f90000 False  False  False \u005cWindows\u005cSysWOW64\u005cWSHTCPIP.DLL
+p239
+aV    2216 GoogleUpdate.e       0x0000000074df0000 False  False  False \u005cWindows\u005cSysWOW64\u005crsaenh.dll
+p240
+aV    2216 GoogleUpdate.e       0x0000000074fb0000 False  False  False \u005cWindows\u005cSysWOW64\u005cwininet.dll
+p241
+aV    2216 GoogleUpdate.e       0x0000000076510000 False  False  False \u005cWindows\u005cSysWOW64\u005cclbcatq.dll
+p242
+aV    2216 GoogleUpdate.e       0x00000000739c0000 False  False  False \u005cWindows\u005cSysWOW64\u005cnetapi32.dll
+p243
+aV    2216 GoogleUpdate.e       0x0000000076b90000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsasn1.dll
+p244
+aV    2216 GoogleUpdate.e       0x0000000074e60000 False  False  False \u005cWindows\u005cSysWOW64\u005csspicli.dll
+p245
+aV    2216 GoogleUpdate.e       0x0000000074de0000 False  False  False \u005cWindows\u005cSysWOW64\u005cRpcRtRemote.dll
+p246
+aV    2216 GoogleUpdate.e       0x00000000003f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsxml3r.dll
+p247
+aV    2216 GoogleUpdate.e       0x0000000073a00000 False  False  False \u005cWindows\u005cSysWOW64\u005cIPHLPAPI.DLL
+p248
+aV    2216 GoogleUpdate.e       0x0000000073810000 False  False  False \u005cWindows\u005cSysWOW64\u005cnetutils.dll
+p249
+aV    2216 GoogleUpdate.e       0x0000000070650000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsxml3.dll
+p250
+aV    2216 GoogleUpdate.e       0x0000000073a20000 True   True   True  \u005cWindows\u005cSystem32\u005cwow64cpu.dll
+p251
+aV    2216 GoogleUpdate.e       0x0000000075400000 False  False  False \u005cWindows\u005cSysWOW64\u005cWldap32.dll
+p252
+aV    2216 GoogleUpdate.e       0x0000000076950000 False  False  False \u005cWindows\u005cSysWOW64\u005cadvapi32.dll
+p253
+aV    2216 GoogleUpdate.e       0x0000000075450000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsctf.dll
+p254
+aV    2216 GoogleUpdate.e       0x0000000073260000 False  False  False \u005cWindows\u005cSysWOW64\u005cntmarta.dll
+p255
+aV    2216 GoogleUpdate.e       0x0000000076c50000 False  False  False \u005cWindows\u005cSysWOW64\u005cnormaliz.dll
+p256
+aV    2216 GoogleUpdate.e       0x0000000072f80000 False  False  False \u005cWindows\u005cSysWOW64\u005cwship6.dll
+p257
+aV    2216 GoogleUpdate.e       0x0000000073710000 False  False  False \u005cWindows\u005cSysWOW64\u005cwtsapi32.dll
+p258
+aV    2216 GoogleUpdate.e       0x0000000076660000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsvcrt.dll
+p259
+aV    2216 GoogleUpdate.e       0x00000000732a0000 False  False  False \u005cWindows\u005cSysWOW64\u005cuxtheme.dll
+p260
+aV    2216 GoogleUpdate.e       0x0000000072cb0000 False  False  False \u005cWindows\u005cSysWOW64\u005cdhcpcsvc6.dll
+p261
+aV    2216 GoogleUpdate.e       0x0000000073780000 False  False  False \u005cWindows\u005cSysWOW64\u005crasapi32.dll
+p262
+aV    2216 GoogleUpdate.e       0x00000000764d0000 False  False  False \u005cWindows\u005cSysWOW64\u005cws2_32.dll
+p263
+aV    2216 GoogleUpdate.e       0x0000000076e60000 False  False  False \u005cWindows\u005cSysWOW64\u005coleaut32.dll
+p264
+aV    2216 GoogleUpdate.e       0x0000000073060000 False  False  False \u005cWindows\u005cSysWOW64\u005ccryptsp.dll
+p265
+aV    2216 GoogleUpdate.e       0x0000000072cf0000 False  False  False \u005cWindows\u005cSysWOW64\u005cwinhttp.dll
+p266
+aV    2216 GoogleUpdate.e       0x0000000073330000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsi.dll
+p267
+aV    2232 cmd.exe              0x00000000001f0000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005ccmd.exe.mui
+p268
+aV    2232 cmd.exe              0x000000004a5c0000 True   False  True  \u005cWindows\u005cSystem32\u005ccmd.exe
+p269
+aV    2232 cmd.exe              0x000007fefcf40000 True   True   True  \u005cWindows\u005cSystem32\u005capphelp.dll
+p270
+aV    2232 cmd.exe              0x0000000076ef0000 True   True   True  \u005cWindows\u005cSystem32\u005cuser32.dll
+p271
+aV    2232 cmd.exe              0x000007feff160000 True   True   True  \u005cWindows\u005cSystem32\u005cimm32.dll
+p272
+aV    2232 cmd.exe              0x000007fefdf80000 True   True   True  \u005cWindows\u005cSystem32\u005cusp10.dll
+p273
+aV    2232 cmd.exe              0x000007fef7290000 True   True   True  \u005cWindows\u005cSystem32\u005cwinbrand.dll
+p274
+aV    2232 cmd.exe              0x000007fefeea0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsctf.dll
+p275
+aV    2232 cmd.exe              0x000007fefd120000 True   True   True  \u005cWindows\u005cSystem32\u005cKernelBase.dll
+p276
+aV    2232 cmd.exe              0x000007feff3a0000 True   True   True  \u005cWindows\u005cSystem32\u005clpk.dll
+p277
+aV    2232 cmd.exe              0x0000000076ff0000 True   True   True  \u005cWindows\u005cSystem32\u005ckernel32.dll
+p278
+aV    2232 cmd.exe              0x000007fefe050000 True   True   True  \u005cWindows\u005cSystem32\u005cmsvcrt.dll
+p279
+aV    2232 cmd.exe              0x0000000077110000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p280
+aV    2232 cmd.exe              0x000007feff3b0000 True   True   True  \u005cWindows\u005cSystem32\u005cgdi32.dll
+p281
+aV    1088 conhost.exe          0x00000000000f0000 False  False  False \u005cWindows\u005cSystem32\u005cen-US\u005cconhost.exe.mui
+p282
+aV    1088 conhost.exe          0x0000000076ef0000 True   True   True  \u005cWindows\u005cSystem32\u005cuser32.dll
+p283
+aV    1088 conhost.exe          0x000007feff160000 True   True   True  \u005cWindows\u005cSystem32\u005cimm32.dll
+p284
+aV    1088 conhost.exe          0x000007fefefb0000 True   True   True  \u005cWindows\u005cSystem32\u005cshlwapi.dll
+p285
+aV    1088 conhost.exe          0x000007fefdf80000 True   True   True  \u005cWindows\u005cSystem32\u005cusp10.dll
+p286
+aV    1088 conhost.exe          0x000007feff190000 True   True   True  \u005cWindows\u005cSystem32\u005cole32.dll
+p287
+aV    1088 conhost.exe          0x000007feff3a0000 True   True   True  \u005cWindows\u005cSystem32\u005clpk.dll
+p288
+aV    1088 conhost.exe          0x000007fefd5d0000 True   True   True  \u005cWindows\u005cSystem32\u005coleaut32.dll
+p289
+aV    1088 conhost.exe          0x000007fefd940000 True   True   True  \u005cWindows\u005cSystem32\u005cadvapi32.dll
+p290
+aV    1088 conhost.exe          0x000007fefcfa0000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptbase.dll
+p291
+aV    1088 conhost.exe          0x000007fefdba0000 True   True   True  \u005cWindows\u005cSystem32\u005crpcrt4.dll
+p292
+aV    1088 conhost.exe          0x000007fefb2b0000 True   True   True  \u005cWindows\u005cSystem32\u005cdwmapi.dll
+p293
+aV    1088 conhost.exe          0x000007fefb8c0000 True   True   True  \u005cWindows\u005cSystem32\u005cuxtheme.dll
+p294
+aV    1088 conhost.exe          0x000007fefd120000 True   True   True  \u005cWindows\u005cSystem32\u005cKernelBase.dll
+p295
+aV    1088 conhost.exe          0x00000000ff3a0000 True   False  True  \u005cWindows\u005cSystem32\u005cconhost.exe
+p296
+aV    1088 conhost.exe          0x000007fefbb50000 True   True   True  \u005cWindows\u005cwinsxs\u005camd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_fa645303170382f6\u005ccomctl32.dll
+p297
+aV    1088 conhost.exe          0x000007feff3b0000 True   True   True  \u005cWindows\u005cSystem32\u005cgdi32.dll
+p298
+aV    1088 conhost.exe          0x0000000076ff0000 True   True   True  \u005cWindows\u005cSystem32\u005ckernel32.dll
+p299
+aV    1088 conhost.exe          0x000007fefe050000 True   True   True  \u005cWindows\u005cSystem32\u005cmsvcrt.dll
+p300
+aV    1088 conhost.exe          0x000007fefee80000 True   True   True  \u005cWindows\u005cSystem32\u005csechost.dll
+p301
+aV    1088 conhost.exe          0x000007fefeea0000 True   True   True  \u005cWindows\u005cSystem32\u005cmsctf.dll
+p302
+aV    1088 conhost.exe          0x0000000077110000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p303
+asVAdded Entries
+p304
+(lp305
+V     296 svchost.exe          0x000007fef1b80000 True   True   True  \u005cWindows\u005cSystem32\u005csppcext.dll
+p306
+aV     296 svchost.exe          0x000007fefd190000 True   True   True  \u005cWindows\u005cSystem32\u005ccrypt32.dll
+p307
+aV     296 svchost.exe          0x000007fefbb50000 True   True   True  \u005cWindows\u005cwinsxs\u005camd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_fa645303170382f6\u005ccomctl32.dll
+p308
+aV     296 svchost.exe          0x000007fef6160000 True   True   True  \u005cWindows\u005cSystem32\u005crasapi32.dll
+p309
+aV     296 svchost.exe          0x000007fef2770000 True   True   True  \u005cWindows\u005cSystem32\u005csppcomapi.dll
+p310
+aV     296 svchost.exe          0x000007fefda20000 True   True   True  \u005cWindows\u005cSystem32\u005curlmon.dll
+p311
+aV     296 svchost.exe          0x000007fefdcd0000 True   True   True  \u005cWindows\u005cSystem32\u005ciertutil.dll
+p312
+aV     296 svchost.exe          0x000007fefbd50000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptui.dll
+p313
+aV     296 svchost.exe          0x000007fefd360000 True   True   True  \u005cWindows\u005cSystem32\u005ccfgmgr32.dll
+p314
+aV     296 svchost.exe          0x000007fefaf80000 True   True   True  \u005cWindows\u005cSystem32\u005cslc.dll
+p315
+aV     296 svchost.exe          0x000007fef4dd0000 True   True   True  \u005cWindows\u005cSystem32\u005csppuinotify.dll
+p316
+aV     296 svchost.exe          0x000007fef85b0000 True   True   True  \u005cWindows\u005cSystem32\u005cwinrnr.dll
+p317
+aV     296 svchost.exe          0x000007fef71d0000 True   True   True  \u005cWindows\u005cSystem32\u005cw32time.dll
+p318
+aV     296 svchost.exe          0x000007fefd340000 True   True   True  \u005cWindows\u005cSystem32\u005cdevobj.dll
+p319
+aV     296 svchost.exe          0x000007fef7250000 True   True   True  \u005cWindows\u005cSystem32\u005cvmictimeprovider.dll
+p320
+aV     296 svchost.exe          0x000007fef2a90000 True   True   True  \u005cWindows\u005cSystem32\u005csppc.dll
+p321
+aV     296 svchost.exe          0x000007fefc730000 True   True   True  \u005cWindows\u005cSystem32\u005clogoncli.dll
+p322
+aV     296 svchost.exe          0x000007fefc650000 True   True   True  \u005cWindows\u005cSystem32\u005cwinsta.dll
+p323
+aV     296 svchost.exe          0x000007fef7320000 True   True   True  \u005cWindows\u005cSystem32\u005cmsi.dll
+p324
+aV     296 svchost.exe          0x000007fefcc60000 True   True   True  \u005cWindows\u005cSystem32\u005ccryptdll.dll
+p325
+aV     296 svchost.exe          0x000007fef2280000 True   True   True  \u005cWindows\u005cSystem32\u005cWinSCard.dll
+p326
+aV     296 svchost.exe          0x000007fef6140000 True   True   True  \u005cWindows\u005cSystem32\u005crasman.dll
+p327
+aV     296 svchost.exe          0x000007fefd750000 True   True   True  \u005cWindows\u005cSystem32\u005csetupapi.dll
+p328
+aV     296 svchost.exe          0x000007fefaf90000 True   True   True  \u005cWindows\u005cSystem32\u005cdsrole.dll
+p329
+aV     296 svchost.exe          0x000007fefa770000 True   True   True  \u005cWindows\u005cSystem32\u005cslwga.dll
+p330
+aV     296 svchost.exe          0x000007fef2240000 True   True   True  \u005cWindows\u005cSystem32\u005ctapi32.dll
+p331
+aV     296 svchost.exe          0x000007fefb090000 True   True   True  \u005cWindows\u005cSystem32\u005cwtsapi32.dll
+p332
+aV     296 svchost.exe          0x000007fefd110000 True   True   True  \u005cWindows\u005cSystem32\u005cmsasn1.dll
+p333
+aV    1108 svchost.exe          0x000007fefc650000 True   True   True  \u005cWindows\u005cSystem32\u005cwinsta.dll
+p334
+aV    1816 taskhost.exe         0x000007fefb9d0000 True   True   True  \u005cWindows\u005cSystem32\u005cpropsys.dll
+p335
+aV    1816 taskhost.exe         0x000007fefb5f0000 True   True   True  \u005cWindows\u005cSystem32\u005cavrt.dll
+p336
+aV    1816 taskhost.exe         0x000007fef7f10000 True   True   True  \u005cWindows\u005cSystem32\u005cwdmaud.drv
+p337
+aV    1816 taskhost.exe         0x00000000731c0000 True   True   True  \u005cWindows\u005cSystem32\u005cksuser.dll
+p338
+aV    1816 taskhost.exe         0x000007fefb600000 True   True   True  \u005cWindows\u005cSystem32\u005cMMDevAPI.dll
+p339
+aV    1368 GoogleUpdate.e       0x00000000772f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cntdll.dll
+p340
+aV    2400 SearchIndexer.       0x0000000071060000 True   True   True  \u005cWindows\u005cSystem32\u005cNlsLexicons0021.dll
+p341
+aV    2400 SearchIndexer.       0x000007fef0570000 True   True   True  \u005cWindows\u005cSystem32\u005cNlsData0416.dll
+p342
+aV    2400 SearchIndexer.       0x000007fef09e0000 True   True   True  \u005cWindows\u005cSystem32\u005cNlsData0021.dll
+p343
+aV    2400 SearchIndexer.       0x0000000070a00000 True   True   True  \u005cWindows\u005cSystem32\u005cNlsLexicons0416.dll
+p344
+aV    2924 sppsvc.exe           0x000007fef1fc0000 True   True   True  \u005cWindows\u005cSystem32\u005csppwinob.dll
+p345
+aV    2924 sppsvc.exe           0x000007fefaf20000 True   True   True  \u005cWindows\u005cSystem32\u005cIPHLPAPI.DLL
+p346
+aV    2924 sppsvc.exe           0x000007fefc600000 True   True   True  \u005cWindows\u005cSystem32\u005crsaenh.dll
+p347
+aV    2924 sppsvc.exe           0x000007fef22c0000 True   True   True  \u005cWindows\u005cSystem32\u005csppobjs.dll
+p348
+aV    2924 sppsvc.exe           0x000007fefaee0000 True   True   True  \u005cWindows\u005cSystem32\u005cwinnsi.dll
+p349
+aV    2932 svchost.exe          0x000007fefafc0000 True   True   True  \u005cWindows\u005cSystem32\u005cxmllite.dll
+p350
+aV    2932 svchost.exe          0x000007fefcf10000 True   True   True  \u005cWindows\u005cSystem32\u005csspicli.dll
+p351
+aV    2744 iexplore.exe         0x0000000071550000 False  False  False \u005cWindows\u005cSysWOW64\u005cieframe.dll
+p352
+aV    2744 iexplore.exe         0x00000000001f0000 True   False  True  \u005cProgram Files (x86)\u005cInternet Explorer\u005ciexplore.exe
+p353
+aV    2744 iexplore.exe         0x00000000765a0000 False  False  False \u005cWindows\u005cSysWOW64\u005cusp10.dll
+p354
+aV    2744 iexplore.exe         0x0000000076c00000 False  False  False \u005cWindows\u005cSysWOW64\u005cKernelBase.dll
+p355
+aV    2744 iexplore.exe         0x0000000073210000 False  False  False \u005cWindows\u005cSysWOW64\u005capphelp.dll
+p356
+aV    2744 iexplore.exe         0x0000000073780000 False  False  False \u005cWindows\u005cSysWOW64\u005crasapi32.dll
+p357
+aV    2744 iexplore.exe         0x0000000072820000 False  False  False \u005cProgram Files (x86)\u005cInternet Explorer\u005cieproxy.dll
+p358
+aV    2744 iexplore.exe         0x0000000076440000 False  False  False \u005cWindows\u005cSysWOW64\u005cgdi32.dll
+p359
+aV    2744 iexplore.exe         0x0000000073060000 False  False  False \u005cWindows\u005cSysWOW64\u005ccryptsp.dll
+p360
+aV    2744 iexplore.exe         0x00000000024c0000 False  False  False \u005cWindows\u005cSysWOW64\u005cen-US\u005curlmon.dll.mui
+p361
+aV    2744 iexplore.exe         0x0000000073ad0000 False  False  False \u005cWindows\u005cSysWOW64\u005cPeerDist.dll
+p362
+aV    2744 iexplore.exe         0x0000000072d00000 False  False  False \u005cWindows\u005cSysWOW64\u005cFWPUCLNT.DLL
+p363
+aV    2744 iexplore.exe         0x0000000072d80000 False  False  False \u005cWindows\u005cSysWOW64\u005cnlaapi.dll
+p364
+aV    2744 iexplore.exe         0x0000000074fb0000 False  False  False \u005cWindows\u005cSysWOW64\u005cwininet.dll
+p365
+aV    2744 iexplore.exe         0x00000000769f0000 False  False  False \u005cWindows\u005cSysWOW64\u005ckernel32.dll
+p366
+aV    2744 iexplore.exe         0x00000000757f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cshell32.dll
+p367
+aV    2744 iexplore.exe         0x0000000072d90000 False  False  False \u005cWindows\u005cSysWOW64\u005coleacc.dll
+p368
+aV    2744 iexplore.exe         0x0000000076640000 False  False  False \u005cWindows\u005cSysWOW64\u005cdevobj.dll
+p369
+aV    2744 iexplore.exe         0x0000000072c50000 False  False  False \u005cWindows\u005cSysWOW64\u005csxs.dll
+p370
+aV    2744 iexplore.exe         0x0000000073260000 False  False  False \u005cWindows\u005cSysWOW64\u005cntmarta.dll
+p371
+aV    2744 iexplore.exe         0x0000000072e80000 False  False  False \u005cWindows\u005cSysWOW64\u005cWSHTCPIP.DLL
+p372
+aV    2744 iexplore.exe         0x0000000071490000 False  False  False \u005cWindows\u005cSysWOW64\u005cdui70.dll
+p373
+aV    2744 iexplore.exe         0x00000000750b0000 False  False  False \u005cWindows\u005cSysWOW64\u005csetupapi.dll
+p374
+aV    2744 iexplore.exe         0x00000000756c0000 False  False  False \u005cWindows\u005cSysWOW64\u005clpk.dll
+p375
+aV    2744 iexplore.exe         0x0000000072cd0000 False  False  False \u005cWindows\u005cSysWOW64\u005cieui.dll
+p376
+aV    2744 iexplore.exe         0x0000000072f00000 False  False  False \u005cWindows\u005cSysWOW64\u005cauthz.dll
+p377
+aV    2744 iexplore.exe         0x0000000076510000 False  False  False \u005cWindows\u005cSysWOW64\u005cclbcatq.dll
+p378
+aV    2744 iexplore.exe         0x0000000074de0000 False  False  False \u005cWindows\u005cSysWOW64\u005cRpcRtRemote.dll
+p379
+aV    2744 iexplore.exe         0x0000000072dd0000 False  False  False \u005cWindows\u005cSysWOW64\u005cSensApi.dll
+p380
+aV    2744 iexplore.exe         0x00000000753e0000 False  False  False \u005cWindows\u005cSysWOW64\u005csechost.dll
+p381
+aV    2744 iexplore.exe         0x00000000739f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cwinnsi.dll
+p382
+aV    2744 iexplore.exe         0x0000000002f00000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsxml3r.dll
+p383
+aV    2744 iexplore.exe         0x0000000073a20000 True   True   True  \u005cWindows\u005cSystem32\u005cwow64cpu.dll
+p384
+aV    2744 iexplore.exe         0x0000000074e50000 False  False  False \u005cWindows\u005cSysWOW64\u005ccryptbase.dll
+p385
+aV    2744 iexplore.exe         0x0000000076af0000 False  False  False \u005cWindows\u005cSysWOW64\u005cnsi.dll
+p386
+aV    2744 iexplore.exe         0x0000000076710000 False  False  False \u005cWindows\u005cSysWOW64\u005cuser32.dll
+p387
+aV    2744 iexplore.exe         0x0000000074df0000 False  False  False \u005cWindows\u005cSysWOW64\u005crsaenh.dll
+p388
+aV    2744 iexplore.exe         0x0000000076810000 False  False  False \u005cWindows\u005cSysWOW64\u005curlmon.dll
+p389
+aV    2744 iexplore.exe         0x0000000071030000 False  False  False \u005cWindows\u005cSysWOW64\u005cmlang.dll
+p390
+aV    2744 iexplore.exe         0x0000000072e20000 False  False  False \u005cWindows\u005cSysWOW64\u005cdnsapi.dll
+p391
+aV    2744 iexplore.exe         0x0000000075660000 False  False  False \u005cWindows\u005cSysWOW64\u005cimm32.dll
+p392
+aV    2744 iexplore.exe         0x0000000076e60000 False  False  False \u005cWindows\u005cSysWOW64\u005coleaut32.dll
+p393
+aV    2744 iexplore.exe         0x00000000726e0000 False  False  False \u005cWindows\u005cSysWOW64\u005cpropsys.dll
+p394
+aV    2744 iexplore.exe         0x0000000072f20000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsxml3.dll
+p395
+aV    2744 iexplore.exe         0x0000000000150000 False  False  False \u005cWindows\u005cSysWOW64\u005coleaccrc.dll
+p396
+aV    2744 iexplore.exe         0x0000000072d70000 False  False  False \u005cWindows\u005cSysWOW64\u005cwinrnr.dll
+p397
+aV    2744 iexplore.exe         0x0000000072df0000 False  False  False \u005cWindows\u005cSysWOW64\u005cdwmapi.dll
+p398
+aV    2744 iexplore.exe         0x0000000075400000 False  False  False \u005cWindows\u005cSysWOW64\u005cWldap32.dll
+p399
+aV    2744 iexplore.exe         0x00000000063c0000 False  False  False \u005cWindows\u005cSysWOW64\u005cen-US\u005cKernelBase.dll.mui
+p400
+aV    2744 iexplore.exe         0x0000000072e70000 False  False  False \u005cWindows\u005cSysWOW64\u005cwship6.dll
+p401
+aV    2744 iexplore.exe         0x0000000073a90000 True   True   True  \u005cWindows\u005cSystem32\u005cwow64.dll
+p402
+aV    2744 iexplore.exe         0x00000000030a0000 False  False  False \u005cWindows\u005cSysWOW64\u005cen-US\u005coleaccrc.dll.mui
+p403
+aV    2744 iexplore.exe         0x00000000726b0000 False  False  False \u005cWindows\u005cSysWOW64\u005cxmllite.dll
+p404
+aV    2744 iexplore.exe         0x0000000073720000 False  False  False \u005cWindows\u005cSysWOW64\u005cprofapi.dll
+p405
+aV    2744 iexplore.exe         0x0000000073730000 False  False  False \u005cWindows\u005cSysWOW64\u005cuserenv.dll
+p406
+aV    2744 iexplore.exe         0x0000000072d40000 False  False  False \u005cWindows\u005cSysWOW64\u005cpnrpnsp.dll
+p407
+aV    2744 iexplore.exe         0x0000000076b90000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsasn1.dll
+p408
+aV    2744 iexplore.exe         0x0000000075600000 False  False  False \u005cWindows\u005cSysWOW64\u005cshlwapi.dll
+p409
+aV    2744 iexplore.exe         0x0000000075250000 False  False  False \u005cWindows\u005cSysWOW64\u005cole32.dll
+p410
+aV    2744 iexplore.exe         0x0000000075450000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsctf.dll
+p411
+aV    2744 iexplore.exe         0x0000000000070000 False  False  False \u005cProgram Files (x86)\u005cInternet Explorer\u005cen-US\u005ciexplore.exe.mui
+p412
+aV    2744 iexplore.exe         0x0000000076c50000 False  False  False \u005cWindows\u005cSysWOW64\u005cnormaliz.dll
+p413
+aV    2744 iexplore.exe         0x0000000072680000 False  False  False \u005cWindows\u005cSysWOW64\u005cduser.dll
+p414
+aV    2744 iexplore.exe         0x00000000732a0000 False  False  False \u005cWindows\u005cSysWOW64\u005cuxtheme.dll
+p415
+aV    2744 iexplore.exe         0x0000000074ec0000 False  False  False \u005cWindows\u005cSysWOW64\u005crpcrt4.dll
+p416
+aV    2744 iexplore.exe         0x00000000764d0000 False  False  False \u005cWindows\u005cSysWOW64\u005cws2_32.dll
+p417
+aV    2744 iexplore.exe         0x0000000073320000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsimg32.dll
+p418
+aV    2744 iexplore.exe         0x0000000076950000 False  False  False \u005cWindows\u005cSysWOW64\u005cadvapi32.dll
+p419
+aV    2744 iexplore.exe         0x0000000072e10000 False  False  False \u005cWindows\u005cSysWOW64\u005crasadhlp.dll
+p420
+aV    2744 iexplore.exe         0x0000000073760000 False  False  False \u005cWindows\u005cSysWOW64\u005crasman.dll
+p421
+aV    2744 iexplore.exe         0x0000000073a30000 True   True   True  \u005cWindows\u005cSystem32\u005cwow64win.dll
+p422
+aV    2744 iexplore.exe         0x0000000076c60000 False  False  False \u005cWindows\u005cSysWOW64\u005ciertutil.dll
+p423
+aV    2744 iexplore.exe         0x0000000071270000 False  False  False \u005cWindows\u005cSysWOW64\u005cExplorerFrame.dll
+p424
+aV    2744 iexplore.exe         0x0000000072e90000 False  False  False \u005cWindows\u005cSysWOW64\u005cmswsock.dll
+p425
+aV    2744 iexplore.exe         0x00000000756d0000 False  False  False \u005cWindows\u005cSysWOW64\u005ccrypt32.dll
+p426
+aV    2744 iexplore.exe         0x00000000772f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cntdll.dll
+p427
+aV    2744 iexplore.exe         0x0000000075520000 False  False  False \u005cWindows\u005cSysWOW64\u005ccomdlg32.dll
+p428
+aV    2744 iexplore.exe         0x0000000073750000 False  False  False \u005cWindows\u005cSysWOW64\u005cversion.dll
+p429
+aV    2744 iexplore.exe         0x0000000072d60000 False  False  False \u005cWindows\u005cSysWOW64\u005cNapiNSP.dll
+p430
+aV    2744 iexplore.exe         0x00000000755a0000 False  False  False \u005cWindows\u005cSysWOW64\u005ccfgmgr32.dll
+p431
+aV    2744 iexplore.exe         0x0000000072de0000 False  False  False \u005cWindows\u005cSysWOW64\u005crtutils.dll
+p432
+aV    2744 iexplore.exe         0x00000000713f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsfeeds.dll
+p433
+aV    2744 iexplore.exe         0x0000000073a00000 False  False  False \u005cWindows\u005cSysWOW64\u005cIPHLPAPI.DLL
+p434
+aV    2744 iexplore.exe         0x0000000073570000 False  False  False \u005cWindows\u005cwinsxs\u005cx86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_421189da2b7fabfc\u005ccomctl32.dll
+p435
+aV    2744 iexplore.exe         0x0000000074e60000 False  False  False \u005cWindows\u005cSysWOW64\u005csspicli.dll
+p436
+aV    2744 iexplore.exe         0x0000000076660000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsvcrt.dll
+p437
+aV    2744 iexplore.exe         0x00000000772c0000 False  False  False \u005cWindows\u005cSysWOW64\u005cpsapi.dll
+p438
+aV    2744 iexplore.exe         0x0000000077110000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p439
+aV    1480 iexplore.exe         0x00000000001f0000 True   False  True  \u005cProgram Files (x86)\u005cInternet Explorer\u005ciexplore.exe
+p440
+aV    1480 iexplore.exe         0x00000000000e0000 False  False  False \u005cProgram Files (x86)\u005cInternet Explorer\u005cen-US\u005ciexplore.exe.mui
+p441
+aV    1480 iexplore.exe         0x0000000073730000 False  False  False \u005cWindows\u005cSysWOW64\u005cuserenv.dll
+p442
+aV    1480 iexplore.exe         0x0000000073570000 False  False  False \u005cWindows\u005cwinsxs\u005cx86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_421189da2b7fabfc\u005ccomctl32.dll
+p443
+aV    1480 iexplore.exe         0x00000000713e0000 False  False  False \u005cWindows\u005cSysWOW64\u005cpngfilt.dll
+p444
+aV    1480 iexplore.exe         0x00000000023c0000 False  False  False \u005cWindows\u005cSysWOW64\u005cen-US\u005curlmon.dll.mui
+p445
+aV    1480 iexplore.exe         0x0000000076440000 False  False  False \u005cWindows\u005cSysWOW64\u005cgdi32.dll
+p446
+aV    1480 iexplore.exe         0x0000000076c00000 False  False  False \u005cWindows\u005cSysWOW64\u005cKernelBase.dll
+p447
+aV    1480 iexplore.exe         0x0000000073210000 False  False  False \u005cWindows\u005cSysWOW64\u005capphelp.dll
+p448
+aV    1480 iexplore.exe         0x0000000070380000 False  False  False \u005cWindows\u005cSysWOW64\u005cwinspool.drv
+p449
+aV    1480 iexplore.exe         0x0000000072820000 False  False  False \u005cProgram Files (x86)\u005cInternet Explorer\u005cieproxy.dll
+p450
+aV    1480 iexplore.exe         0x0000000070440000 False  False  False \u005cWindows\u005cSysWOW64\u005cmshtml.dll
+p451
+aV    1480 iexplore.exe         0x0000000073060000 False  False  False \u005cWindows\u005cSysWOW64\u005ccryptsp.dll
+p452
+aV    1480 iexplore.exe         0x0000000072670000 False  False  False \u005cWindows\u005cSysWOW64\u005cimgutil.dll
+p453
+aV    1480 iexplore.exe         0x0000000073ad0000 False  False  False \u005cWindows\u005cSysWOW64\u005cPeerDist.dll
+p454
+aV    1480 iexplore.exe         0x0000000072d00000 False  False  False \u005cWindows\u005cSysWOW64\u005cFWPUCLNT.DLL
+p455
+aV    1480 iexplore.exe         0x00000000753e0000 False  False  False \u005cWindows\u005cSysWOW64\u005csechost.dll
+p456
+aV    1480 iexplore.exe         0x0000000074fb0000 False  False  False \u005cWindows\u005cSysWOW64\u005cwininet.dll
+p457
+aV    1480 iexplore.exe         0x00000000757f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cshell32.dll
+p458
+aV    1480 iexplore.exe         0x0000000070410000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsls31.dll
+p459
+aV    1480 iexplore.exe         0x0000000076710000 False  False  False \u005cWindows\u005cSysWOW64\u005cuser32.dll
+p460
+aV    1480 iexplore.exe         0x0000000076640000 False  False  False \u005cWindows\u005cSysWOW64\u005cdevobj.dll
+p461
+aV    1480 iexplore.exe         0x0000000072c50000 False  False  False \u005cWindows\u005cSysWOW64\u005csxs.dll
+p462
+aV    1480 iexplore.exe         0x0000000073260000 False  False  False \u005cWindows\u005cSysWOW64\u005cntmarta.dll
+p463
+aV    1480 iexplore.exe         0x00000000769f0000 False  False  False \u005cWindows\u005cSysWOW64\u005ckernel32.dll
+p464
+aV    1480 iexplore.exe         0x00000000750b0000 False  False  False \u005cWindows\u005cSysWOW64\u005csetupapi.dll
+p465
+aV    1480 iexplore.exe         0x00000000756c0000 False  False  False \u005cWindows\u005cSysWOW64\u005clpk.dll
+p466
+aV    1480 iexplore.exe         0x00000000765a0000 False  False  False \u005cWindows\u005cSysWOW64\u005cusp10.dll
+p467
+aV    1480 iexplore.exe         0x0000000072f00000 False  False  False \u005cWindows\u005cSysWOW64\u005cauthz.dll
+p468
+aV    1480 iexplore.exe         0x0000000076510000 False  False  False \u005cWindows\u005cSysWOW64\u005cclbcatq.dll
+p469
+aV    1480 iexplore.exe         0x0000000074de0000 False  False  False \u005cWindows\u005cSysWOW64\u005cRpcRtRemote.dll
+p470
+aV    1480 iexplore.exe         0x0000000072dd0000 False  False  False \u005cWindows\u005cSysWOW64\u005cSensApi.dll
+p471
+aV    1480 iexplore.exe         0x00000000703e0000 False  False  False \u005cWindows\u005cSysWOW64\u005ciepeers.dll
+p472
+aV    1480 iexplore.exe         0x00000000739f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cwinnsi.dll
+p473
+aV    1480 iexplore.exe         0x0000000073a20000 True   True   True  \u005cWindows\u005cSystem32\u005cwow64cpu.dll
+p474
+aV    1480 iexplore.exe         0x0000000074e50000 False  False  False \u005cWindows\u005cSysWOW64\u005ccryptbase.dll
+p475
+aV    1480 iexplore.exe         0x0000000072d80000 False  False  False \u005cWindows\u005cSysWOW64\u005cnlaapi.dll
+p476
+aV    1480 iexplore.exe         0x0000000076af0000 False  False  False \u005cWindows\u005cSysWOW64\u005cnsi.dll
+p477
+aV    1480 iexplore.exe         0x0000000074df0000 False  False  False \u005cWindows\u005cSysWOW64\u005crsaenh.dll
+p478
+aV    1480 iexplore.exe         0x0000000076810000 False  False  False \u005cWindows\u005cSysWOW64\u005curlmon.dll
+p479
+aV    1480 iexplore.exe         0x0000000071030000 False  False  False \u005cWindows\u005cSysWOW64\u005cmlang.dll
+p480
+aV    1480 iexplore.exe         0x0000000072e20000 False  False  False \u005cWindows\u005cSysWOW64\u005cdnsapi.dll
+p481
+aV    1480 iexplore.exe         0x0000000075660000 False  False  False \u005cWindows\u005cSysWOW64\u005cimm32.dll
+p482
+aV    1480 iexplore.exe         0x0000000076e60000 False  False  False \u005cWindows\u005cSysWOW64\u005coleaut32.dll
+p483
+aV    1480 iexplore.exe         0x00000000726e0000 False  False  False \u005cWindows\u005cSysWOW64\u005cpropsys.dll
+p484
+aV    1480 iexplore.exe         0x0000000000150000 False  False  False \u005cWindows\u005cSysWOW64\u005coleaccrc.dll
+p485
+aV    1480 iexplore.exe         0x00000000727e0000 False  False  False \u005cProgram Files (x86)\u005cInternet Explorer\u005cIEShims.dll
+p486
+aV    1480 iexplore.exe         0x0000000072df0000 False  False  False \u005cWindows\u005cSysWOW64\u005cdwmapi.dll
+p487
+aV    1480 iexplore.exe         0x0000000075400000 False  False  False \u005cWindows\u005cSysWOW64\u005cWldap32.dll
+p488
+aV    1480 iexplore.exe         0x0000000074ec0000 False  False  False \u005cWindows\u005cSysWOW64\u005crpcrt4.dll
+p489
+aV    1480 iexplore.exe         0x0000000072e70000 False  False  False \u005cWindows\u005cSysWOW64\u005cwship6.dll
+p490
+aV    1480 iexplore.exe         0x0000000073a90000 True   True   True  \u005cWindows\u005cSystem32\u005cwow64.dll
+p491
+aV    1480 iexplore.exe         0x0000000072cc0000 False  False  False \u005cProgram Files (x86)\u005cCommon Files\u005cAdobe\u005cAcrobat\u005cActiveX\u005cAcroIEHelper.dll
+p492
+aV    1480 iexplore.exe         0x00000000772c0000 False  False  False \u005cWindows\u005cSysWOW64\u005cpsapi.dll
+p493
+aV    1480 iexplore.exe         0x0000000073720000 False  False  False \u005cWindows\u005cSysWOW64\u005cprofapi.dll
+p494
+aV    1480 iexplore.exe         0x0000000072d40000 False  False  False \u005cWindows\u005cSysWOW64\u005cpnrpnsp.dll
+p495
+aV    1480 iexplore.exe         0x0000000070f70000 False  False  False \u005cWindows\u005cwinsxs\u005cx86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4927_none_d08a205e442db5b5\u005cmsvcr80.dll
+p496
+aV    1480 iexplore.exe         0x0000000072e80000 False  False  False \u005cWindows\u005cSysWOW64\u005cWSHTCPIP.DLL
+p497
+aV    1480 iexplore.exe         0x0000000076b90000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsasn1.dll
+p498
+aV    1480 iexplore.exe         0x0000000075600000 False  False  False \u005cWindows\u005cSysWOW64\u005cshlwapi.dll
+p499
+aV    1480 iexplore.exe         0x0000000075250000 False  False  False \u005cWindows\u005cSysWOW64\u005cole32.dll
+p500
+aV    1480 iexplore.exe         0x0000000075450000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsctf.dll
+p501
+aV    1480 iexplore.exe         0x0000000076c50000 False  False  False \u005cWindows\u005cSysWOW64\u005cnormaliz.dll
+p502
+aV    1480 iexplore.exe         0x00000000732a0000 False  False  False \u005cWindows\u005cSysWOW64\u005cuxtheme.dll
+p503
+aV    1480 iexplore.exe         0x00000000764d0000 False  False  False \u005cWindows\u005cSysWOW64\u005cws2_32.dll
+p504
+aV    1480 iexplore.exe         0x0000000073320000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsimg32.dll
+p505
+aV    1480 iexplore.exe         0x0000000071550000 False  False  False \u005cWindows\u005cSysWOW64\u005cieframe.dll
+p506
+aV    1480 iexplore.exe         0x0000000076950000 False  False  False \u005cWindows\u005cSysWOW64\u005cadvapi32.dll
+p507
+aV    1480 iexplore.exe         0x0000000073780000 False  False  False \u005cWindows\u005cSysWOW64\u005crasapi32.dll
+p508
+aV    1480 iexplore.exe         0x0000000072d90000 False  False  False \u005cWindows\u005cSysWOW64\u005coleacc.dll
+p509
+aV    1480 iexplore.exe         0x0000000072e10000 False  False  False \u005cWindows\u005cSysWOW64\u005crasadhlp.dll
+p510
+aV    1480 iexplore.exe         0x0000000073760000 False  False  False \u005cWindows\u005cSysWOW64\u005crasman.dll
+p511
+aV    1480 iexplore.exe         0x0000000073a30000 True   True   True  \u005cWindows\u005cSystem32\u005cwow64win.dll
+p512
+aV    1480 iexplore.exe         0x0000000076c60000 False  False  False \u005cWindows\u005cSysWOW64\u005ciertutil.dll
+p513
+aV    1480 iexplore.exe         0x0000000072e90000 False  False  False \u005cWindows\u005cSysWOW64\u005cmswsock.dll
+p514
+aV    1480 iexplore.exe         0x00000000756d0000 False  False  False \u005cWindows\u005cSysWOW64\u005ccrypt32.dll
+p515
+aV    1480 iexplore.exe         0x00000000772f0000 False  False  False \u005cWindows\u005cSysWOW64\u005cntdll.dll
+p516
+aV    1480 iexplore.exe         0x0000000075520000 False  False  False \u005cWindows\u005cSysWOW64\u005ccomdlg32.dll
+p517
+aV    1480 iexplore.exe         0x0000000073750000 False  False  False \u005cWindows\u005cSysWOW64\u005cversion.dll
+p518
+aV    1480 iexplore.exe         0x0000000072d60000 False  False  False \u005cWindows\u005cSysWOW64\u005cNapiNSP.dll
+p519
+aV    1480 iexplore.exe         0x00000000755a0000 False  False  False \u005cWindows\u005cSysWOW64\u005ccfgmgr32.dll
+p520
+aV    1480 iexplore.exe         0x0000000072de0000 False  False  False \u005cWindows\u005cSysWOW64\u005crtutils.dll
+p521
+aV    1480 iexplore.exe         0x0000000073a00000 False  False  False \u005cWindows\u005cSysWOW64\u005cIPHLPAPI.DLL
+p522
+aV    1480 iexplore.exe         0x0000000071010000 False  False  False \u005cProgram Files (x86)\u005cCommon Files\u005cAdobe\u005cAcrobat\u005cActiveX\u005cAcroIEHelperShim.dll
+p523
+aV    1480 iexplore.exe         0x0000000072d70000 False  False  False \u005cWindows\u005cSysWOW64\u005cwinrnr.dll
+p524
+aV    1480 iexplore.exe         0x0000000074e60000 False  False  False \u005cWindows\u005cSysWOW64\u005csspicli.dll
+p525
+aV    1480 iexplore.exe         0x0000000076660000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsvcrt.dll
+p526
+aV    1480 iexplore.exe         0x0000000072cb0000 False  False  False \u005cWindows\u005cSysWOW64\u005cmsimtf.dll
+p527
+aV    1480 iexplore.exe         0x00000000702c0000 False  False  False \u005cWindows\u005cSysWOW64\u005cjscript.dll
+p528
+aV    1480 iexplore.exe         0x0000000070ee0000 False  False  False \u005cWindows\u005cwinsxs\u005cx86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4927_none_d08a205e442db5b5\u005cmsvcp80.dll
+p529
+aV    1480 iexplore.exe         0x0000000077110000 True   True   True  \u005cWindows\u005cSystem32\u005cntdll.dll
+p530
+assVenvars
+p531
+(dp532
+VRemoved Entries
+p533
+(lp534
+V     376 MpCmdRun.exe         0x0000000000421320 ALLUSERSPROFILE                C:\u005cProgramData
+p535
+aV     376 MpCmdRun.exe         0x0000000000421320 APPDATA                        C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cRoaming
+p536
+aV     376 MpCmdRun.exe         0x0000000000421320 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p537
+aV     376 MpCmdRun.exe         0x0000000000421320 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p538
+aV     376 MpCmdRun.exe         0x0000000000421320 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p539
+aV     376 MpCmdRun.exe         0x0000000000421320 COMPUTERNAME                   LOPHI-PC
+p540
+aV     376 MpCmdRun.exe         0x0000000000421320 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p541
+aV     376 MpCmdRun.exe         0x0000000000421320 FP_NO_HOST_CHECK               NO
+p542
+aV     376 MpCmdRun.exe         0x0000000000421320 LOCALAPPDATA                   C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cLocal
+p543
+aV     376 MpCmdRun.exe         0x0000000000421320 MpConfig_ProductAppDataPath    C:\u005cProgramData\u005cMicrosoft\u005cWindows Defender
+p544
+aV     376 MpCmdRun.exe         0x0000000000421320 MpConfig_ProductCodeName       AntiSpyware
+p545
+aV     376 MpCmdRun.exe         0x0000000000421320 MpConfig_ProductPath           c:\u005cprogram files\u005cwindows defender
+p546
+aV     376 MpCmdRun.exe         0x0000000000421320 MpConfig_Produ...erAppDataPath C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cLocal\u005cMicrosoft\u005cWindows Defender
+p547
+aV     376 MpCmdRun.exe         0x0000000000421320 MpConfig_ReportingGUID         3BC4CDAE-B3E9-4959-9462-7D222FD2A7D8
+p548
+aV     376 MpCmdRun.exe         0x0000000000421320 NUMBER_OF_PROCESSORS           4
+p549
+aV     376 MpCmdRun.exe         0x0000000000421320 OS                             Windows_NT
+p550
+aV     376 MpCmdRun.exe         0x0000000000421320 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p551
+aV     376 MpCmdRun.exe         0x0000000000421320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p552
+aV     376 MpCmdRun.exe         0x0000000000421320 PROCESSOR_ARCHITECTURE         AMD64
+p553
+aV     376 MpCmdRun.exe         0x0000000000421320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 44 Stepping 2, GenuineIntel
+p554
+aV     376 MpCmdRun.exe         0x0000000000421320 PROCESSOR_LEVEL                6
+p555
+aV     376 MpCmdRun.exe         0x0000000000421320 PROCESSOR_REVISION             2c02
+p556
+aV     376 MpCmdRun.exe         0x0000000000421320 ProgramData                    C:\u005cProgramData
+p557
+aV     376 MpCmdRun.exe         0x0000000000421320 ProgramFiles                   C:\u005cProgram Files
+p558
+aV     376 MpCmdRun.exe         0x0000000000421320 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p559
+aV     376 MpCmdRun.exe         0x0000000000421320 ProgramW6432                   C:\u005cProgram Files
+p560
+aV     376 MpCmdRun.exe         0x0000000000421320 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p561
+aV     376 MpCmdRun.exe         0x0000000000421320 PUBLIC                         C:\u005cUsers\u005cPublic
+p562
+aV     376 MpCmdRun.exe         0x0000000000421320 SystemDrive                    C:
+p563
+aV     376 MpCmdRun.exe         0x0000000000421320 SystemRoot                     C:\u005cWindows
+p564
+aV     376 MpCmdRun.exe         0x0000000000421320 TEMP                           C:\u005cWindows\u005cTEMP
+p565
+aV     376 MpCmdRun.exe         0x0000000000421320 TMP                            C:\u005cWindows\u005cTEMP
+p566
+aV     376 MpCmdRun.exe         0x0000000000421320 USERDOMAIN                     WORKGROUP
+p567
+aV     376 MpCmdRun.exe         0x0000000000421320 USERNAME                       LOPHI-PC$
+p568
+aV     376 MpCmdRun.exe         0x0000000000421320 USERPROFILE                    C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile
+p569
+aV     376 MpCmdRun.exe         0x0000000000421320 windir                         C:\u005cWindows
+p570
+aV    2180 GoogleUpdate.e       0x00000000005a1320 ALLUSERSPROFILE                C:\u005cProgramData
+p571
+aV    2180 GoogleUpdate.e       0x00000000005a1320 APPDATA                        C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cRoaming
+p572
+aV    2180 GoogleUpdate.e       0x00000000005a1320 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p573
+aV    2180 GoogleUpdate.e       0x00000000005a1320 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p574
+aV    2180 GoogleUpdate.e       0x00000000005a1320 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p575
+aV    2180 GoogleUpdate.e       0x00000000005a1320 COMPUTERNAME                   LOPHI-PC
+p576
+aV    2180 GoogleUpdate.e       0x00000000005a1320 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p577
+aV    2180 GoogleUpdate.e       0x00000000005a1320 FP_NO_HOST_CHECK               NO
+p578
+aV    2180 GoogleUpdate.e       0x00000000005a1320 LOCALAPPDATA                   C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cLocal
+p579
+aV    2180 GoogleUpdate.e       0x00000000005a1320 NUMBER_OF_PROCESSORS           4
+p580
+aV    2180 GoogleUpdate.e       0x00000000005a1320 OS                             Windows_NT
+p581
+aV    2180 GoogleUpdate.e       0x00000000005a1320 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p582
+aV    2180 GoogleUpdate.e       0x00000000005a1320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p583
+aV    2180 GoogleUpdate.e       0x00000000005a1320 PROCESSOR_ARCHITECTURE         AMD64
+p584
+aV    2180 GoogleUpdate.e       0x00000000005a1320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 44 Stepping 2, GenuineIntel
+p585
+aV    2180 GoogleUpdate.e       0x00000000005a1320 PROCESSOR_LEVEL                6
+p586
+aV    2180 GoogleUpdate.e       0x00000000005a1320 PROCESSOR_REVISION             2c02
+p587
+aV    2180 GoogleUpdate.e       0x00000000005a1320 ProgramData                    C:\u005cProgramData
+p588
+aV    2180 GoogleUpdate.e       0x00000000005a1320 ProgramFiles                   C:\u005cProgram Files
+p589
+aV    2180 GoogleUpdate.e       0x00000000005a1320 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p590
+aV    2180 GoogleUpdate.e       0x00000000005a1320 ProgramW6432                   C:\u005cProgram Files
+p591
+aV    2180 GoogleUpdate.e       0x00000000005a1320 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p592
+aV    2180 GoogleUpdate.e       0x00000000005a1320 PUBLIC                         C:\u005cUsers\u005cPublic
+p593
+aV    2180 GoogleUpdate.e       0x00000000005a1320 SystemDrive                    C:
+p594
+aV    2180 GoogleUpdate.e       0x00000000005a1320 SystemRoot                     C:\u005cWindows
+p595
+aV    2180 GoogleUpdate.e       0x00000000005a1320 TEMP                           C:\u005cWindows\u005cTEMP
+p596
+aV    2180 GoogleUpdate.e       0x00000000005a1320 TMP                            C:\u005cWindows\u005cTEMP
+p597
+aV    2180 GoogleUpdate.e       0x00000000005a1320 USERDOMAIN                     WORKGROUP
+p598
+aV    2180 GoogleUpdate.e       0x00000000005a1320 USERNAME                       LOPHI-PC$
+p599
+aV    2180 GoogleUpdate.e       0x00000000005a1320 USERPROFILE                    C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile
+p600
+aV    2180 GoogleUpdate.e       0x00000000005a1320 windir                         C:\u005cWindows
+p601
+aV    2112 conhost.exe          0x000000000016aa20 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p602
+aV    2112 conhost.exe          0x000000000016aa20 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p603
+aV    2112 conhost.exe          0x000000000016aa20 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p604
+aV    2112 conhost.exe          0x000000000016aa20 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p605
+aV    2112 conhost.exe          0x000000000016aa20 FP_NO_HOST_CHECK               NO
+p606
+aV    2112 conhost.exe          0x000000000016aa20 NUMBER_OF_PROCESSORS           4
+p607
+aV    2112 conhost.exe          0x000000000016aa20 OS                             Windows_NT
+p608
+aV    2112 conhost.exe          0x000000000016aa20 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p609
+aV    2112 conhost.exe          0x000000000016aa20 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p610
+aV    2112 conhost.exe          0x000000000016aa20 PROCESSOR_ARCHITECTURE         AMD64
+p611
+aV    2112 conhost.exe          0x000000000016aa20 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 44 Stepping 2, GenuineIntel
+p612
+aV    2112 conhost.exe          0x000000000016aa20 PROCESSOR_LEVEL                6
+p613
+aV    2112 conhost.exe          0x000000000016aa20 PROCESSOR_REVISION             2c02
+p614
+aV    2112 conhost.exe          0x000000000016aa20 ProgramFiles                   C:\u005cProgram Files
+p615
+aV    2112 conhost.exe          0x000000000016aa20 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p616
+aV    2112 conhost.exe          0x000000000016aa20 ProgramW6432                   C:\u005cProgram Files
+p617
+aV    2112 conhost.exe          0x000000000016aa20 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p618
+aV    2112 conhost.exe          0x000000000016aa20 SystemDrive                    C:
+p619
+aV    2112 conhost.exe          0x000000000016aa20 SystemRoot                     C:\u005cWindows
+p620
+aV    2112 conhost.exe          0x000000000016aa20 TEMP                           C:\u005cWindows\u005cTEMP
+p621
+aV    2112 conhost.exe          0x000000000016aa20 TMP                            C:\u005cWindows\u005cTEMP
+p622
+aV    2112 conhost.exe          0x000000000016aa20 USERNAME                       SYSTEM
+p623
+aV    2112 conhost.exe          0x000000000016aa20 windir                         C:\u005cWindows
+p624
+aV    2216 GoogleUpdate.e       0x0000000000541320 ALLUSERSPROFILE                C:\u005cProgramData
+p625
+aV    2216 GoogleUpdate.e       0x0000000000541320 APPDATA                        C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cRoaming
+p626
+aV    2216 GoogleUpdate.e       0x0000000000541320 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p627
+aV    2216 GoogleUpdate.e       0x0000000000541320 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p628
+aV    2216 GoogleUpdate.e       0x0000000000541320 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p629
+aV    2216 GoogleUpdate.e       0x0000000000541320 COMPUTERNAME                   LOPHI-PC
+p630
+aV    2216 GoogleUpdate.e       0x0000000000541320 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p631
+aV    2216 GoogleUpdate.e       0x0000000000541320 FP_NO_HOST_CHECK               NO
+p632
+aV    2216 GoogleUpdate.e       0x0000000000541320 LOCALAPPDATA                   C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile\u005cAppData\u005cLocal
+p633
+aV    2216 GoogleUpdate.e       0x0000000000541320 NUMBER_OF_PROCESSORS           4
+p634
+aV    2216 GoogleUpdate.e       0x0000000000541320 OS                             Windows_NT
+p635
+aV    2216 GoogleUpdate.e       0x0000000000541320 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27;
+p636
+aV    2216 GoogleUpdate.e       0x0000000000541320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p637
+aV    2216 GoogleUpdate.e       0x0000000000541320 PROCESSOR_ARCHITECTURE         AMD64
+p638
+aV    2216 GoogleUpdate.e       0x0000000000541320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 44 Stepping 2, GenuineIntel
+p639
+aV    2216 GoogleUpdate.e       0x0000000000541320 PROCESSOR_LEVEL                6
+p640
+aV    2216 GoogleUpdate.e       0x0000000000541320 PROCESSOR_REVISION             2c02
+p641
+aV    2216 GoogleUpdate.e       0x0000000000541320 ProgramData                    C:\u005cProgramData
+p642
+aV    2216 GoogleUpdate.e       0x0000000000541320 ProgramFiles                   C:\u005cProgram Files
+p643
+aV    2216 GoogleUpdate.e       0x0000000000541320 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p644
+aV    2216 GoogleUpdate.e       0x0000000000541320 ProgramW6432                   C:\u005cProgram Files
+p645
+aV    2216 GoogleUpdate.e       0x0000000000541320 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p646
+aV    2216 GoogleUpdate.e       0x0000000000541320 PUBLIC                         C:\u005cUsers\u005cPublic
+p647
+aV    2216 GoogleUpdate.e       0x0000000000541320 SystemDrive                    C:
+p648
+aV    2216 GoogleUpdate.e       0x0000000000541320 SystemRoot                     C:\u005cWindows
+p649
+aV    2216 GoogleUpdate.e       0x0000000000541320 TEMP                           C:\u005cWindows\u005cTEMP
+p650
+aV    2216 GoogleUpdate.e       0x0000000000541320 TMP                            C:\u005cWindows\u005cTEMP
+p651
+aV    2216 GoogleUpdate.e       0x0000000000541320 USERDOMAIN                     WORKGROUP
+p652
+aV    2216 GoogleUpdate.e       0x0000000000541320 USERNAME                       LOPHI-PC$
+p653
+aV    2216 GoogleUpdate.e       0x0000000000541320 USERPROFILE                    C:\u005cWindows\u005csystem32\u005cconfig\u005csystemprofile
+p654
+aV    2216 GoogleUpdate.e       0x0000000000541320 windir                         C:\u005cWindows
+p655
+aV    2232 cmd.exe              0x0000000000256430 ALLUSERSPROFILE                C:\u005cProgramData
+p656
+aV    2232 cmd.exe              0x0000000000256430 APPDATA                        C:\u005cUsers\u005clophi\u005cAppData\u005cRoaming
+p657
+aV    2232 cmd.exe              0x0000000000256430 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p658
+aV    2232 cmd.exe              0x0000000000256430 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p659
+aV    2232 cmd.exe              0x0000000000256430 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p660
+aV    2232 cmd.exe              0x0000000000256430 COMPUTERNAME                   LOPHI-PC
+p661
+aV    2232 cmd.exe              0x0000000000256430 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p662
+aV    2232 cmd.exe              0x0000000000256430 FP_NO_HOST_CHECK               NO
+p663
+aV    2232 cmd.exe              0x0000000000256430 HOMEDRIVE                      C:
+p664
+aV    2232 cmd.exe              0x0000000000256430 HOMEPATH                       \u005cUsers\u005clophi
+p665
+aV    2232 cmd.exe              0x0000000000256430 LOCALAPPDATA                   C:\u005cUsers\u005clophi\u005cAppData\u005cLocal
+p666
+aV    2232 cmd.exe              0x0000000000256430 LOGONSERVER                    \u005c\u005cLOPHI-PC
+p667
+aV    2232 cmd.exe              0x0000000000256430 NUMBER_OF_PROCESSORS           4
+p668
+aV    2232 cmd.exe              0x0000000000256430 OS                             Windows_NT
+p669
+aV    2232 cmd.exe              0x0000000000256430 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p670
+aV    2232 cmd.exe              0x0000000000256430 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p671
+aV    2232 cmd.exe              0x0000000000256430 PROCESSOR_ARCHITECTURE         AMD64
+p672
+aV    2232 cmd.exe              0x0000000000256430 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 44 Stepping 2, GenuineIntel
+p673
+aV    2232 cmd.exe              0x0000000000256430 PROCESSOR_LEVEL                6
+p674
+aV    2232 cmd.exe              0x0000000000256430 PROCESSOR_REVISION             2c02
+p675
+aV    2232 cmd.exe              0x0000000000256430 ProgramData                    C:\u005cProgramData
+p676
+aV    2232 cmd.exe              0x0000000000256430 ProgramFiles                   C:\u005cProgram Files
+p677
+aV    2232 cmd.exe              0x0000000000256430 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p678
+aV    2232 cmd.exe              0x0000000000256430 ProgramW6432                   C:\u005cProgram Files
+p679
+aV    2232 cmd.exe              0x0000000000256430 PROMPT                         $P$G
+p680
+aV    2232 cmd.exe              0x0000000000256430 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p681
+aV    2232 cmd.exe              0x0000000000256430 PUBLIC                         C:\u005cUsers\u005cPublic
+p682
+aV    2232 cmd.exe              0x0000000000256430 SESSIONNAME                    Console
+p683
+aV    2232 cmd.exe              0x0000000000256430 SystemDrive                    C:
+p684
+aV    2232 cmd.exe              0x0000000000256430 SystemRoot                     C:\u005cWindows
+p685
+aV    2232 cmd.exe              0x0000000000256430 TEMP                           C:\u005cUsers\u005clophi\u005cAppData\u005cLocal\u005cTemp
+p686
+aV    2232 cmd.exe              0x0000000000256430 TMP                            C:\u005cUsers\u005clophi\u005cAppData\u005cLocal\u005cTemp
+p687
+aV    2232 cmd.exe              0x0000000000256430 USERDOMAIN                     lophi-PC
+p688
+aV    2232 cmd.exe              0x0000000000256430 USERNAME                       lophi
+p689
+aV    2232 cmd.exe              0x0000000000256430 USERPROFILE                    C:\u005cUsers\u005clophi
+p690
+aV    2232 cmd.exe              0x0000000000256430 windir                         C:\u005cWindows
+p691
+aV    1088 conhost.exe          0x0000000000247940 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p692
+aV    1088 conhost.exe          0x0000000000247940 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p693
+aV    1088 conhost.exe          0x0000000000247940 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p694
+aV    1088 conhost.exe          0x0000000000247940 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p695
+aV    1088 conhost.exe          0x0000000000247940 FP_NO_HOST_CHECK               NO
+p696
+aV    1088 conhost.exe          0x0000000000247940 NUMBER_OF_PROCESSORS           4
+p697
+aV    1088 conhost.exe          0x0000000000247940 OS                             Windows_NT
+p698
+aV    1088 conhost.exe          0x0000000000247940 Path                           C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p699
+aV    1088 conhost.exe          0x0000000000247940 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p700
+aV    1088 conhost.exe          0x0000000000247940 PROCESSOR_ARCHITECTURE         AMD64
+p701
+aV    1088 conhost.exe          0x0000000000247940 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 44 Stepping 2, GenuineIntel
+p702
+aV    1088 conhost.exe          0x0000000000247940 PROCESSOR_LEVEL                6
+p703
+aV    1088 conhost.exe          0x0000000000247940 PROCESSOR_REVISION             2c02
+p704
+aV    1088 conhost.exe          0x0000000000247940 ProgramFiles                   C:\u005cProgram Files
+p705
+aV    1088 conhost.exe          0x0000000000247940 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p706
+aV    1088 conhost.exe          0x0000000000247940 ProgramW6432                   C:\u005cProgram Files
+p707
+aV    1088 conhost.exe          0x0000000000247940 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p708
+aV    1088 conhost.exe          0x0000000000247940 SystemDrive                    C:
+p709
+aV    1088 conhost.exe          0x0000000000247940 SystemRoot                     C:\u005cWindows
+p710
+aV    1088 conhost.exe          0x0000000000247940 TEMP                           C:\u005cWindows\u005cTEMP
+p711
+aV    1088 conhost.exe          0x0000000000247940 TMP                            C:\u005cWindows\u005cTEMP
+p712
+aV    1088 conhost.exe          0x0000000000247940 USERNAME                       SYSTEM
+p713
+aV    1088 conhost.exe          0x0000000000247940 windir                         C:\u005cWindows
+p714
+asVAdded Entries
+p715
+(lp716
+V    2744 iexplore.exe         0x0000000000501320 ALLUSERSPROFILE                C:\u005cProgramData
+p717
+aV    2744 iexplore.exe         0x0000000000501320 APPDATA                        C:\u005cUsers\u005clophi\u005cAppData\u005cRoaming
+p718
+aV    2744 iexplore.exe         0x0000000000501320 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p719
+aV    2744 iexplore.exe         0x0000000000501320 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p720
+aV    2744 iexplore.exe         0x0000000000501320 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p721
+aV    2744 iexplore.exe         0x0000000000501320 COMPUTERNAME                   LOPHI-PC
+p722
+aV    2744 iexplore.exe         0x0000000000501320 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p723
+aV    2744 iexplore.exe         0x0000000000501320 FP_NO_HOST_CHECK               NO
+p724
+aV    2744 iexplore.exe         0x0000000000501320 HOMEDRIVE                      C:
+p725
+aV    2744 iexplore.exe         0x0000000000501320 HOMEPATH                       \u005cUsers\u005clophi
+p726
+aV    2744 iexplore.exe         0x0000000000501320 LOCALAPPDATA                   C:\u005cUsers\u005clophi\u005cAppData\u005cLocal
+p727
+aV    2744 iexplore.exe         0x0000000000501320 LOGONSERVER                    \u005c\u005cLOPHI-PC
+p728
+aV    2744 iexplore.exe         0x0000000000501320 NUMBER_OF_PROCESSORS           4
+p729
+aV    2744 iexplore.exe         0x0000000000501320 OS                             Windows_NT
+p730
+aV    2744 iexplore.exe         0x0000000000501320 Path                           C:\u005cProgram Files (x86)\u005cInternet Explorer;;C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p731
+aV    2744 iexplore.exe         0x0000000000501320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p732
+aV    2744 iexplore.exe         0x0000000000501320 PROCESSOR_ARCHITECTURE         AMD64
+p733
+aV    2744 iexplore.exe         0x0000000000501320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 44 Stepping 2, GenuineIntel
+p734
+aV    2744 iexplore.exe         0x0000000000501320 PROCESSOR_LEVEL                6
+p735
+aV    2744 iexplore.exe         0x0000000000501320 PROCESSOR_REVISION             2c02
+p736
+aV    2744 iexplore.exe         0x0000000000501320 ProgramData                    C:\u005cProgramData
+p737
+aV    2744 iexplore.exe         0x0000000000501320 ProgramFiles                   C:\u005cProgram Files
+p738
+aV    2744 iexplore.exe         0x0000000000501320 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p739
+aV    2744 iexplore.exe         0x0000000000501320 ProgramW6432                   C:\u005cProgram Files
+p740
+aV    2744 iexplore.exe         0x0000000000501320 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p741
+aV    2744 iexplore.exe         0x0000000000501320 PUBLIC                         C:\u005cUsers\u005cPublic
+p742
+aV    2744 iexplore.exe         0x0000000000501320 SystemDrive                    C:
+p743
+aV    2744 iexplore.exe         0x0000000000501320 SystemRoot                     C:\u005cWindows
+p744
+aV    2744 iexplore.exe         0x0000000000501320 TEMP                           C:\u005cUsers\u005clophi\u005cAppData\u005cLocal\u005cTemp
+p745
+aV    2744 iexplore.exe         0x0000000000501320 TMP                            C:\u005cUsers\u005clophi\u005cAppData\u005cLocal\u005cTemp
+p746
+aV    2744 iexplore.exe         0x0000000000501320 USERDOMAIN                     lophi-PC
+p747
+aV    2744 iexplore.exe         0x0000000000501320 USERNAME                       lophi
+p748
+aV    2744 iexplore.exe         0x0000000000501320 USERPROFILE                    C:\u005cUsers\u005clophi
+p749
+aV    2744 iexplore.exe         0x0000000000501320 windir                         C:\u005cWindows
+p750
+aV    1480 iexplore.exe         0x00000000005c1320 ALLUSERSPROFILE                C:\u005cProgramData
+p751
+aV    1480 iexplore.exe         0x00000000005c1320 APPDATA                        C:\u005cUsers\u005clophi\u005cAppData\u005cRoaming
+p752
+aV    1480 iexplore.exe         0x00000000005c1320 CommonProgramFiles             C:\u005cProgram Files\u005cCommon Files
+p753
+aV    1480 iexplore.exe         0x00000000005c1320 CommonProgramFiles(x86)        C:\u005cProgram Files (x86)\u005cCommon Files
+p754
+aV    1480 iexplore.exe         0x00000000005c1320 CommonProgramW6432             C:\u005cProgram Files\u005cCommon Files
+p755
+aV    1480 iexplore.exe         0x00000000005c1320 COMPUTERNAME                   LOPHI-PC
+p756
+aV    1480 iexplore.exe         0x00000000005c1320 ComSpec                        C:\u005cWindows\u005csystem32\u005ccmd.exe
+p757
+aV    1480 iexplore.exe         0x00000000005c1320 FP_NO_HOST_CHECK               NO
+p758
+aV    1480 iexplore.exe         0x00000000005c1320 HOMEDRIVE                      C:
+p759
+aV    1480 iexplore.exe         0x00000000005c1320 HOMEPATH                       \u005cUsers\u005clophi
+p760
+aV    1480 iexplore.exe         0x00000000005c1320 LOCALAPPDATA                   C:\u005cUsers\u005clophi\u005cAppData\u005cLocal
+p761
+aV    1480 iexplore.exe         0x00000000005c1320 LOGONSERVER                    \u005c\u005cLOPHI-PC
+p762
+aV    1480 iexplore.exe         0x00000000005c1320 NUMBER_OF_PROCESSORS           4
+p763
+aV    1480 iexplore.exe         0x00000000005c1320 OS                             Windows_NT
+p764
+aV    1480 iexplore.exe         0x00000000005c1320 Path                           C:\u005cProgram Files (x86)\u005cInternet Explorer;;C:\u005cWindows\u005csystem32;C:\u005cWindows;C:\u005cWindows\u005cSystem32\u005cWbem;C:\u005cWindows\u005cSystem32\u005cWindowsPowerShell\u005cv1.0\u005c;C:\u005cPython27
+p765
+aV    1480 iexplore.exe         0x00000000005c1320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+p766
+aV    1480 iexplore.exe         0x00000000005c1320 PROCESSOR_ARCHITECTURE         AMD64
+p767
+aV    1480 iexplore.exe         0x00000000005c1320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 44 Stepping 2, GenuineIntel
+p768
+aV    1480 iexplore.exe         0x00000000005c1320 PROCESSOR_LEVEL                6
+p769
+aV    1480 iexplore.exe         0x00000000005c1320 PROCESSOR_REVISION             2c02
+p770
+aV    1480 iexplore.exe         0x00000000005c1320 ProgramData                    C:\u005cProgramData
+p771
+aV    1480 iexplore.exe         0x00000000005c1320 ProgramFiles                   C:\u005cProgram Files
+p772
+aV    1480 iexplore.exe         0x00000000005c1320 ProgramFiles(x86)              C:\u005cProgram Files (x86)
+p773
+aV    1480 iexplore.exe         0x00000000005c1320 ProgramW6432                   C:\u005cProgram Files
+p774
+aV    1480 iexplore.exe         0x00000000005c1320 PSModulePath                   C:\u005cWindows\u005csystem32\u005cWindowsPowerShell\u005cv1.0\u005cModules\u005c
+p775
+aV    1480 iexplore.exe         0x00000000005c1320 PUBLIC                         C:\u005cUsers\u005cPublic
+p776
+aV    1480 iexplore.exe         0x00000000005c1320 SystemDrive                    C:
+p777
+aV    1480 iexplore.exe         0x00000000005c1320 SystemRoot                     C:\u005cWindows
+p778
+aV    1480 iexplore.exe         0x00000000005c1320 TEMP                           C:\u005cUsers\u005clophi\u005cAppData\u005cLocal\u005cTemp
+p779
+aV    1480 iexplore.exe         0x00000000005c1320 TMP                            C:\u005cUsers\u005clophi\u005cAppData\u005cLocal\u005cTemp
+p780
+aV    1480 iexplore.exe         0x00000000005c1320 USERDOMAIN                     lophi-PC
+p781
+aV    1480 iexplore.exe         0x00000000005c1320 USERNAME                       lophi
+p782
+aV    1480 iexplore.exe         0x00000000005c1320 USERPROFILE                    C:\u005cUsers\u005clophi
+p783
+aV    1480 iexplore.exe         0x00000000005c1320 windir                         C:\u005cWindows
+p784
+assVpsxview
+p785
+(dp786
+VRemoved Entries
+p787
+(lp788
+V0x000000003dd72290 taskhost.exe           1816 True   True   True     True   True  True    True    
+p789
+aV0x000000003f612360 conhost.exe            1088 True   True   True     True   True  True    True    
+p790
+aV0x000000003f991060 MpCmdRun.exe            376 True   True   True     True   True  True    True    
+p791
+aV0x000000003e84e230 conhost.exe            2112 True   True   True     True   True  True    True    
+p792
+aV0x000000003f6c2060 WmiPrvSE.exe           2068 True   True   True     True   True  True    False   
+p793
+aV0x000000003da20730 taskeng.exe            1272 True   True   True     True   True  True    False   
+p794
+aV0x000000003eb94730 SearchIndexer.         2400 True   True   True     True   True  True    False   
+p795
+aV0x000000003da3cb30 GoogleUpdate.e         1368 True   True   True     True   True  True    False   
+p796
+aV0x000000003dc0c3f0 GoogleUpdate.e         2180 True   True   True     True   True  True    True    
+p797
+aV0x000000003e142060 svchost.exe             668 True   True   True     True   True  True    False   
+p798
+aV0x000000003f95eb30 cmd.exe                2232 True   True   True     True   True  True    True    
+p799
+aV0x000000003db62b30 GoogleUpdate.e         2216 True   True   True     True   True  True    True    
+p800
+aV0x000000003f826330 SearchProtocol         2220 False  True   False    False  False False   False   
+p801
+asVAdded Entries
+p802
+(lp803
+V0x000000003f618860 iexplore.exe           1480 True   True   True     True   True  True    True    
+p804
+aV0x000000003dee3b30 iexplore.exe           2744 True   True   True     True   True  True    True    
+p805
+aV0x000000003dd72290 taskhost.exe           1816 True   True   True     True   True  True    False   
+p806
+aV0x000000003eb94730 SearchIndexer.         2400 True   True   True     True   True  True    True    
+p807
+aV0x000000003f6c2060 WmiPrvSE.exe           2068 True   True   True     True   True  True    True    
+p808
+aV0x000000003da20730 taskeng.exe            1272 True   True   True     True   True  True    True    
+p809
+aV0x000000003da3cb30 GoogleUpdate.e         1368 True   True   True     True   True  True    True    
+p810
+aV0x000000003e142060 svchost.exe             668 True   True   True     True   True  True    True    
+p811
+assVpsscan
+p812
+(dp813
+VRemoved Entries
+p814
+(lp815
+V0x0000fa8000e26330 SearchProtocol     2220   2400 0x0000000029828000 2015-08-16 00:13:02 UTC+0000   2015-08-16 00:14:03 UTC+0000  
+p816
+aV0x0000fa8000f5eb30 cmd.exe            2232   1900 0x0000000004f6d000 2015-08-16 00:12:38 UTC+0000                                 
+p817
+aV0x0000fa8000f91060 MpCmdRun.exe        376   2932 0x0000000009c85000 2015-08-16 00:11:19 UTC+0000                                 
+p818
+aV0x0000fa8001012360 conhost.exe        1088    456 0x000000000a595000 2015-08-16 00:12:38 UTC+0000                                 
+p819
+aV0x0000fa8001e4e230 conhost.exe        2112    368 0x000000002433d000 2015-08-16 00:11:22 UTC+0000                                 
+p820
+aV0x0000fa8002a0c3f0 GoogleUpdate.e     2180   1272 0x000000001e3da000 2015-08-16 00:11:22 UTC+0000                                 
+p821
+aV0x0000fa8002d62b30 GoogleUpdate.e     2216    492 0x000000003b3bc000 2015-08-16 00:12:25 UTC+0000                                 
+p822
+asVAdded Entries
+p823
+(lp824
+V0x0000fa8001018860 iexplore.exe       1480   2744 0x00000000007d7000 2015-08-16 00:17:09 UTC+0000                                 
+p825
+aV0x0000fa80028e3b30 iexplore.exe       2744   1328 0x0000000028c6b000 2015-08-16 00:17:08 UTC+0000                                 
+p826
+assVdriverirp
+p827
+(dp828
+sVssdt
+p829
+(dp830
+VRemoved Entries
+p831
+(lp832
+sVAdded Entries
+p833
+(lp834
+ss.

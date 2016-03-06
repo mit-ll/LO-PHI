@@ -1,0 +1,12 @@
+Source: lophi-semanticgap
+Maintainer: Chad Spensky and Hongyi Hu <chad.spensky@ll.mit.edu, hongyi.hu@ll.mit.edu>
+Section: python
+Priority: optional
+Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: python-lophi-semanticgap, python-lophi-analyzemft
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-pypcap, python-dpkt, python-lophi-volatility, python-lophi
+Description: Python library that bridges the semantic gap for low level memory, disk, network, etc., data provided by the core LOPHI Python library.
+

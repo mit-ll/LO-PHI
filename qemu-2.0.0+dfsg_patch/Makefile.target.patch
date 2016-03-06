@@ -1,0 +1,14 @@
+--- qemu-2.0.0+dfsg/Makefile.target	2014-04-17 06:30:59.000000000 -0700
++++ lophi_packages/qemu-2.0.0+dfsg/Makefile.target	2014-09-30 06:54:40.000000000 -0700
+@@ -117,6 +117,11 @@
+ obj-y += memory.o savevm.o cputlb.o
+ obj-y += memory_mapping.o
+ obj-y += dump.o
++
++# LO-PHI
++obj-y += lophi-hooks-memory.o
++#obj-y += lophi-hooks-common.o
++
+ LIBS+=$(libs_softmmu)
+ 
+ # xen support

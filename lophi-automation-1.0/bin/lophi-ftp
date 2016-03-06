@@ -1,0 +1,78 @@
+#!/usr/bin/python
+"""
+    This runs an FTP server that interfaces with our database and master.
+
+    All uploaded files will be stored in the database and deleted.
+
+    (c) 2015 Massachusetts Institute of Technology
+"""
+
+# Native
+import os
+import daemon
+import logging
+
+# LO-PHI
+import lophi.globals as G
+from lophi_automation.network.ftpserver import LoPhiFtpServer
+
+
+def run_ftp(ftp_dir,db_host=G.DB_HOST):
+    """
+        Run a very simple FTP Server
+    """
+
+    ftpserver = LoPhiFtpServer(ftp_dir, G.FTP_USER, G.FTP_PASSWORD,
+                               db_host=db_host)    
+    ftpserver.run()
+
+
+def run(options):
+    """
+        Run our FTP server as a daemon
+    """
+    # Ensure the user can bind to port 21
+    if not os.geteuid() == 0:
+        print "You aren't root.  Goodbye."
+        return
+    
+    print "* Creating FTP Server with username: %s and password: %s"%(G.FTP_USER,
+                                                                     G.FTP_PASSWORD)
+    print "* Serving files from: %s."%G.FTP_ROOT  
+    
+    if options.background:
+        with daemon.DaemonContext():
+            run_ftp(G.FTP_ROOT,options.services_host)
+    else:
+        run_ftp(G.FTP_ROOT,options.services_host)
+
+
+if __name__ == "__main__":
+    
+    import optparse
+    opts = optparse.OptionParser()
+    
+    # Run in background?
+    opts.add_option("-b", "--background", action="store_true",
+                    dest="background", default=False,
+                    help="Run FTP server daemonized.")
+    
+    # Debug?
+    opts.add_option("-d", "--debug", action="store_true", 
+        dest="debug", default=False,
+        help="Turn on debugging output. (Default: False)")
+    
+    opts.add_option("-S", "--services_host", action="store", type="string",
+                   dest="services_host", default='localhost',
+        help="Host for global services (MongoDB/RabbitMQ)")
+    
+    (options, positionals) = opts.parse_args(None)
+    
+    # Are we debugging?
+    if options.debug:
+        print "** Log level set to DEBUG."
+        logging.basicConfig(level=logging.DEBUG)
+    else:
+        logging.basicConfig()
+    
+    run(options)

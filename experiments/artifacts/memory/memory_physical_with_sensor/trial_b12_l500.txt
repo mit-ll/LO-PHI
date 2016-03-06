@@ -1,0 +1,4013 @@
+RAMspeed (Win32) v1.1.1 by Rhett M. Hollander and Paul V. Bolotoff, 2002-09
+
+8Gb per pass mode
+
+500-benchmark SSEmem BatchRun mode
+
+Benchmark #1:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4653.27 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5318.84 MB/s
+---
+SSE       AVERAGE:   4984.78 MB/s
+
+Benchmark #2:
+SSE       Copy:      4636.94 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4986.31 MB/s
+
+Benchmark #3:
+SSE       Copy:      4613.28 MB/s
+SSE       Scale:     4660.84 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4988.71 MB/s
+
+Benchmark #4:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4625.71 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4978.23 MB/s
+
+Benchmark #5:
+SSE       Copy:      4603.39 MB/s
+SSE       Scale:     4624.46 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4978.81 MB/s
+
+Benchmark #6:
+SSE       Copy:      4596.01 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5372.07 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4983.00 MB/s
+
+Benchmark #7:
+SSE       Copy:      4626.95 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5345.32 MB/s
+---
+SSE       AVERAGE:   4988.53 MB/s
+
+Benchmark #8:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4984.72 MB/s
+
+Benchmark #9:
+SSE       Copy:      4639.45 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4989.31 MB/s
+
+Benchmark #10:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5316.65 MB/s
+---
+SSE       AVERAGE:   4979.47 MB/s
+
+Benchmark #11:
+SSE       Copy:      4631.94 MB/s
+SSE       Scale:     4618.24 MB/s
+SSE       Add:       5337.57 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4980.50 MB/s
+
+Benchmark #12:
+SSE       Copy:      4624.46 MB/s
+SSE       Scale:     4618.24 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4981.13 MB/s
+
+Benchmark #13:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5378.79 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4991.99 MB/s
+
+Benchmark #14:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4650.75 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5349.76 MB/s
+---
+SSE       AVERAGE:   4989.44 MB/s
+
+Benchmark #15:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4613.28 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4973.34 MB/s
+
+Benchmark #16:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4660.84 MB/s
+SSE       Add:       5334.26 MB/s
+SSE       Triad:     5328.74 MB/s
+---
+SSE       AVERAGE:   4982.74 MB/s
+
+Benchmark #17:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5329.85 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4976.86 MB/s
+
+Benchmark #18:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4648.23 MB/s
+SSE       Add:       5335.36 MB/s
+SSE       Triad:     5342.00 MB/s
+---
+SSE       AVERAGE:   4984.41 MB/s
+
+Benchmark #19:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5334.26 MB/s
+SSE       Triad:     5318.84 MB/s
+---
+SSE       AVERAGE:   4972.73 MB/s
+
+Benchmark #20:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5333.15 MB/s
+SSE       Triad:     5317.75 MB/s
+---
+SSE       AVERAGE:   4977.15 MB/s
+
+Benchmark #21:
+SSE       Copy:      4630.69 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4986.22 MB/s
+
+Benchmark #22:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5369.83 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4989.19 MB/s
+
+Benchmark #23:
+SSE       Copy:      4625.71 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5333.15 MB/s
+SSE       Triad:     5304.61 MB/s
+---
+SSE       AVERAGE:   4977.30 MB/s
+
+Benchmark #24:
+SSE       Copy:      4613.28 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5327.64 MB/s
+---
+SSE       AVERAGE:   4979.31 MB/s
+
+Benchmark #25:
+SSE       Copy:      4596.01 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5358.66 MB/s
+---
+SSE       AVERAGE:   4982.74 MB/s
+
+Benchmark #26:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4985.26 MB/s
+
+Benchmark #27:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4655.79 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5322.14 MB/s
+---
+SSE       AVERAGE:   4984.01 MB/s
+
+Benchmark #28:
+SSE       Copy:      4636.94 MB/s
+SSE       Scale:     4624.46 MB/s
+SSE       Add:       5336.47 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4984.69 MB/s
+
+Benchmark #29:
+SSE       Copy:      4626.95 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4990.28 MB/s
+
+Benchmark #30:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4979.51 MB/s
+
+Benchmark #31:
+SSE       Copy:      4638.19 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4994.61 MB/s
+
+Benchmark #32:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4646.98 MB/s
+SSE       Add:       5335.36 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4985.99 MB/s
+
+Benchmark #33:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4979.92 MB/s
+
+Benchmark #34:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5311.17 MB/s
+---
+SSE       AVERAGE:   4973.02 MB/s
+
+Benchmark #35:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5347.54 MB/s
+---
+SSE       AVERAGE:   4982.77 MB/s
+
+Benchmark #36:
+SSE       Copy:      4629.44 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5351.98 MB/s
+---
+SSE       AVERAGE:   4989.82 MB/s
+
+Benchmark #37:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4984.06 MB/s
+
+Benchmark #38:
+SSE       Copy:      4613.28 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5322.14 MB/s
+---
+SSE       AVERAGE:   4977.34 MB/s
+
+Benchmark #39:
+SSE       Copy:      4631.94 MB/s
+SSE       Scale:     4619.49 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4980.55 MB/s
+
+Benchmark #40:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5336.47 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4984.02 MB/s
+
+Benchmark #41:
+SSE       Copy:      4603.39 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5321.04 MB/s
+---
+SSE       AVERAGE:   4977.49 MB/s
+
+Benchmark #42:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5314.46 MB/s
+---
+SSE       AVERAGE:   4977.10 MB/s
+
+Benchmark #43:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4607.10 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4975.06 MB/s
+
+Benchmark #44:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5325.44 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4972.17 MB/s
+
+Benchmark #45:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4648.23 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4990.77 MB/s
+
+Benchmark #46:
+SSE       Copy:      4631.94 MB/s
+SSE       Scale:     4607.10 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5354.21 MB/s
+---
+SSE       AVERAGE:   4985.75 MB/s
+
+Benchmark #47:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4979.49 MB/s
+
+Benchmark #48:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4644.46 MB/s
+SSE       Add:       5332.05 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4982.22 MB/s
+
+Benchmark #49:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4984.07 MB/s
+
+Benchmark #50:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5354.21 MB/s
+SSE       Triad:     5327.64 MB/s
+---
+SSE       AVERAGE:   4982.08 MB/s
+
+Benchmark #51:
+SSE       Copy:      4613.28 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4982.58 MB/s
+
+Benchmark #52:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4650.75 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4983.81 MB/s
+
+Benchmark #53:
+SSE       Copy:      4597.24 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4979.73 MB/s
+
+Benchmark #54:
+SSE       Copy:      4591.09 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4973.76 MB/s
+
+Benchmark #55:
+SSE       Copy:      4624.46 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4987.04 MB/s
+
+Benchmark #56:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5363.12 MB/s
+SSE       Triad:     5318.84 MB/s
+---
+SSE       AVERAGE:   4983.66 MB/s
+
+Benchmark #57:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4986.78 MB/s
+
+Benchmark #58:
+SSE       Copy:      4599.70 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5365.36 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4984.49 MB/s
+
+Benchmark #59:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4653.27 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4983.53 MB/s
+
+Benchmark #60:
+SSE       Copy:      4596.01 MB/s
+SSE       Scale:     4644.46 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4983.90 MB/s
+
+Benchmark #61:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4979.79 MB/s
+
+Benchmark #62:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5366.47 MB/s
+SSE       Triad:     5326.54 MB/s
+---
+SSE       AVERAGE:   4983.64 MB/s
+
+Benchmark #63:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5318.84 MB/s
+---
+SSE       AVERAGE:   4976.51 MB/s
+
+Benchmark #64:
+SSE       Copy:      4626.95 MB/s
+SSE       Scale:     4617.00 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5313.36 MB/s
+---
+SSE       AVERAGE:   4977.05 MB/s
+
+Benchmark #65:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5353.10 MB/s
+---
+SSE       AVERAGE:   4988.16 MB/s
+
+Benchmark #66:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4624.46 MB/s
+SSE       Add:       5359.78 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4982.54 MB/s
+
+Benchmark #67:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4985.30 MB/s
+
+Benchmark #68:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4624.46 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5349.76 MB/s
+---
+SSE       AVERAGE:   4986.29 MB/s
+
+Benchmark #69:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5354.21 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4979.98 MB/s
+
+Benchmark #70:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5346.43 MB/s
+---
+SSE       AVERAGE:   4985.01 MB/s
+
+Benchmark #71:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4620.73 MB/s
+SSE       Add:       5325.44 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4977.02 MB/s
+
+Benchmark #72:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4618.24 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4974.44 MB/s
+
+Benchmark #73:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4982.20 MB/s
+
+Benchmark #74:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5359.78 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4986.39 MB/s
+
+Benchmark #75:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4617.00 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4980.61 MB/s
+
+Benchmark #76:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4625.71 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5310.08 MB/s
+---
+SSE       AVERAGE:   4974.09 MB/s
+
+Benchmark #77:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5324.34 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4976.81 MB/s
+
+Benchmark #78:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5308.98 MB/s
+---
+SSE       AVERAGE:   4970.71 MB/s
+
+Benchmark #79:
+SSE       Copy:      4628.20 MB/s
+SSE       Scale:     4621.97 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5328.74 MB/s
+---
+SSE       AVERAGE:   4984.12 MB/s
+
+Benchmark #80:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5313.36 MB/s
+---
+SSE       AVERAGE:   4979.71 MB/s
+
+Benchmark #81:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4977.89 MB/s
+
+Benchmark #82:
+SSE       Copy:      4629.44 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5318.84 MB/s
+---
+SSE       AVERAGE:   4981.81 MB/s
+
+Benchmark #83:
+SSE       Copy:      4598.47 MB/s
+SSE       Scale:     4644.46 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5318.84 MB/s
+---
+SSE       AVERAGE:   4977.61 MB/s
+
+Benchmark #84:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5362.01 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4984.80 MB/s
+
+Benchmark #85:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5330.95 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4981.44 MB/s
+
+Benchmark #86:
+SSE       Copy:      4613.28 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5316.65 MB/s
+---
+SSE       AVERAGE:   4979.99 MB/s
+
+Benchmark #87:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5354.21 MB/s
+SSE       Triad:     5343.11 MB/s
+---
+SSE       AVERAGE:   4983.79 MB/s
+
+Benchmark #88:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5365.36 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4991.72 MB/s
+
+Benchmark #89:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4657.05 MB/s
+SSE       Add:       5333.15 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4983.13 MB/s
+
+Benchmark #90:
+SSE       Copy:      4630.69 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5336.47 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4982.82 MB/s
+
+Benchmark #91:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4981.56 MB/s
+
+Benchmark #92:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4612.05 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5322.14 MB/s
+---
+SSE       AVERAGE:   4971.65 MB/s
+
+Benchmark #93:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5354.21 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4981.60 MB/s
+
+Benchmark #94:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4658.32 MB/s
+SSE       Add:       5363.12 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4991.77 MB/s
+
+Benchmark #95:
+SSE       Copy:      4594.78 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4978.00 MB/s
+
+Benchmark #96:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5308.98 MB/s
+---
+SSE       AVERAGE:   4976.76 MB/s
+
+Benchmark #97:
+SSE       Copy:      4598.47 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5362.01 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4979.19 MB/s
+
+Benchmark #98:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5321.04 MB/s
+---
+SSE       AVERAGE:   4981.78 MB/s
+
+Benchmark #99:
+SSE       Copy:      4599.70 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5336.47 MB/s
+SSE       Triad:     5343.11 MB/s
+---
+SSE       AVERAGE:   4976.56 MB/s
+
+Benchmark #100:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5363.12 MB/s
+SSE       Triad:     5345.32 MB/s
+---
+SSE       AVERAGE:   4991.54 MB/s
+
+Benchmark #101:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4985.25 MB/s
+
+Benchmark #102:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5348.65 MB/s
+---
+SSE       AVERAGE:   4982.17 MB/s
+
+Benchmark #103:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4617.00 MB/s
+SSE       Add:       5359.78 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4981.49 MB/s
+
+Benchmark #104:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4660.84 MB/s
+SSE       Add:       5372.07 MB/s
+SSE       Triad:     5315.55 MB/s
+---
+SSE       AVERAGE:   4988.27 MB/s
+
+Benchmark #105:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4986.75 MB/s
+
+Benchmark #106:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5342.00 MB/s
+---
+SSE       AVERAGE:   4987.40 MB/s
+
+Benchmark #107:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4646.98 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4985.47 MB/s
+
+Benchmark #108:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5337.57 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4981.09 MB/s
+
+Benchmark #109:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4983.45 MB/s
+
+Benchmark #110:
+SSE       Copy:      4598.47 MB/s
+SSE       Scale:     4620.73 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5315.55 MB/s
+---
+SSE       AVERAGE:   4971.96 MB/s
+
+Benchmark #111:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5332.05 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4982.09 MB/s
+
+Benchmark #112:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5345.32 MB/s
+---
+SSE       AVERAGE:   4982.56 MB/s
+
+Benchmark #113:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5364.24 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4985.70 MB/s
+
+Benchmark #114:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4624.46 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4976.54 MB/s
+
+Benchmark #115:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5365.36 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4985.82 MB/s
+
+Benchmark #116:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5385.54 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4990.09 MB/s
+
+Benchmark #117:
+SSE       Copy:      4594.78 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5343.11 MB/s
+---
+SSE       AVERAGE:   4977.64 MB/s
+
+Benchmark #118:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4974.93 MB/s
+
+Benchmark #119:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5300.25 MB/s
+---
+SSE       AVERAGE:   4977.04 MB/s
+
+Benchmark #120:
+SSE       Copy:      4625.71 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5363.12 MB/s
+SSE       Triad:     5319.94 MB/s
+---
+SSE       AVERAGE:   4984.87 MB/s
+
+Benchmark #121:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4614.52 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4977.25 MB/s
+
+Benchmark #122:
+SSE       Copy:      4597.24 MB/s
+SSE       Scale:     4620.73 MB/s
+SSE       Add:       5374.31 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4979.15 MB/s
+
+Benchmark #123:
+SSE       Copy:      4626.95 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5370.95 MB/s
+SSE       Triad:     5315.55 MB/s
+---
+SSE       AVERAGE:   4988.85 MB/s
+
+Benchmark #124:
+SSE       Copy:      4625.71 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5312.27 MB/s
+---
+SSE       AVERAGE:   4978.84 MB/s
+
+Benchmark #125:
+SSE       Copy:      4597.24 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5321.04 MB/s
+---
+SSE       AVERAGE:   4975.97 MB/s
+
+Benchmark #126:
+SSE       Copy:      4631.94 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5321.04 MB/s
+---
+SSE       AVERAGE:   4986.31 MB/s
+
+Benchmark #127:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5363.12 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4988.58 MB/s
+
+Benchmark #128:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5343.11 MB/s
+---
+SSE       AVERAGE:   4980.10 MB/s
+
+Benchmark #129:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5383.29 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4992.46 MB/s
+
+Benchmark #130:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4982.61 MB/s
+
+Benchmark #131:
+SSE       Copy:      4603.39 MB/s
+SSE       Scale:     4652.01 MB/s
+SSE       Add:       5367.59 MB/s
+SSE       Triad:     5346.43 MB/s
+---
+SSE       AVERAGE:   4992.36 MB/s
+
+Benchmark #132:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4624.46 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4983.07 MB/s
+
+Benchmark #133:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4978.11 MB/s
+
+Benchmark #134:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5322.14 MB/s
+---
+SSE       AVERAGE:   4976.39 MB/s
+
+Benchmark #135:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5327.64 MB/s
+---
+SSE       AVERAGE:   4977.73 MB/s
+
+Benchmark #136:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5318.84 MB/s
+---
+SSE       AVERAGE:   4981.09 MB/s
+
+Benchmark #137:
+SSE       Copy:      4630.69 MB/s
+SSE       Scale:     4648.23 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4989.07 MB/s
+
+Benchmark #138:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4984.92 MB/s
+
+Benchmark #139:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5335.36 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4979.71 MB/s
+
+Benchmark #140:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4979.61 MB/s
+
+Benchmark #141:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5342.00 MB/s
+---
+SSE       AVERAGE:   4983.87 MB/s
+
+Benchmark #142:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4613.28 MB/s
+SSE       Add:       5334.26 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4971.91 MB/s
+
+Benchmark #143:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4644.46 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5350.87 MB/s
+---
+SSE       AVERAGE:   4986.51 MB/s
+
+Benchmark #144:
+SSE       Copy:      4586.19 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5338.68 MB/s
+SSE       Triad:     5321.04 MB/s
+---
+SSE       AVERAGE:   4968.22 MB/s
+
+Benchmark #145:
+SSE       Copy:      4634.44 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5337.57 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4983.93 MB/s
+
+Benchmark #146:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5333.15 MB/s
+SSE       Triad:     5302.43 MB/s
+---
+SSE       AVERAGE:   4972.38 MB/s
+
+Benchmark #147:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5360.89 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4985.65 MB/s
+
+Benchmark #148:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5359.78 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4981.37 MB/s
+
+Benchmark #149:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4648.23 MB/s
+SSE       Add:       5336.47 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4980.93 MB/s
+
+Benchmark #150:
+SSE       Copy:      4625.71 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4988.44 MB/s
+
+Benchmark #151:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5345.32 MB/s
+---
+SSE       AVERAGE:   4989.20 MB/s
+
+Benchmark #152:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5349.76 MB/s
+---
+SSE       AVERAGE:   4982.62 MB/s
+
+Benchmark #153:
+SSE       Copy:      4628.20 MB/s
+SSE       Scale:     4607.10 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4979.27 MB/s
+
+Benchmark #154:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4652.01 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4983.14 MB/s
+
+Benchmark #155:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5342.00 MB/s
+---
+SSE       AVERAGE:   4983.42 MB/s
+
+Benchmark #156:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5359.78 MB/s
+SSE       Triad:     5318.84 MB/s
+---
+SSE       AVERAGE:   4982.52 MB/s
+
+Benchmark #157:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4625.71 MB/s
+SSE       Add:       5359.78 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4982.05 MB/s
+
+Benchmark #158:
+SSE       Copy:      4593.55 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5368.71 MB/s
+SSE       Triad:     5360.89 MB/s
+---
+SSE       AVERAGE:   4988.15 MB/s
+
+Benchmark #159:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5336.47 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4980.04 MB/s
+
+Benchmark #160:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5354.21 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4980.67 MB/s
+
+Benchmark #161:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5333.15 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4979.09 MB/s
+
+Benchmark #162:
+SSE       Copy:      4625.71 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5360.89 MB/s
+SSE       Triad:     5328.74 MB/s
+---
+SSE       AVERAGE:   4985.57 MB/s
+
+Benchmark #163:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4613.28 MB/s
+SSE       Add:       5363.12 MB/s
+SSE       Triad:     5343.11 MB/s
+---
+SSE       AVERAGE:   4980.11 MB/s
+
+Benchmark #164:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5359.78 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4983.63 MB/s
+
+Benchmark #165:
+SSE       Copy:      4592.32 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4977.66 MB/s
+
+Benchmark #166:
+SSE       Copy:      4630.69 MB/s
+SSE       Scale:     4615.76 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5322.14 MB/s
+---
+SSE       AVERAGE:   4981.81 MB/s
+
+Benchmark #167:
+SSE       Copy:      4597.24 MB/s
+SSE       Scale:     4617.00 MB/s
+SSE       Add:       5325.44 MB/s
+SSE       Triad:     5319.94 MB/s
+---
+SSE       AVERAGE:   4964.91 MB/s
+
+Benchmark #168:
+SSE       Copy:      4635.69 MB/s
+SSE       Scale:     4649.49 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5313.36 MB/s
+---
+SSE       AVERAGE:   4985.69 MB/s
+
+Benchmark #169:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5354.21 MB/s
+SSE       Triad:     5327.64 MB/s
+---
+SSE       AVERAGE:   4984.57 MB/s
+
+Benchmark #170:
+SSE       Copy:      4624.46 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5337.57 MB/s
+SSE       Triad:     5326.54 MB/s
+---
+SSE       AVERAGE:   4980.44 MB/s
+
+Benchmark #171:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4609.57 MB/s
+SSE       Add:       5363.12 MB/s
+SSE       Triad:     5345.32 MB/s
+---
+SSE       AVERAGE:   4984.07 MB/s
+
+Benchmark #172:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4646.98 MB/s
+SSE       Add:       5326.54 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4976.24 MB/s
+
+Benchmark #173:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4649.49 MB/s
+SSE       Add:       5365.36 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4992.05 MB/s
+
+Benchmark #174:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4619.49 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4982.96 MB/s
+
+Benchmark #175:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5337.57 MB/s
+SSE       Triad:     5326.54 MB/s
+---
+SSE       AVERAGE:   4977.66 MB/s
+
+Benchmark #176:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5366.47 MB/s
+SSE       Triad:     5322.14 MB/s
+---
+SSE       AVERAGE:   4982.55 MB/s
+
+Benchmark #177:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5347.54 MB/s
+---
+SSE       AVERAGE:   4989.61 MB/s
+
+Benchmark #178:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4619.49 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5345.32 MB/s
+---
+SSE       AVERAGE:   4981.44 MB/s
+
+Benchmark #179:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5318.84 MB/s
+---
+SSE       AVERAGE:   4977.94 MB/s
+
+Benchmark #180:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4619.49 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4977.77 MB/s
+
+Benchmark #181:
+SSE       Copy:      4635.69 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4989.79 MB/s
+
+Benchmark #182:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5354.21 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4985.98 MB/s
+
+Benchmark #183:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4973.88 MB/s
+
+Benchmark #184:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4620.73 MB/s
+SSE       Add:       5359.78 MB/s
+SSE       Triad:     5326.54 MB/s
+---
+SSE       AVERAGE:   4976.99 MB/s
+
+Benchmark #185:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5373.19 MB/s
+SSE       Triad:     5314.46 MB/s
+---
+SSE       AVERAGE:   4986.64 MB/s
+
+Benchmark #186:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5365.36 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4985.87 MB/s
+
+Benchmark #187:
+SSE       Copy:      4638.19 MB/s
+SSE       Scale:     4625.71 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4987.81 MB/s
+
+Benchmark #188:
+SSE       Copy:      4584.97 MB/s
+SSE       Scale:     4659.58 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4980.50 MB/s
+
+Benchmark #189:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4652.01 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5348.65 MB/s
+---
+SSE       AVERAGE:   4993.31 MB/s
+
+Benchmark #190:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5328.74 MB/s
+---
+SSE       AVERAGE:   4982.60 MB/s
+
+Benchmark #191:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5337.57 MB/s
+SSE       Triad:     5321.04 MB/s
+---
+SSE       AVERAGE:   4977.52 MB/s
+
+Benchmark #192:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5362.01 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4983.85 MB/s
+
+Benchmark #193:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5334.26 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4978.85 MB/s
+
+Benchmark #194:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5365.36 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4982.57 MB/s
+
+Benchmark #195:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4984.60 MB/s
+
+Benchmark #196:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4981.17 MB/s
+
+Benchmark #197:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4982.36 MB/s
+
+Benchmark #198:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5322.14 MB/s
+---
+SSE       AVERAGE:   4980.67 MB/s
+
+Benchmark #199:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5330.95 MB/s
+SSE       Triad:     5322.14 MB/s
+---
+SSE       AVERAGE:   4977.06 MB/s
+
+Benchmark #200:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4981.66 MB/s
+
+Benchmark #201:
+SSE       Copy:      4581.30 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5332.05 MB/s
+SSE       Triad:     5345.32 MB/s
+---
+SSE       AVERAGE:   4972.03 MB/s
+
+Benchmark #202:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5370.95 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4989.25 MB/s
+
+Benchmark #203:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5345.32 MB/s
+---
+SSE       AVERAGE:   4988.99 MB/s
+
+Benchmark #204:
+SSE       Copy:      4596.01 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4979.86 MB/s
+
+Benchmark #205:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4977.71 MB/s
+
+Benchmark #206:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5327.64 MB/s
+---
+SSE       AVERAGE:   4984.27 MB/s
+
+Benchmark #207:
+SSE       Copy:      4594.78 MB/s
+SSE       Scale:     4620.73 MB/s
+SSE       Add:       5369.83 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4979.35 MB/s
+
+Benchmark #208:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4614.52 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5328.74 MB/s
+---
+SSE       AVERAGE:   4977.64 MB/s
+
+Benchmark #209:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4984.00 MB/s
+
+Benchmark #210:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5311.17 MB/s
+---
+SSE       AVERAGE:   4977.21 MB/s
+
+Benchmark #211:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4982.84 MB/s
+
+Benchmark #212:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4982.41 MB/s
+
+Benchmark #213:
+SSE       Copy:      4629.44 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5326.54 MB/s
+---
+SSE       AVERAGE:   4986.26 MB/s
+
+Benchmark #214:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5318.84 MB/s
+---
+SSE       AVERAGE:   4980.60 MB/s
+
+Benchmark #215:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5336.47 MB/s
+SSE       Triad:     5312.27 MB/s
+---
+SSE       AVERAGE:   4971.00 MB/s
+
+Benchmark #216:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4981.59 MB/s
+
+Benchmark #217:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4607.10 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4974.68 MB/s
+
+Benchmark #218:
+SSE       Copy:      4633.19 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4987.15 MB/s
+
+Benchmark #219:
+SSE       Copy:      4625.71 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4987.64 MB/s
+
+Benchmark #220:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4652.01 MB/s
+SSE       Add:       5354.21 MB/s
+SSE       Triad:     5356.43 MB/s
+---
+SSE       AVERAGE:   4996.47 MB/s
+
+Benchmark #221:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5362.01 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4984.55 MB/s
+
+Benchmark #222:
+SSE       Copy:      4626.95 MB/s
+SSE       Scale:     4614.52 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5346.43 MB/s
+---
+SSE       AVERAGE:   4983.58 MB/s
+
+Benchmark #223:
+SSE       Copy:      4598.47 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5370.95 MB/s
+SSE       Triad:     5318.84 MB/s
+---
+SSE       AVERAGE:   4982.55 MB/s
+
+Benchmark #224:
+SSE       Copy:      4599.70 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5319.94 MB/s
+---
+SSE       AVERAGE:   4977.45 MB/s
+
+Benchmark #225:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5354.21 MB/s
+SSE       Triad:     5322.14 MB/s
+---
+SSE       AVERAGE:   4980.11 MB/s
+
+Benchmark #226:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5335.36 MB/s
+SSE       Triad:     5321.04 MB/s
+---
+SSE       AVERAGE:   4976.34 MB/s
+
+Benchmark #227:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4982.56 MB/s
+
+Benchmark #228:
+SSE       Copy:      4629.44 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5312.27 MB/s
+---
+SSE       AVERAGE:   4978.91 MB/s
+
+Benchmark #229:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4984.88 MB/s
+
+Benchmark #230:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5364.24 MB/s
+SSE       Triad:     5322.14 MB/s
+---
+SSE       AVERAGE:   4985.42 MB/s
+
+Benchmark #231:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5327.64 MB/s
+---
+SSE       AVERAGE:   4979.44 MB/s
+
+Benchmark #232:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4982.37 MB/s
+
+Benchmark #233:
+SSE       Copy:      4613.28 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5315.55 MB/s
+---
+SSE       AVERAGE:   4978.29 MB/s
+
+Benchmark #234:
+SSE       Copy:      4597.24 MB/s
+SSE       Scale:     4614.52 MB/s
+SSE       Add:       5333.15 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4967.31 MB/s
+
+Benchmark #235:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4654.53 MB/s
+SSE       Add:       5317.75 MB/s
+SSE       Triad:     5346.43 MB/s
+---
+SSE       AVERAGE:   4984.55 MB/s
+
+Benchmark #236:
+SSE       Copy:      4629.44 MB/s
+SSE       Scale:     4624.46 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4982.82 MB/s
+
+Benchmark #237:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4617.00 MB/s
+SSE       Add:       5375.43 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4983.48 MB/s
+
+Benchmark #238:
+SSE       Copy:      4625.71 MB/s
+SSE       Scale:     4624.46 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4984.65 MB/s
+
+Benchmark #239:
+SSE       Copy:      4596.01 MB/s
+SSE       Scale:     4624.46 MB/s
+SSE       Add:       5337.57 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4970.59 MB/s
+
+Benchmark #240:
+SSE       Copy:      4629.44 MB/s
+SSE       Scale:     4621.97 MB/s
+SSE       Add:       5337.57 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4980.81 MB/s
+
+Benchmark #241:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5337.57 MB/s
+SSE       Triad:     5348.65 MB/s
+---
+SSE       AVERAGE:   4985.36 MB/s
+
+Benchmark #242:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4644.46 MB/s
+SSE       Add:       5359.78 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4986.61 MB/s
+
+Benchmark #243:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4624.46 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5345.32 MB/s
+---
+SSE       AVERAGE:   4983.62 MB/s
+
+Benchmark #244:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4618.24 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5326.54 MB/s
+---
+SSE       AVERAGE:   4978.82 MB/s
+
+Benchmark #245:
+SSE       Copy:      4599.70 MB/s
+SSE       Scale:     4617.00 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4974.62 MB/s
+
+Benchmark #246:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4659.58 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4988.11 MB/s
+
+Benchmark #247:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5326.54 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4976.20 MB/s
+
+Benchmark #248:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4614.52 MB/s
+SSE       Add:       5363.12 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4978.52 MB/s
+
+Benchmark #249:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4625.71 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5315.55 MB/s
+---
+SSE       AVERAGE:   4978.00 MB/s
+
+Benchmark #250:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5335.36 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4980.74 MB/s
+
+Benchmark #251:
+SSE       Copy:      4603.39 MB/s
+SSE       Scale:     4621.97 MB/s
+SSE       Add:       5333.15 MB/s
+SSE       Triad:     5328.74 MB/s
+---
+SSE       AVERAGE:   4971.82 MB/s
+
+Benchmark #252:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5330.95 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4977.92 MB/s
+
+Benchmark #253:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4978.53 MB/s
+
+Benchmark #254:
+SSE       Copy:      4596.01 MB/s
+SSE       Scale:     4646.98 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5316.65 MB/s
+---
+SSE       AVERAGE:   4977.63 MB/s
+
+Benchmark #255:
+SSE       Copy:      4603.39 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5366.47 MB/s
+SSE       Triad:     5317.75 MB/s
+---
+SSE       AVERAGE:   4982.39 MB/s
+
+Benchmark #256:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5351.98 MB/s
+---
+SSE       AVERAGE:   4991.26 MB/s
+
+Benchmark #257:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5362.01 MB/s
+SSE       Triad:     5321.04 MB/s
+---
+SSE       AVERAGE:   4982.06 MB/s
+
+Benchmark #258:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5327.64 MB/s
+---
+SSE       AVERAGE:   4979.72 MB/s
+
+Benchmark #259:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4982.48 MB/s
+
+Benchmark #260:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4979.06 MB/s
+
+Benchmark #261:
+SSE       Copy:      4628.20 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4988.10 MB/s
+
+Benchmark #262:
+SSE       Copy:      4591.09 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5364.24 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4979.56 MB/s
+
+Benchmark #263:
+SSE       Copy:      4613.28 MB/s
+SSE       Scale:     4649.49 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5354.21 MB/s
+---
+SSE       AVERAGE:   4991.96 MB/s
+
+Benchmark #264:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4617.00 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4978.88 MB/s
+
+Benchmark #265:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4987.34 MB/s
+
+Benchmark #266:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4982.05 MB/s
+
+Benchmark #267:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4648.23 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5316.65 MB/s
+---
+SSE       AVERAGE:   4981.49 MB/s
+
+Benchmark #268:
+SSE       Copy:      4626.95 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4986.04 MB/s
+
+Benchmark #269:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5354.21 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4982.47 MB/s
+
+Benchmark #270:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5315.55 MB/s
+---
+SSE       AVERAGE:   4982.42 MB/s
+
+Benchmark #271:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5323.24 MB/s
+SSE       Triad:     5326.54 MB/s
+---
+SSE       AVERAGE:   4978.11 MB/s
+
+Benchmark #272:
+SSE       Copy:      4596.01 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4976.17 MB/s
+
+Benchmark #273:
+SSE       Copy:      4594.78 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5354.21 MB/s
+---
+SSE       AVERAGE:   4985.07 MB/s
+
+Benchmark #274:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5347.54 MB/s
+---
+SSE       AVERAGE:   4991.70 MB/s
+
+Benchmark #275:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5345.32 MB/s
+---
+SSE       AVERAGE:   4985.48 MB/s
+
+Benchmark #276:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4653.27 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5317.75 MB/s
+---
+SSE       AVERAGE:   4985.00 MB/s
+
+Benchmark #277:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5327.64 MB/s
+---
+SSE       AVERAGE:   4984.08 MB/s
+
+Benchmark #278:
+SSE       Copy:      4613.28 MB/s
+SSE       Scale:     4619.49 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5342.00 MB/s
+---
+SSE       AVERAGE:   4979.47 MB/s
+
+Benchmark #279:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5364.24 MB/s
+SSE       Triad:     5316.65 MB/s
+---
+SSE       AVERAGE:   4983.41 MB/s
+
+Benchmark #280:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5368.71 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4992.03 MB/s
+
+Benchmark #281:
+SSE       Copy:      4594.78 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5330.95 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4972.78 MB/s
+
+Benchmark #282:
+SSE       Copy:      4634.44 MB/s
+SSE       Scale:     4618.24 MB/s
+SSE       Add:       5336.47 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4981.13 MB/s
+
+Benchmark #283:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4603.39 MB/s
+SSE       Add:       5370.95 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4979.48 MB/s
+
+Benchmark #284:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4619.49 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5346.43 MB/s
+---
+SSE       AVERAGE:   4983.60 MB/s
+
+Benchmark #285:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4978.29 MB/s
+
+Benchmark #286:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4625.71 MB/s
+SSE       Add:       5333.15 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4974.23 MB/s
+
+Benchmark #287:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4983.49 MB/s
+
+Benchmark #288:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4621.97 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5346.43 MB/s
+---
+SSE       AVERAGE:   4982.80 MB/s
+
+Benchmark #289:
+SSE       Copy:      4629.44 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5347.54 MB/s
+---
+SSE       AVERAGE:   4989.08 MB/s
+
+Benchmark #290:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4621.97 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4978.42 MB/s
+
+Benchmark #291:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5327.64 MB/s
+---
+SSE       AVERAGE:   4981.64 MB/s
+
+Benchmark #292:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5367.59 MB/s
+SSE       Triad:     5346.43 MB/s
+---
+SSE       AVERAGE:   4989.19 MB/s
+
+Benchmark #293:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5316.65 MB/s
+---
+SSE       AVERAGE:   4975.10 MB/s
+
+Benchmark #294:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4619.49 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4980.10 MB/s
+
+Benchmark #295:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4657.05 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5364.24 MB/s
+---
+SSE       AVERAGE:   4995.50 MB/s
+
+Benchmark #296:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4977.86 MB/s
+
+Benchmark #297:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4609.57 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4973.58 MB/s
+
+Benchmark #298:
+SSE       Copy:      4624.46 MB/s
+SSE       Scale:     4615.76 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5342.00 MB/s
+---
+SSE       AVERAGE:   4983.83 MB/s
+
+Benchmark #299:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4615.76 MB/s
+SSE       Add:       5335.36 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4974.49 MB/s
+
+Benchmark #300:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4617.00 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4978.64 MB/s
+
+Benchmark #301:
+SSE       Copy:      4634.44 MB/s
+SSE       Scale:     4646.98 MB/s
+SSE       Add:       5317.75 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4982.53 MB/s
+
+Benchmark #302:
+SSE       Copy:      4597.24 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5328.74 MB/s
+---
+SSE       AVERAGE:   4979.35 MB/s
+
+Benchmark #303:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5319.94 MB/s
+---
+SSE       AVERAGE:   4983.45 MB/s
+
+Benchmark #304:
+SSE       Copy:      4598.47 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5307.89 MB/s
+---
+SSE       AVERAGE:   4968.83 MB/s
+
+Benchmark #305:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4983.64 MB/s
+
+Benchmark #306:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4982.73 MB/s
+
+Benchmark #307:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5367.59 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4986.79 MB/s
+
+Benchmark #308:
+SSE       Copy:      4628.20 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5328.74 MB/s
+---
+SSE       AVERAGE:   4985.88 MB/s
+
+Benchmark #309:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4625.71 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4978.89 MB/s
+
+Benchmark #310:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5350.87 MB/s
+---
+SSE       AVERAGE:   4986.67 MB/s
+
+Benchmark #311:
+SSE       Copy:      4596.01 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4979.06 MB/s
+
+Benchmark #312:
+SSE       Copy:      4625.71 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5372.07 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4987.85 MB/s
+
+Benchmark #313:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5306.80 MB/s
+---
+SSE       AVERAGE:   4977.45 MB/s
+
+Benchmark #314:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5324.34 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4977.50 MB/s
+
+Benchmark #315:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5383.29 MB/s
+SSE       Triad:     5298.07 MB/s
+---
+SSE       AVERAGE:   4980.42 MB/s
+
+Benchmark #316:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4646.98 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4986.10 MB/s
+
+Benchmark #317:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5377.67 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4987.42 MB/s
+
+Benchmark #318:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4621.97 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5327.64 MB/s
+---
+SSE       AVERAGE:   4978.05 MB/s
+
+Benchmark #319:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4624.46 MB/s
+SSE       Add:       5359.78 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4984.36 MB/s
+
+Benchmark #320:
+SSE       Copy:      4593.55 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5316.65 MB/s
+---
+SSE       AVERAGE:   4972.49 MB/s
+
+Benchmark #321:
+SSE       Copy:      4629.44 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5364.24 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4990.63 MB/s
+
+Benchmark #322:
+SSE       Copy:      4626.95 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4982.45 MB/s
+
+Benchmark #323:
+SSE       Copy:      4635.69 MB/s
+SSE       Scale:     4654.53 MB/s
+SSE       Add:       5354.21 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4995.50 MB/s
+
+Benchmark #324:
+SSE       Copy:      4613.28 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4981.81 MB/s
+
+Benchmark #325:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4979.45 MB/s
+
+Benchmark #326:
+SSE       Copy:      4596.01 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5321.04 MB/s
+---
+SSE       AVERAGE:   4978.02 MB/s
+
+Benchmark #327:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5348.65 MB/s
+---
+SSE       AVERAGE:   4983.30 MB/s
+
+Benchmark #328:
+SSE       Copy:      4629.44 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5334.26 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4985.70 MB/s
+
+Benchmark #329:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4980.34 MB/s
+
+Benchmark #330:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5360.89 MB/s
+SSE       Triad:     5343.11 MB/s
+---
+SSE       AVERAGE:   4983.90 MB/s
+
+Benchmark #331:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5338.68 MB/s
+SSE       Triad:     5347.54 MB/s
+---
+SSE       AVERAGE:   4985.04 MB/s
+
+Benchmark #332:
+SSE       Copy:      4592.32 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5324.34 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4969.92 MB/s
+
+Benchmark #333:
+SSE       Copy:      4626.95 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4983.52 MB/s
+
+Benchmark #334:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4987.01 MB/s
+
+Benchmark #335:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4983.06 MB/s
+
+Benchmark #336:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5366.47 MB/s
+SSE       Triad:     5345.32 MB/s
+---
+SSE       AVERAGE:   4988.98 MB/s
+
+Benchmark #337:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4981.89 MB/s
+
+Benchmark #338:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5325.44 MB/s
+SSE       Triad:     5342.00 MB/s
+---
+SSE       AVERAGE:   4978.48 MB/s
+
+Benchmark #339:
+SSE       Copy:      4613.28 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5328.74 MB/s
+---
+SSE       AVERAGE:   4983.26 MB/s
+
+Benchmark #340:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4620.73 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4975.71 MB/s
+
+Benchmark #341:
+SSE       Copy:      4588.64 MB/s
+SSE       Scale:     4620.73 MB/s
+SSE       Add:       5374.31 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4979.76 MB/s
+
+Benchmark #342:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4657.05 MB/s
+SSE       Add:       5324.34 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4983.49 MB/s
+
+Benchmark #343:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4982.75 MB/s
+
+Benchmark #344:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4613.28 MB/s
+SSE       Add:       5364.24 MB/s
+SSE       Triad:     5326.54 MB/s
+---
+SSE       AVERAGE:   4976.56 MB/s
+
+Benchmark #345:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4620.73 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4980.57 MB/s
+
+Benchmark #346:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4977.30 MB/s
+
+Benchmark #347:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4650.75 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4991.86 MB/s
+
+Benchmark #348:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4650.75 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4983.94 MB/s
+
+Benchmark #349:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4984.53 MB/s
+
+Benchmark #350:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5321.04 MB/s
+---
+SSE       AVERAGE:   4977.83 MB/s
+
+Benchmark #351:
+SSE       Copy:      4603.39 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5363.12 MB/s
+SSE       Triad:     5321.04 MB/s
+---
+SSE       AVERAGE:   4981.44 MB/s
+
+Benchmark #352:
+SSE       Copy:      4589.87 MB/s
+SSE       Scale:     4660.84 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4980.36 MB/s
+
+Benchmark #353:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4618.24 MB/s
+SSE       Add:       5334.26 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4977.60 MB/s
+
+Benchmark #354:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4617.00 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4976.39 MB/s
+
+Benchmark #355:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5337.57 MB/s
+SSE       Triad:     5315.55 MB/s
+---
+SSE       AVERAGE:   4975.54 MB/s
+
+Benchmark #356:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5363.12 MB/s
+SSE       Triad:     5316.65 MB/s
+---
+SSE       AVERAGE:   4983.42 MB/s
+
+Benchmark #357:
+SSE       Copy:      4628.20 MB/s
+SSE       Scale:     4648.23 MB/s
+SSE       Add:       5332.05 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4988.17 MB/s
+
+Benchmark #358:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4618.24 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4975.90 MB/s
+
+Benchmark #359:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5364.24 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4989.50 MB/s
+
+Benchmark #360:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5343.11 MB/s
+---
+SSE       AVERAGE:   4990.81 MB/s
+
+Benchmark #361:
+SSE       Copy:      4636.94 MB/s
+SSE       Scale:     4625.71 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5319.94 MB/s
+---
+SSE       AVERAGE:   4983.64 MB/s
+
+Benchmark #362:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4648.23 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5353.10 MB/s
+---
+SSE       AVERAGE:   4988.13 MB/s
+
+Benchmark #363:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4982.40 MB/s
+
+Benchmark #364:
+SSE       Copy:      4630.69 MB/s
+SSE       Scale:     4625.71 MB/s
+SSE       Add:       5360.89 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4985.68 MB/s
+
+Benchmark #365:
+SSE       Copy:      4599.70 MB/s
+SSE       Scale:     4649.49 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5347.54 MB/s
+---
+SSE       AVERAGE:   4984.41 MB/s
+
+Benchmark #366:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4646.98 MB/s
+SSE       Add:       5363.12 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4990.75 MB/s
+
+Benchmark #367:
+SSE       Copy:      4628.20 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5359.78 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4986.19 MB/s
+
+Benchmark #368:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5334.26 MB/s
+SSE       Triad:     5310.08 MB/s
+---
+SSE       AVERAGE:   4973.63 MB/s
+
+Benchmark #369:
+SSE       Copy:      4628.20 MB/s
+SSE       Scale:     4612.05 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5315.55 MB/s
+---
+SSE       AVERAGE:   4976.11 MB/s
+
+Benchmark #370:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4644.46 MB/s
+SSE       Add:       5333.15 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4983.70 MB/s
+
+Benchmark #371:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4613.28 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4975.02 MB/s
+
+Benchmark #372:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4981.69 MB/s
+
+Benchmark #373:
+SSE       Copy:      4594.78 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4980.81 MB/s
+
+Benchmark #374:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4982.84 MB/s
+
+Benchmark #375:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4988.26 MB/s
+
+Benchmark #376:
+SSE       Copy:      4603.39 MB/s
+SSE       Scale:     4648.23 MB/s
+SSE       Add:       5318.84 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4977.29 MB/s
+
+Benchmark #377:
+SSE       Copy:      4613.28 MB/s
+SSE       Scale:     4650.75 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5348.65 MB/s
+---
+SSE       AVERAGE:   4988.95 MB/s
+
+Benchmark #378:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4983.22 MB/s
+
+Benchmark #379:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4605.86 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4971.82 MB/s
+
+Benchmark #380:
+SSE       Copy:      4625.71 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5334.26 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4982.48 MB/s
+
+Benchmark #381:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4983.21 MB/s
+
+Benchmark #382:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5353.10 MB/s
+---
+SSE       AVERAGE:   4988.88 MB/s
+
+Benchmark #383:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4980.27 MB/s
+
+Benchmark #384:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5311.17 MB/s
+---
+SSE       AVERAGE:   4979.77 MB/s
+
+Benchmark #385:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4619.49 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4980.63 MB/s
+
+Benchmark #386:
+SSE       Copy:      4613.28 MB/s
+SSE       Scale:     4624.46 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4979.34 MB/s
+
+Benchmark #387:
+SSE       Copy:      4641.95 MB/s
+SSE       Scale:     4607.10 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4982.16 MB/s
+
+Benchmark #388:
+SSE       Copy:      4625.71 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5318.84 MB/s
+---
+SSE       AVERAGE:   4977.16 MB/s
+
+Benchmark #389:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5346.43 MB/s
+---
+SSE       AVERAGE:   4987.46 MB/s
+
+Benchmark #390:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4613.28 MB/s
+SSE       Add:       5334.26 MB/s
+SSE       Triad:     5322.14 MB/s
+---
+SSE       AVERAGE:   4969.81 MB/s
+
+Benchmark #391:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5336.47 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4983.45 MB/s
+
+Benchmark #392:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5308.98 MB/s
+---
+SSE       AVERAGE:   4980.42 MB/s
+
+Benchmark #393:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4625.71 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4982.23 MB/s
+
+Benchmark #394:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5365.36 MB/s
+SSE       Triad:     5317.75 MB/s
+---
+SSE       AVERAGE:   4985.51 MB/s
+
+Benchmark #395:
+SSE       Copy:      4626.95 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4989.26 MB/s
+
+Benchmark #396:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5327.64 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4972.79 MB/s
+
+Benchmark #397:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4984.97 MB/s
+
+Benchmark #398:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5350.87 MB/s
+---
+SSE       AVERAGE:   4984.63 MB/s
+
+Benchmark #399:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4982.03 MB/s
+
+Benchmark #400:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4644.46 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5345.32 MB/s
+---
+SSE       AVERAGE:   4992.02 MB/s
+
+Benchmark #401:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5343.11 MB/s
+---
+SSE       AVERAGE:   4986.67 MB/s
+
+Benchmark #402:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5330.95 MB/s
+SSE       Triad:     5346.43 MB/s
+---
+SSE       AVERAGE:   4980.98 MB/s
+
+Benchmark #403:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4648.23 MB/s
+SSE       Add:       5338.68 MB/s
+SSE       Triad:     5319.94 MB/s
+---
+SSE       AVERAGE:   4981.27 MB/s
+
+Benchmark #404:
+SSE       Copy:      4628.20 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5327.64 MB/s
+---
+SSE       AVERAGE:   4986.96 MB/s
+
+Benchmark #405:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5353.10 MB/s
+---
+SSE       AVERAGE:   4989.25 MB/s
+
+Benchmark #406:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4652.01 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5356.43 MB/s
+---
+SSE       AVERAGE:   4990.69 MB/s
+
+Benchmark #407:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4650.75 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4986.80 MB/s
+
+Benchmark #408:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4984.26 MB/s
+
+Benchmark #409:
+SSE       Copy:      4587.42 MB/s
+SSE       Scale:     4648.23 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5346.43 MB/s
+---
+SSE       AVERAGE:   4981.30 MB/s
+
+Benchmark #410:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4644.46 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4985.57 MB/s
+
+Benchmark #411:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4658.32 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5328.74 MB/s
+---
+SSE       AVERAGE:   4986.23 MB/s
+
+Benchmark #412:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5362.01 MB/s
+SSE       Triad:     5322.14 MB/s
+---
+SSE       AVERAGE:   4980.17 MB/s
+
+Benchmark #413:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5335.36 MB/s
+SSE       Triad:     5319.94 MB/s
+---
+SSE       AVERAGE:   4975.43 MB/s
+
+Benchmark #414:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4612.05 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5326.54 MB/s
+---
+SSE       AVERAGE:   4974.39 MB/s
+
+Benchmark #415:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5362.01 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4981.69 MB/s
+
+Benchmark #416:
+SSE       Copy:      4603.39 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5317.75 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4971.45 MB/s
+
+Benchmark #417:
+SSE       Copy:      4603.39 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4980.39 MB/s
+
+Benchmark #418:
+SSE       Copy:      4607.10 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4979.11 MB/s
+
+Benchmark #419:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4982.73 MB/s
+
+Benchmark #420:
+SSE       Copy:      4640.70 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5365.36 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4995.03 MB/s
+
+Benchmark #421:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4987.54 MB/s
+
+Benchmark #422:
+SSE       Copy:      4597.24 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5336.47 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4975.05 MB/s
+
+Benchmark #423:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5363.12 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4984.43 MB/s
+
+Benchmark #424:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4650.75 MB/s
+SSE       Add:       5374.31 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4994.67 MB/s
+
+Benchmark #425:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4980.38 MB/s
+
+Benchmark #426:
+SSE       Copy:      4634.44 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5372.07 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4994.50 MB/s
+
+Benchmark #427:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4653.27 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5319.94 MB/s
+---
+SSE       AVERAGE:   4982.21 MB/s
+
+Benchmark #428:
+SSE       Copy:      4603.39 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5306.80 MB/s
+---
+SSE       AVERAGE:   4974.64 MB/s
+
+Benchmark #429:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4624.46 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5356.43 MB/s
+---
+SSE       AVERAGE:   4990.41 MB/s
+
+Benchmark #430:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5345.32 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4983.57 MB/s
+
+Benchmark #431:
+SSE       Copy:      4629.44 MB/s
+SSE       Scale:     4653.27 MB/s
+SSE       Add:       5337.57 MB/s
+SSE       Triad:     5346.43 MB/s
+---
+SSE       AVERAGE:   4991.68 MB/s
+
+Benchmark #432:
+SSE       Copy:      4608.33 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5342.00 MB/s
+---
+SSE       AVERAGE:   4981.21 MB/s
+
+Benchmark #433:
+SSE       Copy:      4626.95 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4988.37 MB/s
+
+Benchmark #434:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4621.97 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5319.94 MB/s
+---
+SSE       AVERAGE:   4973.83 MB/s
+
+Benchmark #435:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5360.89 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4987.01 MB/s
+
+Benchmark #436:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4621.97 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4979.53 MB/s
+
+Benchmark #437:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5323.24 MB/s
+---
+SSE       AVERAGE:   4981.01 MB/s
+
+Benchmark #438:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4614.52 MB/s
+SSE       Add:       5353.10 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4975.52 MB/s
+
+Benchmark #439:
+SSE       Copy:      4625.71 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5336.47 MB/s
+SSE       Triad:     5327.64 MB/s
+---
+SSE       AVERAGE:   4980.13 MB/s
+
+Benchmark #440:
+SSE       Copy:      4599.70 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5334.26 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4974.87 MB/s
+
+Benchmark #441:
+SSE       Copy:      4630.69 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5335.36 MB/s
+SSE       Triad:     5337.57 MB/s
+---
+SSE       AVERAGE:   4986.40 MB/s
+
+Benchmark #442:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4641.95 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4984.95 MB/s
+
+Benchmark #443:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4646.98 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5318.84 MB/s
+---
+SSE       AVERAGE:   4984.98 MB/s
+
+Benchmark #444:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4608.33 MB/s
+SSE       Add:       5329.85 MB/s
+SSE       Triad:     5328.74 MB/s
+---
+SSE       AVERAGE:   4969.43 MB/s
+
+Benchmark #445:
+SSE       Copy:      4594.78 MB/s
+SSE       Scale:     4621.97 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4972.43 MB/s
+
+Benchmark #446:
+SSE       Copy:      4597.24 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4974.40 MB/s
+
+Benchmark #447:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4984.89 MB/s
+
+Benchmark #448:
+SSE       Copy:      4635.69 MB/s
+SSE       Scale:     4636.94 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4989.16 MB/s
+
+Benchmark #449:
+SSE       Copy:      4610.81 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5363.12 MB/s
+SSE       Triad:     5346.43 MB/s
+---
+SSE       AVERAGE:   4990.89 MB/s
+
+Benchmark #450:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4979.54 MB/s
+
+Benchmark #451:
+SSE       Copy:      4630.69 MB/s
+SSE       Scale:     4609.57 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5342.00 MB/s
+---
+SSE       AVERAGE:   4980.51 MB/s
+
+Benchmark #452:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5360.89 MB/s
+SSE       Triad:     5322.14 MB/s
+---
+SSE       AVERAGE:   4982.99 MB/s
+
+Benchmark #453:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4617.00 MB/s
+SSE       Add:       5367.59 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4988.01 MB/s
+
+Benchmark #454:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5337.57 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4980.12 MB/s
+
+Benchmark #455:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4655.79 MB/s
+SSE       Add:       5338.68 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4985.64 MB/s
+
+Benchmark #456:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4650.75 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5326.54 MB/s
+---
+SSE       AVERAGE:   4985.45 MB/s
+
+Benchmark #457:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4635.69 MB/s
+SSE       Add:       5354.21 MB/s
+SSE       Triad:     5338.68 MB/s
+---
+SSE       AVERAGE:   4987.64 MB/s
+
+Benchmark #458:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4608.33 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4974.84 MB/s
+
+Benchmark #459:
+SSE       Copy:      4630.69 MB/s
+SSE       Scale:     4646.98 MB/s
+SSE       Add:       5377.67 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4999.89 MB/s
+
+Benchmark #460:
+SSE       Copy:      4588.64 MB/s
+SSE       Scale:     4625.71 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4974.59 MB/s
+
+Benchmark #461:
+SSE       Copy:      4591.09 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4973.17 MB/s
+
+Benchmark #462:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4621.97 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5357.55 MB/s
+---
+SSE       AVERAGE:   4989.51 MB/s
+
+Benchmark #463:
+SSE       Copy:      4624.46 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5333.15 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4978.50 MB/s
+
+Benchmark #464:
+SSE       Copy:      4629.44 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5358.66 MB/s
+---
+SSE       AVERAGE:   4993.50 MB/s
+
+Benchmark #465:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4652.01 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5326.54 MB/s
+---
+SSE       AVERAGE:   4988.90 MB/s
+
+Benchmark #466:
+SSE       Copy:      4623.22 MB/s
+SSE       Scale:     4626.95 MB/s
+SSE       Add:       5364.24 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4986.34 MB/s
+
+Benchmark #467:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4983.70 MB/s
+
+Benchmark #468:
+SSE       Copy:      4613.28 MB/s
+SSE       Scale:     4630.69 MB/s
+SSE       Add:       5355.32 MB/s
+SSE       Triad:     5343.11 MB/s
+---
+SSE       AVERAGE:   4985.60 MB/s
+
+Benchmark #469:
+SSE       Copy:      4600.93 MB/s
+SSE       Scale:     4638.19 MB/s
+SSE       Add:       5357.55 MB/s
+SSE       Triad:     5332.05 MB/s
+---
+SSE       AVERAGE:   4982.18 MB/s
+
+Benchmark #470:
+SSE       Copy:      4596.01 MB/s
+SSE       Scale:     4618.24 MB/s
+SSE       Add:       5333.15 MB/s
+SSE       Triad:     5339.79 MB/s
+---
+SSE       AVERAGE:   4971.80 MB/s
+
+Benchmark #471:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4625.71 MB/s
+SSE       Add:       5373.19 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4986.41 MB/s
+
+Benchmark #472:
+SSE       Copy:      4605.86 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5356.43 MB/s
+SSE       Triad:     5319.94 MB/s
+---
+SSE       AVERAGE:   4978.86 MB/s
+
+Benchmark #473:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4644.46 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4985.13 MB/s
+
+Benchmark #474:
+SSE       Copy:      4597.24 MB/s
+SSE       Scale:     4628.20 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4975.98 MB/s
+
+Benchmark #475:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4986.02 MB/s
+
+Benchmark #476:
+SSE       Copy:      4603.39 MB/s
+SSE       Scale:     4646.98 MB/s
+SSE       Add:       5334.26 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4978.89 MB/s
+
+Benchmark #477:
+SSE       Copy:      4620.73 MB/s
+SSE       Scale:     4629.44 MB/s
+SSE       Add:       5347.54 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4982.72 MB/s
+
+Benchmark #478:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5348.65 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4982.00 MB/s
+
+Benchmark #479:
+SSE       Copy:      4609.57 MB/s
+SSE       Scale:     4650.75 MB/s
+SSE       Add:       5372.07 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4989.18 MB/s
+
+Benchmark #480:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5343.11 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4985.00 MB/s
+
+Benchmark #481:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4619.49 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4983.20 MB/s
+
+Benchmark #482:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4619.49 MB/s
+SSE       Add:       5337.57 MB/s
+SSE       Triad:     5342.00 MB/s
+---
+SSE       AVERAGE:   4975.92 MB/s
+
+Benchmark #483:
+SSE       Copy:      4602.16 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5344.21 MB/s
+---
+SSE       AVERAGE:   4982.92 MB/s
+
+Benchmark #484:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5328.74 MB/s
+---
+SSE       AVERAGE:   4981.31 MB/s
+
+Benchmark #485:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4620.73 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5335.36 MB/s
+---
+SSE       AVERAGE:   4979.12 MB/s
+
+Benchmark #486:
+SSE       Copy:      4615.76 MB/s
+SSE       Scale:     4643.21 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5348.65 MB/s
+---
+SSE       AVERAGE:   4986.85 MB/s
+
+Benchmark #487:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4650.75 MB/s
+SSE       Add:       5346.43 MB/s
+SSE       Triad:     5343.11 MB/s
+---
+SSE       AVERAGE:   4989.94 MB/s
+
+Benchmark #488:
+SSE       Copy:      4618.24 MB/s
+SSE       Scale:     4633.19 MB/s
+SSE       Add:       5340.89 MB/s
+SSE       Triad:     5336.47 MB/s
+---
+SSE       AVERAGE:   4982.20 MB/s
+
+Benchmark #489:
+SSE       Copy:      4617.00 MB/s
+SSE       Scale:     4634.44 MB/s
+SSE       Add:       5342.00 MB/s
+SSE       Triad:     5321.04 MB/s
+---
+SSE       AVERAGE:   4978.62 MB/s
+
+Benchmark #490:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4620.73 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4979.55 MB/s
+
+Benchmark #491:
+SSE       Copy:      4612.05 MB/s
+SSE       Scale:     4631.94 MB/s
+SSE       Add:       5370.95 MB/s
+SSE       Triad:     5333.15 MB/s
+---
+SSE       AVERAGE:   4987.02 MB/s
+
+Benchmark #492:
+SSE       Copy:      4614.52 MB/s
+SSE       Scale:     4640.70 MB/s
+SSE       Add:       5351.98 MB/s
+SSE       Triad:     5334.26 MB/s
+---
+SSE       AVERAGE:   4985.37 MB/s
+
+Benchmark #493:
+SSE       Copy:      4592.32 MB/s
+SSE       Scale:     4645.72 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5325.44 MB/s
+---
+SSE       AVERAGE:   4980.54 MB/s
+
+Benchmark #494:
+SSE       Copy:      4604.63 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5336.47 MB/s
+SSE       Triad:     5329.85 MB/s
+---
+SSE       AVERAGE:   4977.60 MB/s
+
+Benchmark #495:
+SSE       Copy:      4625.71 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5339.79 MB/s
+SSE       Triad:     5324.34 MB/s
+---
+SSE       AVERAGE:   4982.32 MB/s
+
+Benchmark #496:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4623.22 MB/s
+SSE       Add:       5350.87 MB/s
+SSE       Triad:     5330.95 MB/s
+---
+SSE       AVERAGE:   4981.13 MB/s
+
+Benchmark #497:
+SSE       Copy:      4619.49 MB/s
+SSE       Scale:     4652.01 MB/s
+SSE       Add:       5354.21 MB/s
+SSE       Triad:     5321.04 MB/s
+---
+SSE       AVERAGE:   4986.69 MB/s
+
+Benchmark #498:
+SSE       Copy:      4624.46 MB/s
+SSE       Scale:     4619.49 MB/s
+SSE       Add:       5349.76 MB/s
+SSE       Triad:     5340.89 MB/s
+---
+SSE       AVERAGE:   4983.65 MB/s
+
+Benchmark #499:
+SSE       Copy:      4621.97 MB/s
+SSE       Scale:     4639.45 MB/s
+SSE       Add:       5344.21 MB/s
+SSE       Triad:     5327.64 MB/s
+---
+SSE       AVERAGE:   4983.32 MB/s
+
+Benchmark #500:
+SSE       Copy:      4630.69 MB/s
+SSE       Scale:     4648.23 MB/s
+SSE       Add:       5358.66 MB/s
+SSE       Triad:     5313.36 MB/s
+---
+SSE       AVERAGE:   4987.74 MB/s
+
+SSE BatchRun       Copy:      4613.59 MB/s
+SSE BatchRun       Scale:     4633.65 MB/s
+SSE BatchRun       Add:       5349.25 MB/s
+SSE BatchRun       Triad:     5332.26 MB/s
+---
+SSE BatchRun       AVERAGE:   4982.19 MB/s
+

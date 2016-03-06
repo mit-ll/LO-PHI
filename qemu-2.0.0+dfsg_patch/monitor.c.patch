@@ -1,0 +1,29 @@
+--- qemu-2.0.0+dfsg/monitor.c	2014-04-17 06:30:59.000000000 -0700
++++ lophi_packages/qemu-2.0.0+dfsg/monitor.c	2014-09-30 06:54:40.000000000 -0700
+@@ -69,6 +69,7 @@
+ #include "qmp-commands.h"
+ #include "hmp.h"
+ #include "qemu/thread.h"
++#include "lophi-hooks-memory.h" // LO-PHI addition
+ 
+ /* for pic/irq_info */
+ #if defined(TARGET_SPARC)
+@@ -1417,6 +1418,18 @@
+     memory_dump(mon, count, format, size, addr, 1);
+ }
+ 
++/*
++ * Access individual region of physical memory
++ *
++ * LO-PHI / LibVMI Addition
++ */
++static int do_physical_memory_access(Monitor *mon, const QDict *qdict, QObject **ret_data)
++{
++    const char *path = qdict_get_str(qdict, "path");
++    memory_access_start(path);
++    return 0;
++}
++
+ static void do_print(Monitor *mon, const QDict *qdict)
+ {
+     int format = qdict_get_int(qdict, "format");

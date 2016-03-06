@@ -1,0 +1,62 @@
+--- qemu-2.0.0+dfsg/qmp-commands.hx	2014-04-17 06:30:59.000000000 -0700
++++ lophi_packages/qemu-2.0.0+dfsg/qmp-commands.hx	2014-09-30 06:54:40.000000000 -0700
+@@ -610,6 +610,59 @@
+ EQMP
+ 
+     {
++        .name       = "pmemaccess",
++        .args_type  = "path:s",
++        .params     = "path",
++        .help       = "mount guest physical memory image at 'path'",
++        .user_print = monitor_user_noop,
++        .mhandler.cmd_new = do_physical_memory_access,
++    },
++
++SQMP
++pmemaccess
++----------
++
++Mount guest physical memory image at 'path'.
++
++Arguments:
++
++- "path": mount point path (json-string)
++
++Example:
++
++-> { "execute": "pmemaccess",
++             "arguments": { "path": "/tmp/guestname" } }
++<- { "return": {} }
++
++EQMP
++    {
++         .name       = "pmemaccess",
++        .args_type  = "path:s",
++        .params     = "path",
++        .help       = "mount guest physical memory image at 'path'",
++        .user_print = monitor_user_noop,
++        .mhandler.cmd_new = do_physical_memory_access,
++    },
++
++SQMP
++pmemaccess
++----------
++
++Mount guest physical memory image at 'path'.
++
++Arguments:
++
++- "path": mount point path (json-string)
++
++Example:
++
++-> { "execute": "pmemaccess",
++             "arguments": { "path": "/tmp/guestname" } }
++<- { "return": {} }
++
++EQMP
++
++    {
+         .name       = "migrate",
+         .args_type  = "detach:-d,blk:-b,inc:-i,uri:s",
+         .mhandler.cmd_new = qmp_marshal_input_migrate,

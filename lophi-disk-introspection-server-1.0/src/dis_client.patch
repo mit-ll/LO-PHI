@@ -1,0 +1,43 @@
+--- ../../../../lophi-packages/lophi-disk-introspection-server-1.0/src/dis_client.c	2014-10-18 18:27:44.015205641 -0400
++++ dis_client.c	2014-10-19 11:52:31.438055784 -0400
+@@ -191,8 +191,8 @@
+ 	char filename[BUFFER_LEN] = { 0 };
+ 
+ 	while ((read_bytes = read(thread_data->lophi_fd, buffer, BUFFER_LEN)) > 0) {
+-		if (VERBOSE)
+-			printf("%s", buffer);
++		
++		fprintf(daemon_logfile,"Testing Filename Length: %s\n", buffer);
+ 		// List VMs
+ 		if (buffer[0] == 'l')
+ 			print_thread_items(thread_data->lophi_fd);
+@@ -214,7 +214,8 @@
+ 			memset(filename,0,BUFFER_LEN);
+ 			char cmd;
+ 
+-			sscanf(buffer, "%c %s", &cmd, (char *) &filename);
++			sscanf(buffer, "%c %[^\t\n]", &cmd, (char *) &filename);//Changed from %s
++			fprintf(daemon_logfile, "Testing Filename: %s \n",filename);
+ 			vm_id = get_vm_id(filename);
+ 
+ 			// Log the connection
+@@ -224,6 +225,7 @@
+ 			fprintf(daemon_logfile, "Requested Filename: %s\n", filename);
+ 			fflush(daemon_logfile);
+ 
++
+ 			// Is this Xen image already connected?
+ 			if (vm_id != -1) {
+ 				update_forward_fd(vm_id, thread_data->lophi_fd,
+@@ -231,8 +233,9 @@
+ 			} else {
+ 				// Put this socket in a queue that will be consumed when the
+ 				// Xen image is started
+-				if (VERBOSE)
+-					printf("Waiting client...");
++				
++				printf("Waiting client...");
++				printf("filename: %s",filename);
+ 				waiting_client = create_waiting_client(filename,
+ 						thread_data->lophi_fd, &thread_data->sock_cliaddr);
+ 			}

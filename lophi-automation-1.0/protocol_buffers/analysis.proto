@@ -1,0 +1,15 @@
+
+package analysis;
+
+message AnalysisInfo {
+    required string lophi_name = 1;
+    required uint32 machine_type = 2;
+    required string machine_name = 3;
+    required string volatility_profile = 4;
+    required float created = 5;
+    required uint32 analysis_id = 6;
+}
+
+message AnalysisList {
+    repeated AnalysisInfo analysis = 1;
+}

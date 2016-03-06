@@ -1,0 +1,232 @@
+#!/usr/bin/python
+"""
+   LOPHI Comand Line Interface to Master Program
+
+    (c) 2015 Massachusetts Institute of Technology
+"""
+
+# Native
+import json
+import multiprocessing
+import Queue
+import time
+import os
+import sys
+import logging
+import uuid
+logger = logging.getLogger(__name__)
+
+# LO-PHI
+import lophi.globals as G
+
+# LO-PHI Automation
+import lophi_automation.ext_interface.rabbitmq as rabbitmq
+from lophi_automation.network.command import LophiCommand
+from lophi_automation.network.command import LophiResponse
+
+CMD_PREFIX = G.bcolors.HEADER + "lophi-controller$ " + G.bcolors.ENDC
+
+TIMEOUT = 10
+
+#
+# Important Note
+#
+# CLI sends to RPC_Producer:   (corr_id, routing_key, (CTRL_TYPE, msg))
+#
+# Master responds with (corr_id, routing_key, response)
+
+
+class CLI(object):
+    """
+    This class sets up a command line interface to a LOPHI Master process.  All communication is done over AMQP.
+    """
+
+    def __init__(self, amqp_host, publish_queue, subscribe_queue):
+
+        # Commands
+        self.COMMANDS = [G.CTRL_CMD_SPLASH,
+                         G.CTRL_CMD_START,
+                         G.CTRL_CMD_LIST,
+                         G.CTRL_CMD_PAUSE,
+                         G.CTRL_CMD_UNPAUSE,
+                         G.CTRL_CMD_STOP,
+                         G.CTRL_CMD_HELP]
+
+        # RabbitMQ queues
+        self.publish_queue = publish_queue
+        self.reply_queue = subscribe_queue+'.'+str(uuid.uuid4())
+
+        # queues to communicate to RabbitMQ producer/consumer processes
+        self.rabbit_mOut = multiprocessing.Queue()
+        self.rabbit_mIn = multiprocessing.Queue()
+
+        # setup RabbitMQ Producer to publish commands to master interface
+        #self.producer = rabbitmq.LOPHI_RPC_Producer(amqp_host, self.rabbit_mOut, self.publish_queue, reply_queue=self.reply_queue)
+        self.producer = rabbitmq.LOPHI_RabbitMQ_Producer(amqp_host, 
+                                                         self.rabbit_mOut, 
+                                                         self.publish_queue)
+        self.producer.start()
+
+#        # setup RabbitMQ Consumer to get feedback from master interface
+#         self.consumer = rabbitmq.LOPHI_RPC_Consumer(amqp_host, 
+#                                                     self.rabbit_mIn, 
+#                                                     self.reply_queue, 
+#                                                     exchange_type=G.RabbitMQ.TYPE_FANOUT,
+#                                                     exchange=G.RabbitMQ.EXCHANGE_FANOUT)
+        self.consumer = rabbitmq.LOPHI_RabbitMQ_Consumer(amqp_host, 
+                                                         self.rabbit_mIn, 
+                                                         self.reply_queue, 
+                                                         exchange_type=G.RabbitMQ.TYPE_FANOUT,
+                                                         routing_key='',
+                                                         exchange=G.RabbitMQ.EXCHANGE_FANOUT)
+
+        self.consumer.start()
+
+
+    def send_command(self, cmd):
+        """
+            Send command (including args) to master and wait for response
+        """
+        
+        # Provide master the subscriber queue to respond on
+        
+#        json_obj = json.dumps((corr_id, self.publish_queue, (G.CTRL_TYPE, str(cmd))))
+        
+        logger.debug("[CLI] Sending %s" % cmd)
+        self.rabbit_mOut.put(str(cmd))
+        self.get_response(cmd.corr_id)
+
+
+    def get_response(self, corr_id):
+        """ Wait for response from master """
+        start_time = time.clock() 
+        response = None
+        
+        # wait for response until timeout
+        while time.clock() - start_time < TIMEOUT:
+            resp = None
+            try:
+                resp = self.rabbit_mIn.get(False, 1)
+                resp = LophiResponse.from_data(resp)
+            except Queue.Empty:
+                pass
+            
+            if resp:
+                # check correlation id
+#                (c_id, key, r) = json.loads(resp)
+                if corr_id == resp.corr_id:
+                    response = resp
+                    break 
+        
+        self.print_response(response)
+
+
+    def print_response(self, resp):
+        """ Print Response """
+        if resp:
+            print resp.message
+        else:
+            print "Timed out waiting for response from master."    
+
+        
+    def run(self):
+        """
+            Main function to just loop forever and take user input
+        """
+
+        quit_commands = ['q', 'quit', 'exit']
+
+        # Setup our handler to close gracefully
+        G.set_exit_handler(self.cleanup)
+
+        # Print out our splash screen
+        self.send_command(LophiCommand(cmd=G.CTRL_CMD_SPLASH))
+
+        # Just loop forever taking user input
+        while 1:
+            user_input = raw_input(CMD_PREFIX)
+
+            # Split up our command
+            cmd = user_input.rstrip().split(" ")
+
+            # See if it's valid command
+            if cmd[0] in quit_commands:
+                break
+#            elif cmd[0] == "help":
+#                print "\nThe available commands are: %s\n" % (self.COMMANDS + quit_commands)
+            elif cmd[0] not in self.COMMANDS:
+                print "Invalid Command: %s\n" % cmd[0]
+            else:
+                command = LophiCommand(cmd=cmd[0])
+                
+                # help command
+                if cmd[0] == G.CTRL_CMD_HELP:
+                    print "Available commands are: ", self.COMMANDS
+                    continue
+                
+                # Is it a start command?
+                if cmd[0] == G.CTRL_CMD_START:
+                    if len(cmd) > 1:
+                        command.analysis = cmd[1]
+                    else:
+                        print "Syntax: start <analysis> [machine type] [controller] [machine name]"
+                        continue
+                    if len(cmd) > 2:
+                        command.machine_type = cmd[2]
+                    if len(cmd) > 3:
+                        command.controller = cmd[3]
+                    if len(cmd) > 4:
+                        command.machine = cmd[4]
+                elif len(cmd) > 1:
+                    command.args = cmd[1:]
+
+                    
+                self.send_command(command)
+
+            if cmd[0] == "die":
+                break
+
+        # Call our cleanup function and shutdown nicely
+        self.cleanup()
+
+
+    def cleanup(self):
+        """ Cleans up rabbitmq stuff """
+        self.rabbit_mOut.put(G.CTRL_CMD_KILL)
+        self.rabbit_mIn.put(G.CTRL_CMD_KILL)
+        self.producer.terminate()
+        self.consumer.terminate()
+
+
+
+def main():
+    """ Main function, parses args """
+    import optparse
+    opts = optparse.OptionParser()
+
+        # RabbitMQ (for LARIAT, LAMBDA)
+    opts.add_option("-a", "--amqp_host", action="store", type="string",
+                   dest="amqp_host", default=G.RabbitMQ.AMQP_HOST,
+        help="Specify RabbitMQ Exchange for command messages.")
+
+    # Debug?
+    opts.add_option("-d", "--debug", action="store_true", 
+        dest="debug", default=False,
+        help="Turn on debugging output. (Default: False)")
+    
+    
+    (options, positionals) = opts.parse_args(None)
+    
+    
+    if options.debug:
+        print "** Log level set to DEBUG."
+        logging.basicConfig(level=logging.DEBUG)
+    else:
+        logging.basicConfig()
+
+    c = CLI(options.amqp_host, G.RabbitMQ.CTRL_IN, G.RabbitMQ.CTRL_OUT)
+    c.run()
+
+
+if __name__ == "__main__":
+    main()

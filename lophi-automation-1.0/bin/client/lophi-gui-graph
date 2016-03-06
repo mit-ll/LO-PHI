@@ -1,0 +1,66 @@
+#!/usr/bin/python
+"""
+    Open a GUI listener.
+    This will open a RabbitMQ server and consume output from the sensors and
+    display it in a nice gui.
+
+    (c) 2015 Massachusetts Institute of Technology
+"""
+# Native
+import multiprocessing
+import optparse
+
+
+# LO-PHI
+import lophi.globals as G
+
+# LO-PHI Automation
+from lophi_automation.dataconsumers.graph import LoPhiGrapher
+from lophi_automation.ext_interface.rabbitmq import LOPHI_RabbitMQ_Consumer
+import lophi_automation.protobuf.helper as protobuf
+
+
+def main(args=None):
+    """ Main function, parses args """
+
+    # Get all of our command line arguments
+    amqp_key = "#"
+
+    opts = optparse.OptionParser()
+
+    opts.add_option("-s", "--amqp_host", action="store", type="string",
+                    dest="amqp_host", default='localhost',
+                    help="AMQP server to connect to. (default: localhost)")
+
+    (options, positionals) = opts.parse_args(args)
+
+    # Setup our queues
+    input_queue = multiprocessing.Queue()
+    graph_queue = multiprocessing.Queue()
+
+    # Start RabbitMQ Consumer
+    amqp_server = LOPHI_RabbitMQ_Consumer(options.amqp_host,
+                                          input_queue,
+                                          G.RABBITMQ_SENSOR,
+                                          exchange_type=G.RABBITMQ_TYPE_TOPIC,
+                                          routing_key=amqp_key,
+                                          exchange=G.RABBITMQ_EXCHANGE_TOPIC)
+    amqp_server.start()
+
+    # Start the grapher
+    grapher = LoPhiGrapher(graph_queue)
+    grapher.start()
+
+    # Consume RabbitMQ data forever and relay it to the grapher
+    while True:
+        sensor_input = input_queue.get()
+        try:
+            sensor_unpacked = protobuf.unpack_sensor_output(sensor_input)
+            graph_queue.put(sensor_unpacked)
+        except:
+            print "WARNING: Got garbage data."
+            continue
+
+
+if __name__ == "__main__":
+    main()

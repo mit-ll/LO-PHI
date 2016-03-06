@@ -1,0 +1,201 @@
+#!/usr/bin/python
+"""
+    Open a GUI listener.
+    This will open a RabbitMQ server and consume output from the sensors and
+    display it in a nice gui.
+
+    (c) 2015 Massachusetts Institute of Technology
+"""
+# Native
+import sys
+import os
+import multiprocessing
+import optparse
+import copy
+import logging
+import datetime
+import time
+logger = logging.getLogger(__name__)
+
+# LO-PHI
+import lophi.globals as G
+
+# LO-PHI Automation
+from lophi_automation.dataconsumers.logfile import LogFile
+from lophi_automation.ext_interface.rabbitmq import LOPHI_RabbitMQ_Consumer
+import lophi_automation.protobuf.helper as protobuf
+
+
+def get_differences(old_data,new_data):
+    disappeared = []
+    appeared = []
+    for old in old_data:
+        if old not in new_data:
+            disappeared.append(old)
+    for new in new_data:
+        if new not in old_data:
+            appeared.append(new)
+            
+    return disappeared, appeared
+
+def main(options):
+    """ Main function, parses args """
+
+    # Start consumming RabbitMQ data
+    input_queue = multiprocessing.Queue()
+    amqp_consummer = LOPHI_RabbitMQ_Consumer(options.amqp_host,
+                                          input_queue,
+                                          G.RabbitMQ.SENSOR+".logger",
+                                          exchange_type=G.RabbitMQ.TYPE_FANOUT,
+                                          routing_key='',
+                                          exchange=G.RabbitMQ.EXCHANGE_FANOUT)
+    amqp_consummer.start()
+
+    logs = {}
+    last_data = {}
+    while True:
+        # Read Sensor input
+        sensor_input = input_queue.get()
+        try:
+            sensor_unpacked = protobuf.unpack_sensor_output(sensor_input)
+        except:
+            logger.warn("Got invalid protocol buffer data.")
+            continue
+
+        # Create one log file per sensor
+        log_name = sensor_unpacked['MACHINE']+"_"+sensor_unpacked['SENSOR']+".log"
+        log_name = os.path.join(options.output,log_name)
+        
+        if log_name not in logs:
+            print "* Creating log file. (%s)" % log_name
+            logs[log_name] = LogFile(log_name)
+
+        # Extract header info
+        header = sensor_unpacked['HEADER']
+        data = sensor_unpacked['DATA']
+        module = sensor_unpacked['MODULE']
+        machine_name = sensor_unpacked['MACHINE']
+        
+        timestamp = time.strftime('%m/%d/%Y %H:%M:%S%p %Z')
+
+        # See if its a list that we monitor for changes         
+        if module in ['pslist','ssdt']:
+            
+            output_data = {}
+            output_data['HEADER'] = ["Timestamp","Name","Field","Change"]
+                
+            # Have we seen previous data to compare too?
+            if module in last_data and last_data[module] != data:
+                
+                # Get lists of changed entries
+                disappeared, appeared = get_differences(last_data[module],data)
+                
+                # Index by name
+                name_idx = header.index('Name')
+                for d in disappeared:
+                    
+                    changed = False
+                    for a in appeared:
+                        
+                        # Compare if the names are equal
+                        if d[name_idx] == a[name_idx]:
+                            
+                            # Print all modified enteries indexed by name
+                            changed = True
+                            logger.debug("[%s Modified]"%(d[name_idx]))
+                            
+                            
+                            for x in range(len(d)):
+                                if x == name_idx:
+                                    continue
+                                if d[x] != a[x]:
+                                    logger.debug("  %s: %s -> %s"%(header[x],d[x],a[x]))
+                                    
+                                    output_data['DATA'] = [[timestamp,
+                                                            d[name_idx],
+                                                            header[x],
+                                                            "%s -> %s"%(d[x],a[x])
+                                                            ]]
+                                    
+                                    logs[log_name].append(copy.deepcopy(output_data))
+                                 
+                            # Delete from our list   
+                            del appeared[appeared.index(a)]
+                            break
+                    
+                    # No match in the most recent data, must have been deleted
+                    if not changed:
+                        logger.debug("[%s Disappeared]"%(d[name_idx]))
+                        output_data['DATA'] = [[timestamp,
+                                                d[name_idx],
+                                                "Presence",
+                                                "Disappeared"]]
+                        logs[log_name].append(copy.deepcopy(output_data))
+                
+                # If we still have items in this list they must be new
+                for a in appeared:
+                    logger.debug("[%s Appeared]"%a[name_idx])
+                    output_data['DATA'] = [[timestamp,
+                                            a[name_idx],
+                                            "Presence",
+                                            "Appeared"]]
+                    logs[log_name].append(copy.deepcopy(output_data))
+                    
+            last_data[module] = data
+        else:
+            # Update timestamps
+            idx = 0
+            timestamp_idx = None
+            for h in sensor_unpacked['HEADER']:
+                if h.lower() == "timestamp":
+                    timestamp_idx = idx
+                idx += 1 
+                
+            if timestamp_idx is not None:
+                idx = 0
+                for d in sensor_unpacked['DATA']:
+                    
+                    timestamp = datetime.datetime.fromtimestamp(
+                                                    float(d[timestamp_idx])
+                                                    ).strftime('%m/%d/%Y %H:%M:%S%p ')
+                    timestamp += time.strftime('%Z')
+                    d[timestamp_idx] = timestamp
+                    sensor_unpacked['DATA'][idx] = d
+                    
+                    idx += 1
+            
+            # Append the log file
+            logs[log_name].append(sensor_unpacked)
+
+
+if __name__ == "__main__":
+    opts = optparse.OptionParser()
+
+    opts.add_option("-a", "--amqp_host", action="store", type="string",
+                    dest="amqp_host", default=G.RabbitMQ.AMQP_HOST,
+                    help="AMQP server to connect to. (default: localhost)")
+
+
+    opts.add_option("-k", "--amqp_key", action="store", type="string",
+                    dest="amqp_key", default='#',
+                    help="AMQP key to display, i.e. the name of the machine or some wildcards.  [# is zero or more words, * is exactly 1 word.  Ref: http://www.rabbitmq.com/tutorials/tutorial-five-python.html]  (default: #)")
+
+    opts.add_option("-o", "--output", action="store", type="string",
+                    dest="output", default='./',
+                    help="OUtput directory. (Default: ./)")
+
+    
+    opts.add_option("-d", "--debug", action="store_true",
+        dest="debug", default=False,
+        help="Enable DEBUG")
+
+    
+    (options, positionals) = opts.parse_args(None)
+    
+    # Get our log level
+    if options.debug:
+        logging.basicConfig(level=logging.DEBUG)
+    else:
+        logging.basicConfig()
+        
+    main(options)

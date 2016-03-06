@@ -1,0 +1,174 @@
+#!/usr/bin/python
+"""
+    This file just serves as a command-line interface to LO-PHI.  In particular
+    it starts our LO-PHI server with the provided command-line arguments
+
+    (c) 2015 Massachusetts Institute of Technology
+"""
+
+# Native
+import os
+import sys
+import logging
+import shutil
+logger = logging.getLogger(__name__)
+
+# Lo-Phi
+from lophi_automation.controller import LoPhiController
+import lophi.globals as G
+        
+            
+def main(args=None):
+    # try to clean up our temp directory
+    try:
+        shutil.rmtree(os.path.join(G.DIR_ROOT,G.DIR_TMP))
+    except:
+        pass
+    try:
+        os.makedirs(os.path.join(G.DIR_ROOT,G.DIR_TMP), 0777)
+    except:
+        pass
+    
+    print ""
+    # Ensure that we are root
+    if not os.geteuid() == 0:
+        print "You aren't root.  Goodbye."
+
+        return
+    
+    import optparse
+    opts = optparse.OptionParser()
+    
+    # Port number
+    opts.add_option("-p", "--port", action="store", type="int",
+        dest="port", default=G.LOPHI_PORT,
+        help="Port to listen on.  (Default: %d)" % G.LOPHI_PORT)
+
+    # Config file
+    sensor_config = os.path.join(G.DIR_ROOT, G.DIR_CONFIG, G.CONFIG_SENSORS)
+    opts.add_option("-s", "--sensorconfig", action="store", type="string",
+        dest="sensor_config_file", default=sensor_config,
+        help="List of sensors. (Default: %s)" % sensor_config)
+    
+    vm_config = os.path.join(G.DIR_ROOT, G.DIR_CONFIG, G.CONFIG_MACHINES)
+    opts.add_option("-m", "--machineconfig", action="store", type="string",
+        dest="machine_config_file", default=vm_config,
+        help="List of machines that this controller will manage. (Default: %s)"%vm_config)
+    
+    image_config = os.path.join(G.DIR_ROOT, G.DIR_CONFIG, G.CONFIG_IMAGES)
+    opts.add_option("-i", "--imagesconfig", action="store", type="string",
+        dest="images_config_file", default=image_config,
+        help="Mapping of profiles to disk images (Default: %s)"%image_config)
+    
+    # Max VM Images
+    opts.add_option("-c", "--vm_count", action="store", type="int",
+        dest="vm_count", default=0,
+        help="Number of VMs to provision. (Default: 0)")
+    
+    # Debug?
+    opts.add_option("-d", "--debug", action="store_true", 
+        dest="debug", default=False,
+        help="Turn on debugging output. (Default: False)")
+    
+    # Ramdisk size
+    opts.add_option("-r", "--ramdisk", action="store", type="string",
+        dest="ramdisk_size", default=None,
+        help="Size of ramdisk to initialize for storing temporary VM data.  ("
+             "E.g. "
+             "\"10G\")")
+
+    opts.add_option("-t", "--tmpdisk", action="store", type="string",
+        dest="tmpdisk_size", default=None,
+        help="Size of ramdisk to intialize to store temporary analysis data. "
+             " (E.g. \"10G\")")
+
+    # RabbitMQ (for LARIAT, LAMBDA)
+    opts.add_option("-S", "--services_host", action="store", type="string",
+                   dest="services_host", default='localhost',
+        help="Host for global services (MongoDB/RabbitMQ)")
+    
+    # PXE Server
+    opts.add_option("-P", "--pxe_server", action="store", type="string",
+                   dest="pxe_server", default=G.PXE_DEFAULT_IP,
+        help="IP address of PXE server. (Default: %s)"%G.PXE_DEFAULT_IP)
+    
+    # FTP Interfaces
+    opts.add_option("--ftp_vrt", action="store", type="string",
+        dest="ftp_virtual", default="lophi-virt",
+        help="FTP interface for virtual machines.  (Default: lophi-virt)")
+ 
+    opts.add_option("--ftp_phy", action="store", type="string",
+        dest="ftp_physical", default="eth1",
+        help="FTP interface for physical machines. (Default: eth1)")
+
+    # Force New?
+    opts.add_option("-n", "--forcenew", action="store_true", dest="force_new", default=False,
+        help="Force all VMs to be destroyed and restarted.")
+
+    (options, positionals) = opts.parse_args(args)
+    
+    if options.debug:
+        print "** Log level set to DEBUG."
+        logging.basicConfig(level=logging.DEBUG)
+    else:
+        logging.basicConfig()
+    
+    # Ensure our config files exist
+    if not os.path.exists(options.images_config_file):
+        logger.error("Config file (%s) does not exist!"%options.images_config_file)
+        opts.print_help()
+        sys.exit(0)
+    if not os.path.exists(options.machine_config_file):
+        logger.error("Config file (%s) does not exist!"%options.machine_config_file)
+        opts.print_help()
+        sys.exit(0)
+    if not os.path.exists(options.sensor_config_file):
+        logger.error("Config file (%s) does not exist!"%options.sensor_config_file)
+        opts.print_help()
+        sys.exit(0)
+
+    # Check ramdisk
+    ramdisk_path = os.path.join(G.DIR_ROOT, G.DIR_VM_OUTPUT)
+    if G.ramdisk_check(ramdisk_path):
+        ramdisk_status = G.ramdisk_status(ramdisk_path)
+        print "* VM RAMDisk exists with %dG of memory allocated. (%s)" % (
+                                    (int(ramdisk_status[0]) / (2.0 ** 30)),
+                                    ramdisk_path)
+    elif options.ramdisk_size is None and options.vm_count > None:
+        logging.warn("No ramdisk size (-r) specified!  This is recommended "
+                     "for managing virtual machines.")
+    else:
+        G.ramdisk_check(ramdisk_path, mount=True, size=options.ramdisk_size)
+        print "* VM RAMDisk CREATED with %s of memory allocated. (%s)" % (
+                                            options.ramdisk_size,
+                                            ramdisk_path)
+
+    # Check temp ramdisk
+    tmpdisk_path = os.path.join(G.DIR_ROOT, G.DIR_TMP)
+    if G.ramdisk_check(tmpdisk_path):
+        ramdisk_status = G.ramdisk_status(ramdisk_path)
+        print "* Temp RAMDisk exists with %dG of memory allocated. (%s)" % (
+                                    (int(ramdisk_status[0]) / (2.0 ** 30)),
+                                    tmpdisk_path)
+    elif options.tmpdisk_size is None:
+        logging.warn("No temp ramdisk size (-t) specified!  This is "
+                     "recommended "
+                     "for speeding up analysis.")
+    else:
+        G.ramdisk_check(tmpdisk_path, mount=True, size=options.tmpdisk_size)
+        print "* Temp RAMDisk CREATED with %s of memory allocated. (%s)" % (
+                                            options.tmpdisk_size,
+                                            tmpdisk_path)
+
+    # Setup our controller
+    lophi_controller = LoPhiController(options, positionals)
+
+    # Start our server to accept commands
+    print ""
+    lophi_controller.start()
+    lophi_controller.join()
+
+
+if __name__ == "__main__":
+    main()
+    

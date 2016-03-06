@@ -1,0 +1,41 @@
+# Open command prompt
+SPECIAL:LEFT_GUI r
+SLEEP:10
+TEXT:cmd.exe
+SPECIAL:RETURN
+SLEEP:10
+#SPECIAL:LEFT_ALT TAB
+
+# Setup LO-PHI Directory
+TEXT:mkdir lophi
+SPECIAL:RETURN
+TEXT:cd lophi
+SPECIAL:RETURN
+
+# Download ftp directory
+TEXT:ftp -i
+SPECIAL:RETURN
+TEXT:open %%IP%% %%PORT%%
+SPECIAL:RETURN
+TEXT:%%USERNAME%%
+SPECIAL:RETURN
+TEXT:%%PASSWORD%%
+SPECIAL:RETURN
+# Put FTP in binary mode
+TEXT:binary
+SPECIAL:RETURN
+TEXT:cd /%%DIR%%
+SPECIAL:RETURN
+TEXT:mget recursive /%%DIR%%
+SPECIAL:RETURN
+TEXT:disconnect
+SPECIAL:RETURN
+TEXT:bye
+SPECIAL:RETURN
+
+# Run LO-PHI
+TEXT:lophi.bat
+
+# The final enter keypress is added in the script
+
+#SPECIAL:RETURN

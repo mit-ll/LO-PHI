@@ -1,0 +1,88 @@
+#!/usr/bin/python
+"""
+    This is a simple script that interacts with our PXE server.
+
+    (c) 2015 Massachusetts Institute of Technology
+"""
+import logging
+import os
+import sys
+import optparse
+logger = logging.getLogger(__name__)
+
+# Append our system path
+sys.path.append(os.path.join(os.getcwd(), "../../"))
+
+# LO-PHI
+from lophinet.pxeserver import PXEServer
+
+def main(options,positionals):
+    """
+        Command line interface to our PXE Server
+    """
+    
+    pxe_server = PXEServer(options.pxe_ip)
+    mac_addr = positionals[0]
+    
+    # Add a MAC to the ACL?
+    if mac_addr is not None:
+        
+        # Are we setting a PXE conf too?
+        if options.set_pxe:
+            print "* Adding %s to PXE ACL and setting PXE config to %s..."%(
+                                                                mac_addr, 
+                                                                options.set_pxe)
+            pxe_server.set_pxe_conf(mac_addr, options.set_pxe)
+        
+        if options.add_mac:
+            print "* Adding %s to PXE ACL..."%mac_addr
+            pxe_server.add_mac(mac_addr)
+            
+        if options.ip_lookup:
+            logger.debug("Looking up IP address for %s..."%options.ip_lookup)
+            print pxe_server.get_ip(mac_addr)
+
+
+if __name__ == "__main__":
+
+    # Import our command line parser
+    opts = optparse.OptionParser(usage="Usage: %prog [options] <MAC address>")
+
+    # Add any options we want here
+    opts.add_option("-i", "--pxe_ip", action="store", type="string",
+        dest="pxe_ip", default="localhost",
+        help="IP Address of PXE server")
+    
+    opts.add_option("-p", "--set_pxe", action="store", type="string",
+        dest="set_pxe", default=None,
+        help="Set the name of the PXE config to boot from.  (Either in pxelinux.cfg or samba/images)")
+
+    opts.add_option("-l", "--ip_lookup", action="store_true",
+        dest="ip_lookup", default=False,
+        help="Lookup and IP address for a given MAC.")
+
+    opts.add_option("-a", "--add_mac", action="store_true",
+        dest="add_mac", default=False,
+        help="Add MAC address to ACL.")
+    
+    opts.add_option("-d", "--debug", action="store_true",
+        dest="debug", default=False,
+        help="Enable DEBUG")
+    
+    # Get arguments
+    (options, positionals) = opts.parse_args(None)
+   
+    # Get our log level
+    if options.debug:
+        logging.basicConfig(level=logging.DEBUG)
+    else:
+        logging.basicConfig()
+  
+    if len(positionals) == 0:
+        logger.error("You must provide a MAC address.")
+        opts.print_help()
+        sys.exit(0)
+    
+        
+    # start program
+    main(options,positionals)

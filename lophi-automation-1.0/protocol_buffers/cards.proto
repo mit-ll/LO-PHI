@@ -1,0 +1,16 @@
+// See README.txt for information and build instructions.
+
+package cards;
+
+
+message CardConfig {
+    required uint32 type = 1;
+    required uint32 card_id = 2;
+    required uint32 capability_bitvector = 3;
+    required string ip = 4;
+    required bool is_registered = 5;
+}
+
+message CardConfigList {
+    repeated CardConfig card_config = 1;
+}

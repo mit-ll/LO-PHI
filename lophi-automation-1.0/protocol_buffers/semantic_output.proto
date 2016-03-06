@@ -1,0 +1,30 @@
+// See README.txt for information and build instructions.
+
+package semantic_output;
+
+message SemanticInfo {
+    required string MODULE = 1;
+    required string SENSOR = 2;
+    required string PROFILE = 3;
+    required string MACHINE = 4;
+}
+
+message SemanticHeader {
+    message Column {
+        required string name = 1;
+    }
+    repeated Column column = 1;
+}
+
+message SemanticData {
+    message Item {
+        required string value = 1;
+    }
+  repeated Item item = 1;
+}
+
+message SemanticOutput {
+    required SemanticInfo INFO = 1;
+    required SemanticHeader HEADER = 2;
+    repeated SemanticData DATA = 3;
+}

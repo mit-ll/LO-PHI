@@ -10,12 +10,21 @@ These services include:
   - This is neccessary to automate to process and works by turing the machine off and adding it's MAC address to the ACL.
   When the machine turns back on it will PXE boot only once.  So, once the disk is cloned, rebooting the maching will then boot from the newly cloned hard disk.
   
-## Dependencies
+# Dependencies
  * [Pybootd](https://github.com/eblot/pybootd)
  * [proxyDHCPd](https://github.com/gmoro/proxyDHCPd)
- 
+ * [CloneZilla](http://clonezilla.org/downloads/download.php?branch=stable)
+
+
+
 # Install
 All contents are installed into */lophi*
+
+## First, download and extract CloneZilla
+
+1. Download [CloneZilla](https://sourceforge.net/projects/clonezilla/files/clonezilla_live_stable/2.4.5-23/clonezilla-live-2.4.5-23-amd64.zip/download)
+
+2. Extract filesystem.sqaushfs, intrd.img and vmlinuz to *tftpboot/clonezilla-live*.
 
 ## Debian (Suggested)
 > debuild -uc -us

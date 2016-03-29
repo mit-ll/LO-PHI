@@ -1,0 +1,11 @@
+lophi-disk-introspection-server (1.0-2) trusty; urgency=medium
+
+  * Fixed some bugs and generally cleaned up the code.  Calling this our first stable release.
+
+ -- Chad Spensky <chad.spensky@cs.ucsb.edu>  Thu, 02 Oct 2014 12:47:21 -0400
+
+lophi-disk-introspection-server (1.0-1) trusty; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Chad Spensky <chad.spensky@cs.uscb.edu>  Wed, 24 Sep 2014 09:18:35 -0400

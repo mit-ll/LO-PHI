@@ -1,0 +1,12 @@
+Source: python-lophi
+Maintainer: Chad Spensky <lophi@mit.edu>
+Section: python
+Priority: optional
+Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: python-lophi
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: This is the Python library that includes all of the modules required for LO-PHI 
+

@@ -1,4 +1,0 @@
-# Install volatility
-cd /lophi/volatility/
-./install_volatility.sh
-

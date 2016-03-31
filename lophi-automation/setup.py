@@ -66,6 +66,7 @@ data_files += [(os.path.join(DIR_ROOT, "disk_scans"), [])]
 data_files += [(os.path.join(DIR_ROOT, "disk_images"), [])]
 data_files += [(os.path.join(DIR_ROOT, "tmp"), [])]
 data_files += [(os.path.join(DIR_ROOT, "vms"), [])]
+data_files += get_data_files("examples")
 
 packages = get_packages('lophi_automation')
 

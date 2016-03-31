@@ -39,7 +39,7 @@ def get_data_files(rel_dir):
 
 data_files = []
 # Don't include the examples in the install
-# data_files += get_data_files(G.DIR_EXAMPLES)
+data_files += get_data_files("examples")
 
 packages = get_packages('lophi_semanticgap')
 

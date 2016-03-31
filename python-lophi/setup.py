@@ -46,6 +46,7 @@ def get_data_files(rel_dir):
 data_files = []
 
 packages = get_packages('lophi')
+data_files += get_data_files("examples")
 
 setup(name='LO-PHI',
       version='1.0',

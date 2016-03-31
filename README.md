@@ -112,6 +112,45 @@ of their installation and usage.
 
 # Debugging
 
+## Disk introspection
+
+ * First, make sure that the disk introspection server is running:
+ ```bash
+$ lophi-disk-introspection-status 
+
+Status of connected guest VMs...
+
+ ID : Status : HDD Filename
+ --   ------   ----------------------------------------
+069 :   open : /var/lib/libvirt/images/example.img
+
+Status of waiting clients...
+
+ SOCK :  HDD Filename
+ ----   ----------------------------------------
+```
+
+ * If you don't see a disk listening, ensure that you are running the properly patched version of QEMU:
+ ```bash
+ $ tail -f /var/log/syslog | grep -i lophi
+ ```
+  - If you dont see any output, follow the install steps to re-install our patched qemu-kvm instance.
+  - If you see permission denied errors, try running the *scripts/fix_kvm_install.sh* script, as this is likely a problem with **apparmor**.
+
+ * To test the server, you can netcat into the disk introspection server (type *h* for help):
+ ```bash
+$ nc localhost 31337
+h
+LO-PHI Disk Introspection Server
+Commands
+   l - list running VM's
+   i <vm id> - subscribe to VM with specified ID
+   n <vm filename> - subscribe to VM with specified filename
+```
+
+
+## Memory Introspection
+
  * If you are getting strange errors with Volatility/libvmi like:
 
     error: no connection driver available for No connection for URI xen:///

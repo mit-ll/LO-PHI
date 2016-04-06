@@ -1,3 +1,9 @@
+python-lophi (1.0-2) trusty; urgency=medium
+
+  * Adding examples to debian package.
+
+ -- Chad Spensky <cspensky@cs.ucsb.edu>  Fri, 01 Apr 2016 16:15:03 -0700
+
 python-lophi (1.0-1) trusty; urgency=low
 
   * source package automatically created by stdeb 0.6.0+git

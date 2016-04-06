@@ -1,3 +1,9 @@
+lophi-net-services (1.0-2ubuntu1) trusty; urgency=medium
+
+  * Adding clonezilla to the debian package.
+
+ -- Chad Spensky <cspensky@cs.ucsb.edu>  Thu, 31 Mar 2016 15:43:38 -0700
+
 lophi-net-services (1.0-2) trusty; urgency=low
 
   * source package automatically created by stdeb 0.6.0+git

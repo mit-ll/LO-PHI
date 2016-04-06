@@ -38,7 +38,9 @@ esac
 echo "Uninstalling service..."
 update-rc.d -f lophi-disk-introspection-server remove
 # Remove the dead link
-killall -q lophi_disk_introspection_server || true
+killall -q lophi-disk-introspection-server || true
 
-unlink /etc/init.d/lophi-disk-introspection-server
+if [ -f /etc/init.d/lophi-disk-introspection-server ]; then
+   unlink /etc/init.d/lophi-disk-introspection-server
+fi
 exit 0

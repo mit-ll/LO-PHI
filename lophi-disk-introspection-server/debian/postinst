@@ -36,7 +36,9 @@ esac
 
 
 echo "Setting up service..."
-ln -s /usr/bin/lophi_disk_introspection_server /etc/init.d/lophi-disk-introspection-server
+if [ ! -f /etc/init.d/lophi-disk-introspection-server ]; then
+   ln -s /usr/bin/lophi-disk-introspection-server /etc/init.d/lophi-disk-introspection-server
+fi
 chmod 755 /etc/init.d/lophi-disk-introspection-server
 update-rc.d lophi-disk-introspection-server defaults
 /etc/init.d/lophi-disk-introspection-server start

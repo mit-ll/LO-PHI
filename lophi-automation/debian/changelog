@@ -1,3 +1,9 @@
+lophi-automation (1.0-1ubuntu1) trusty; urgency=medium
+
+  * Moved binaries into main bin. 
+
+ -- Chad Spensky <cspensky@cs.ucscspensky@cs.ucsb.edu2016 15:3903 -0700
+
 lophi-automation (1.0-1) trusty; urgency=low
 
   * source package automatically created by stdeb 0.6.0+git

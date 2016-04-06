@@ -29,3 +29,6 @@ sudo apt-mark hold qemu-kvm
 
 echo "Fixing QEMU-KVM installl..."
 ./scripts/fix_kvm_install.sh
+
+echo "Adding LO-PHI to your path..."
+echo "PATH=\$PATH:/opt/lophi/bin" >> ~/.bashrc

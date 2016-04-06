@@ -1,3 +1,9 @@
+lophi-disk-introspection-server (1.0-2ubuntu1) trusty; urgency=medium
+
+  * Fixed post inst and rm scripts.
+
+ -- Chad Spensky <cspensky@cs.ucsb.edu>  Thu, 31 Mar 2016 15:35:39 -0700
+
 lophi-disk-introspection-server (1.0-2) trusty; urgency=medium
 
   * Fixed some bugs and generally cleaned up the code.  Calling this our first stable release.

@@ -14,7 +14,6 @@ from lophi.sensors import Sensor
 
 CACHE_CHUNK = 7680  # 7680 is the max
 
-
 class MemorySensor(Sensor):
     """"
         This is an abstract class to help manage both physical and virtual
@@ -110,6 +109,9 @@ class MemorySensor(Sensor):
 
         logger.debug("Got read (0x%x,%d)" % (address, length))
 
+        if length < 1:
+            logger.error("Read length must be >= 1")
+
         READS = []
 
         # Given a read like below, we'll want to read the - sections and fill in
@@ -120,7 +122,7 @@ class MemorySensor(Sensor):
         # S - address, E - address+length, bX(s/e) - bad region start/end
         #
         # NOTE: BAD_MEM_REGIONS is assumed to be sorted!
-        # There are also faster ways to do this, but this is already likely a 
+        # There are also faster ways to do this, but this is already likely a
         # rare case to have many bad regions
         last_bad = None
         for bad in self.BAD_MEM_REGIONS:
@@ -136,7 +138,7 @@ class MemorySensor(Sensor):
             if bad[0] >= address and bad[0] < address + length:
 
                 logger.debug("Region starts in bad memory. %s" % str(bad))
-                # We'll need to do one read from the start of the previous bad 
+                # We'll need to do one read from the start of the previous bad
                 # region to the beginning of this bad region
                 if last_bad is None and address != bad[0]:
                     READS.append((address, bad[0]))

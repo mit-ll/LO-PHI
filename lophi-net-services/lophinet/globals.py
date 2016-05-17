@@ -1,4 +1,4 @@
-DIR_ROOT = "/lophi"
+DIR_ROOT = "/opt/lophi"
 DIR_BINARY_FILES = "bin"
 DIR_CONFIG = "conf"
 DIR_TFPBOOT = "tftpboot"

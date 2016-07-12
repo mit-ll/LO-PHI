@@ -209,5 +209,5 @@ Force Contract #FA8721-05-C-0002.  Opinions, interpretations,
 conclusions and recommendations are those of the authors and are not
 necessarily endorsed by the United States Government.
 <br>
-© 2015 Massachusetts Institute of Technology
+© 2015-2016 Massachusetts Institute of Technology
 </p>
